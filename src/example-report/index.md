@@ -21,7 +21,7 @@ import { timeline } from "../components/timeline.js";
 ```
 
 ```js
-import events from "../data/events.json" with { type: "json" };
+const events = FileAttachment("../data/events.json").json();
 ```
 
 ```js
