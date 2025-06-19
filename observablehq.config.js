@@ -5,7 +5,6 @@ export default {
 
   // Enable clean URLs: /example-dashboard instead of /example-dashboard.html
   cleanUrls: true,
-
   preserveExtension: false,
 
   // The pages and sections in the sidebar. If you don’t specify this option,
