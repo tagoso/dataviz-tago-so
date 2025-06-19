@@ -12,6 +12,8 @@ export default {
       ]
     }
   ],
+  
+  preserveExtension: false,
 
   // The pages and sections in the sidebar. If you don’t specify this option,
   // all pages will be listed in alphabetical order. Listing pages explicitly
