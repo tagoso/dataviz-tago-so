@@ -7,14 +7,11 @@ export default {
     {
       name: "Examples",
       pages: [
-        { name: "Dashboard", path: "/example-dashboard" },
-        { name: "Report", path: "/example-report" }
+        { name: "Dashboard", path: "/example-dashboard.html" },
+        { name: "Report", path: "/example-report.html" }
       ]
     }
   ],
-
-  // Enable clean URLs: /example-dashboard instead of /example-dashboard.html
-  cleanUrls: true,
 
   // The pages and sections in the sidebar. If you don’t specify this option,
   // all pages will be listed in alphabetical order. Listing pages explicitly
