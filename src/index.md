@@ -4,7 +4,7 @@ toc: false
 
 <div class="hero">
   <h1>Dataviz Tago So</h1>
-  <h2>Welcome to your new app! Edit&nbsp;<code style="font-size: 90%;">src/index.md</code> to change this page.</h2>
+  <h2>Welcome to my new app!</h2>
   <a href="https://observablehq.com/framework/getting-started">Get started<span style="display: inline-block; margin-left: 0.25rem;">↗︎</span></a>
 </div>
 
@@ -41,7 +41,7 @@ toc: false
 
 ## Next steps
 
-Here are some ideas of things you could try…
+Here are some ideas of things I could try…
 
 <div class="grid grid-cols-4">
   <div class="card">
