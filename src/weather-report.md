@@ -16,15 +16,14 @@ import * as L from "npm:leaflet";
 
 let mapboxKey;
 
-// In production (e.g. Vercel), use environment variable
 if (import.meta?.env?.VITE_MAPBOX_KEY) {
+  // In production (e.g. Vercel), use environment variable
   mapboxKey = import.meta.env.VITE_MAPBOX_KEY;
 } else {
-  // In local development, load from secrets.json
+  // In local development, use secrets.json (must await inside this block)
   const secrets = await FileAttachment("secrets.json").json();
   mapboxKey = secrets.MAPBOX_KEY;
 }
-
 const map = L.map(document.querySelector("#map"));
 const tile = L.tileLayer(
   `https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/256/{z}/{x}/{y}@2x?access_token=${mapboxKey}`,
