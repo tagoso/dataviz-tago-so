@@ -31,6 +31,11 @@ invalidation.then(() => map.remove());
 ```
 
 ```js
+import { temperaturePlot } from "./components/temperaturePlot.js";
+display(temperaturePlot(forecast));
+```
+
+```js
 display(
   Plot.plot({
     title: "Hourly temperature forecast",
