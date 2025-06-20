@@ -21,7 +21,7 @@ if (import.meta?.env?.VITE_MAPBOX_KEY) {
   mapboxKey = import.meta.env.VITE_MAPBOX_KEY;
 } else {
   // In local development, use default public token
-  mapboxKey = "pk.eyJ1IjoidGFnb3NvIiwiYSI6ImNsMHp1enpudDAwcnAzZW1nZHRmcXU2aWMifQ.6BHoE21HJ7HAv7SM1hLWSg";
+  mapboxKey = "XXX";
 }
 
 const map = L.map(document.querySelector("#map"));
