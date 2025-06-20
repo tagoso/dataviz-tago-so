@@ -14,19 +14,11 @@ const forecast = FileAttachment("./data/forecast.json").json();
 ```js
 import * as L from "npm:leaflet";
 
-let mapboxKey;
-
-if (process?.env?.NEXT_PUBLIC_MAPBOX_KEY) {
-  // In production (e.g. Vercel), use environment variable
-  mapboxKey = process.env.NEXT_PUBLIC_MAPBOX_KEY;
-} else {
-  // In local development, use default public token
-  mapboxKey = "pk.eyJ1IjoidGFnb3NvIiwiYSI6ImNtYzRyZm5xeTBnZnUya3NhMDE5b3Q4YTQifQ.JHjIwECC6RTCyayoVcEP9Q";
-}
+const mapboxPublicKey = "pk.eyJ1IjoidGFnb3NvIiwiYSI6ImNtYzRyZm5xeTBnZnUya3NhMDE5b3Q4YTQifQ.JHjIwECC6RTCyayoVcEP9Q";
 
 const map = L.map(document.querySelector("#map"));
 const tile = L.tileLayer(
-  `https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/256/{z}/{x}/{y}@2x?access_token=${mapboxKey}`,
+  `https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/256/{z}/{x}/{y}@2x?access_token=${mapboxPublicKey}`,
   {
     attribution:
       '© <a href="https://www.mapbox.com/feedback/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
