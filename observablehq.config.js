@@ -7,8 +7,9 @@ export default {
     {
       name: "Examples",
       pages: [
-        { name: "Dashboard", path: "/example-dashboard" },
-        { name: "Report", path: "/example-report" }
+        { name: "Rocket Launches Dashboard", path: "/example-dashboard" },
+        { name: "Space Exploration Report", path: "/example-report" },
+        { name: "Weather Report", path: "/weather-report" }
       ]
     }
   ],
