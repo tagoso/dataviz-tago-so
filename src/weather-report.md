@@ -14,7 +14,7 @@ const forecast = FileAttachment("./data/forecast.json").json();
 ```js
 import * as L from "npm:leaflet";
 
-const mapboxPublicKey = "pk.eyJ1IjoidGFnb3NvIiwiYSI6ImNtYzRyZm5xeTBnZnUya3NhMDE5b3Q4YTQifQ.JHjIwECC6RTCyayoVcEP9Q";
+const mapboxPublicKey = "pk.eyJ1IjoidGFnb3NvIiwiYSI6ImNtYzRwMzlmZDA2eW8ybHNjcHJmYnkzZ3MifQ.Pg0d5T29Li7CvoWz3fVkXg";
 
 const map = L.map(document.querySelector("#map"));
 const tile = L.tileLayer(
