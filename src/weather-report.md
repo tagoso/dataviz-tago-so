@@ -20,10 +20,10 @@ if (import.meta?.env?.VITE_MAPBOX_KEY) {
   // In production (e.g. Vercel), use environment variable
   mapboxKey = import.meta.env.VITE_MAPBOX_KEY;
 } else {
-  // In local development, use secrets.json (must await inside this block)
-  const secrets = await FileAttachment("secrets.json").json();
-  mapboxKey = secrets.MAPBOX_KEY;
+  // In local development, use default public token
+  mapboxKey = "pk.eyJ1IjoidGFnb3NvIiwiYSI6ImNsMHp1enpudDAwcnAzZW1nZHRmcXU2aWMifQ.6BHoE21HJ7HAv7SM1hLWSg";
 }
+
 const map = L.map(document.querySelector("#map"));
 const tile = L.tileLayer(
   `https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/256/{z}/{x}/{y}@2x?access_token=${mapboxKey}`,
