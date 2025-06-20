@@ -16,9 +16,13 @@ import * as L from "npm:leaflet";
 
 let mapboxKey;
 
-const mapboxKey =
-  import.meta.env.VITE_MAPBOX_KEY ||
-  "pk.eyJ1IjoidGFnb3NvIiwiYSI6ImNtYzRyZm5xeTBnZnUya3NhMDE5b3Q4YTQifQ.JHjIwECC6RTCyayoVcEP9Q";
+if (process?.env?.NEXT_PUBLIC_MAPBOX_KEY) {
+  // In production (e.g. Vercel), use environment variable
+  mapboxKey = process.env.NEXT_PUBLIC_MAPBOX_KEY;
+} else {
+  // In local development, use default public token
+  mapboxKey = "pk.eyJ1IjoidGFnb3NvIiwiYSI6ImNtYzRyZm5xeTBnZnUya3NhMDE5b3Q4YTQifQ.JHjIwECC6RTCyayoVcEP9Q";
+}
 
 const map = L.map(document.querySelector("#map"));
 const tile = L.tileLayer(
