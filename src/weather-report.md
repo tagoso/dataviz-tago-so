@@ -1,7 +1,5 @@
 # Weather report
 
-This is a GeoJSON `Feature` object of a `Polygon` geometry representing the grid square. The `properties` object within contains the hourly forecast data. You can display it on a map with <a href="./lib/leaflet">Leaflet</a>, if you like.
-
 <figure class="wide">
   <div id="map" style="height: 400px; margin: 1rem 0; border-radius: 8px;"></div>
   <figcaption>This grid point covers the south end of the Golden Gate Bridge.</figcaption>
