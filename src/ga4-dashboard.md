@@ -8,7 +8,7 @@ toc: false
 
 ```js
 // Execute the data loader
-const ecommerceData = await FileAttachment("data/ecommerce.json").json({ typed: true });
+const ecommerceData = FileAttachment("data/ecommerce.json").json({ typed: true });
 ```
 
 ```js
