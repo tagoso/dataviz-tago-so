@@ -2,7 +2,7 @@
 
 ## 📊 Dashboard
 
-- Production: https://databiz.tago.so
+- Production: https://dataviz.tago.so
 
 ## 🧰 Tools to start
 
