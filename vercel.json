@@ -1,5 +1,9 @@
 {
+  "buildCommand": "npx observable build",
+  "outputDirectory": "dist",
+  "cleanUrls": true,
   "rewrites": [
+    { "source": "/", "destination": "/index.html" },
     { "source": "/:page", "destination": "/:page.html" }
   ]
 }

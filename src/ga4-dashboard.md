@@ -6,13 +6,10 @@ toc: false
 
 # GA4 User Overview 📊
 
-<!-- Load and prepare GA4 data -->
-
 ```js
-const data = await import("./data/ecommerce.js").then((m) => m.default());
+// Execute the data loader
+const ecommerceData = await FileAttachment("data/ecommerce.json").json({ typed: true });
 ```
-
-<!-- A time-based color scale (optional) -->
 
 ```js
 const color = Plot.scale({
@@ -23,23 +20,20 @@ const color = Plot.scale({
 });
 ```
 
-<!-- Cards with summary metrics -->
 <div class="grid grid-cols-3">
   <div class="card">
     <h2>Total Days</h2>
-    <span class="big">${data.length.toLocaleString("en-US")}</span>
+    <span class="big">${ecommerceData.length.toLocaleString("en-US")}</span>
   </div>
   <div class="card">
     <h2>Max Daily Users</h2>
-    <span class="big">${d3.max(data, d => d.total_users).toLocaleString("en-US")}</span>
+    <span class="big">${d3.max(ecommerceData, d => d.total_users).toLocaleString("en-US")}</span>
   </div>
   <div class="card">
     <h2>Average Daily Users</h2>
-    <span class="big">${Math.round(d3.mean(data, d => d.total_users)).toLocaleString("en-US")}</span>
+    <span class="big">${Math.round(d3.mean(ecommerceData, d => d.total_users)).toLocaleString("en-US")}</span>
   </div>
 </div>
-
-<!-- Define chart function -->
 
 ```js
 function userTrendChart(data, { width } = {}) {
@@ -56,15 +50,22 @@ function userTrendChart(data, { width } = {}) {
       grid: true,
       label: "Users",
     },
-    marks: [Plot.line(data, { x: "event_date", y: "total_users", stroke: "steelblue", tip: true }), Plot.ruleY([0])],
+    marks: [
+      Plot.line(data, {
+        x: "event_date",
+        y: "total_users",
+        stroke: "steelblue",
+        tip: true,
+      }),
+      Plot.ruleY([0]),
+    ],
   });
 }
 ```
 
-<!-- Chart rendering -->
 <div class="grid grid-cols-1">
   <div class="card">
-    ${resize((width) => userTrendChart(data, { width }))}
+    ${resize((width) => userTrendChart(ecommerceData, { width }))}
   </div>
 </div>
 
