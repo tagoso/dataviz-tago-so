@@ -7,3 +7,4 @@ yarn-error.log
 src/secrets.json
 test.js
 src/data/ecommerce.json
+src/data/bigquery-template.json.js
