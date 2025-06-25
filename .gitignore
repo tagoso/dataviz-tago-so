@@ -6,3 +6,4 @@ yarn-error.log
 *.local
 src/secrets.json
 test.js
+src/data/ecommerce.json
