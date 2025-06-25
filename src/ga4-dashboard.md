@@ -12,6 +12,16 @@ const ecommerceData = FileAttachment("data/ecommerce.json").json({ typed: true }
 ```
 
 ```js
+// Compute daily totals and average daily users
+const dailyTotals = d3.rollups(
+  ecommerceData,
+  (v) => d3.sum(v, (d) => d.total_users),
+  (d) => d.event_date
+);
+const avgUsers = Math.round(d3.mean(dailyTotals, ([, total]) => total));
+```
+
+```js
 const color = Plot.scale({
   color: {
     type: "categorical",
@@ -23,7 +33,7 @@ const color = Plot.scale({
 <div class="grid grid-cols-3">
   <div class="card">
     <h2>Total Days</h2>
-    <span class="big">${ecommerceData.length.toLocaleString("en-US")}</span>
+    <span class="big">${new Set(ecommerceData.map(d => d.event_date)).size.toLocaleString("en-US")}</span>
   </div>
   <div class="card">
     <h2>Max Daily Users</h2>
@@ -31,7 +41,7 @@ const color = Plot.scale({
   </div>
   <div class="card">
     <h2>Average Daily Users</h2>
-    <span class="big">${Math.round(d3.mean(ecommerceData, d => d.total_users)).toLocaleString("en-US")}</span>
+    <span class="big">${avgUsers.toLocaleString("en-US")}</span>
   </div>
 </div>
 

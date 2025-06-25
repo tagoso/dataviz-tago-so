@@ -1,26 +1,18 @@
 import { BigQuery } from "@google-cloud/bigquery";
 import "dotenv/config";
 
-// ✅ export default: return only the return value for Observable Framework builds
+// ✅ For Observable Framework: exports async data loader
 export default async function () {
   const credentials = JSON.parse(process.env.GOOGLE_CREDENTIALS_JSON);
-
   const bigquery = new BigQuery({ credentials });
 
   const query = `
     SELECT
       event_date,
-      event_name,
-      geo.country AS country,
-      device.category AS device_category,
-      COUNT(DISTINCT user_pseudo_id) AS total_users,
-      COUNT(*) AS event_count,
-      MAX(IF(ep.key = "value", ep.value.int_value, NULL)) AS purchase_value,
-      MAX(IF(ep.key = "currency", ep.value.string_value, NULL)) AS currency
-    FROM \`bigquery-public-data.ga4_obfuscated_sample_ecommerce.events_*\`,
-    UNNEST(event_params) AS ep
+      COUNT(DISTINCT user_pseudo_id) AS total_users
+    FROM \`bigquery-public-data.ga4_obfuscated_sample_ecommerce.events_*\`
     WHERE _TABLE_SUFFIX BETWEEN '20201101' AND '20210131'
-    GROUP BY event_date, event_name, country, device_category
+    GROUP BY event_date
     ORDER BY event_date
   `;
 
@@ -28,7 +20,7 @@ export default async function () {
   return rows;
 }
 
-// ✅ Manual execution: confirmation output in node src/data/ecommerce.json.js
+// ✅ Optional CLI execution: generates JSON output manually
 if (import.meta.url === `file://${process.argv[1]}`) {
   (async () => {
     try {
