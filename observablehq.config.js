@@ -5,11 +5,11 @@ export default {
   
   pages: [
     {
-      name: "Examples",
+      name: "Templates",
       pages: [
-        // { name: "Rocket Launches Dashboard", path: "/example-dashboard" },
-        // { name: "Space Exploration Report", path: "/example-report" },
-        // { name: "Weather Report", path: "/weather-report" }
+        { name: "Rocket Launches Dashboard", path: "/example-dashboard" },
+        { name: "Space Exploration Report", path: "/example-report" },
+        { name: "Weather Report", path: "/weather-report" }
       ]
     }
   ],
