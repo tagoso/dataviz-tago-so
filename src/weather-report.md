@@ -12,6 +12,8 @@ const forecast = FileAttachment("./data/forecast.json").json();
 ```js
 import * as L from "npm:leaflet";
 
+const mapboxPublicKey = process.env.MAPBOX_PUBLIC_KEY;
+
 const map = L.map(document.querySelector("#map"));
 const tile = L.tileLayer(
   `https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/256/{z}/{x}/{y}@2x?access_token=${mapboxPublicKey}`,
