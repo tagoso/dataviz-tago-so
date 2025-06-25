@@ -15,5 +15,5 @@
 ## 🚀 Dev commands
 
 ```bash
-node src/data/ecommerce.json.js > src/data/ecommerce.json  # fetch data locally
+npm run fetch   # fetch data locally
 ```
