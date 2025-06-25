@@ -5,6 +5,12 @@ export default {
   
   pages: [
     {
+      name: "Examples",
+      pages: [
+        { name: "GA4 Dashboard", path: "/ga4-dashboard" },
+      ]
+    },
+    {
       name: "Templates",
       pages: [
         { name: "Rocket Launches Dashboard", path: "/example-dashboard" },
