@@ -19,6 +19,10 @@ const dailyTotals = d3.rollups(
   (d) => d.event_date
 );
 const avgUsers = Math.round(d3.mean(dailyTotals, ([, total]) => total));
+
+ecommerceData.forEach((d) => {
+  d.date = new Date(+d.event_date.slice(0, 4), +d.event_date.slice(4, 6) - 1, +d.event_date.slice(6, 8));
+});
 ```
 
 ```js
@@ -53,7 +57,8 @@ function userTrendChart(data, { width } = {}) {
     height: 300,
     x: {
       label: "Date",
-      type: "band",
+      type: "time",
+      tickFormat: d3.timeFormat("%b %d"),
       tickRotate: -45,
     },
     y: {
@@ -62,7 +67,7 @@ function userTrendChart(data, { width } = {}) {
     },
     marks: [
       Plot.line(data, {
-        x: "event_date",
+        x: "date",
         y: "total_users",
         stroke: "steelblue",
         tip: true,
