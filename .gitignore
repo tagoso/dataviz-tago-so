@@ -9,3 +9,5 @@ test.js
 src/data/ecommerce.json
 src/data/bigquery-template.json.js
 .prettierrc
+csv-etl-plot-template.md
+json-etl-plot-template.md
