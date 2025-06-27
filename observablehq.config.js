@@ -8,6 +8,7 @@ export default {
       name: "Examples",
       pages: [
         { name: "GA4 Dashboard", path: "/ga4-dashboard" },
+        { name: "Airbus vs Boeing", path: "/airbus-boeing" }
       ]
     },
     {
