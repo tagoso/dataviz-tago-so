@@ -1,0 +1,745 @@
+id,msn,airline_company,reg,airline_company,delivered,status,remark
+1,5000,Airbus A350-900,-,Airbus Industrie,2012-11-27,Partially Scrapped,
+2,1,Airbus A350-941,F-WXWB,Airbus Industrie,2013-06-14,Active,
+3,2,Airbus A350-941,F-WWCF,Airbus Industrie,2014-02-26,Active,
+4,3,Airbus A350-941,F-WZGG,Airbus Industrie,2013-10-14,Preserved,
+5,4,Airbus A350-941,F-WZNW,Airbus Industrie,2014-02-26,Preserved,
+6,5,Airbus A350-941,F-HREU,French bee,2018-01-30,Active,
+7,6,Airbus A350-941,A7-ALA,Qatar Airways,2014-12-18,Active,"سودانثيل, lsd"
+8,7,Airbus A350-941,A7-ALB,Qatar Airways,2015-03-04,Active,"الفديريات, lsd"
+9,8,Airbus A350-941,A7-ALE,Qatar Airways,2015-10-29,Active,lsd
+10,9,Airbus A350-941,A7-ALC,Qatar Airways,2015-05-07,Active,lsd
+11,10,Airbus A350-941,A7-ALD,Qatar Airways,2015-06-11,Active,lsd
+12,11,Airbus A350-941,A7-ALF,Qatar Airways,2015-10-30,Active,lsd
+13,12,Airbus A350-941,A7-ALH,Qatar Airways,2016-03-07,Active,lsd
+14,13,Airbus A350-941,A7-ALG,Qatar Airways,2015-11-20,Active,lsd
+15,14,Airbus A350-941,VN-A886,Vietnam Airlines,2015-06-29,Parked,lsd
+16,15,Airbus A350-941,VN-A887,Vietnam Airlines,2015-09-18,Active,lsd
+17,16,Airbus A350-941,VN-A888,Vietnam Airlines,2015-10-19,Active,lsd
+18,17,Airbus A350-941,VN-A889,Vietnam Airlines,2015-12-01,Active,lsd
+19,18,Airbus A350-941,OH-LWA,Finnair,2015-10-06,Active,lsd
+20,19,Airbus A350-941,OH-LWB,Finnair,2015-12-14,Active,"lsd, oneworld  cs"
+21,20,Airbus A350-941,OH-LWC,Finnair,2015-12-31,Active,
+22,21,Airbus A350-941,A7-ALI,Qatar Airways,2016-07-01,Active,lsd
+23,22,Airbus A350-941,OH-LWD,Finnair,2016-03-25,Active,
+24,23,Airbus A350-941,OH-LWE,Finnair,2016-04-29,Active,
+25,24,Airbus A350-941,N568DZ,Delta Air Lines,2022-07-19,Active,"3568, lsd"
+26,25,Airbus A350-941,A7-ALJ,Qatar Airways,2016-08-01,Active,lsd
+27,26,Airbus A350-941,9V-SMA,Singapore Airlines,2016-02-26,Active,
+28,27,Airbus A350-941,N569DZ,Delta Air Lines,2022-09-15,Active,"3569, lsd"
+29,28,Airbus A350-941,OH-LWF,Finnair,2016-06-24,Active,lsd
+30,29,Airbus A350-941,B-LRA,Cathay Pacific,2016-05-27,Active,lsd
+31,30,Airbus A350-941,9V-SMB,Singapore Airlines,2016-04-19,Active,
+32,31,Airbus A350-941,9V-SMC,Singapore Airlines,2016-05-27,Active,
+33,32,Airbus A350-941,B-LRB,Cathay Pacific,2016-08-24,Active,
+34,33,Airbus A350-941,A7-ALK,Qatar Airways,2016-09-22,Active,lsd
+35,34,Airbus A350-941,B-LRC,Cathay Pacific,2016-07-15,Active,lsd
+36,35,Airbus A350-941,OE-LHD,Lufthansa Group,2023-11-16,Parked,
+37,36,Airbus A350-941,A7-ALL,Qatar Airways,2016-11-01,Active,lsd
+38,37,Airbus A350-941,9V-SMD,Singapore Airlines,2016-06-30,Active,
+39,38,Airbus A350-941,B-LRD,Cathay Pacific,2016-09-23,Parked,
+40,39,Airbus A350-941,B-LRE,Cathay Pacific,2016-08-11,Active,
+41,40,Airbus A350-941,ET-ATQ,Ethiopian Airlines,2016-06-28,Active,lsd
+42,41,Airbus A350-941,9V-SME,Singapore Airlines,2016-07-27,Active,
+43,42,Airbus A350-941,A7-ALM,Qatar Airways,2016-12-20,Active,lsd
+44,43,Airbus A350-941,ET-ATR,Ethiopian Airlines,2016-08-15,Active,lsd
+45,44,Airbus A350-941,HS-THB,Thai Airways,2016-08-29,Parked,"Wichian Buri / วิเชียรบุรี , lsd"
+46,45,Airbus A350-941,OE-LHE,Lufthansa Group,2023-09-27,Parked,
+47,46,Airbus A350-941,B-LRF,Cathay Pacific,2016-10-20,Active,
+48,47,Airbus A350-941,A7-ALN,Qatar Airways,2017-02-27,Active,lsd
+49,48,Airbus A350-941,N570DZ,Delta Air Lines,2021-09-20,Active,"3570, lsd"
+50,49,Airbus A350-941,B-18901,China Airlines,2016-09-30,Active,
+51,50,Airbus A350-941,HS-THC,Thai Airways,2016-10-11,Active,"Si Nakhon / ศรีนคร , lsd"
+52,51,Airbus A350-941,OH-LWG,Finnair,2016-09-29,Parked,lsd
+53,52,Airbus A350-941,B-304U,Sichuan Airlines,2018-10-26,Active,"lsd, Chengdu FISU World University Games (成都大运会)  cs"
+54,53,Airbus A350-941,B-LRG,Cathay Pacific,2016-12-02,Active,
+55,54,Airbus A350-941,9V-SMF,Singapore Airlines,2016-10-14,Active,"10,000th Airbus Aircraft cs"
+56,55,Airbus A350-941,B-304V,Sichuan Airlines,2018-11-20,Active,"lsd, Chengdu FISU World University Games (成都大运会)  cs"
+57,56,Airbus A350-941,VN-A890,Vietnam Airlines,2016-10-29,Active,lsd
+58,57,Airbus A350-941,B-18902,China Airlines,2016-11-21,Parked,
+59,58,Airbus A350-941,B-LRI,Cathay Pacific,2016-11-18,Active,
+60,59,Airbus A350-1041,F-WMIL,Airbus Industrie,2016-11-24,Active,
+61,60,Airbus A350-941,B-301D,Sichuan Airlines,2018-08-08,Active,"lsd, Panda Route (熊猫之路) cs"
+62,61,Airbus A350-941,B-LRJ,Cathay Pacific,2016-12-09,Active,
+63,62,Airbus A350-941,9V-SMG,Singapore Airlines,2016-12-07,Active,
+64,63,Airbus A350-941,A7-ALO,Qatar Airways,2017-10-25,Active,lsd
+65,64,Airbus A350-941,N571DZ,Delta Air Lines,2021-07-09,Parked,"3571, lsd"
+66,65,Airbus A350-1041,F-HMIL,Air Caraïbes Atlantique,2019-12-02,Active,
+67,66,Airbus A350-941,B-18903,China Airlines,2016-12-22,Active,
+68,67,Airbus A350-941,VN-A891,Vietnam Airlines,2016-12-28,Active,lsd
+69,68,Airbus A350-941,9V-SMH,Singapore Airlines,2016-12-09,Active,
+70,69,Airbus A350-941,A7-ALP,Qatar Airways,2017-05-23,Active,lsd
+71,70,Airbus A350-941,B-LRK,Cathay Pacific,2017-02-01,Active,
+72,71,Airbus A350-1041,G-VDOT,Virgin Atlantic,2020-09-04,Active,Ruby Slipper
+73,72,Airbus A350-941,B-LRL,Cathay Pacific,2017-03-13,Active,
+74,73,Airbus A350-941,B-18905,China Airlines,2016-12-30,Active,
+75,74,Airbus A350-941,D-AIXA,Lufthansa,2016-12-19,Active,Nürnberg
+76,75,Airbus A350-941,B-LRM,Cathay Pacific,2016-12-30,Active,
+77,76,Airbus A350-941,A7-ALQ,Qatar Airways,2017-10-10,Active,lsd
+78,77,Airbus A350-941,9V-SMI,Singapore Airlines,2016-12-21,Active,
+79,78,Airbus A350-941,A7-ALR,Qatar Airways,2017-12-18,Active,lsd
+80,79,Airbus A350-941,OE-LHF,Lufthansa Group,2024-01-24,Parked,
+81,80,Airbus A350-941,D-AIXB,Lufthansa,2017-02-22,Active,Stuttgart
+82,81,Airbus A350-941,9V-SMJ,Singapore Airlines,2016-12-30,Active,
+83,82,Airbus A350-941,F-HHAV,Air Caraïbes Atlantique,2017-02-27,Active,lsd
+84,83,Airbus A350-941,A7-ALS,Qatar Airways,2017-10-10,Active,lsd
+85,84,Airbus A350-941,9V-SMK,Singapore Airlines,2017-02-24,Active,
+86,85,Airbus A350-941,B-LRN,Cathay Pacific,2017-03-30,Active,
+87,86,Airbus A350-941,VN-A892,Vietnam Airlines,2017-03-15,Active,lsd
+88,87,Airbus A350-941,D-AIXC,Lufthansa,2017-03-30,Active,"Saarbrücken, lsd"
+89,88,Airbus A350-1041,A7-ANA,Qatar Airways,2018-02-16,Active,lsd
+90,89,Airbus A350-941,ET-ATY,Ethiopian Airlines,2017-01-31,Active,
+91,90,Airbus A350-941,A7-ALT,Qatar Airways,2017-11-24,Active,lsd
+92,91,Airbus A350-941,F-HNET,Air Caraïbes Atlantique,2017-03-27,Active,lsd
+93,92,Airbus A350-941,B-18906,China Airlines,2017-03-20,Active,
+94,93,Airbus A350-941,B-LRO,Cathay Pacific,2017-05-11,Active,
+95,94,Airbus A350-941,HL8078,Asiana Airlines,2017-04-24,Active,lsd
+96,95,Airbus A350-941,HS-THD,Thai Airways,2017-04-21,Active,Uthumphon Phisai / อุทุมพรพิสัย
+97,96,Airbus A350-941,9V-SML,Singapore Airlines,2017-03-31,Active,
+98,97,Airbus A350-941,OH-LWH,Finnair,2017-04-03,Active,lsd
+99,98,Airbus A350-941,EC-OAV,Iberia,2023-08-31,Active,lsd
+100,99,Airbus A350-941,9V-SMM,Singapore Airlines,2017-05-05,Active,
+101,100,Airbus A350-941,A7-ALU,Qatar Airways,2018-04-24,Active,lsd
+102,101,Airbus A350-941,B-LRP,Cathay Pacific,2017-06-01,Active,
+103,102,Airbus A350-1041,A7-ANB,Qatar Airways,2018-06-30,Active,lsd
+104,103,Airbus A350-941,ET-AUA,Ethiopian Airlines,2017-04-28,Active,lsd
+105,104,Airbus A350-941,OH-LWI,Finnair,2017-06-02,Active,
+106,105,Airbus A350-941,B-18907,China Airlines,2017-05-24,Active,
+107,106,Airbus A350-941,A7-ALV,Qatar Airways,2018-05-29,Active,lsd
+108,107,Airbus A350-941,9V-SMN,Singapore Airlines,2017-05-19,Active,
+109,108,Airbus A350-941,N,American Airlines,,Not Built,NTU
+110,109,Airbus A350-941,B-LRQ,Cathay Pacific,2017-06-14,Active,
+111,110,Airbus A350-1041,A7-ANC,Qatar Airways,2018-09-10,Active,lsd
+112,111,Airbus A350-941,HS-THE,Thai Airways,2017-06-16,Active,Chai Badan / ชัยบาดาล
+113,112,Airbus A350-941,EC-OAX,Iberia,2023-07-13,Active,lsd
+114,113,Airbus A350-941,OH-LWK,Finnair,2017-06-30,Active,lsd
+115,114,Airbus A350-941,A7-ALW,Qatar Airways,2018-06-20,Active,lsd
+116,115,Airbus A350-941,N501DN,Delta Air Lines,2017-07-12,Active,3501
+117,116,Airbus A350-941,9V-SMO,Singapore Airlines,2017-06-16,Active,
+118,117,Airbus A350-941,HL8079,Asiana Airlines,2017-07-19,Active,lsd
+119,118,Airbus A350-1041,B-LXA,Cathay Pacific,2018-06-15,Active,
+120,119,Airbus A350-941,B-LRR,Cathay Pacific,2017-07-05,Active,
+121,120,Airbus A350-941,ET-AUB,Ethiopian Airlines,2017-06-26,Active,lsd
+122,121,Airbus A350-941,B-18908,China Airlines,2017-07-25,Active,
+123,122,Airbus A350-941,9V-SMP,Singapore Airlines,2017-07-21,Active,
+124,123,Airbus A350-941,HS-THF,Thai Airways,2017-07-13,Active,"Yan Nawa / ยานนาวา , lsd"
+125,124,Airbus A350-941,HS-THY,Thai Airways,2024-03-27,Active,"Sa Kaew / สระแก้ว , lsd"
+126,125,Airbus A350-1041,A7-AND,Qatar Airways,2018-09-28,Active,lsd
+127,126,Airbus A350-941,A7-ALX,Qatar Airways,2018-07-13,Active,lsd
+128,127,Airbus A350-941,D-AIXD,Lufthansa,2017-08-14,Active,Bonn
+129,128,Airbus A350-941,B-LRS,Cathay Pacific,2017-08-28,Active,
+130,129,Airbus A350-941,VN-A893,Vietnam Airlines,2017-08-18,Active,lsd
+131,130,Airbus A350-941,HS-THG,Thai Airways,2017-08-31,Active,"Phu Pha Man / ภูผาม่าน , lsd"
+132,131,Airbus A350-941,N,American Airlines,,Not Built,NTU
+133,132,Airbus A350-941,A7-ALY,Qatar Airways,2017-12-29,Active,lsd
+134,133,Airbus A350-941,9V-SMQ,Singapore Airlines,2017-09-08,Active,
+135,134,Airbus A350-941,OH-LWL,Finnair,2017-09-22,Active,"lsd, Marimekko Kivet cs"
+136,135,Airbus A350-941,N502DN,Delta Air Lines,2017-08-10,Active,"The Delta Spirit, 3502"
+137,136,Airbus A350-941,D-AIXE,Lufthansa,2017-08-30,Active,Essen
+138,137,Airbus A350-941,B-LRT,Cathay Pacific,2017-09-29,Active,
+139,138,Airbus A350-941,B-18909,China Airlines,2017-09-14,Active,
+140,139,Airbus A350-941,PR-,LATAM Airlines Brasil,,Not Built,NTU
+141,140,Airbus A350-941,9V-SMR,Singapore Airlines,2017-09-29,Active,
+142,141,Airbus A350-1041,A7-ANE,Qatar Airways,2018-11-15,Active,"lsd, oneworld  cs"
+143,142,Airbus A350-941,HS-THH,Thai Airways,2017-09-22,Active,"Than To / ธารโต , lsd"
+144,143,Airbus A350-941,A7-ALZ,Qatar Airways,2018-04-18,Active,"lsd, oneworld  cs"
+145,144,Airbus A350-941,HL7578,Asiana Airlines,2017-09-26,Active,lsd
+146,145,Airbus A350-941,3B-NBP,Air Mauritius,2017-10-18,Active,"Le Morne Brabant , lsd"
+147,146,Airbus A350-941,D-AIXF,Lufthansa,2017-11-16,Active,Bochum
+148,147,Airbus A350-941,ET-AUC,Ethiopian Airlines,2017-10-20,Active,
+149,148,Airbus A350-941,B-LRU,Cathay Pacific,2017-10-26,Active,
+150,149,Airbus A350-941,N503DN,Delta Air Lines,2017-10-31,Active,3503
+151,150,Airbus A350-941,VN-A894,Vietnam Airlines,2017-11-03,Active,lsd
+152,151,Airbus A350-941,B-18910,China Airlines,2017-11-07,Active,
+153,152,Airbus A350-941,PR-,LATAM Airlines Brasil,,Not Built,NTU
+154,153,Airbus A350-941,HS-THX,Thai Airways,2024-03-24,Active,"Phrae / แพร่ , lsd"
+155,154,Airbus A350-941,B-LRV,Cathay Pacific,2017-10-30,Active,
+156,155,Airbus A350-941,B-LRX,Cathay Pacific,2017-12-08,Active,
+157,156,Airbus A350-941,N,American Airlines,,Not Built,NTU
+158,157,Airbus A350-941,3B-NBQ,Air Mauritius,2017-11-23,Active,"Pieter Both , lsd"
+159,158,Airbus A350-941,9V-SMS,Singapore Airlines,2017-11-30,Active,
+160,159,Airbus A350-941,9M-MAB,Malaysia Airlines,2017-11-28,Active,lsd
+161,160,Airbus A350-941,N504DN,Delta Air Lines,2017-11-28,Active,3504
+162,161,Airbus A350-1041,A7-ANF,Qatar Airways,2018-12-18,Active,lsd
+163,162,Airbus A350-941,B-18912,China Airlines,2017-11-30,Active,
+164,163,Airbus A350-941,A7-AME,Qatar Airways,2018-09-10,Active,lsd
+165,164,Airbus A350-941,N505DN,Delta Air Lines,2017-12-11,Active,3505
+166,165,Airbus A350-941,9M-MAC,Malaysia Airlines,2017-12-22,Active,lsd
+167,166,Airbus A350-941,N,American Airlines,,Not Built,NTU
+168,167,Airbus A350-941,B-1086,Air China,2018-08-08,Active,
+169,168,Airbus A350-941,HS-THZ,Thai Airways,2024-05-21,Active,Samut Prakan / สมุทรปราการ
+170,169,Airbus A350-1041,B-LXB,Cathay Pacific,2018-08-30,Active,
+171,170,Airbus A350-941,9V-SMT,Singapore Airlines,2017-12-22,Active,
+172,171,Airbus A350-941,PR-,Azul,,Not Built,NTU
+173,172,Airbus A350-941,A7-AMF,Qatar Airways,2018-09-28,Active,lsd
+174,173,Airbus A350-941,VN-A895,Vietnam Airlines,2017-12-29,Parked,lsd
+175,174,Airbus A350-941,D-AIXG,Lufthansa,2018-01-24,Active,Mannheim
+176,175,Airbus A350-941,N506DN,Delta Air Lines,2017-12-21,Active,3506
+177,176,Airbus A350-941,HL7579,Asiana Airlines,2017-12-27,Active,lsd
+178,177,Airbus A350-941,HS-THJ,Thai Airways,2018-01-26,Active,"Pho Sai / โพธิ์ไทร , lsd"
+179,178,Airbus A350-941,B-1085,Air China,2018-08-29,Active,
+180,179,Airbus A350-941,B-18915,China Airlines,2018-01-23,Active,
+181,180,Airbus A350-941,ET-AVB,Ethiopian Airlines,2018-02-06,Active,
+182,181,Airbus A350-941,HS-THK,Thai Airways,2018-01-31,Active,Phaisali / ไพศาลี
+183,182,Airbus A350-941,N507DN,Delta Air Lines,2018-02-20,Active,3507
+184,183,Airbus A350-941,9M-MAD,Malaysia Airlines,2018-02-12,Active,lsd
+185,184,Airbus A350-941,D-AIXH,Lufthansa,2018-02-13,Active,Magdeburg
+186,185,Airbus A350-941,HS-THL,Thai Airways,2018-02-21,Active,"Sikhoraphum / ศรีขรภูมิ , lsd"
+187,186,Airbus A350-941,9V-SMU,Singapore Airlines,2018-02-09,Active,
+188,187,Airbus A350-941,HS-THV,Thai Airways,2023-11-06,Active,"Amnat Charoen / อำนาจเจริญ , lsd"
+189,188,Airbus A350-1041,B-LXC,Cathay Pacific,2018-07-18,Active,
+190,189,Airbus A350-941,HS-THM,Thai Airways,2018-03-14,Active,"Chumphon Buri / ชุมพลบุรี , lsd"
+191,190,Airbus A350-941,N508DN,Delta Air Lines,2018-03-05,Active,3508
+192,191,Airbus A350-941,B-18916,China Airlines,2018-03-08,Active,
+193,192,Airbus A350-941,VN-A896,Vietnam Airlines,2018-03-26,Active,lsd
+194,193,Airbus A350-941,F-HREV,French bee,2018-03-23,Active,lsd
+195,195,Airbus A350-941,9M-MAE,Malaysia Airlines,2018-04-06,Active,lsd
+196,196,Airbus A350-941,ET-AVC,Ethiopian Airlines,2018-04-20,Active,lsd
+197,197,Airbus A350-941,VN-A897,Vietnam Airlines,2018-04-11,Active,"lsd, SkyTeam  cs"
+198,198,Airbus A350-941,HL7771,Asiana Airlines,2018-04-10,Active,lsd
+199,199,Airbus A350-941,N509DN,Delta Air Lines,2018-04-11,Active,3509
+200,200,Airbus A350-941,N572DZ,Delta Air Lines,2021-09-17,Parked,"3572, lsd"
+201,201,Airbus A350-941,HS-THN,Thai Airways,2018-05-03,Active,Khiri Rat Nikhom / คีรีรัฐนิคม
+202,202,Airbus A350-941,D-AIXI,Lufthansa,2018-05-03,Active,Dortmund
+203,203,Airbus A350-941,9M-MAF,Malaysia Airlines,2018-05-03,Active,lsd
+204,204,Airbus A350-941,N510DN,Delta Air Lines,2018-05-24,Active,3510
+205,205,Airbus A350-941,ET-AVD,Ethiopian Airlines,2018-05-18,Active,
+206,206,Airbus A350-1041,B-LXD,Cathay Pacific,2018-10-01,Active,
+207,207,Airbus A350-941,A7-AMG,Qatar Airways,2018-10-26,Active,lsd
+208,208,Airbus A350-941,B-18917,China Airlines,2018-06-12,Active,
+209,209,Airbus A350-941,D-AIXJ,Lufthansa,2018-05-30,Active,Erfurt
+210,210,Airbus A350-941,N511DN,Delta Air Lines,2018-06-13,Active,3511
+211,211,Airbus A350-941,A7-AMH,Qatar Airways,2019-01-25,Active,lsd
+212,212,Airbus A350-941,D-AIXK,Lufthansa,2018-06-19,Active,Karlsruhe
+213,213,Airbus A350-941,9M-MAG,Malaysia Airlines,2018-07-11,Active,lsd
+214,214,Airbus A350-941,A7-AMI,Qatar Airways,2019-03-19,Active,
+215,215,Airbus A350-1041,A7-ANG,Qatar Airways,2019-03-01,Active,lsd
+216,216,Airbus A350-941,9V-SGE,Singapore Airlines,2018-11-14,Active,
+217,217,Airbus A350-941,B-1083,Air China,2018-09-18,Active,
+218,218,Airbus A350-941,HL8308,Asiana Airlines,2018-07-03,Active,lsd
+219,219,Airbus A350-941,EC-MXV,Iberia,2018-06-26,Active,Plácido Domingo
+220,220,Airbus A350-941,9V-SGA,Singapore Airlines,2018-09-21,Active,
+221,221,Airbus A350-941,RP-C3501,Philippine Airlines,2018-06-28,Active,lsd
+222,222,Airbus A350-1041,N,United Airlines,,Not Built,NTU
+223,223,Airbus A350-941,9V-SGB,Singapore Airlines,2018-09-28,Active,
+224,224,Airbus A350-941,HL8359,Asiana Airlines,2019-04-01,Active,lsd
+225,225,Airbus A350-1041,B-LXE,Cathay Pacific,2018-10-30,Active,
+226,226,Airbus A350-941,HS-THQ,Thai Airways,2023-09-25,Active,"Chiang Mai / เชียงใหม่ , lsd, Star Alliance  cs"
+227,227,Airbus A350-941,EC-MYX,Iberia,2018-07-27,Active,Paco de Lucia
+228,228,Airbus A350-941,D-AIVA,Lufthansa,2022-04-22,Active,lsd
+229,229,Airbus A350-1041,A7-ANH,Qatar Airways,2019-05-07,Active,lsd
+230,230,Airbus A350-941,9V-SGC,Singapore Airlines,2018-10-05,Active,
+231,231,Airbus A350-941,B-1082,Air China,2018-12-19,Active,lsd
+232,232,Airbus A350-941,9V-SGD,Singapore Airlines,2018-10-25,Active,
+233,233,Airbus A350-1041,B-LXF,Cathay Pacific,2018-11-20,Active,
+234,234,Airbus A350-941,HL8360,Asiana Airlines,2019-04-16,Active,lsd
+235,235,Airbus A350-941,HS-THS,Thai Airways,2024-02-28,Active,Kanchanaburi / กาญจนบุรี
+236,236,Airbus A350-941,D-AIVB,Lufthansa,2022-04-01,Active,"Hamburg , lsd"
+237,237,Airbus A350-941,A7-AMJ,Qatar Airways,2019-05-06,Active,lsd
+238,238,Airbus A350-941,9V-SGF,Singapore Airlines,2018-11-21,Active,
+239,239,Airbus A350-941,B-18918,China Airlines,2018-10-22,Active,Carbon Fibre / Airbus cs
+240,240,Airbus A350-941,B-1081,Air China,2018-10-17,Active,
+241,241,Airbus A350-1041,A7-ANI,Qatar Airways,2019-06-05,Active,lsd
+242,242,Airbus A350-941,-,Aeroflot - Russian Airlines,,Not Built,NTU
+243,243,Airbus A350-941,D-AIVC,Lufthansa,2022-03-10,Active,München
+244,244,Airbus A350-941,9V-SGG,Singapore Airlines,2018-12-14,Active,
+245,245,Airbus A350-941,HS-THR,Thai Airways,2023-10-13,Active,"Si Sa Ket / ศรีสะเกษ , lsd"
+246,246,Airbus A350-941,HS-THU,Thai Airways,2024-04-06,Active,"Sakon Nakhon / สกลนคร , lsd, Star Alliance  cs"
+247,247,Airbus A350-941,B-1080,Air China,2018-11-23,Active,
+248,248,Airbus A350-941,B-304D,China Eastern Airlines,2018-11-28,Active,lsd
+249,249,Airbus A350-941,A7-AMK,Qatar Airways,2019-06-27,Active,lsd
+250,250,Airbus A350-941,N573DZ,Delta Air Lines,2021-10-12,Active,"3573, lsd"
+251,251,Airbus A350-941,DQ-FAM,Fiji Airways,2023-08-12,Active,Island of Béqa
+252,252,Airbus A350-1041,B-LXG,Cathay Pacific,2018-11-29,Active,
+253,253,Airbus A350-941,-,Aeroflot - Russian Airlines,,Not Built,NTU
+254,254,Airbus A350-941,9V-SHA,Singapore Airlines,2018-12-17,Active,
+255,255,Airbus A350-941,D-AIXL,Lufthansa,2018-11-20,Active,Rostock
+256,256,Airbus A350-941,HS-THT,Thai Airways,2024-04-10,Active,"Phayao / พะเยา , lsd"
+257,257,Airbus A350-941,A7-AML,Qatar Airways,2019-09-27,Active,lsd
+258,258,Airbus A350-1041,B-LXH,Cathay Pacific,2018-12-18,Active,
+259,259,Airbus A350-941,ET-AVE,Ethiopian Airlines,2018-12-07,Active,
+260,260,Airbus A350-941,DQ-FAN,Fiji Airways,2023-08-29,Parked,Island of Vatulele
+261,261,Airbus A350-941,B-304N,China Eastern Airlines,2018-12-19,Active,
+262,262,Airbus A350-1041,B-LXI,Cathay Pacific,2019-02-01,Active,
+263,263,Airbus A350-941,9V-SHB,Singapore Airlines,2018-11-30,Active,
+264,264,Airbus A350-941,OH-LWM,Finnair,2018-12-13,Active,lsd
+265,265,Airbus A350-941,N574DZ,Delta Air Lines,2021-07-15,Active,"3574, lsd"
+266,266,Airbus A350-1041,A7-ANJ,Qatar Airways,2019-09-27,Active,lsd
+267,267,Airbus A350-941,N512DN,Delta Air Lines,2019-01-25,Active,3512
+268,268,Airbus A350-941,B-307A,Air China,2019-01-22,Active,
+269,269,Airbus A350-941,B-305X,China Eastern Airlines,2019-01-29,Parked,lsd
+270,270,Airbus A350-941,EI-IFB,ITA Airways,2022-05-06,Active,"Marcello Lippi , lsd"
+271,271,Airbus A350-941,EC-NBE,Iberia,2019-01-24,Active,Museo del Prado
+272,272,Airbus A350-941,B-306Y,China Eastern Airlines,2019-02-27,Parked,lsd
+273,273,Airbus A350-941,OH-LWN,Finnair,2019-02-13,Active,lsd
+274,274,Airbus A350-1041,G-VLUX,Virgin Atlantic,2019-08-09,Active,Red Velvet
+275,275,Airbus A350-941,A7-,Qatar Airways,,Not Built,NTU
+276,276,Airbus A350-941,9V-SHC,Singapore Airlines,2019-02-01,Active,
+277,277,Airbus A350-941,N513DZ,Delta Air Lines,2019-02-26,Active,3513
+278,278,Airbus A350-941,9V-SHD,Singapore Airlines,2019-02-28,Active,lsd
+279,279,Airbus A350-941,VN-A898,Vietnam Airlines,2019-02-28,Active,lsd
+280,280,Airbus A350-941,D-AIVD,Lufthansa,2022-05-06,Active,"Duisburg , lsd"
+281,281,Airbus A350-941,B-306N,Sichuan Airlines,2019-05-21,Active,"lsd, Panda Route (熊猫之路) cs"
+282,282,Airbus A350-941,N575DZ,Delta Air Lines,2021-06-22,Active,"3575, lsd"
+283,283,Airbus A350-941,EI-IFF,ITA Airways,2022-07-13,Active,"Enzo Bearzot , lsd"
+284,284,Airbus A350-941,B-307C,Air China,2019-02-26,Active,lsd
+285,285,Airbus A350-941,EI-IFE,ITA Airways,2022-09-15,Active,"Alessandro Del Piero , lsd"
+286,286,Airbus A350-1041,B-LXJ,Cathay Pacific,2019-03-13,Active,
+287,287,Airbus A350-941,D-AIXM,Lufthansa,2019-03-14,Active,Schwerin
+288,288,Airbus A350-941,-,Unknown,,Not Built,NTU
+289,289,Airbus A350-941,ET-AWM,Ethiopian Airlines,2019-04-05,Active,
+290,290,Airbus A350-1041,A6-XWB,Etihad Airways,2019-05-31,Active,
+291,291,Airbus A350-941,B-307Y,China Eastern Airlines,2019-04-09,Active,lsd
+292,292,Airbus A350-941,D-AIXN,Lufthansa,2019-03-28,Active,Göttingen
+293,293,Airbus A350-941,EC-NBO,Iberojet,2021-05-13,Active,lsd
+294,294,Airbus A350-941,9V-SHE,Singapore Airlines,2019-04-05,Active,
+295,295,Airbus A350-941,B-308C,Air China,2019-05-10,Active,lsd
+296,296,Airbus A350-1041,B-LXK,Cathay Pacific,2019-04-03,Active,lsd
+297,297,Airbus A350-941,VN-A899,Vietnam Airlines,2019-05-16,Active,lsd
+298,298,Airbus A350-1041,G-VPOP,Virgin Atlantic,2019-08-28,Active,Mamma Mia
+299,299,Airbus A350-941,DQ-FAI,Fiji Airways,2019-11-07,Active,"Island of Viti Levu, lsd"
+300,300,Airbus A350-941,OH-LWO,Finnair,2019-04-26,Active,
+301,301,Airbus A350-941,HL8361,Asiana Airlines,2019-06-18,Active,lsd
+302,302,Airbus A350-941,EC-NCX,Iberia,2019-04-30,Active,Selección Española de Fútbol
+303,303,Airbus A350-941,RP-C3508,Philippine Airlines,2019-05-02,Active,"The Love Bus, lsd"
+304,304,Airbus A350-941,-,Unknown,,Not Built,NTU
+305,305,Airbus A350-941,9V-SHF,Singapore Airlines,2019-05-10,Active,
+306,306,Airbus A350-1041,B-LXL,Cathay Pacific,2019-05-28,Active,
+307,307,Airbus A350-941,B-308E,China Eastern Airlines,2019-06-07,Active,lsd
+308,308,Airbus A350-941,EI-IFA,ITA Airways,2022-05-11,Active,"Valentino Rossi , lsd"
+309,309,Airbus A350-941,9V-SHG,Singapore Airlines,2019-05-17,Parked,
+310,310,Airbus A350-941,ET-AWN,Ethiopian Airlines,2019-05-24,Active,lsd
+311,311,Airbus A350-941,B-308M,Air China,2019-05-28,Parked,Star Alliance  cs
+312,312,Airbus A350-941,EC-NDR,Iberia,2019-05-29,Active,Juan Sebastian Elcano
+313,313,Airbus A350-941,N576DZ,Delta Air Lines,2021-08-12,Active,"3576, lsd"
+314,314,Airbus A350-941,D-AIXO,Lufthansa,2019-07-15,Active,Ulm
+315,315,Airbus A350-1041,A6-XWA,Etihad Airways,2019-07-15,Active,
+316,316,Airbus A350-941,9V-SHH,Singapore Airlines,2019-06-07,Active,
+317,317,Airbus A350-941,-,Unknown,,Not Built,NTU
+318,318,Airbus A350-941,B-308T,China Southern Airlines,2019-06-27,Active,lsd
+319,319,Airbus A350-1041,G-VPRD,Virgin Atlantic,2019-09-23,Active,Rain Bow
+320,320,Airbus A350-941,DQ-FAJ,Fiji Airways,2019-12-05,Active,"Island of Vanua Levu, lsd"
+321,321,Airbus A350-941,JA01XJ,Japan Airlines,2019-06-11,Active,Airbus A350 (Red) cs
+322,322,Airbus A350-941,9V-SHI,Singapore Airlines,2019-06-28,Active,
+323,323,Airbus A350-941,EI-IFC,ITA Airways,2022-05-23,Active,"Roberto Baggio , lsd"
+324,324,Airbus A350-941,B-LQA,Cathay Pacific,2019-07-08,Active,
+325,325,Airbus A350-941,F-HREY,French bee,2019-06-12,Active,lsd
+326,326,Airbus A350-1041,G-XWBA,British Airways,2019-07-25,Parked,lsd
+327,327,Airbus A350-941,F-HTRE,Air Caraïbes Atlantique,2019-07-24,Active,lsd
+328,328,Airbus A350-941,9V-SHJ,Singapore Airlines,2019-08-09,Active,
+329,329,Airbus A350-941,9V-SMV,Singapore Airlines,2019-07-26,Active,
+330,330,Airbus A350-1041,A6-XWC,Etihad Airways,2019-07-29,Active,
+331,331,Airbus A350-941,F-HTYA,Air France,2019-09-18,Active,Toulouse
+332,332,Airbus A350-1041,A7-ANK,Qatar Airways,2019-12-04,Active,
+333,333,Airbus A350-941,JA02XJ,Japan Airlines,2019-08-28,Active,Airbus A350 (Silver) cs
+334,334,Airbus A350-941,B-309W,China Southern Airlines,2019-10-17,Active,lsd
+335,335,Airbus A350-941,HL8362,Asiana Airlines,2019-10-15,Active,lsd
+336,336,Airbus A350-1041,G-VJAM,Virgin Atlantic,2019-09-27,Active,Queen Of Hearts
+337,337,Airbus A350-941,B-LQB,Cathay Pacific,2019-08-07,Active,
+338,338,Airbus A350-941,EI-IFD,ITA Airways,2022-06-17,Active,"lsd, Born to be Sustainable cs"
+339,339,Airbus A350-941,B-30A9,China Southern Airlines,2019-10-21,Active,lsd
+340,340,Airbus A350-1041,G-XWBB,British Airways,2019-09-19,Active,lsd
+341,341,Airbus A350-941,9V-SMW,Singapore Airlines,2019-09-13,Active,
+342,342,Airbus A350-1041,A6-XWE,Etihad Airways,2019-09-30,Parked,
+343,343,Airbus A350-941,JA03XJ,Japan Airlines,2019-09-19,Active,Airbus A350 (Green) cs
+344,344,Airbus A350-941,9V-SMY,Singapore Airlines,2019-09-13,Active,
+345,345,Airbus A350-941,ET-AWO,Ethiopian Airlines,2019-10-04,Active,
+346,346,Airbus A350-1041,A7-ANL,Qatar Airways,2019-12-04,Active,lsd
+347,347,Airbus A350-941,B-30AL,China Southern Airlines,2019-11-08,Active,lsd
+348,348,Airbus A350-941,9V-SMZ,Singapore Airlines,2019-10-30,Active,
+349,349,Airbus A350-941,F-HTYB,Air France,2019-10-29,Active,Lyon
+350,350,Airbus A350-1041,A7-ANM,Qatar Airways,2019-12-07,Active,
+351,351,Airbus A350-941,HS-THO,Thai Airways,2023-05-11,Active,"Phuket / ภูเก็ต , lsd"
+352,352,Airbus A350-941,JA04XJ,Japan Airlines,2019-10-24,Active,
+353,353,Airbus A350-941,A7-,Qatar Airways,,Not Built,NTU
+354,354,Airbus A350-941,3B-NCE,Air Mauritius,2020-10-01,Active,Mauritius Kestrel
+355,355,Airbus A350-941,HS-THP,Thai Airways,2023-06-07,Active,"Phetchaburi / เพชรบุรี , lsd"
+356,356,Airbus A350-1041,A7-ANN,Qatar Airways,2019-12-20,Active,
+357,357,Airbus A350-941,B-30C0,China Southern Airlines,2019-11-12,Parked,lsd
+358,358,Airbus A350-941,B-18919,China Airlines,2024-01-02,Parked,lsd
+359,359,Airbus A350-941,F-HTYC,Air France,2019-11-30,Active,Saint Denis de La Reunion
+360,360,Airbus A350-941,-,SAS Scandinavian Airlines,,Not Built,NTU
+361,361,Airbus A350-941,A7-,Qatar Airways,,Not Built,NTU
+362,362,Airbus A350-1041,G-XWBC,British Airways,2019-11-26,Active,lsd
+363,363,Airbus A350-941,HB-IHF,Edelweiss Air,2025-03-04,Active,Piz Bernina
+364,364,Airbus A350-941,9V-SJA,Singapore Airlines,2019-11-22,Active,
+365,365,Airbus A350-941,3B-NCF,Air Mauritius,2020-11-01,Active,Trochetia Boutoniana
+366,366,Airbus A350-941,EC-NGT,Iberia,2019-11-26,Active,Equipo Olímpico Español
+367,367,Airbus A350-941,-,Unknown,,Not Built,NTU
+368,368,Airbus A350-1041,A7-ANO,Qatar Airways,2020-10-22,Active,
+369,369,Airbus A350-941,9V-SHK,Singapore Airlines,2019-11-29,Active,
+370,370,Airbus A350-941,JA05XJ,Japan Airlines,2019-12-10,Active,
+371,371,Airbus A350-941,9V-SHL,Singapore Airlines,2019-12-06,Active,
+372,372,Airbus A350-1041,A7-ANP,Qatar Airways,2020-02-27,Active,
+373,373,Airbus A350-941,B-30CW,China Eastern Airlines,2019-12-18,Active,lsd
+374,374,Airbus A350-1041,G-XWBD,British Airways,2019-12-23,Active,lsd
+375,375,Airbus A350-941,ET-AWP,Ethiopian Airlines,2019-12-13,Active,
+376,376,Airbus A350-941,B-30CE,China Southern Airlines,2019-12-27,Active,"lsd, Guizhou Moutai (贵州茅台)  cs"
+377,377,Airbus A350-941,ET-,Ethiopian Airlines,,Not Built,NTU
+378,378,Airbus A350-941,9M-MAH,Malaysia Airlines,2023-11-10,Active,lsd
+379,379,Airbus A350-941,9V-SHM,Singapore Airlines,2020-01-22,Active,
+380,380,Airbus A350-1041,B-LXM,Cathay Pacific,2020-09-24,Active,
+381,381,Airbus A350-941,F-HTYD,Air France,2020-02-04,Active,Nice
+382,382,Airbus A350-1041,A7-ANQ,Qatar Airways,2020-10-22,Active,
+383,383,Airbus A350-941,RA-73157,Aeroflot - Russian Airlines,2022-03-12,Parked,П. Чайковский / P. Tchaikovsky
+384,384,Airbus A350-941,B-,Hong Kong Airlines,,Not Built,NTU
+385,385,Airbus A350-941,9V-SHN,Singapore Airlines,2020-01-31,Active,
+386,386,Airbus A350-1041,G-XWBE,British Airways,2020-02-12,Active,lsd
+387,387,Airbus A350-941,HL8381,Asiana Airlines,2020-02-03,Active,lsd
+388,388,Airbus A350-1041,A6-XWF,Etihad Airways,2020-05-25,Active,
+389,389,Airbus A350-941,HL8382,Asiana Airlines,2020-11-24,Active,lsd
+390,390,Airbus A350-941,D-AIXP,Lufthansa,2020-02-27,Active,Braunschweig
+391,391,Airbus A350-941,SE-RSC,SAS Scandinavian Airlines,2024-02-26,Active,"Orvar Odd Viking, lsd"
+392,392,Airbus A350-941,OH-LWP,Finnair,2020-02-10,Active,
+393,393,Airbus A350-941,B-LQC,Cathay Pacific,2021-08-31,Active,
+394,394,Airbus A350-941,9V-SHO,Singapore Airlines,2020-02-21,Active,
+395,395,Airbus A350-941,N514DN,Delta Air Lines,2020-09-15,Active,3514
+396,396,Airbus A350-941,B-LQD,Cathay Pacific,2020-08-31,Active,
+397,397,Airbus A350-941,EC-NIG,Iberia,2020-03-05,Active,"Selección Española de Baloncesto, lsd"
+398,398,Airbus A350-941,B-30EA,China Southern Airlines,2020-11-27,Active,
+399,399,Airbus A350-1041,A7-ANR,Qatar Airways,2020-10-22,Active,
+400,400,Airbus A350-941,EC-NGY,Iberojet,2021-05-13,Active,lsd
+401,401,Airbus A350-941,B-LQE,Cathay Pacific,2020-09-10,Active,
+402,402,Airbus A350-1041,G-XWBF,British Airways,2020-05-15,Active,lsd
+403,403,Airbus A350-941,TC-LGA,Turkish Airlines,2020-10-22,Active,
+404,404,Airbus A350-941,N515DN,Delta Air Lines,2020-09-16,Active,3515
+405,405,Airbus A350-941,JA06XJ,Japan Airlines,2020-04-20,Active,
+406,406,Airbus A350-941,EC-NIS,Iberia,2020-06-05,Active,Talento a Bordo
+407,407,Airbus A350-941,F-HTYE,Air France,2020-05-06,Active,Bordeaux
+408,408,Airbus A350-941,B-30FM,China Eastern Airlines,2020-12-18,Active,lsd
+409,409,Airbus A350-1041,A7-AOA,Qatar Airways,2023-06-09,Active,
+410,410,Airbus A350-941,OH-LWR,Finnair,2020-09-01,Active,
+411,411,Airbus A350-941,B-30F0,China Southern Airlines,2020-11-30,Active,
+412,412,Airbus A350-941,ET-AYB,Ethiopian Airlines,2020-11-06,Active,
+413,413,Airbus A350-941,B-LQF,Cathay Pacific,2020-10-13,Active,
+414,414,Airbus A350-941,RA-73155,Aeroflot - Russian Airlines,2022-03-21,Active,А. Дементьев / A. Dementyev
+415,415,Airbus A350-1041,G-VRNB,Virgin Atlantic,2020-09-17,Active,"Purple Rain , lsd"
+416,416,Airbus A350-941,10+03,Luftwaffe (German Air Force),2020-08-20,Active,Kurt Schumacher
+417,417,Airbus A350-941,B-30F9,China Southern Airlines,2021-04-23,Active,
+418,418,Airbus A350-941,SE-RSD,SAS Scandinavian Airlines,2020-07-01,Active,"Halvard Viking, lsd"
+419,419,Airbus A350-941,EC-NJM,Iberia,2020-06-18,Active,Flamenco
+420,420,Airbus A350-1041,A7-ANS,Qatar Airways,2020-12-31,Active,
+421,421,Airbus A350-941,TC-LGB,Turkish Airlines,2020-10-23,Active,lsd
+422,422,Airbus A350-941,F-HTYF,Air France,2020-06-30,Active,Marseille
+423,423,Airbus A350-941,B-321J,China Eastern Airlines,2021-04-16,Active,lsd
+424,424,Airbus A350-1041,B-LXN,Cathay Pacific,2021-06-25,Active,
+425,425,Airbus A350-941,HL8383,Asiana Airlines,2020-12-29,Active,lsd
+426,426,Airbus A350-1041,G-VTEA,Virgin Atlantic,2020-11-30,Active,"Rosie Lee, lsd"
+427,427,Airbus A350-941,D-AIXQ,Lufthansa,2020-10-28,Active,Freiburg
+428,428,Airbus A350-941,RA-73154,Aeroflot - Russian Airlines,2022-03-23,Active,A. Bacилевский / A. Vasilevsky
+429,429,Airbus A350-941,RA-73153,Aeroflot - Russian Airlines,2022-03-21,Active,И. Конев / I. Konev
+430,430,Airbus A350-1041,A7-ANT,Qatar Airways,2023-05-12,Active,
+431,431,Airbus A350-941,ET-AYA,Ethiopian Airlines,2020-11-06,Active,
+432,432,Airbus A350-1041,G-XWBG,British Airways,2020-10-02,Active,
+433,433,Airbus A350-941,F-HREN,French bee,2020-08-12,Active,lsd
+434,434,Airbus A350-1041,B-LXO,Cathay Pacific,2021-03-04,Active,
+435,435,Airbus A350-941,TC-LGC,Turkish Airlines,2021-01-28,Active,lsd
+436,436,Airbus A350-941,9V-SHP,Singapore Airlines,2020-10-02,Active,
+437,437,Airbus A350-941,RA-73152,Aeroflot - Russian Airlines,2022-03-21,Active,Р. Малиновский / R. Malinovsky
+438,438,Airbus A350-1041,A7-AOB,Qatar Airways,2023-06-23,Active,
+439,439,Airbus A350-941,9V-SHQ,Singapore Airlines,2020-10-09,Active,
+440,440,Airbus A350-1041,A7-AOC,Qatar Airways,2023-07-12,Active,
+441,441,Airbus A350-941,RA-73151,Aeroflot - Russian Airlines,2022-03-21,Active,А. Голованов / A. Golovanov
+442,442,Airbus A350-941,TC-LGD,Turkish Airlines,2021-03-12,Active,lsd
+443,443,Airbus A350-941 ACJ,D-AKAY,K5-Aviation,2020-12-11,Parked,
+444,444,Airbus A350-1041,A7-AOD,Qatar Airways,2023-07-21,Active,
+445,445,Airbus A350-941,9V-SHR,Singapore Airlines,2020-10-16,Active,
+446,446,Airbus A350-1041,G-XWBH,British Airways,2020-12-14,Active,
+447,447,Airbus A350-941,9V-SHS,Singapore Airlines,2020-10-20,Active,
+448,448,Airbus A350-941,EC-NOI,World2Fly,2021-06-07,Active,lsd
+449,449,Airbus A350-941,B-320S,China Southern Airlines,2021-06-11,Active,
+450,450,Airbus A350-1041,A7-AOE,Qatar Airways,,Not Built,NTU
+451,451,Airbus A350-941,JA07XJ,Japan Airlines,2020-11-30,Active,
+452,452,Airbus A350-941,B-323H,China Eastern Airlines,2021-07-20,Active,lsd
+453,453,Airbus A350-941,EC-NLP,Iberia,2022-03-18,Active,#GraciasHéroes
+454,454,Airbus A350-941,TC-LGE,Turkish Airlines,2021-05-05,Active,
+455,455,Airbus A350-941,B-321M,Air China,2020-12-16,Active,
+456,456,Airbus A350-1041,A7-AOF,Qatar Airways,,Not Built,NTU
+457,457,Airbus A350-941,TC-LGI,Turkish Airlines,2022-06-30,Active,
+458,458,Airbus A350-941,B-321N,Air China,2020-12-16,Active,
+459,459,Airbus A350-941,EC-NMZ,Iberia,2022-03-30,Active,Volando
+460,460,Airbus A350-941,9V-SJE,Singapore Airlines,2021-12-29,Active,
+461,462,Airbus A350-941,B-324R,China Southern Airlines,2021-12-27,Active,
+462,463,Airbus A350-941,TC-LGJ,Turkish Airlines,2022-06-30,Active,
+463,464,Airbus A350-941,9V-SHT,Singapore Airlines,2021-03-19,Active,
+464,465,Airbus A350-941,B-322H,Air China,2021-02-26,Parked,
+465,466,Airbus A350-941,RA-73156,Aeroflot - Russian Airlines,2022-03-12,Active,Г. Во́лчек / G. Volchek
+466,468,Airbus A350-941,10+01,Luftwaffe (German Air Force),2022-11-17,Active,Konrad Adenauer
+467,469,Airbus A350-941,9V-SHU,Singapore Airlines,2021-03-26,Active,
+468,470,Airbus A350-941,B-324W,China Eastern Airlines,2021-11-24,Active,lsd
+469,471,Airbus A350-941,TC-LGK,Turkish Airlines,2022-07-29,Parked,
+470,472,Airbus A350-941,9V-SJB,Singapore Airlines,2021-06-25,Active,
+471,473,Airbus A350-1041,G-XWBI,British Airways,2022-03-25,Active,
+472,474,Airbus A350-941,B-322Y,Air China,2021-04-30,Active,lsd
+473,475,Airbus A350-941,9V-SHV,Singapore Airlines,2021-03-31,Active,
+474,476,Airbus A350-941,JA08XJ,Japan Airlines,2020-12-21,Active,
+475,478,Airbus A350-941,B-324S,China Southern Airlines,2021-12-28,Active,
+476,479,Airbus A350-941,F-HTYG,Air France,2021-03-19,Active,"Reims , lsd"
+477,480,Airbus A350-941,B-58501,STARLUX Airlines,2022-10-28,Active,
+478,481,Airbus A350-941,B-322Z,Air China,2021-04-30,Active,lsd
+479,482,Airbus A350-1041,F-HTOO,Air Caraïbes Atlantique,2021-06-04,Active,
+480,483,Airbus A350-941,EC-NSC,Iberia,2022-02-23,Active,Hola Madrid
+481,484,Airbus A350-941,SE-RSE,SAS Scandinavian Airlines,2021-03-26,Active,Ingeborg Viking
+482,485,Airbus A350-941,9V-SHW,Singapore Airlines,2022-01-07,Active,
+483,487,Airbus A350-941,B-329K,Air China,2022-07-27,Active,lsd
+484,488,Airbus A350-941,F-HTYH,Air France,2021-04-06,Active,"Dijon , lsd"
+485,489,Airbus A350-941,B-324X,China Eastern Airlines,2022-02-22,Active,
+486,490,Airbus A350-1041,G-XWBJ,British Airways,2022-02-25,Active,lsd
+487,491,Airbus A350-941,F-HTYI,Air France,2021-04-26,Active,"Saint-Malo , lsd"
+488,492,Airbus A350-1041,G-VEVE,Virgin Atlantic,2021-12-01,Active,"Fearless Lady , lsd"
+489,493,Airbus A350-941,TC-LGL,Turkish Airlines,2022-07-29,Active,
+490,494,Airbus A350-941,9V-SHY,Singapore Airlines,2022-04-08,Active,
+491,495,Airbus A350-1041,G-XWBK,British Airways,2022-03-09,Active,
+492,496,Airbus A350-941,TC-LGF,Turkish Airlines,2022-02-18,Active,
+493,497,Airbus A350-941,JA09XJ,Japan Airlines,2021-06-14,Active,
+494,498,Airbus A350-941,VP-,Aeroflot - Russian Airlines,,Not Built,NTU
+495,499,Airbus A350-941,SE-RSF,SAS Scandinavian Airlines,2021-06-22,Active,"Hjalmar Viking, lsd"
+496,500,Airbus A350-941,F-HTYJ,Air France,2021-07-06,Active,"Cannes , lsd"
+497,502,Airbus A350-941,F-HTYK,Air France,2021-06-14,Active,Aubusson
+498,503,Airbus A350-1041,B-LXP,Cathay Pacific,2022-09-19,Active,
+499,504,Airbus A350-941,B-32AL,Air China,2022-10-20,Active,lsd
+500,505,Airbus A350-941,B-329E,China Eastern Airlines,2022-08-17,Active,lsd
+501,506,Airbus A350-941,B-329S,China Southern Airlines,2022-08-12,Active,lsd
+502,507,Airbus A350-1041,G-VLIB,Virgin Atlantic,2022-04-21,Active,"Lady Emmeline , lsd"
+503,508,Airbus A350-941,VP-,Aeroflot - Russian Airlines,,Not Built,NTU
+504,509,Airbus A350-1041,B-LXQ,Cathay Pacific,2022-10-28,Active,
+505,510,Airbus A350-941,F-HTYL,Air France,2021-12-03,Active,Pointe-à-Pitre
+506,511,Airbus A350-941,B-,China Eastern Airlines,,Not Built,NTU
+507,512,Airbus A350-941,B-32AV,China Southern Airlines,2022-10-21,Active,lsd
+508,516,Airbus A350-941,OH-LWS,Finnair,2021-12-29,Active,
+509,517,Airbus A350-941,B-326Y,Air China,2021-12-28,Active,lsd
+510,518,Airbus A350-941,VP-,Aeroflot - Russian Airlines,,Not Built,NTU
+511,519,Airbus A350-1041,A7-,Qatar Airways,,Not Built,NTU
+512,520,Airbus A350-941,F-HTYM,Air France,2021-12-20,Active,"Fort-de-France , lsd"
+513,521,Airbus A350-1041,G-VNVR,Virgin Atlantic,,Not Built,NTU
+514,522,Airbus A350-941,HL,Asiana Airlines,,Not Built,NTU
+515,523,Airbus A350-941,VP-,Aeroflot - Russian Airlines,,Not Built,NTU
+516,524,Airbus A350-941,ET-AYM,Ethiopian Airlines,2021-12-03,Active,Ethiopia
+517,525,Airbus A350-941,9V-,Singapore Airlines,,Not Built,NTU
+518,526,Airbus A350-941,10+02,Luftwaffe (German Air Force),2023-03-17,Active,Theodor Heuss
+519,527,Airbus A350-1041,B-LXR,Cathay Pacific,,Not Built,NTU
+520,528,Airbus A350-941,B-327V,Air China,2022-03-11,Active,lsd
+521,529,Airbus A350-941,VP-,Aeroflot - Russian Airlines,,Not Built,NTU
+522,530,Airbus A350-941,N516DN,Delta Air Lines,2022-01-25,Active,3516
+523,531,Airbus A350-941,JA10XJ,Japan Airlines,2021-08-17,Active,
+524,532,Airbus A350-941,TC-,Turkish Airlines,,Not Built,NTU
+525,533,Airbus A350-1041,F-HSIS,Air Caraïbes Atlantique,2021-12-14,Active,lsd
+526,534,Airbus A350-941,EC-,World2Fly,,Not Built,
+527,535,Airbus A350-941,JA11XJ,Japan Airlines,2021-09-09,Parked,
+528,536,Airbus A350-941,JA12XJ,Japan Airlines,2021-09-28,Active,
+529,537,Airbus A350-941,B-328Q,Air China,2022-07-05,Active,lsd
+530,538,Airbus A350-941,JA13XJ,Japan Airlines,2021-11-10,Written Off,
+531,539,Airbus A350-1041,F-HMIX,French bee,2021-12-15,Active,lsd
+532,540,Airbus A350-941,B-32A8,China Eastern Airlines,2022-10-31,Active,lsd
+533,541,Airbus A350-941,JA14XJ,Japan Airlines,2021-12-16,Active,
+534,542,Airbus A350-941,ET-AYN,Ethiopian Airlines,2021-12-10,Active,Star Alliance  cs
+535,543,Airbus A350-941,JA15XJ,Japan Airlines,2022-02-14,Active,oneworld  cs
+536,544,Airbus A350-941,F-HTYN,Air France,2022-01-31,Active,"Chambord , lsd"
+537,545,Airbus A350-941,N517DZ,Delta Air Lines,2022-01-31,Active,3517
+538,546,Airbus A350-941,F-HTYO,Air France,2022-03-16,Active,"Cayenne , lsd"
+539,547,Airbus A350-1041,G-XWBL,British Airways,2022-04-28,Active,
+540,548,Airbus A350-941,F-HTYP,Air France,2022-04-08,Active,"Lille , lsd"
+541,549,Airbus A350-941,EC-NVR,Iberia,2022-09-09,Active,Teresa Helbig
+542,550,Airbus A350-941,B-325J,Sichuan Airlines,2021-12-30,Active,"lsd, Panda Route (熊猫之路) cs"
+543,551,Airbus A350-941,F-HTYQ,Air France,2022-05-04,Active,Menton
+544,552,Airbus A350-941,JA16XJ,Japan Airlines,2022-04-21,Active,
+545,553,Airbus A350-941,B-,STARLUX Airlines,,Not Built,NTU
+546,554,Airbus A350-941,VT-JRA,Air India,2023-12-21,Active,lsd
+547,556,Airbus A350-941,EC-NXC,Iberia,2022-12-21,Active,Equipo Paralímpico Español
+548,557,Airbus A350-941,B-58502,STARLUX Airlines,2023-01-08,Active,lsd
+549,558,Airbus A350-941,VT-JRB,Air India,2024-02-02,Active,
+550,559,Airbus A350-941,EC-NTB,World2Fly,2025-03-20,Active,lsd
+551,560,Airbus A350-1041,F-HMIB,French bee,2022-12-08,Active,
+552,561,Airbus A350-941,B-32CZ,China Eastern Airlines,2023-02-28,Active,
+553,562,Airbus A350-941,F-HTYR,Air France,2022-06-28,Active,"Deauville , lsd"
+554,563,Airbus A350-1041,G-XWBM,British Airways,2022-08-26,Parked,
+555,564,Airbus A350-941,9V-SJC,Singapore Airlines,2022-06-28,Parked,
+556,565,Airbus A350-941,TC-LGG,Turkish Airlines,2022-07-06,Active,
+557,566,Airbus A350-941,F-,Air France,,Not Built,
+558,567,Airbus A350-941,EC-NXD,Iberia,2022-09-28,Active,Pau Gasol
+559,568,Airbus A350-941,B-32CQ,China Southern Airlines,2022-12-22,Active,lsd
+560,569,Airbus A350-941,9V-SJD,Singapore Airlines,2022-08-19,Active,
+561,570,Airbus A350-941,B-32AS,Air China,2022-12-21,Active,
+562,571,Airbus A350-941,B-32AG,Sichuan Airlines,2022-12-02,Active,"lsd, Panda Route (熊猫之路) cs"
+563,572,Airbus A350-941,B-32CA,Air China,2022-12-21,Active,
+564,573,Airbus A350-941,B-32D0,China Eastern Airlines,2022-12-21,Active,lsd
+565,574,Airbus A350-941,B-32CE,Air China,2022-12-23,Active,
+566,575,Airbus A350-941,B-32D3,Air China,2023-04-24,Active,
+567,576,Airbus A350-941,F-HTYS,Air France,2022-09-28,Active,"Biscarrosse , lsd"
+568,577,Airbus A350-941,B-32DW,China Eastern Airlines,2023-04-26,Active,
+569,578,Airbus A350-941,F-HTYT,Air France,2022-11-23,Active,"Angers , lsd"
+570,579,Airbus A350-941,EC-NXE,Iberia,2022-11-28,Active,Ciudad de Quito
+571,580,Airbus A350-941,N518DZ,Delta Air Lines,2022-11-22,Active,3518
+572,581,Airbus A350-941,B-32DL,Air China,2023-05-15,Active,
+573,582,Airbus A350-941,ET-AZI,Ethiopian Airlines,2022-11-18,Active,
+574,583,Airbus A350-941,B-32CR,China Southern Airlines,2022-11-30,Active,lsd
+575,584,Airbus A350-1041,B-LXR,Cathay Pacific,2022-12-15,Active,
+576,585,Airbus A350-941,VT-JRE,Air India,2024-03-15,Active,
+577,587,Airbus A350-941,B-32DM,Air China,2023-04-26,Active,
+578,588,Airbus A350-941,N519DN,Delta Air Lines,2022-12-16,Active,3519
+579,589,Airbus A350-941,VT-JRF,Air India,2024-04-30,Active,
+580,590,Airbus A350-941,D-AIXR,Lufthansa,2023-11-10,Active,Wuppertal
+581,591,Airbus A350-941,B-32DJ,China Eastern Airlines,2023-07-13,Active,
+582,592,Airbus A350-941,VT-JRH,Air India,2024-04-08,Active,
+583,593,Airbus A350-941,B-58503,STARLUX Airlines,2023-03-30,Active,
+584,594,Airbus A350-941,VT-JRI,Air India,2024-05-13,Active,
+585,595,Airbus A350-941,B-32DN,Air China,2023-05-22,Active,
+586,596,Airbus A350-941,TC-LGH,Turkish Airlines,2023-02-24,Active,"Tek Yürek, 400th Aircraft cs"
+587,597,Airbus A350-941,HL8521,Asiana Airlines,2023-09-14,Active,
+588,598,Airbus A350-941,B-32ED,China Southern Airlines,2023-06-20,Active,lsd
+589,599,Airbus A350-941,9V-SJF,Singapore Airlines,2023-03-29,Active,
+590,600,Airbus A350-1041,F-HAJP,Air Caraïbes Atlantique,2024-12-12,Active,
+591,601,Airbus A350-941,VP-,Aeroflot - Russian Airlines,,Not Built,NTU
+592,602,Airbus A350-941,HL8522,Asiana Airlines,2023-10-19,Active,
+593,603,Airbus A350-941,F-HUVA,Air France,2023-07-17,Active,"Aix-en-Provence , lsd"
+594,604,Airbus A350-941,B-32EZ,Air China,2023-08-15,Active,
+595,605,Airbus A350-1041,G-VBOB,Virgin Atlantic,2023-05-23,Active,"Soul Rebel , lsd"
+596,606,Airbus A350-941,VP-,Aeroflot - Russian Airlines,,Not Built,NTU
+597,607,Airbus A350-941,B-32FP,China Eastern Airlines,2023-10-18,Active,
+598,608,Airbus A350-941,VP-,Aeroflot - Russian Airlines,,Not Built,NTU
+599,609,Airbus A350-1041,G-XWBN,British Airways,2023-06-09,Active,
+600,610,Airbus A350-1041,JA01WJ,Japan Airlines,2023-12-11,Active,Airbus A350-1000 (Red) cs
+601,611,Airbus A350-941,ET-AZN,Ethiopian Airlines,2023-04-28,Active,
+602,612,Airbus A350-941,F-HUVB,Air France,2023-09-21,Active,Les Sables d’Olonne
+603,613,Airbus A350-941,EC-NZF,Corendon Dutch Airlines,2025-03-21,Active,lsf World2Fly
+604,614,Airbus A350-941,B-32F0,Air China,2023-09-07,Active,
+605,615,Airbus A350-941,B-LQG,Cathay Pacific,2023-07-31,Active,
+606,616,Airbus A350-941,F-HUVC,Air France,2023-10-23,Active,"Le Havre , lsd"
+607,617,Airbus A350-1041,G-XWBO,British Airways,2023-07-19,Active,
+608,618,Airbus A350-941,TC-LGM,Turkish Airlines,2023-06-06,Active,
+609,619,Airbus A350-941,B-32EE,China Southern Airlines,2023-06-16,Active,lsd
+610,620,Airbus A350-941,B-,STARLUX Airlines,,Not Built,NTU
+611,621,Airbus A350-941,TC-LGN,Turkish Airlines,2023-07-13,Active,
+612,622,Airbus A350-941,EC-OAY,Iberia,2023-06-28,Active,Organización Nacional de Trasplantes
+613,623,Airbus A350-1041,G-XWBP,British Airways,2023-08-18,Active,
+614,624,Airbus A350-941,B-32FQ,China Eastern Airlines,2023-12-05,Active,
+615,625,Airbus A350-941,B-32EW,China Southern Airlines,2023-09-15,Active,lsd
+616,626,Airbus A350-941,B-32FR,China Southern Airlines,2023-11-21,Active,lsd
+617,627,Airbus A350-941,F-HUVD,Air France,2023-11-07,Active,"Nantes , lsd"
+618,628,Airbus A350-1041,JA02WJ,Japan Airlines,2023-12-28,Active,
+619,629,Airbus A350-941,9V-SJG,Singapore Airlines,2023-08-01,Active,
+620,630,Airbus A350-941,B-58504,STARLUX Airlines,2023-10-05,Active,
+621,631,Airbus A350-941,B-32F8,Sichuan Airlines,2023-10-24,Active,"lsd, Panda Route (熊猫之路) cs"
+622,632,Airbus A350-941,B-32F1,Air China,2023-12-26,Active,
+623,633,Airbus A350-941,F-HUVE,Air France,2023-12-05,Active,Orléans
+624,634,Airbus A350-941,EC-OCR,Iberia,2023-10-04,Active,Teatro Real
+625,635,Airbus A350-1041,JA03WJ,Japan Airlines,2024-03-28,Active,
+626,636,Airbus A350-941,D-AIXS,Lufthansa,2023-12-29,Active,Gelsenkirchen
+627,637,Airbus A350-941,D-AIXT,Lufthansa,2024-04-12,Active,Leipzig
+628,638,Airbus A350-941,TC-LGO,Turkish Airlines,2023-11-17,Active,
+629,639,Airbus A350-1041,G-XWBR,British Airways,2023-12-15,Active,
+630,640,Airbus A350-941,F-HUVF,Air France,2023-12-27,Active,"Chartres , lsd"
+631,641,Airbus A350-941,B-32G2,Sichuan Airlines,2024-06-27,Active,"lsd, Panda Route (熊猫之路) cs"
+632,642,Airbus A350-941,D-AIXU,Lufthansa,2024-05-24,Active,Krefeld
+633,643,Airbus A350-941,F-HUVG,Air France,2023-12-29,Active,"Carcassonne , lsd"
+634,644,Airbus A350-941,TC-LGP,Turkish Airlines,2023-12-12,Active,
+635,645,Airbus A350-941,B-LQH,Cathay Pacific,2023-12-20,Active,
+636,646,Airbus A350-941,D-AIXV,Lufthansa,2024-07-17,Active,Ludwigshafen am Rhein
+637,647,Airbus A350-1041,G-VNVR,Virgin Atlantic,2024-03-14,Active,"Wendy Darling, lsd"
+638,648,Airbus A350-941,EC-OES,Iberia,2023-12-19,Active,Real Academia Española
+639,649,Airbus A350-941,B-32G6,Sichuan Airlines,2024-06-27,Active,Panda Route (熊猫之路) cs
+640,650,Airbus A350-941,F-HUVH,Air France,2024-04-02,Active,Vichy
+641,651,Airbus A350-941,TC-LGR,Turkish Airlines,2024-02-26,Active,
+642,652,Airbus A350-1041,G-XWBS,British Airways,2024-02-20,Active,
+643,653,Airbus A350-941,EC-OFM,Iberia,2024-03-06,Active,Bicentenario Policia Nacional
+644,654,Airbus A350-941,N520DN,Delta Air Lines,2024-04-02,Active,3520
+645,655,Airbus A350-1041,G-VELJ,Virgin Atlantic,2024-05-24,Active,Bennie Jet
+646,656,Airbus A350-941,B-58505,STARLUX Airlines,2024-03-01,Active,
+647,657,Airbus A350-941,ET-,Ethiopian Airlines,,On Order,lsd
+648,658,Airbus A350-941,F-HUVI,Air France,2024-04-29,Active,Albi
+649,659,Airbus A350-941,TC-LGS,Turkish Airlines,2024-03-15,Active,
+650,660,Airbus A350-941,F-HUVJ,Air France,2024-07-16,Active,"Paris , lsd"
+651,661,Airbus A350-941,N521DN,Delta Air Lines,2024-04-30,Active,"3521, Team USA  cs"
+652,662,Airbus A350-1041,JA04WJ,Japan Airlines,2024-07-29,Active,
+653,663,Airbus A350-941,D-AIXW,Lufthansa,2024-10-15,Active,Leverkusen
+654,664,Airbus A350-941,F-HUVK,Air France,2024-05-31,Active,"Rennes , lsd"
+655,665,Airbus A350-941,9V-SJH,Singapore Airlines,2024-04-19,Active,
+656,666,Airbus A350-941,F-HUVL,Air France,2024-06-28,Active,"Bourges , lsd"
+657,667,Airbus A350-941,TC-LGT,Turkish Airlines,2024-05-21,Active,
+658,668,Airbus A350-941,F-HUVM,Air France,2024-06-18,Active,"Rochefort , lsd"
+659,669,Airbus A350-941,TC-LGU,Turkish Airlines,2024-06-15,Active,
+660,670,Airbus A350-1041,JA05WJ,Japan Airlines,2024-08-08,Active,
+661,671,Airbus A350-941,F-HUVN,Air France,2024-07-23,Active,"Narbonne , lsd"
+662,672,Airbus A350-941,D-AIXX,Lufthansa,2024-11-26,Active,Osnabrück
+663,673,Airbus A350-941,N522DZ,Delta Air Lines,2024-07-23,Active,"3522, LA28  cs"
+664,674,Airbus A350-941,F-HUVO,Air France,2024-08-06,Active,"Cherbourg-en-Cotentin , lsd"
+665,675,Airbus A350-941,TC-LGV,Turkish Airlines,2024-07-05,Active,
+666,676,Airbus A350-1041,JA06WJ,Japan Airlines,2024-10-01,Active,
+667,677,Airbus A350-941,N523DN,Delta Air Lines,2024-07-25,Active,3523
+668,678,Airbus A350-941,TC-LGY,Turkish Airlines,2024-08-13,Active,
+669,679,Airbus A350-1041,JA07WJ,Japan Airlines,2024-10-15,Active,
+670,680,Airbus A350-941,N524DN,Delta Air Lines,2024-09-05,Active,3524
+671,681,Airbus A350-941,HL8597,Korean Air,2024-12-30,Active,
+672,682,Airbus A350-941,TC-LGZ,Turkish Airlines,2024-08-16,Active,
+673,683,Airbus A350-1041,JA08WJ,Japan Airlines,2024-12-04,Active,
+674,684,Airbus A350-941,A6-EXA,Emirates,2024-11-25,Active,
+675,685,Airbus A350-941,B-58506,STARLUX Airlines,2024-08-28,Active,
+676,686,Airbus A350-1041,JA09WJ,Japan Airlines,2025-01-27,Active,
+677,687,Airbus A350-941,N525DN,Delta Air Lines,2024-11-21,Active,3525
+678,688,Airbus A350-941,TC-LHA,Turkish Airlines,2024-09-27,Active,
+679,689,Airbus A350-941,HL8598,Korean Air,2024-12-27,Active,
+680,690,Airbus A350-941,A6-EXB,Emirates,2024-12-31,Active,
+681,691,Airbus A350-1041,ET-BAW,Ethiopian Airlines,2024-11-04,Active,
+682,692,Airbus A350-941,D-AIXY,Lufthansa,2024-12-23,Active,Fürth
+683,693,Airbus A350-941,A6-EXC,Emirates,2025-03-20,Active,
+684,694,Airbus A350-941,A6-EXF,Emirates,,On Order,
+685,695,Airbus A350-941,A6-EXH,Emirates,2025-06-15,Active,
+686,696,Airbus A350-941,A6-EXI,Emirates,,On Order,
+687,697,Airbus A350-941,9V-SJI,Singapore Airlines,2024-11-08,Active,
+688,698,Airbus A350-941,B-58507,STARLUX Airlines,2024-12-12,Active,
+689,699,Airbus A350-941,A6-EXJ,Emirates,,On Order,
+690,700,Airbus A350-1041F,F-,Airbus Industrie,,On Order,
+691,701,Airbus A350-1041F,F-,Airbus Industrie,,On Order,
+692,702,Airbus A350-1041,ET-BAX,Ethiopian Airlines,2024-12-06,Active,
+693,703,Airbus A350-941,A6-EXD,Emirates,2025-01-21,Active,
+694,704,Airbus A350-941,A6-EXE,Emirates,2025-05-30,Active,
+695,705,Airbus A350-941,B-58508,STARLUX Airlines,2024-12-17,Active,
+696,706,Airbus A350-941,D-AIXZ,Lufthansa,2024-12-30,Active,Solingen
+697,707,Airbus A350-1041,VH-,Qantas,,On Order,
+698,708,Airbus A350-941,OH-LWT,Finnair,2024-12-17,Active,
+699,709,Airbus A350-941,N526DN,Delta Air Lines,2024-12-19,Active,3526
+700,710,Airbus A350-1041,ET-BAY,Ethiopian Airlines,2024-12-31,Active,
+701,711,Airbus A350-941,F-HUVP,Air France,2025-03-04,Active,"Quimper , lsd"
+702,712,Airbus A350-941,B-58509,STARLUX Airlines,2025-03-27,Active,
+703,713,Airbus A350-941,A6-EXG,Emirates,2025-05-15,Active,
+704,714,Airbus A350-941,F-HUVQ,Air France,2025-03-20,Active,"Nîmes , lsd"
+705,715,Airbus A350-941,ET-,Ethiopian Airlines,,On Order,lsd
+706,716,Airbus A350-941,TC-LHB,Turkish Airlines,2025-03-21,Active,Şebinkarahisar
+707,717,Airbus A350-1041,A6-XWG,Etihad Airways,2025-04-11,Active,
+708,718,Airbus A350-941,B-58510,STARLUX Airlines,2025-04-11,Active,
+709,719,Airbus A350-1041,VT-,Air India,,On Order,
+710,720,Airbus A350-941,N527DN,Delta Air Lines,2025-03-25,Active,"3527, 100 Years cs"
+711,721,Airbus A350-941,TC-LHC,Turkish Airlines,2025-03-26,Active,
+712,722,Airbus A350-941,N528DN,Delta Air Lines,2025-04-30,Active,3528
+713,723,Airbus A350-1041,ET-BAZ,Ethiopian Airlines,,On Order,
+714,724,Airbus A350-941,D-AIVE,Lufthansa,2025-06-21,Active,Darmstadt
+715,725,Airbus A350-941,TC-LHD,Turkish Airlines,2025-04-17,Active,
+716,726,Airbus A350-941,F-HUVR,Air France,2025-06-18,Active,Arras
+717,727,Airbus A350-941,TC-LHE,Turkish Airlines,2025-05-21,Active,
+718,728,Airbus A350-1041F,F-,CMA CGM Air Cargo,,On Order,
+719,729,Airbus A350-1041,JA10WJ,Japan Airlines,,On Order,
+720,730,Airbus A350-1041,A6-XWH,Etihad Airways,,On Order,
+721,731,Airbus A350-941,JA17XJ,Japan Airlines,,On Order,
+722,732,Airbus A350-941,A6-EXK,Emirates,,On Order,
+723,733,Airbus A350-1041,A7-AOE,Qatar Airways,,On Order,
+724,734,Airbus A350-941,TC-LHF,Turkish Airlines,,On Order,
+725,735,Airbus A350-941,N529DN,Delta Air Lines,2025-06-24,Active,3529
+726,736,Airbus A350-1041,A6-,Etihad Airways,,On Order,
+727,737,Airbus A350-941,HB-IFA,Swiss,,On Order,"Lausanne , Wanderlust cs"
+728,738,Airbus A350-941,A6-EXL,Emirates,,On Order,
+729,739,Airbus A350-941,F-HUVS,Air France,,On Order,Colmar
+730,740,Airbus A350-1041,A7-AOF,Qatar Airways,,On Order,
+731,741,Airbus A350-941,EC-OOL,Iberia,,On Order,
+732,742,Airbus A350-941,A6-EXM,Emirates,,On Order,
+733,743,Airbus A350-1041,A6-XWJ,Etihad Airways,,On Order,
+734,745,Airbus A350-941,TC-,Turkish Airlines,,On Order,
+735,746,Airbus A350-941,A6-EXN,Emirates,,On Order,
+736,747,Airbus A350-941,N,Delta Air Lines,,On Order,
+737,748,Airbus A350-941,HB-IFB,Swiss,,On Order,
+738,750,Airbus A350-941,A6-,Emirates,,On Order,
+739,751,Airbus A350-1041,A7-AOG,Qatar Airways,,On Order,
+740,752,Airbus A350-941,A6-,Emirates,,On Order,
+741,753,Airbus A350-941,TC-,Turkish Airlines,,On Order,
+742,755,Airbus A350-941,N531DN,Delta Air Lines,,On Order,3531
+743,761,Airbus A350-1041,B-,STARLUX Airlines,,On Order,
+744,852,Airbus A350-1041F,PH-,KLM Cargo,,On Order,opby Martinair

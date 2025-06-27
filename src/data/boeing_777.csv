@@ -1,0 +1,1815 @@
+id,msn,ln,airline_company,reg,airline_company,delivered,status,remark
+1,,1638,Boeing 777-9,D-,Lufthansa,,On Order,
+2,,1615,Boeing 777-9,A6-EZM,Emirates,,On Order,
+3,,1611,Boeing 777-9,A6-EZT,Emirates,,On Order,
+4,,1620,Boeing 777-9,A6-EZA,Emirates,,On Order,
+5,,1624,Boeing 777-9,A6-EZB,Emirates,,On Order,
+6,,1647,Boeing 777-9,A6-EZS,Emirates,,On Order,
+7,,1642,Boeing 777-9,A6-EZQ,Emirates,,On Order,
+8,,1651,Boeing 777-9,A6-,Emirates,,On Order,
+9,,1656,Boeing 777-9,A7-BKA,Qatar Airways,,On Order,
+10,,1677,Boeing 777-9,D-,Lufthansa,,On Order,
+11,,1659,Boeing 777-9,A6-,Emirates,,On Order,
+12,,1685,Boeing 777-9,D-,Lufthansa,,On Order,
+13,,1670,Boeing 777-9,D-,Lufthansa,,On Order,
+14,,1688,Boeing 777-9,A6-,Emirates,,On Order,
+15,,1723,Boeing 777-9,9V-,Singapore Airlines,,On Order,
+16,,1737,Boeing 777-9,9V-,Singapore Airlines,,On Order,
+17,,1746,Boeing 777-9,9V-,Singapore Airlines,,On Order,
+18,,1740,Boeing 777-9,A7-,Qatar Airways,,On Order,
+19,,1716,Boeing 777-9,A6-,Emirates,,On Order,
+20,,1785,Boeing 777-9,9V-,Singapore Airlines,,On Order,
+21,,1807,Boeing 777-F,VP-,Silk Way West Airlines,,On Order,
+22,,1809,Boeing 777-F,-,DHL Aviation,,On Order,opby Unknown
+23,,1814,Boeing 777-F,TC-,Turkish Airlines,,On Order,
+24,,1815,Boeing 777-F,B-,Suparna Airlines,,On Order,
+25,26916,7,Boeing 777-222,N777UA,United Airlines,1995-05-15,Active,2477
+26,26917,8,Boeing 777-222,N719ML,Wells Fargo Bank Northwest,2010-10-21,Scrapped,
+27,26918,9,Boeing 777-222,EI-UNY,Transaero,2011-12-20,Scrapped,
+28,26919,11,Boeing 777-222,N768UA,United Airlines,1995-06-26,Active,2368
+29,26921,12,Boeing 777-222,N769UA,United Airlines,1995-06-28,Active,2469
+30,26924,116,Boeing 777-222ER,N797UA,United Airlines,1998-02-20,Active,2897
+31,26925,13,Boeing 777-222,EI-UNZ,Transaero,2008-09-29,Scrapped,lsd
+32,26926,139,Boeing 777-222ER,N799UA,United Airlines,1998-05-08,Active,2799
+33,26927,108,Boeing 777-222ER,N795UA,United Airlines,1997-12-09,Active,2795
+34,26928,123,Boeing 777-222ER,N798UA,United Airlines,1998-02-28,Active,2798
+35,26929,4,Boeing 777-222,N773UA,United Airlines,1996-01-31,Active,2473
+36,26930,5,Boeing 777-222,N772UA,United Airlines,1995-09-29,Active,2372
+37,26931,112,Boeing 777-222ER,N796UA,United Airlines,1998-01-28,Active,2796
+38,26932,3,Boeing 777-222,N771UA,United Airlines,1995-11-27,Active,2471
+39,26933,93,Boeing 777-222ER,N791UA,United Airlines,1997-08-28,Active,2791
+40,26934,96,Boeing 777-222ER,N792UA,United Airlines,1997-09-25,Active,2792
+41,26935,88,Boeing 777-222ER,N918AX,Omni Air International,2011-05-22,Scrapped,
+42,26936,2,Boeing 777-222,N774UA,United Airlines,1996-03-29,Active,2474
+43,26937,27,Boeing 777-222,N776UA,United Airlines,1996-04-11,Active,2476
+44,26938,52,Boeing 777-222ER,N786UA,United Airlines,1997-04-04,Active,2786
+45,26939,43,Boeing 777-222ER,N787UA,United Airlines,1997-06-05,Active,2887
+46,26940,34,Boeing 777-222,N778UA,United Airlines,1996-07-18,Active,2478
+47,26941,35,Boeing 777-222,N779UA,United Airlines,1996-07-26,Active,2379
+48,26942,82,Boeing 777-222ER,N788UA,United Airlines,1997-07-15,Active,2888
+49,26943,92,Boeing 777-222ER,N927AX,Omni Air International,2011-09-06,Scrapped,
+50,26944,36,Boeing 777-222,N780UA,United Airlines,1996-08-06,Active,2480
+51,26945,40,Boeing 777-222,N781UA,United Airlines,1996-09-12,Active,2481
+52,26946,97,Boeing 777-222ER,N793UA,United Airlines,1997-10-07,Active,2793
+53,26947,22,Boeing 777-222,N775UA,United Airlines,1996-01-22,Active,2475
+54,26948,57,Boeing 777-222ER,N782UA,United Airlines,1997-03-07,Active,2882
+55,26950,60,Boeing 777-222ER,N783UA,United Airlines,1997-03-11,Active,2883
+56,26951,69,Boeing 777-222ER,N784UA,United Airlines,1997-04-29,Active,2884
+57,26953,105,Boeing 777-222ER,N794UA,United Airlines,1997-11-18,Parked,"2894, Star Alliance  cs"
+58,26954,73,Boeing 777-222ER,N785UA,United Airlines,1997-05-21,Active,2885
+59,27027,16,Boeing 777-281,JA8197,All Nippon Airways,1995-10-04,Partially Scrapped,
+60,27028,21,Boeing 777-281,JA8198,All Nippon Airways,1995-12-20,Scrapped,
+61,27029,29,Boeing 777-281,JA8199,All Nippon Airways,1996-05-23,Scrapped,
+62,27030,37,Boeing 777-281,JA8967,All Nippon Airways,1996-08-12,Scrapped,
+63,27031,38,Boeing 777-281,JA8968,All Nippon Airways,1996-08-14,Scrapped,
+64,27032,50,Boeing 777-281,JA8969,All Nippon Airways,1996-12-16,Scrapped,
+65,27033,75,Boeing 777-281,JA702A,All Nippon Airways,1997-06-30,Stored,
+66,27034,81,Boeing 777-281,JA703A,All Nippon Airways,1997-08-21,Scrapped,
+67,27035,131,Boeing 777-281,JA704A,All Nippon Airways,1998-03-26,Scrapped,
+68,27036,141,Boeing 777-281,JA706A,All Nippon Airways,1998-05-20,Scrapped,
+69,27037,247,Boeing 777-281ER,JA707A,All Nippon Airways,1999-10-06,Scrapped,
+70,27038,511,Boeing 777-381ER,JA732A,All Nippon Airways,2005-04-25,Partially Scrapped,
+71,27039,440,Boeing 777-381,JA756A,All Nippon Airways,2003-05-20,Partially Scrapped,
+72,27040,442,Boeing 777-381,JA757A,All Nippon Airways,2003-06-11,Partially Scrapped,
+73,27041,667,Boeing 777-381ER,JA781A,All Nippon Airways,2007-09-25,Partially Scrapped,
+74,27105,6,Boeing 777-236,G-ZZZA,British Airways,1996-05-20,Scrapped,
+75,27106,10,Boeing 777-236,G-ZZZB,British Airways,1997-03-28,Scrapped,
+76,27107,15,Boeing 777-236,G-ZZZC,British Airways,1995-11-11,Scrapped,
+77,27108,17,Boeing 777-236,TR-KPR,République Gabonaise,2012-06-18,Parked,
+78,27109,19,Boeing 777-236,N703BA,Boeing Aircraft Holding Company,2006-08-30,Scrapped,
+79,27116,1,Boeing 777-267,B-HNL,Cathay Pacific,2000-12-06,Preserved,
+80,27247,30,Boeing 777-21H,N930KW,Universal Asset Management,2014-11-20,Scrapped,
+81,27248,33,Boeing 777-21H,N102AJ,Universal Asset Management,2015-01-09,Scrapped,
+82,27249,42,Boeing 777-21H,A6-EMF,Emirates,1996-10-16,Scrapped,lsd
+83,27250,47,Boeing 777-21HER,RA-73329,Red Wings,2022-03-14,Active,
+84,27251,54,Boeing 777-21HER,RA-73330,Red Wings,2022-04-11,Parked,
+85,27252,63,Boeing 777-21HER,VP-BSN,VIM Airlines,2017-06-01,Scrapped,lsd
+86,27253,91,Boeing 777-21HER,VP-BIC,VIM Airlines,2017-04-13,Scrapped,lsd
+87,27263,28,Boeing 777-267,B-HNC,Cathay Pacific,1997-09-03,Scrapped,
+88,27264,31,Boeing 777-267,B-HND,Cathay Pacific,1997-09-15,Scrapped,
+89,27265,14,Boeing 777-267,B-HNA,Cathay Pacific,1997-07-31,Scrapped,
+90,27266,18,Boeing 777-267,B-HNB,Cathay Pacific,1997-08-29,Stored,
+91,27357,20,Boeing 777-21B,B-2051,China Southern Airlines,2000-04-06,Scrapped,
+92,27358,24,Boeing 777-21B,B-2052,China Southern Airlines,1996-02-29,Scrapped,
+93,27359,46,Boeing 777-21B,N837BC,Boeing Capital Corporation (BCC),2018-04-10,Partially Scrapped,
+94,27360,48,Boeing 777-21B,B-2054,China Southern Airlines,2009-12-01,Scrapped,
+95,27364,23,Boeing 777-246,N272AT,AeroTurbine,2014-06-19,Scrapped,
+96,27365,26,Boeing 777-246,JA8982,Japan Airlines,1996-03-28,Scrapped,
+97,27366,39,Boeing 777-246,JA8983,Japan Airlines,1996-09-12,Scrapped,
+98,27483,41,Boeing 777-236ER,G-VIIA,British Airways,1997-07-03,Active,
+99,27484,49,Boeing 777-236ER,G-VIIB,British Airways,1997-05-23,Active,
+100,27485,53,Boeing 777-236ER,G-VIIC,British Airways,1997-02-06,Active,
+101,27486,56,Boeing 777-236ER,G-VIID,British Airways,1997-02-18,Active,lsd
+102,27487,58,Boeing 777-236ER,G-VIIE,British Airways,1997-02-27,Active,lsd
+103,27488,61,Boeing 777-236ER,G-VIIF,British Airways,1997-03-19,Active,
+104,27489,65,Boeing 777-236ER,G-VIIG,British Airways,1997-04-09,Active,
+105,27490,70,Boeing 777-236ER,G-VIIH,British Airways,1997-05-07,Active,
+106,27491,76,Boeing 777-236ER,G-RAES,British Airways,1997-06-10,Active,
+107,27492,111,Boeing 777-236ER,G-VIIJ,British Airways,1997-12-29,Active,
+108,27493,127,Boeing 777-236ER,G-VIIL,British Airways,1998-03-13,Active,
+109,27504,136,Boeing 777-367,B-HNH,Cathay Pacific,1998-05-22,Active,
+110,27505,118,Boeing 777-367,B-HNG,Cathay Pacific,1998-06-25,Parked,
+111,27506,102,Boeing 777-367,B-HNF,Cathay Pacific,1998-09-23,Active,
+112,27507,94,Boeing 777-367,B-HNE,Cathay Pacific,1998-10-27,Parked,
+113,27508,204,Boeing 777-367,B-HNI,Cathay Pacific,1999-03-25,Parked,
+114,27509,224,Boeing 777-367,B-HNJ,Cathay Pacific,1999-06-24,Active,
+115,27510,248,Boeing 777-367,B-HNK,Cathay Pacific,1999-09-29,Active,
+116,27524,55,Boeing 777-21BER,B-2055,China Southern Airlines,1997-02-28,Scrapped,
+117,27525,66,Boeing 777-21BER,B-2056,China Southern Airlines,1997-04-18,Scrapped,SkyTeam  cs
+118,27577,161,Boeing 777-224ER,N78001,United Airlines,2010-10-01,Active,"Gordon M. Bethune, 0001"
+119,27578,165,Boeing 777-224ER,N78002,United Airlines,2010-10-01,Active,2
+120,27579,167,Boeing 777-224ER,N78003,United Airlines,2010-10-01,Active,3
+121,27580,169,Boeing 777-224ER,N78004,United Airlines,2010-10-01,Active,4
+122,27581,177,Boeing 777-224ER,N78005,United Airlines,2010-10-01,Active,5
+123,27604,106,Boeing 777-21BER,B-2057,China Southern Airlines,1998-01-08,Partially Scrapped,lsd
+124,27605,110,Boeing 777-21BER,B-2058,China Southern Airlines,1998-01-12,Scrapped,lsd
+125,27606,121,Boeing 777-21BER,VP-BJB,Nordwind Airlines,2013-04-10,Scrapped,"Oleg Lengarov / Олег Ленгаров, lsd"
+126,27607,135,Boeing 777-2Q8ER,OE-LPE,Austrian Airlines,2014-03-03,Active,"Blue Danube, lsd"
+127,27608,164,Boeing 777-2Q8ER,RA-73272,Ikar,2022-03-11,Active,
+128,27609,195,Boeing 777-228ER,F-GSPG,Air France,1999-02-19,Active,
+129,27636,45,Boeing 777-289,N276JM,Alta Airlines Holdings,2020-11-10,Stored,
+130,27637,79,Boeing 777-289,JA8978,Japan Airlines,2006-10-01,Scrapped,
+131,27638,107,Boeing 777-289,N807KW,Alta Airlines Holdings,2022-08-02,Stored,
+132,27639,134,Boeing 777-289,N810KW,Alta Airlines Holdings,2022-10-07,Stored,
+133,27640,146,Boeing 777-289,N815KW,Alta Airlines Holdings,2022-09-28,Stored,
+134,27641,159,Boeing 777-289,N813KW,Alta Airlines Holdings,2022-08-06,Stored,
+135,27642,213,Boeing 777-289,N817KW,Alta Airlines Holdings,2022-11-19,Stored,
+136,27651,68,Boeing 777-246,N101AR,AAR Corporation,2020-02-28,Scrapped,
+137,27652,72,Boeing 777-246,N272JM,Alta Airlines Holdings,2020-11-10,Stored,
+138,27653,635,Boeing 777-246,5N-BBN,Max Air,2023-01-27,Active,
+139,27654,458,Boeing 777-346,N819KW,Alta Airlines Holdings,2023-01-20,Stored,
+140,27655,460,Boeing 777-346,N820KW,Alta Airlines Holdings,2023-01-31,Stored,
+141,27656,437,Boeing 777-246,N811KW,Alta Airlines Holdings,2022-12-15,Stored,
+142,27657,507,Boeing 777-246,JA772J,Japan Airlines,2005-04-14,Scrapped,
+143,27726,25,Boeing 777-2D7,HS-TJA,Thai Airways,1996-03-31,Stored,Lamphun / ลำพูน
+144,27727,32,Boeing 777-2D7,HS-TJB,Thai Airways,1996-06-13,Stored,Uthai Thani / อุทัยธานี
+145,27728,44,Boeing 777-2D7,HS-TJC,Thai Airways,1996-10-25,Stored,Nakhon Nayok / นครนายก
+146,27729,51,Boeing 777-2D7,HS-TJD,Thai Airways,1996-12-19,Preserved,Mukdahan / มุกดาหาร
+147,27730,89,Boeing 777-2D7,N175GT,GA Telesis,2017-01-31,Scrapped,
+148,27731,95,Boeing 777-2D7,N176GT,GA Telesis,2017-01-26,Scrapped,
+149,27732,100,Boeing 777-2D7,HS-TJG,Thai Airways,1997-10-31,Preserved,Pattani / ปัตตานี
+150,27733,113,Boeing 777-2D7,HS-TJH,Thai Airways,1998-01-09,Preserved,Suphan Buri / สุพรรณบุรี
+151,27938,77,Boeing 777-281,JA701A,All Nippon Airways,1997-06-23,Scrapped,
+152,27939,172,Boeing 777-381,JA754A,All Nippon Airways,1998-10-20,Active,
+153,27940,737,Boeing 777-381ER,JA783A,All Nippon Airways,2008-07-31,Partially Scrapped,
+154,27945,59,Boeing 777-2B5ER,HL7530,Korean Air,1997-03-21,Scrapped,
+155,27946,62,Boeing 777-2B5ER,HL7531,Korean Air,1997-03-28,Partially Preserved,
+156,27947,148,Boeing 777-2B5ER,HL7526,Korean Air,1998-12-29,Preserved,
+157,27948,178,Boeing 777-3B5,HL7533,Korean Air,1999-08-12,Active,
+158,27949,356,Boeing 777-2B5ER,HL7598,Korean Air,2001-09-28,Stored,
+159,27950,120,Boeing 777-3B5,HL7534,Korean Air,1999-12-28,Active,
+160,27951,411,Boeing 777-2B5ER,HL7714,Korean Air,2002-07-25,Scrapped,
+161,27952,288,Boeing 777-3B5,HL7573,Korean Air,2000-06-27,Active,
+162,28272,142,Boeing 777-381,JA751A,All Nippon Airways,1998-06-30,Active,
+163,28273,132,Boeing 777-381,JA753A,All Nippon Airways,1998-07-29,Active,
+164,28274,160,Boeing 777-381,JA752A,All Nippon Airways,1998-08-27,Parked,
+165,28275,104,Boeing 777-381,JA755A,All Nippon Airways,1999-04-06,Active,
+166,28276,523,Boeing 777-281,JA714A,All Nippon Airways,2005-06-28,Active,
+167,28277,278,Boeing 777-281ER,JA708A,All Nippon Airways,2000-05-10,Partially Scrapped,
+168,28278,286,Boeing 777-281ER,JA709A,All Nippon Airways,2000-06-15,Stored,
+169,28279,302,Boeing 777-281ER,JA710A,All Nippon Airways,2000-10-03,Scrapped,
+170,28281,488,Boeing 777-381ER,N775KW,Residco,2023-06-05,Stored,
+171,28344,98,Boeing 777-268ER,C5-ECA,ECT Aviation Support,2024-10-01,Stored,
+172,28345,99,Boeing 777-268ER,HZ-AKB,Saudi Arabian Airlines,1997-12-27,Stored,
+173,28346,101,Boeing 777-268ER,HZ-AKC,Saudi Arabian Airlines,1997-12-26,Stored,
+174,28347,103,Boeing 777-268ER,HZ-AKD,Saudi Arabian Airlines,1997-12-30,Stored,
+175,28348,109,Boeing 777-268ER,N774CL,IAG Aero Group,2020-03-27,Stored,
+176,28349,114,Boeing 777-268ER,N771CL,Strategic Air Finance (SAF),2019-10-25,Stored,
+177,28350,119,Boeing 777-268ER,HZ-AKG,Saudi Arabian Airlines,1998-03-19,Preserved,
+178,28351,124,Boeing 777-268ER,HZ-AKH,Saudi Arabian Airlines,1998-04-17,Stored,
+179,28352,143,Boeing 777-268ER,HZ-AKI,Saudi Arabian Airlines,1998-06-11,Stored,
+180,28353,147,Boeing 777-268ER,HZ-AKJ,Saudi Arabian Airlines,1998-07-31,Stored,
+181,28354,154,Boeing 777-268ER,HZ-AKK,Saudi Arabian Airlines,1998-09-17,Preserved,
+182,28355,166,Boeing 777-268ER,HZ-AKL,Saudi Arabian Airlines,1998-11-14,Stored,
+183,28356,175,Boeing 777-268ER,HZ-AKM,Saudi Arabian Airlines,1998-12-14,Stored,
+184,28357,181,Boeing 777-268ER,N772CL,Odyssey Leasing,2019-11-12,Partially Scrapped,
+185,28358,186,Boeing 777-268ER,N358CL,IAG Aero Group,2020-01-02,Stored,
+186,28359,194,Boeing 777-268ER,HZ-AKP,Saudi Arabian Airlines,1999-03-25,Preserved,
+187,28360,219,Boeing 777-268ER,HZ-AKQ,Saudi Arabian Airlines,1999-12-09,Stored,
+188,28361,230,Boeing 777-268ER,HZ-AKR,Saudi Arabian Airlines,1999-12-09,Stored,
+189,28362,255,Boeing 777-268ER,HZ-AKS,Saudi Arabian Airlines,1999-12-09,Stored,
+190,28363,298,Boeing 777-268ER,5X-STM,ECT Aviation Support,2024-05-01,Stored,
+191,28364,306,Boeing 777-268ER,5X-OMR,ECT Aviation Support,2024-05-01,Stored,
+192,28365,323,Boeing 777-268ER,HZ-AKV,Saudi Arabian Airlines,2001-03-30,Stored,
+193,28366,351,Boeing 777-268ER,C5-ECT,ECT Aviation Support,2023-06-07,Stored,
+194,28371,162,Boeing 777-3B5,HL7532,Korean Air,1999-08-12,Active,
+195,28372,416,Boeing 777-2B5ER,HL7715,Korean Air,2002-09-24,Scrapped,
+196,28393,152,Boeing 777-346,JA8941,Japan Airlines,1998-07-28,Scrapped,
+197,28394,158,Boeing 777-346,JA8942,Japan Airlines,1998-08-26,Scrapped,
+198,28395,196,Boeing 777-346,JA8943,Japan Airlines,1999-02-17,Scrapped,
+199,28396,212,Boeing 777-346,N814KW,Alta Airlines Holdings,2023-01-24,Stored,
+200,28397,238,Boeing 777-346,JA8945,Japan Airlines,1999-08-17,Scrapped,
+201,28408,64,Boeing 777-2H6ER,9M-MRA,Malaysia Airlines,1997-04-23,Partially Scrapped,
+202,28409,74,Boeing 777-2H6ER,2-MMRB,Ansett Worldwide (AWAS),2015-12-17,Scrapped,
+203,28410,78,Boeing 777-2H6ER,N821JT,Eastern Airlines,2020-08-25,Stored,
+204,28411,84,Boeing 777-2H6ER,9M-MRD,Malaysia Airlines,1997-07-30,Written Off,lsd
+205,28412,115,Boeing 777-2H6ER,9M-MRE,Malaysia Airlines,1998-01-13,Stored,
+206,28413,128,Boeing 777-2H6ER,VP-BVA,VIM Airlines,2016-03-14,Stored,lsd
+207,28414,140,Boeing 777-2H6ER,N703AC,Aircastle,2015-10-20,Scrapped,
+208,28415,151,Boeing 777-2H6ER,N318MY,Delta Material Services,2016-02-24,Scrapped,
+209,28416,155,Boeing 777-2H6ER,N105GT,GA Telesis,2013-10-21,Stored,
+210,28417,222,Boeing 777-2H6ER,N709MU,Delta Material Services,2019-07-16,Scrapped,
+211,28418,231,Boeing 777-2H6ER,9M-MRK,Malaysia Airlines,1999-07-26,Scrapped,lsd
+212,28419,394,Boeing 777-2H6ER,9M-MRN,Malaysia Airlines,2002-04-09,Scrapped,
+213,28420,404,Boeing 777-2H6ER,9M-MRO,Malaysia Airlines,2002-05-31,Written Off,
+214,28421,496,Boeing 777-2H6ER,Z-RGM,Air Zimbabwe,2020-01-20,Stored,lsf Zimbabwe Aviation Leasing Company
+215,28422,498,Boeing 777-2H6ER,Z-NBE,Air Zimbabwe,2020-10-03,Stored,lsf Zimbabwe Aviation Leasing Company
+216,28423,71,Boeing 777-266ER,SU-GBP,EgyptAir,1997-05-23,Written Off,Nefertiti
+217,28424,80,Boeing 777-266ER,N175JM,KC Aviation Partners,2025-06-03,Stored,
+218,28425,85,Boeing 777-266ER,N179JM,KC Aviation Partners,2025-03-05,Stored,
+219,28444,305,Boeing 777-2B5ER,HL7574,Korean Air,2000-10-18,Partially Scrapped,
+220,28445,309,Boeing 777-2B5ER,HL7575,Korean Air,2000-11-09,Stored,
+221,28507,67,Boeing 777-212ER,N539AS,AerSale Inc,2015-04-29,Scrapped,
+222,28508,83,Boeing 777-212ER,N542AS,AerSale Inc,2015-07-24,Partially Scrapped,
+223,28509,86,Boeing 777-212ER,9V-OTC,Scoot,2012-03-01,Stored,Goin' Scootin'
+224,28510,90,Boeing 777-212ER,9V-OTD,Scoot,2012-07-06,Scrapped,Maju lah
+225,28511,122,Boeing 777-212ER,9V-SQE,Singapore Airlines,1998-02-12,Scrapped,
+226,28512,126,Boeing 777-212ER,9V-SQF,Singapore Airlines,1998-03-12,Scrapped,
+227,28513,144,Boeing 777-212ER,TF-TFM,Air Atlanta Icelandic,2024-12-01,Parked,
+228,28514,153,Boeing 777-212ER,N284JK,TVPX Trust Services,2022-02-28,Stored,
+229,28515,180,Boeing 777-312,RA-73279,Rossiya - Russian Airlines,2023-03-12,Parked,"Сочи / Sochi , lsd"
+230,28516,184,Boeing 777-312,RA-73282,Rossiya - Russian Airlines,2022-03-12,Active,"Уссурийск / Ussuriysk , lsd, Far Eastern Leopard  cs"
+231,28517,188,Boeing 777-312,RA-73281,Rossiya - Russian Airlines,2022-03-12,Stored,"Москва / Moscow , lsd"
+232,28518,226,Boeing 777-212ER,N321LF,ILFC,2012-03-29,Scrapped,
+233,28519,237,Boeing 777-212ER,N643BC,Universal Asset Management,2019-01-31,Scrapped,
+234,28520,419,Boeing 777-212ER,RA-73340,Nordwind Airlines,2022-03-18,Active,
+235,28521,330,Boeing 777-212ER,N826KW,Alta Airlines Holdings,2022-02-05,Stored,
+236,28522,337,Boeing 777-212ER,5R-HER,Unknown,2025-05-29,Parked,
+237,28523,239,Boeing 777-212ER,EI-UNR,Transaero,2010-10-11,Scrapped,lsd
+238,28524,350,Boeing 777-212ER,N870BC,Boeing Capital Corporation (BCC),2025-01-07,Stored,
+239,28525,353,Boeing 777-212ER,N827KW,Alta Airlines Holdings,2022-03-08,Stored,
+240,28526,355,Boeing 777-212ER,N829KW,Alta Airlines Holdings,2022-04-30,Stored,
+241,28527,372,Boeing 777-212ER,5R-IJA,Unknown,2025-05-01,Parked,
+242,28528,364,Boeing 777-312,N7773A,CSDS Aircraft Sales and Leasing,2017-05-04,Scrapped,
+243,28529,389,Boeing 777-212ER,ER-GAG,Terra Avia,2024-03-18,Active,lsd
+244,28530,390,Boeing 777-212ER,N771KW,Eastern Airlines,2024-07-26,Active,771
+245,28531,244,Boeing 777-312,RA-73292,Rossiya - Russian Airlines,2022-03-12,Parked,"Екатеринбург / Ekaterinburg , lsd"
+246,28532,407,Boeing 777-212ER,N822KW,Alta Airlines Holdings,2021-08-30,Stored,
+247,28533,471,Boeing 777-212ER,RA-73341,Nordwind Airlines,2022-03-15,Parked,
+248,28534,192,Boeing 777-312,RA-73280,Rossiya - Russian Airlines,2022-03-12,Active,"Новосибирск / Novosibirsk , lsd"
+249,28675,210,Boeing 777-228ER,OE-IFS,AerCap,2021-04-12,Scrapped,
+250,28676,246,Boeing 777-2Q8ER,VP-BLA,Rossiya - Russian Airlines,2016-04-06,Scrapped,lsd
+251,28678,273,Boeing 777-224ER,N27015,United Airlines,2010-10-01,Active,15
+252,28679,279,Boeing 777-224ER,N57016,United Airlines,2010-10-01,Active,16
+253,28680,300,Boeing 777-31H,N286AR,AerCap,2016-09-29,Scrapped,
+254,28681,322,Boeing 777-28EER,9H-AHU,AerCap,2020-09-01,Stored,
+255,28682,331,Boeing 777-228ER,F-GSPQ,Air France,2001-03-21,Active,
+256,28683,367,Boeing 777-228ER,F-GSPR,Air France,2001-10-19,Scrapped,lsd
+257,28684,385,Boeing 777-228ER,F-GSPV,Air France,2002-02-15,Scrapped,lsd
+258,28685,400,Boeing 777-28EER,2-AERC,AerCap,2018-07-04,Scrapped,
+259,28686,359,Boeing 777-28EER,9H-AHV,AerCap,2020-09-01,Stored,
+260,28687,432,Boeing 777-31H,B-HNV,Cathay Pacific,2019-06-19,Active,
+261,28688,436,Boeing 777-2Q8ER,EI-FNI,Alitalia - Società Aerea Italiana,2016-04-19,Stored,"Lampedusa, lsd"
+262,28689,365,Boeing 777-2Q8ER,N774AM,Aeroméxico,2006-12-28,Scrapped,lsd
+263,28691,468,Boeing 777-206ER,PH-BQE,KLM Royal Dutch Airlines,2004-02-12,Active,"Epidaurus , QE-005, lsd"
+264,28692,373,Boeing 777-2Q8ER,OE-LPF,Austrian Airlines,2018-01-09,Active,"Sibanye, lsd"
+265,28698,87,Boeing 777-2Z9ER,OE-LPA,Austrian Airlines,2005-09-13,Active,Sound of Music
+266,28699,163,Boeing 777-2Z9ER,OE-LPB,Austrian Airlines,2005-10-27,Active,Heart of Europe
+267,28713,191,Boeing 777-222ER,N204UA,United Airlines,1999-02-03,Active,2704
+268,28714,205,Boeing 777-222ER,EI-UNV,Transaero,2010-08-25,Stored,lsd
+269,28743,125,Boeing 777-269ER,9K-AOA,Kuwait Airways,1998-03-30,Scrapped,Al-Qurain / القرين
+270,28744,145,Boeing 777-269ER,9K-AOB,Kuwait Airways,1998-06-12,Stored,Garouh / قاروه
+271,28840,117,Boeing 777-236ER,G-VIIK,British Airways,1998-02-03,Active,
+272,28841,130,Boeing 777-236ER,G-VIIM,British Airways,1998-03-26,Active,
+273,28998,149,Boeing 777-212ER,EI-UNU,Transaero,2010-06-11,Stored,lsd
+274,28999,150,Boeing 777-212ER,EI-UNT,Transaero,2010-07-15,Scrapped,lsd
+275,29002,129,Boeing 777-228ER,F-GSPA,Air France,1998-03-27,Active,
+276,29003,133,Boeing 777-228ER,F-GSPB,Air France,1998-04-21,Scrapped,
+277,29004,138,Boeing 777-228ER,F-GSPC,Air France,1998-05-05,Scrapped,lsd
+278,29005,187,Boeing 777-228ER,F-GSPD,Air France,1999-01-12,Active,
+279,29006,189,Boeing 777-228ER,F-GSPE,Air France,1999-01-19,Active,Chaumont-sur-Loire
+280,29007,201,Boeing 777-228ER,F-GSPF,Air France,1999-03-11,Active,Compiègne
+281,29008,258,Boeing 777-228ER,F-GSPI,Air France,1999-12-06,Active,
+282,29009,263,Boeing 777-228ER,F-GSPJ,Air France,1999-12-22,Active,
+283,29010,267,Boeing 777-228ER,F-GSPK,Air France,2000-01-27,Active,Pau
+284,29011,314,Boeing 777-228ER,F-GSPN,Air France,2000-12-15,Active,
+285,29029,137,Boeing 777-281,JA705A,All Nippon Airways,1998-04-27,Stored,
+286,29062,256,Boeing 777-31H,N962CL,Carlyle Aviation Partners,2020-03-17,Stored,
+287,29063,262,Boeing 777-31H,9H-AKN,Carlyle Aviation Partners,2023-06-15,Stored,
+288,29064,418,Boeing 777-31H,5N-BUU,Air Peace,2018-01-16,Parked,Ojochide
+289,29065,329,Boeing 777-2H6ER,N651WT,Wilmington Trust Company,2018-12-03,Stored,
+290,29066,336,Boeing 777-2H6ER,N661WT,Wilmington Trust Company,2018-12-10,Partially Scrapped,
+291,29067,408,Boeing 777-31H,SU-KHP,flyadeal,2025-05-30,Active,lsf Alexandria Airlines
+292,29143,1234,Boeing 777-3U3ER,PK-GIG,Indonesia Government,2020-03-22,Active,opby Garuda Indonesia
+293,29144,1305,Boeing 777-3U3ER,PK-GIH,Garuda Indonesia,2015-06-17,Active,lsd
+294,29145,1345,Boeing 777-3U3ER,PK-GII,Garuda Indonesia,2015-10-28,Active,"lsd, SkyTeam  cs"
+295,29146,1141,Boeing 777-3U3ER,RP-C7783,Philippine Airlines,2024-03-08,Active,lsd
+296,29147,1148,Boeing 777-3U3ER,RP-C7784,Philippine Airlines,2024-11-14,Active,lsd
+297,29148,1203,Boeing 777-3U3ER,PK-GIF,Garuda Indonesia,2014-05-21,Parked,lsd
+298,29150,156,Boeing 777-3D7,HS-TKA,Thai Airways,1998-12-23,Stored,Sriwanna / ศรีวรรณา
+299,29151,170,Boeing 777-3D7,HS-TKB,Thai Airways,1998-12-30,Stored,Chainarai / ชัยนารายณ์
+300,29153,168,Boeing 777-2J6,B-2059,Air China,1998-10-26,Scrapped,Blue Phoenix Liner cs
+301,29154,173,Boeing 777-2J6,B-2060,Air China,1998-10-30,Scrapped,Red Phoenix Liner cs
+302,29155,179,Boeing 777-2J6,B-2061,Air China,1998-11-24,Scrapped,
+303,29156,214,Boeing 777-2J6,B-2063,Air China,1999-04-30,Scrapped,
+304,29157,240,Boeing 777-2J6,B-2064,Air China,1999-08-30,Scrapped,
+305,29171,553,Boeing 777-28EER,HL7742,Asiana Airlines,2006-03-07,Written Off,
+306,29172,,Boeing 777-222ER,N230UA,United Airlines,,Not Built,NTU
+307,29174,481,Boeing 777-28EER,HL7732,Asiana Airlines,2004-05-27,Active,Star Alliance  cs
+308,29175,526,Boeing 777-28EER,HL7739,Asiana Airlines,2005-08-04,Parked,
+309,29211,250,Boeing 777-3D7,HS-TKC,Thai Airways,1999-10-18,Stored,Kwanmuang / ขวัญเมือง
+310,29212,260,Boeing 777-3D7,HS-TKD,Thai Airways,1999-12-08,Stored,Thepalai / เทพาลัย
+311,29213,304,Boeing 777-3D7,HS-TKE,Thai Airways,2000-10-17,Stored,Sukhirin / สุคิริน
+312,29214,310,Boeing 777-3D7,HS-TKF,Thai Airways,2000-12-09,Stored,"Lahan Sai / ละหานทราย , Royal Barge Suphannahong cs"
+313,29271,174,Boeing 777-24QER,N777AS,Mid East Jet,1998-11-24,Active,
+314,29313,386,Boeing 777-2Z9ER,OE-LPC,Austrian Airlines,2005-09-24,Active,Dream of Freedom
+315,29319,157,Boeing 777-236ER,G-VIIN,British Airways,1998-08-21,Active,
+316,29320,182,Boeing 777-236ER,G-VIIO,British Airways,1999-01-26,Active,
+317,29321,193,Boeing 777-236ER,G-VIIP,British Airways,1999-02-09,Active,
+318,29322,203,Boeing 777-236ER,G-VIIR,British Airways,1999-03-18,Active,
+319,29323,206,Boeing 777-236ER,G-VIIS,British Airways,1999-04-01,Active,lsd
+320,29324,171,Boeing 777-21HER,5N-BVE,Air Peace,2018-02-06,Active,Ifechukwu
+321,29325,176,Boeing 777-21HER,RA-73331,Red Wings,2022-04-11,Active,
+322,29395,326,Boeing 777-31H,N805KW,Alta Airlines Holdings,2021-02-19,Stored,
+323,29396,402,Boeing 777-31H,B-HNS,Cathay Pacific,2018-09-03,Active,
+324,29397,461,Boeing 777-206ER,PH-BQC,KLM Royal Dutch Airlines,2003-11-24,Active,"Chichen-Itza , QC-003, lsd"
+325,29398,474,Boeing 777-206ER,PH-BQF,KLM Asia,2012-02-26,Active,"Ferrara City , QF-006, opby KLM Royal Dutch Airlines"
+326,29399,499,Boeing 777-206ER,PH-BQK,KLM Asia,2012-03-06,Active,"Mount Kilimanjaro , QK-010, opby KLM Royal Dutch Airlines"
+327,29401,550,Boeing 777-219ER,N29401,Jet Midwest,2025-04-25,Stored,
+328,29402,517,Boeing 777-2Q8ER,UR-GOA,Ukraine International Airlines,2018-02-13,Stored,lsd
+329,29403,591,Boeing 777-219ER,N403AD,Alta Airlines Holdings,2024-12-26,Stored,
+330,29404,534,Boeing 777-219ER,N294AR,Alta Airlines Holdings,2024-12-26,Stored,
+331,29476,183,Boeing 777-224ER,N77006,United Airlines,2010-10-01,Active,"Robert F. Six , 0006"
+332,29477,197,Boeing 777-224ER,N74007,United Airlines,2010-10-01,Active,7
+333,29478,200,Boeing 777-224ER,N78008,United Airlines,2010-10-01,Active,8
+334,29479,211,Boeing 777-224ER,N78009,United Airlines,2010-10-01,Parked,9
+335,29480,220,Boeing 777-224ER,N76010,United Airlines,2010-10-01,Active,10
+336,29578,185,Boeing 777-223ER,N770AN,American Airlines,1999-01-21,Active,7AA
+337,29579,190,Boeing 777-223ER,N771AN,American Airlines,1999-01-29,Active,7AB
+338,29580,198,Boeing 777-223ER,N772AN,American Airlines,1999-03-01,Active,7AC
+339,29581,208,Boeing 777-223ER,N774AN,American Airlines,1999-04-12,Active,7AE
+340,29582,215,Boeing 777-223ER,N776AN,American Airlines,1999-05-18,Active,7AG
+341,29583,199,Boeing 777-223ER,N773AN,American Airlines,1999-03-08,Active,7AD
+342,29584,209,Boeing 777-223ER,N775AN,American Airlines,1999-04-20,Active,7AF
+343,29585,218,Boeing 777-223ER,N777AN,American Airlines,1999-05-25,Active,7AH
+344,29586,266,Boeing 777-223ER,N781AN,American Airlines,2000-01-27,Active,7:00 AM
+345,29587,223,Boeing 777-223ER,N778AN,American Airlines,1999-06-21,Active,7AJ
+346,29588,272,Boeing 777-223ER,N784AN,American Airlines,2000-03-29,Active,7AR
+347,29734,235,Boeing 777-232ER,N862DA,Wilmington Trust Company,2022-02-22,Partially Scrapped,
+348,29735,245,Boeing 777-232ER,N863DA,Wilmington Trust Company,2022-08-19,Stored,
+349,29736,249,Boeing 777-232ER,N864DA,Arizona Cardinals,2022-10-03,Parked,
+350,29737,257,Boeing 777-232ER,N865DA,Gridiron Air,2023-06-27,Active,
+351,29738,261,Boeing 777-232ER,N866DA,Arizona Cardinals,2025-03-20,Active,opby Gridiron Air
+352,29739,772,Boeing 777-232LR,VT-AEE,Air India,2023-04-17,Active,"अविजित / Avijit, lsd"
+353,29740,697,Boeing 777-232LR,N701DN,DHL Holdings,2023-10-12,Stored,
+354,29741,704,Boeing 777-232LR,VT-AEF,Air India,2022-11-21,Parked,"विहान / Vihaan, lsd"
+355,29742,773,Boeing 777-232LR(MF),N705DN,Mammoth Freighters,2021-03-09,Stored,
+356,29743,387,Boeing 777-232ER,N777AZ,Arizona Cardinals,2023-10-07,Active,
+357,29744,280,Boeing 777-2J6,B-2065,Air China,2000-05-23,Scrapped,
+358,29745,290,Boeing 777-2J6,B-2066,Air China,2000-06-30,Stored,
+359,29746,338,Boeing 777-2J6,B-2067,Air China,2001-05-18,Scrapped,
+360,29747,344,Boeing 777-2J6,N772ET,Alta Airlines Holdings,2023-01-19,Stored,
+361,29748,349,Boeing 777-2J6,N938BC,Boeing Capital Corporation (BCC),2019-02-04,Scrapped,
+362,29859,227,Boeing 777-224ER,N79011,United Airlines,2010-10-01,Active,11
+363,29860,234,Boeing 777-224ER,N77012,United Airlines,2010-10-01,Active,12
+364,29861,243,Boeing 777-224ER,N78013,United Airlines,2010-10-01,Active,13
+365,29862,253,Boeing 777-224ER,N77014,United Airlines,2010-10-01,Active,14
+366,29908,229,Boeing 777-2Q8ER,VQ-BNU,Rossiya - Russian Airlines,2016-04-09,Scrapped,lsd
+367,29951,202,Boeing 777-232ER,N860DA,Arizona Cardinals,2023-09-07,Active,opby Gridiron Air
+368,29952,207,Boeing 777-232ER,N861DA,Arizona Cardinals,2022-12-09,Parked,
+369,29953,252,Boeing 777-2ANER,A6-ALN,Presidential Flight,2009-07-05,Active,Emirates livery
+370,29955,225,Boeing 777-223ER,N779AN,American Airlines,1999-06-27,Active,7AK
+371,29956,241,Boeing 777-223ER,N780AN,American Airlines,2007-01-05,Active,7AL
+372,29962,217,Boeing 777-236ER,G-VIIT,British Airways,1999-05-26,Active,
+373,29963,221,Boeing 777-236ER,G-VIIU,British Airways,1999-05-28,Active,
+374,29964,228,Boeing 777-236ER,G-VIIV,British Airways,1999-06-29,Active,
+375,29965,233,Boeing 777-236ER,G-VIIW,British Airways,1999-07-30,Active,
+376,29966,236,Boeing 777-236ER,G-VIIX,British Airways,1999-08-11,Active,
+377,29967,251,Boeing 777-236ER,G-VIIY,British Airways,1999-10-22,Active,
+378,30003,270,Boeing 777-223ER,N782AN,American Airlines,2000-02-29,Active,7AN
+379,30004,271,Boeing 777-223ER,N783AN,American Airlines,2000-03-01,Active,7AP
+380,30005,274,Boeing 777-223ER,N785AN,American Airlines,2000-04-12,Active,7AS
+381,30010,277,Boeing 777-223ER,N787AL,American Airlines,2000-04-28,Active,7AU
+382,30011,283,Boeing 777-223ER,N788AN,American Airlines,2000-05-31,Active,7AV
+383,30012,321,Boeing 777-223ER,N797AN,American Airlines,2001-01-26,Active,7BF
+384,30212,216,Boeing 777-222ER,N206UA,United Airlines,1999-05-18,Active,2706
+385,30213,232,Boeing 777-222ER,N793ST,TVPX Trust Services,2017-09-14,Scrapped,
+386,30214,254,Boeing 777-222ER,EI-UNW,Transaero,2009-12-17,Scrapped,lsd
+387,30215,259,Boeing 777-222ER,N209UA,United Airlines,1999-12-16,Active,2809
+388,30216,264,Boeing 777-222,N210UA,United Airlines,2000-01-28,Active,2510
+389,30217,282,Boeing 777-222,N211UA,United Airlines,2000-05-18,Active,2511
+390,30218,293,Boeing 777-222,N212UA,United Airlines,2000-07-28,Active,2512
+391,30219,295,Boeing 777-222,N213UA,United Airlines,2000-08-15,Active,2513
+392,30220,296,Boeing 777-222,N214UA,United Airlines,2000-08-25,Active,2514
+393,30221,297,Boeing 777-222,N215UA,United Airlines,2000-08-30,Active,2515
+394,30222,317,Boeing 777-222ER,N218UA,United Airlines,2001-01-10,Active,"2018, Star Alliance  cs"
+395,30223,340,Boeing 777-222ER,N220UA,United Airlines,2001-05-25,Active,2020
+396,30224,357,Boeing 777-222ER,N223UA,United Airlines,2001-08-24,Active,2823
+397,30225,375,Boeing 777-222ER,N224UA,United Airlines,2001-12-07,Active,2824
+398,30226,380,Boeing 777-222ER,N226UA,United Airlines,2002-01-14,Active,2826
+399,30227,,Boeing 777-222ER,N230UA,United Airlines,,Not Built,NTU
+400,30250,276,Boeing 777-223ER,N786AN,American Airlines,2000-04-21,Active,7AT
+401,30251,287,Boeing 777-223ER,N790AN,American Airlines,2000-06-22,Active,7AX
+402,30252,285,Boeing 777-223ER,N789AN,American Airlines,2000-06-05,Active,7AW
+403,30253,292,Boeing 777-223ER,N792AN,American Airlines,2000-07-31,Active,7BA
+404,30254,289,Boeing 777-223ER,N791AN,American Airlines,2000-06-28,Active,"7AY, oneworld  cs"
+405,30255,299,Boeing 777-223ER,N793AN,American Airlines,2000-09-14,Active,7BB
+406,30256,313,Boeing 777-223ER,N794AN,American Airlines,2000-12-01,Active,7BC
+407,30257,315,Boeing 777-223ER,N795AN,American Airlines,2000-12-16,Active,7BD
+408,30258,328,Boeing 777-223ER,N799AN,American Airlines,2001-03-16,Active,7BH
+409,30259,332,Boeing 777-223ER,N750AN,American Airlines,2001-03-27,Active,7BJ
+410,30260,339,Boeing 777-223ER,N752AN,American Airlines,2001-05-16,Active,7BL
+411,30261,341,Boeing 777-223ER,N753AN,American Airlines,2001-05-25,Active,7BM
+412,30262,345,Boeing 777-223ER,N754AN,American Airlines,2001-06-18,Active,7BN
+413,30263,354,Boeing 777-223ER,N755AN,American Airlines,2001-07-27,Active,7BP
+414,30264,358,Boeing 777-223ER,N756AM,American Airlines,2001-08-24,Active,7BR
+415,30302,242,Boeing 777-236ER,G-YMMA,British Airways,2000-01-07,Active,
+416,30303,265,Boeing 777-236ER,G-YMMB,British Airways,2000-01-18,Active,
+417,30304,268,Boeing 777-236ER,G-YMMC,British Airways,2000-02-04,Active,
+418,30305,269,Boeing 777-236ER,G-YMMD,British Airways,2000-02-18,Active,
+419,30306,275,Boeing 777-236ER,G-YMME,British Airways,2000-04-16,Active,oneworld  cs
+420,30307,281,Boeing 777-236ER,G-YMMF,British Airways,2000-05-17,Active,oneworld  cs
+421,30308,301,Boeing 777-236ER,G-YMMG,British Airways,2000-09-27,Active,
+422,30309,303,Boeing 777-236ER,G-YMMH,British Airways,2000-10-14,Active,
+423,30310,308,Boeing 777-236ER,G-YMMI,British Airways,2000-11-02,Active,
+424,30311,311,Boeing 777-236ER,G-YMMJ,British Airways,2000-12-08,Parked,
+425,30312,312,Boeing 777-236ER,G-YMMK,British Airways,2000-12-08,Active,
+426,30313,334,Boeing 777-236ER,G-YMML,British Airways,2001-04-14,Active,GREAT Festival of Creativity cs
+427,30314,342,Boeing 777-236ER,G-YMMM,British Airways,2001-05-31,Written Off,
+428,30315,369,Boeing 777-236ER,G-YMMP,British Airways,2001-10-30,Active,
+429,30316,346,Boeing 777-236ER,G-YMMN,British Airways,2001-06-15,Active,lsd
+430,30317,361,Boeing 777-236ER,G-YMMO,British Airways,2001-09-17,Active,lsd
+431,30440,776,Boeing 777-232LR,VT-AEG,Air India,2022-12-15,Active,"प्रभात / Prabhat, lsd"
+432,30456,307,Boeing 777-228ER,F-GSPM,Air France,2000-11-14,Active,
+433,30457,284,Boeing 777-228ER,F-GSPL,Air France,2000-12-09,Active,"Biarritz , lsd"
+434,30549,291,Boeing 777-222ER,N216UA,United Airlines,2000-07-21,Active,2816
+435,30550,294,Boeing 777-222ER,N217UA,United Airlines,2000-08-14,Active,2817
+436,30551,318,Boeing 777-222ER,N219UA,United Airlines,2001-01-23,Parked,2019
+437,30552,347,Boeing 777-222ER,N221UA,United Airlines,2001-06-22,Parked,2021
+438,30553,352,Boeing 777-222ER,N222UA,United Airlines,2001-07-24,Active,2822
+439,30554,377,Boeing 777-222ER,N225UA,United Airlines,2001-12-12,Active,2025
+440,30555,381,Boeing 777-222ER,N227UA,United Airlines,2002-01-14,Active,2827
+441,30556,384,Boeing 777-222ER,N228UA,United Airlines,2002-02-14,Active,2828
+442,30557,388,Boeing 777-222ER,N229UA,United Airlines,2002-03-07,Active,2029
+443,30614,320,Boeing 777-228ER,F-GSPO,Air France,2001-02-03,Active,Saint-Germain-en-Laye
+444,30615,327,Boeing 777-228ER,F-GSPP,Air France,2001-02-28,Active,Montpellier
+445,30796,316,Boeing 777-223ER,N796AN,American Airlines,2000-12-18,Active,"7BE, oneworld  cs"
+446,30797,324,Boeing 777-223ER,N798AN,American Airlines,2001-02-16,Active,7BG
+447,30798,333,Boeing 777-223ER,N751AN,American Airlines,2001-04-04,Active,"Azriel ""Al"" Blackman | 75 years of service, 7BK"
+448,30831,319,Boeing 777-258ER,4X-ECA,El Al Israel Airlines,2001-01-29,Stored,"Petah Tikva / פתח תקווה, 101"
+449,30832,325,Boeing 777-258ER,4X-ECB,El Al Israel Airlines,2001-02-21,Active,"Netanya / נתניה, 102"
+450,30833,335,Boeing 777-258ER,4X-ECC,El Al Israel Airlines,2001-04-11,Active,"Holon / חולון, 103"
+451,30859,403,Boeing 777-28EER,HL7700,Asiana Airlines,2002-05-24,Active,
+452,30860,659,Boeing 777-28EER,HL7756,Asiana Airlines,2007-08-28,Active,
+453,30861,646,Boeing 777-28EER,HL7755,Asiana Airlines,2007-06-28,Active,
+454,30862,738,Boeing 777-28EER,HL7775,Asiana Airlines,2008-11-25,Active,
+455,30866,343,Boeing 777-212ER,5R-ISA,Unknown,2025-05-01,Parked,
+456,30867,348,Boeing 777-212ER,N777UK,Len Blavatnik,2013-09-05,Active,opby Polaris Aviation Solutions
+457,30868,360,Boeing 777-312,N833KW,Alta Airlines Holdings,2022-11-03,Stored,
+458,30869,366,Boeing 777-212ER,N945BC,Boeing Capital Corporation (BCC),2019-06-11,Stored,
+459,30870,374,Boeing 777-212ER,N830KW,Alta Airlines Holdings,2022-06-17,Stored,
+460,30871,378,Boeing 777-212ER,N864BC,Boeing Aircraft Holding Company,2022-07-15,Stored,
+461,30872,398,Boeing 777-212ER,N865BC,Boeing Capital Corporation (BCC),2022-08-04,Stored,
+462,30873,431,Boeing 777-212ER,N508BC,Alta Airlines Holdings,2021-07-28,Stored,
+463,30874,430,Boeing 777-212ER,N784BC,Boeing Capital Corporation (BCC),2020-07-16,Stored,
+464,30875,406,Boeing 777-212ER,9V-SQJ,Singapore Airlines,2002-06-07,Scrapped,
+465,31477,379,Boeing 777-223ER,N760AN,American Airlines,2002-01-17,Active,7BV
+466,31478,393,Boeing 777-223ER,N761AJ,American Airlines,2002-03-28,Active,7BW
+467,31479,399,Boeing 777-223ER,N762AN,American Airlines,2002-04-29,Active,7BX
+468,31480,1344,Boeing 777-323ER,N734AR,American Airlines,2015-10-26,Active,7LU
+469,31543,1053,Boeing 777-323ER,N717AN,American Airlines,2012-12-11,Active,7LA
+470,31546,1083,Boeing 777-323ER,N721AN,American Airlines,2013-03-19,Active,"7LE, lsd"
+471,31547,1095,Boeing 777-323ER,N722AN,American Airlines,2013-04-24,Active,7LF
+472,31548,1113,Boeing 777-323ER,N724AN,American Airlines,2013-06-26,Active,7LH
+473,31549,1257,Boeing 777-323ER,N732AN,American Airlines,2014-12-08,Active,7LS
+474,31550,1160,Boeing 777-323ER,N726AN,American Airlines,2013-12-18,Active,7LK
+475,31553,1191,Boeing 777-323ER,N728AN,American Airlines,2014-04-22,Active,7LM
+476,31554,1217,Boeing 777-323ER,N730AN,American Airlines,2014-07-16,Active,7LP
+477,31679,391,Boeing 777-224ER,N78017,United Airlines,2010-10-01,Active,"0017, Star Alliance  cs"
+478,31680,397,Boeing 777-224ER,N37018,United Airlines,2010-10-01,Active,18
+479,31687,625,Boeing 777-224ER,N69020,United Airlines,2010-10-01,Active,20
+480,32222,767,Boeing 777-232LR,N703DN,Mammoth Freighters,2021-06-05,Stored,
+481,32305,395,Boeing 777-228ER,F-GSPY,Air France,2002-04-02,Active,Vincennes
+482,32306,370,Boeing 777-228ER,F-GSPS,Air France,2001-11-02,Scrapped,
+483,32308,382,Boeing 777-228ER,EI-HDT,AerCap,2022-05-18,Stored,
+484,32309,383,Boeing 777-228ER,F-GSPU,Air France,2002-02-01,Parked,Saint-Étienne
+485,32310,401,Boeing 777-228ER,F-GSPZ,Air France,2002-05-21,Active,Villandry
+486,32316,412,Boeing 777-212ER,N868BC,Alta Airlines Holdings,2021-07-27,Stored,
+487,32317,420,Boeing 777-312,N834KW,Alta Airlines Holdings,2022-08-16,Stored,
+488,32318,441,Boeing 777-212ER,N825KW,Eastern Airlines,2023-05-21,Active,825
+489,32320,438,Boeing 777-212ER,N772BC,Boeing Capital Corporation (BCC),2020-06-04,Scrapped,
+490,32321,447,Boeing 777-212ER,N519BC,Alta Airlines Holdings,2021-07-27,Stored,
+491,32327,484,Boeing 777-312,TC-GRY,Southwind Airlines,2023-06-23,Active,lsd
+492,32334,409,Boeing 777-212ER,5R-RIS,Unknown,2025-05-01,Parked,
+493,32335,415,Boeing 777-212ER,N940BC,Alta Airlines Holdings,2021-10-21,Stored,
+494,32336,422,Boeing 777-212ER,N861BC,Boeing,2022-01-03,Parked,ecoDemonstrator  cs
+495,32430,423,Boeing 777-346ER,JA732J,Japan Airlines,2004-07-01,Active,oneworld  cs
+496,32431,429,Boeing 777-346ER,JA731J,Japan Airlines,2004-06-15,Stored,
+497,32432,521,Boeing 777-346ER,JA733J,Japan Airlines,2005-06-20,Active,
+498,32433,527,Boeing 777-346ER,N3243P,AerFin,2024-09-10,Scrapped,
+499,32434,577,Boeing 777-346ER,JA735J,Japan Airlines,2006-07-19,Active,
+500,32435,583,Boeing 777-346ER,JA736J,Japan Airlines,2006-08-21,Active,
+501,32436,724,Boeing 777-346ER,JA738J,Japan Airlines,2008-06-23,Active,
+502,32437,736,Boeing 777-346ER,JA739J,Japan Airlines,2008-07-31,Active,
+503,32439,1371,Boeing 777-323ER,N735AT,American Airlines,2016-02-08,Active,7LV
+504,32629,362,Boeing 777-266ER,N188JM,KC Aviation Partners,2025-01-16,Stored,
+505,32630,368,Boeing 777-266ER,N195JM,KC Aviation Partners,2024-12-17,Stored,
+506,32636,363,Boeing 777-223ER,N757AN,American Airlines,2001-11-06,Active,7BS
+507,32637,371,Boeing 777-223ER,N758AN,American Airlines,2001-11-13,Active,7BT
+508,32638,376,Boeing 777-223ER,N759AN,American Airlines,2001-12-14,Active,7BU
+509,32639,524,Boeing 777-35EER,RA-73342,Nordwind Airlines,2022-03-22,Active,
+510,32640,531,Boeing 777-35EER,RA-73847,Nordwind Airlines,2022-04-29,Active,
+511,32641,707,Boeing 777-35EER,B-16710,EVA Air,2008-03-26,Active,
+512,32642,822,Boeing 777-35EER,B-16716,EVA Air,2009-12-18,Active,
+513,32643,572,Boeing 777-35EER,B-16703,EVA Air,2006-06-22,Scrapped,lsd
+514,32644,863,Boeing 777-35EER,B-16717,EVA Air,2020-04-15,Active,
+515,32645,597,Boeing 777-35EER,B-16705,EVA Air,2006-11-16,Active,
+516,32646,563,Boeing 777-281ER,JA715A,All Nippon Airways,2006-05-10,Active,
+517,32647,509,Boeing 777-281,JA713A,All Nippon Airways,2005-03-22,Active,
+518,32648,529,Boeing 777-381ER,JA733A,All Nippon Airways,2005-10-20,Partially Scrapped,
+519,32649,557,Boeing 777-381ER,JA734A,All Nippon Airways,2006-03-23,Partially Scrapped,
+520,32650,593,Boeing 777-381ER,N776KW,ALF V LLC,2023-06-05,Parked,
+521,32651,606,Boeing 777-381ER,JA778A,All Nippon Airways,2007-01-24,Stored,
+522,32697,396,Boeing 777-31H,B-HNW,Cathay Pacific,2019-05-23,Active,
+523,32698,392,Boeing 777-228ER,F-GSPX,Air France,2002-03-13,Active,Étretat
+524,32699,414,Boeing 777-31H,B-HNU,Cathay Pacific,2018-11-25,Active,
+525,32700,434,Boeing 777-31H,A6-EMW,Emirates,2003-03-28,Written Off,lsd
+526,32701,443,Boeing 777-2Q8ER,EI-FSS,Macquarie AirFinance,2016-08-08,Scrapped,
+527,32702,444,Boeing 777-31H,B-HNX,Cathay Pacific,2019-10-10,Active,
+528,32703,472,Boeing 777-21BER,VP-BJF,Ikar,2021-03-24,Scrapped,lsd
+529,32704,476,Boeing 777-206ER,PH-BQG,KLM Royal Dutch Airlines,2004-04-23,Active,"Galápagos Islands , QG-007"
+530,32705,493,Boeing 777-206ER,PH-BQH,KLM Asia,2012-05-01,Active,"Hadrian's Wall , QH-008, opby KLM Royal Dutch Airlines"
+531,32706,506,Boeing 777-31HER,RA-73274,Rossiya - Russian Airlines,2022-03-12,Parked,Томск / Tomsk
+532,32707,539,Boeing 777-31HER,9H-AZD,Saudi Arabian Airlines,2023-06-24,Active,lsf Air Atlanta Europe
+533,32708,536,Boeing 777-31HER,9H-AZE,Saudi Arabian Airlines,2023-05-21,Active,lsf Air Atlanta Europe
+534,32709,551,Boeing 777-31HER,RA-73275,Rossiya - Russian Airlines,2022-03-22,Active,Магадан / Magadan
+535,32710,569,Boeing 777-31HER,RA-73276,Rossiya - Russian Airlines,2022-03-27,Active,Ульяновск / Ulyanovsk
+536,32711,501,Boeing 777-328ER,F-GSQH,Air France,2005-02-18,Active,lsd
+537,32712,564,Boeing 777-219ER,N712AD,Jet Midwest,2025-02-25,Stored,
+538,32713,628,Boeing 777-31HER,UR-AZR,SkyLine Express,2023-03-27,Active,lsd
+539,32714,641,Boeing 777-31HER,TC-LKF,Turkish Airlines,2024-04-25,Active,lsd
+540,32715,582,Boeing 777-31HER,RA-73277,Rossiya - Russian Airlines,2022-04-06,Active,Анадырь / Anadyr
+541,32716,518,Boeing 777-2Q8ER,AP-BMG,PIA Pakistan International Airlines,2015-10-30,Parked,1960s Retro cs
+542,32717,541,Boeing 777-2Q8ER,AP-BMH,PIA Pakistan International Airlines,2015-12-02,Active,
+543,32718,554,Boeing 777-2Q8ER,VP-BJG,Nordwind Airlines,2018-04-08,Scrapped,lsd
+544,32719,562,Boeing 777-2Q8ER,RA-73347,Ikar,2024-07-03,Parked,
+545,32720,561,Boeing 777-206ER,PH-BQN,KLM Asia,2012-03-10,Active,"Nahanni National Park , QN-013, opby KLM Royal Dutch Airlines"
+546,32721,630,Boeing 777-206ER,PH-BQP,KLM Royal Dutch Airlines,2007-04-27,Active,"Pont du Gard , QP-015, lsd"
+547,32723,466,Boeing 777-328ER,F-GSQA,Air France,2004-04-29,Active,"Lunéville , lsd"
+548,32724,478,Boeing 777-328ER,F-GSQB,Air France,2004-05-14,Active,"Cheverny , lsd"
+549,32725,502,Boeing 777-328ER,F-GSQI,Air France,2005-03-18,Active,"Rambouillet , lsd"
+550,32726,490,Boeing 777-328ER,F-GSQD,Air France,2004-09-20,Active,Écouen
+551,32727,480,Boeing 777-328ER,F-GSQC,Air France,2004-06-01,Active,Amboise
+552,32728,594,Boeing 777-31HER,RA-73469,Azur Air,2022-05-20,Parked,
+553,32729,619,Boeing 777-31HER,TC-LKE,IndiGo,2023-06-27,Active,lsf Turkish Airlines
+554,32730,585,Boeing 777-31HER,RA-73278,Rossiya - Russian Airlines,2022-04-03,Active,Великий Новгород / Veliky Novgorod
+555,32781,459,Boeing 777-243ER,N268GE,AerCap,2022-10-13,Scrapped,
+556,32782,463,Boeing 777-243ER,CS-TSW,EuroAtlantic Airways,2022-08-30,Active,lsd
+557,32783,455,Boeing 777-243ER,N267GE,AerCap,2022-10-13,Partially Scrapped,
+558,32784,477,Boeing 777-243ER,CS-TSX,EuroAtlantic Airways,2022-07-11,Active,lsd
+559,32785,540,Boeing 777-36NER(SF),N779CK,AerCap,2021-11-01,Stored,
+560,32787,542,Boeing 777-36NER(SF),N780CK,AerCap,2021-11-01,Stored,
+561,32788,532,Boeing 777-36NER,N263GE,AerCap,2021-11-01,Stored,
+562,32789,508,Boeing 777-36NER(SF),N778CK,AerCap,2023-03-24,Stored,
+563,32790,512,Boeing 777-36NER,N261GE,AerCap,2021-11-01,Stored,
+564,32791,560,Boeing 777-36NER(SF),N771CK,AerCap,2023-01-17,Stored,
+565,32792,568,Boeing 777-36NER,N770CK,AerCap,2023-03-27,Stored,
+566,32793,598,Boeing 777-36NER,N769CK,AerCap,2024-05-16,Stored,
+567,32794,632,Boeing 777-36NER,A6-ECA,Emirates,2007-06-21,Active,lsd
+568,32795,669,Boeing 777-36NER,N279AE,AerCap,2024-11-27,Stored,
+569,32845,530,Boeing 777-328ER,F-GSQK,Air France,2005-11-17,Active,Amiens
+570,32846,616,Boeing 777-328ER,F-GSQT,Air France,2007-02-27,Active,
+571,32847,624,Boeing 777-328ER,F-GSQU,Air France,2007-04-19,Active,Montélimar
+572,32848,558,Boeing 777-328ER,F-GSQM,Air France,2006-03-31,Active,Troyes
+573,32849,494,Boeing 777-328ER,F-GSQF,Air France,2004-11-12,Active,Papeete
+574,32850,500,Boeing 777-328ER,F-GSQG,Air France,2004-12-23,Active,lsd
+575,32851,492,Boeing 777-328ER,F-GSQE,Air France,2004-10-08,Parked,Angoulême
+576,32852,510,Boeing 777-328ER,F-GSQJ,Air France,2005-04-29,Active,"Strasbourg , lsd"
+577,32853,545,Boeing 777-328ER,F-GSQL,Air France,2006-01-13,Active,Azay-le-Rideau
+578,32854,636,Boeing 777-328ER,F-GSQV,Air France,2007-05-25,Active,Millau
+579,32855,413,Boeing 777-243ER,EI-ISA,Alitalia - Società Aerea Italiana,2015-01-01,Stored,"Taormina , lsd"
+580,32856,421,Boeing 777-243ER,EI-ISE,Alitalia - Società Aerea Italiana,2015-01-01,Stored,"Portofino / Pier Paolo Racchetti, lsd"
+581,32857,424,Boeing 777-243ER,EI-ISO,Alitalia - Società Aerea Italiana,2015-01-01,Stored,"Positano , lsd"
+582,32858,425,Boeing 777-243ER,I-DISU,Alitalia - Società Aerea Italiana,2015-01-01,Stored,Madonna di Campiglio / Alberto Nassetti
+583,32859,426,Boeing 777-243ER,EI-ISB,AlisCargo Airlines,2022-02-11,Stored,lsd
+584,32860,439,Boeing 777-243ER,EI-ISD,AlisCargo Airlines,2022-02-24,Stored,lsd
+585,32879,433,Boeing 777-223ER,N765AN,American Airlines,2003-05-09,Active,7BY
+586,32880,445,Boeing 777-223ER,N766AN,American Airlines,2003-06-30,Active,7CA
+587,32889,410,Boeing 777-246ER,5A-GRS,Fly OYA,2024-10-29,Active,lsf Ghadames Air
+588,32890,417,Boeing 777-246ER,N840KW,Alta Airlines Holdings,2024-02-01,Stored,
+589,32891,427,Boeing 777-246ER,4L-MWB,MyWay Airlines,2024-04-24,Active,lsd
+590,32892,435,Boeing 777-246ER,N577NA,NASA,2024-05-18,Parked,
+591,32893,446,Boeing 777-246ER,N775LG,Logistic Air,2022-04-12,Stored,
+592,32894,475,Boeing 777-246ER,N777LA,Logistic Air,2022-05-03,Stored,
+593,32895,483,Boeing 777-246ER,N778LG,Logistic Air,2022-05-03,Stored,
+594,32896,489,Boeing 777-246ER,N837KW,Alta Airlines Holdings,2023-03-22,Stored,
+595,32960,565,Boeing 777-328ER,F-GSQN,Air France,2006-05-26,Active,Limoges
+596,32961,570,Boeing 777-328ER,F-GSQO,Air France,2006-06-14,Active,Vézelay
+597,32962,608,Boeing 777-328ER,F-GSQS,Air France,2007-01-22,Active,Annonay
+598,32963,645,Boeing 777-328ER,F-GSQX,Air France,2007-06-29,Active,lsd
+599,32964,715,Boeing 777-328ER,F-GZNB,Air France,2008-04-29,Active,lsd
+600,32965,732,Boeing 777-F28,F-GUOB,Air France,2009-02-24,Active,lsd
+601,32966,752,Boeing 777-F28,F-GUOC,Air France,2009-02-20,Active,lsd
+602,32967,718,Boeing 777-F28,N880FD,FedEx Express,2010-03-17,Active,"Kaleb, 880"
+603,32968,795,Boeing 777-328ER,F-GZNG,Air France,2009-06-26,Active,"Belfort , lsd"
+604,32969,827,Boeing 777-F28,N882FD,FedEx Express,2010-03-25,Active,"LeeAnna, 882"
+605,33125,1103,Boeing 777-323ER,N723AN,American Airlines,2013-05-28,Active,7LG
+606,33127,1200,Boeing 777-323ER,N729AN,American Airlines,2014-05-19,Active,7LN
+607,33169,405,Boeing 777-258ER,4X-ECD,El Al Israel Airlines,2002-06-06,Parked,"Ramat Gan / רמת גן, 104"
+608,33368,428,Boeing 777-212ER,9V-SQK,Singapore Airlines,2003-02-20,Written Off,
+609,33369,448,Boeing 777-212ER,5R-RIJ,Unknown,2025-05-27,Parked,
+610,33370,451,Boeing 777-212ER,N509BC,Jet Midwest,2023-01-19,Stored,
+611,33371,449,Boeing 777-212ER,TF-BBX,Bluebird Nordic,2022-04-19,Stored,lsd
+612,33372,485,Boeing 777-212ER,N749BC,Alta Airlines Holdings,2021-10-26,Stored,
+613,33373,487,Boeing 777-212ER,N785BC,Alta Airlines Holdings,2021-07-27,Stored,
+614,33374,503,Boeing 777-312,TC-GRV,Southwind Airlines,2023-09-06,Active,lsd
+615,33375,505,Boeing 777-312,5N-BWI,Air Peace,2019-03-20,Active,"Añuli Peggy Onyema, lsd"
+616,33376,515,Boeing 777-312,TC-GRU,Southwind Airlines,2023-10-24,Active,lsd
+617,33377,592,Boeing 777-312ER,9V-SWB,Singapore Airlines,2006-11-29,Active,
+618,33394,464,Boeing 777-246ER,N776LG,Logistic Air,2021-06-02,Stored,
+619,33395,525,Boeing 777-246ER,5N-CEG,Air Peace,2025-02-14,Parked,
+620,33396,533,Boeing 777-246ER,N771LG,Logistic Air,2023-01-17,Stored,
+621,33406,482,Boeing 777-281,JA711A,All Nippon Airways,2004-06-21,Stored,Star Alliance  cs
+622,33407,495,Boeing 777-281,JA712A,All Nippon Airways,2004-10-25,Stored,Star Alliance  cs
+623,33414,574,Boeing 777-281ER,JA716A,All Nippon Airways,2006-06-28,Active,
+624,33415,580,Boeing 777-281ER,JA717A,All Nippon Airways,2006-08-08,Active,
+625,33416,691,Boeing 777-381ER,JA782A,All Nippon Airways,2008-01-24,Stored,
+626,33501,516,Boeing 777-31HER,TC-GRZ,Southwind Airlines,2023-03-09,Active,lsd
+627,33502,450,Boeing 777-26KER,VN-A143,Vietnam Airlines,2003-08-20,Scrapped,
+628,33503,453,Boeing 777-26KER,VN-A144,Vietnam Airlines,2003-09-11,Scrapped,
+629,33504,491,Boeing 777-26KER,VN-A145,Vietnam Airlines,2004-09-17,Scrapped,
+630,33505,486,Boeing 777-26KER,VN-A146,Vietnam Airlines,2004-07-28,Scrapped,
+631,33522,1075,Boeing 777-323ER,N720AN,American Airlines,2013-02-20,Active,"7LD, lsd"
+632,33523,1241,Boeing 777-323ER,N731AN,American Airlines,2014-10-09,Active,7LR
+633,33524,1270,Boeing 777-323ER,N733AR,American Airlines,2015-02-02,Active,7LT
+634,33538,1377,Boeing 777-323ER,N736AT,American Airlines,2016-03-01,Active,7LW
+635,33539,555,Boeing 777-223ER,N767AJ,American Airlines,2006-03-30,Active,7CB
+636,33540,566,Boeing 777-223ER,N768AA,American Airlines,2006-05-26,Active,7CC
+637,33541,1176,Boeing 777-323ER,N727AN,American Airlines,2014-02-25,Active,7LL
+638,33681,479,Boeing 777-2U8ER,N819AX,Omni Air International,2016-03-31,Active,"819, lsd"
+639,33682,514,Boeing 777-2U8ER,N828AX,Omni Air International,2017-01-13,Active,"828, lsd"
+640,33683,522,Boeing 777-2U8ER,N783KW,Eastern Airlines,2020-08-25,Stored,783
+641,33702,456,Boeing 777-367,B-HNM,Cathay Pacific,2003-10-31,Active,
+642,33703,462,Boeing 777-367,B-HNN,Cathay Pacific,2003-11-24,Parked,
+643,33704,470,Boeing 777-367,B-HNO,Cathay Pacific,2004-02-26,Active,
+644,33711,454,Boeing 777-206ER,PH-BQA,KLM Royal Dutch Airlines,2003-10-23,Active,"Albert Plesman , QA-001"
+645,33712,457,Boeing 777-206ER,PH-BQB,KLM Royal Dutch Airlines,2003-11-07,Active,"Borobudur , QB-002"
+646,33713,465,Boeing 777-206ER,PH-BQD,KLM Royal Dutch Airlines,2003-12-22,Active,"Darjeeling Railway , QD-004"
+647,33714,497,Boeing 777-206ER,PH-BQI,KLM Asia,2012-02-27,Active,"Iguazú Falls , QI-009, opby KLM Royal Dutch Airlines"
+648,33727,452,Boeing 777-2B5ER,HL7721,Korean Air,2003-09-08,Partially Scrapped,
+649,33750,612,Boeing 777-35EER,B-16706,EVA Air,2007-02-09,Active,
+650,33751,634,Boeing 777-35EER,B-16707,EVA Air,2007-05-10,Parked,
+651,33752,658,Boeing 777-35EER,B-16708,EVA Air,2007-08-22,Active,
+652,33753,683,Boeing 777-35EER,B-16709,EVA Air,2007-12-12,Active,
+653,33754,721,Boeing 777-35EER,B-16711,EVA Air,2008-05-29,Active,
+654,33755,735,Boeing 777-35EER,B-16712,EVA Air,2008-07-24,Active,lsd
+655,33756,758,Boeing 777-35EER,B-16713,EVA Air,2009-01-20,Active,
+656,33757,810,Boeing 777-35EER,B-16715,EVA Air,2009-12-18,Active,Star Alliance  cs
+657,33775,467,Boeing 777-240ER,AP-BGJ,PIA Pakistan International Airlines,2004-01-29,Parked,
+658,33776,469,Boeing 777-240ER,AP-BGK,PIA Pakistan International Airlines,2004-02-13,Active,
+659,33777,473,Boeing 777-240ER,AP-BGL,PIA Pakistan International Airlines,2004-03-22,Parked,
+660,33778,601,Boeing 777-340ER,AP-BHV,PIA Pakistan International Airlines,2006-12-21,Active,
+661,33779,611,Boeing 777-340ER,AP-BHW,PIA Pakistan International Airlines,2007-02-07,Parked,
+662,33780,705,Boeing 777-340ER,AP-BID,PIA Pakistan International Airlines,2008-03-27,Parked,
+663,33781,504,Boeing 777-240LR,AP-BGY,PIA Pakistan International Airlines,2006-02-24,Active,
+664,33782,519,Boeing 777-240LR,AP-BGZ,PIA Pakistan International Airlines,2006-03-22,Parked,
+665,33862,535,Boeing 777-36NER,N282GE,AerCap,2023-01-06,Stored,
+666,33863,576,Boeing 777-36NER,N386AE,AerCap,2025-05-29,Stored,
+667,33864,622,Boeing 777-36NER,A6-EBY,Emirates,2007-03-30,Active,lsd
+668,33865,664,Boeing 777-36NER,N790CK,AerCap,2024-09-24,Stored,
+669,34206,520,Boeing 777-2B5ER,HL7733,Jin Air,2015-07-21,Active,
+670,34207,528,Boeing 777-2B5ER,HL7734,Jin Air,2015-12-16,Active,
+671,34208,584,Boeing 777-2B5ER,HL7743,Jin Air,2014-11-29,Active,
+672,34209,633,Boeing 777-2B5ER,HL7750,Jin Air,2016-07-15,Active,
+673,34210,657,Boeing 777-2B5ER,HL7751,Korean Air,2007-08-27,Stored,
+674,34211,682,Boeing 777-2B5ER,HL7752,Korean Air,2007-11-30,Stored,
+675,34212,711,Boeing 777-2B5ER,HL7765,Korean Air,2008-05-14,Stored,
+676,34213,730,Boeing 777-2B5ER,HL7766,Korean Air,2008-06-30,Stored,
+677,34214,684,Boeing 777-2B5ER,HL7764,Korean Air,2007-12-20,Stored,
+678,34243,513,Boeing 777-367,B-HNP,Cathay Pacific,2005-04-21,Active,
+679,34244,567,Boeing 777-367,B-HNQ,Cathay Pacific,2006-07-27,Active,
+680,34376,537,Boeing 777-219ER,9H-AZG,Saudi Arabian Airlines,2024-05-31,Active,lsf Air Atlanta Europe
+681,34377,546,Boeing 777-219ER,EC-OJL,Privilege Style,2025-02-19,Active,Auria
+682,34378,575,Boeing 777-219ER,9H-AZH,Saudi Arabian Airlines,2024-07-19,Active,lsf Air Atlanta Europe
+683,34379,605,Boeing 777-219ER,N846KW,Jet Midwest,2025-01-29,Stored,
+684,34432,674,Boeing 777-367ER,VQ-BXK,Aviator Capital,2021-05-01,Stored,
+685,34481,549,Boeing 777-31HER,A6-EBK,Emirates,2006-02-15,Active,
+686,34482,556,Boeing 777-31HER,A6-EBM,Emirates,2006-03-23,Active,
+687,34483,578,Boeing 777-31HER,A6-EBR,Emirates,2006-08-30,Active,
+688,34484,590,Boeing 777-31HER,A6-EBU,Emirates,2006-10-23,Active,
+689,34565,581,Boeing 777-2M2ER,D2-TED,TAAG - Linhas Aereas de Angola Airlines,2006-09-15,Parked,11 De Novembro
+690,34566,587,Boeing 777-2M2ER,D2-TEE,TAAG - Linhas Aereas de Angola Airlines,2006-10-27,Parked,Kuito Kuanavale
+691,34567,687,Boeing 777-2M2ER,D2-TEF,TAAG - Linhas Aereas de Angola Airlines,2007-12-21,Parked,
+692,34568,586,Boeing 777-312ER,N855BC,Boeing Capital Corporation (BCC),2021-10-18,Scrapped,
+693,34569,600,Boeing 777-312ER,9V-SWD,Singapore Airlines,2006-12-15,Stored,
+694,34570,602,Boeing 777-312ER,9V-SWE,Singapore Airlines,2006-12-23,Scrapped,
+695,34571,603,Boeing 777-312ER,9V-SWF,Singapore Airlines,2006-12-22,Stored,
+696,34572,604,Boeing 777-312ER,9V-SWG,Singapore Airlines,2006-12-31,Active,
+697,34573,615,Boeing 777-312ER,9V-SWH,Singapore Airlines,2007-02-27,Active,
+698,34574,618,Boeing 777-312ER,9V-SWI,Singapore Airlines,2007-03-09,Active,(White) Star Alliance  cs
+699,34575,623,Boeing 777-312ER,9V-SWJ,Singapore Airlines,2007-03-29,Active,(White) Star Alliance  cs
+700,34576,644,Boeing 777-312ER,9V-SWK,Singapore Airlines,2007-06-29,Active,
+701,34577,673,Boeing 777-312ER,9V-SWL,Singapore Airlines,2007-10-29,Active,
+702,34578,701,Boeing 777-312ER,9V-SWM,Singapore Airlines,2008-02-29,Active,(White) Star Alliance  cs
+703,34579,703,Boeing 777-312ER,9V-SWN,Singapore Airlines,2008-03-14,Stored,
+704,34580,708,Boeing 777-312ER,9V-SWO,Singapore Airlines,2008-03-28,Active,
+705,34581,710,Boeing 777-312ER,9V-SWP,Singapore Airlines,2008-04-11,Active,
+706,34582,716,Boeing 777-312ER,9V-SWQ,Singapore Airlines,2008-04-30,Active,
+707,34583,722,Boeing 777-312ER,9V-SWR,Singapore Airlines,2008-05-23,Active,
+708,34584,729,Boeing 777-312ER,9V-SWS,Singapore Airlines,2008-06-27,Active,
+709,34585,759,Boeing 777-312ER,9V-SWT,Singapore Airlines,2009-01-30,Parked,
+710,34586,588,Boeing 777-2D7ER,HS-TJR,Thai Airways,2006-11-01,Active,Nakhon Sawan / นครสวรรค์
+711,34587,595,Boeing 777-2D7ER,HS-TJS,Thai Airways,2006-11-09,Stored,Phra Nakhon / พระนคร
+712,34588,596,Boeing 777-2D7ER,HS-TJT,Thai Airways,2006-11-17,Stored,Pathum Wan / ปทุมวัน
+713,34589,599,Boeing 777-2D7ER,HS-TJU,Thai Airways,2006-12-12,Stored,Phichit / พิจิตร
+714,34590,665,Boeing 777-2D7ER,HS-TJV,Thai Airways,2007-09-24,Active,Nakhon Pathom / นครปฐม
+715,34591,672,Boeing 777-2D7ER,HS-TJW,Thai Airways,2007-10-29,Active,Phetchabun / เพชรบูรณ์
+716,34597,538,Boeing 777-3FXER,A6-ETA,Etihad Airways,2023-05-19,Active,lsd
+717,34598,543,Boeing 777-3FXER,N773AJ,CSDS Aircraft Sales and Leasing,2023-11-30,Partially Scrapped,
+718,34599,544,Boeing 777-3FXER,N774AJ,CSDS Aircraft Sales and Leasing,2023-11-21,Partially Scrapped,
+719,34600,547,Boeing 777-3FXER,OE-IHB,Altavair AirFinance,2022-04-19,Stored,
+720,34601,548,Boeing 777-3FXER,A6-ETE,Etihad Airways,2023-11-10,Active,lsd
+721,34711,552,Boeing 777-206ER,PH-BQL,KLM Asia,2012-03-18,Active,"Litomyšl Castle , QL-011, opby KLM Royal Dutch Airlines"
+722,34712,559,Boeing 777-206ER,PH-BQM,KLM Asia,2012-03-04,Active,"Machu Picchu , QM-12, opby KLM Royal Dutch Airlines"
+723,34892,571,Boeing 777-381ER,JA735A,All Nippon Airways,2006-06-15,Stored,
+724,34893,589,Boeing 777-381ER,JA736A,All Nippon Airways,2006-09-27,Stored,
+725,34894,631,Boeing 777-381ER,JA779A,All Nippon Airways,2007-04-26,Partially Scrapped,
+726,34895,639,Boeing 777-381ER,JA780A,All Nippon Airways,2007-05-31,Stored,
+727,35157,627,Boeing 777-35RER,VT-JET,Jet Airways,2016-08-29,Stored,
+728,35158,637,Boeing 777-35RER,VT-JEV,Jet Airways,2016-10-10,Stored,
+729,35159,650,Boeing 777-35RER,VT-JES,Jet Airways,2016-06-24,Stored,
+730,35160,653,Boeing 777-35RER,VT-JEU,Jet Airways,2016-09-15,Stored,
+731,35161,693,Boeing 777-35RER,OE-IIJ,Bishopsgate Aircraft,2019-05-16,Scrapped,
+732,35162,666,Boeing 777-35RER,VT-JEM,Jet Airways,2014-10-21,Stored,
+733,35163,675,Boeing 777-35RER,2-TJEX,Bank Of Scotland,2019-05-24,Scrapped,
+734,35164,660,Boeing 777-35RER,N377CL,IAG Aero Group,2021-09-07,Stored,
+735,35165,696,Boeing 777-35RER,N351BU,Bank of Utah,2020-06-24,Scrapped,
+736,35166,678,Boeing 777-35RER,2-TJEH,Bank Of Scotland,2019-05-24,Scrapped,
+737,35239,640,Boeing 777-233LR,C-FIUA,Air Canada,2007-06-25,Active,701
+738,35240,749,Boeing 777-333ER,C-FIVQ,Air Canada,2008-12-23,Active,740
+739,35241,763,Boeing 777-333ER,C-FIVR,Air Canada,2009-02-13,Active,741
+740,35242,649,Boeing 777-333ER,C-FIUR,Air Canada,2007-07-27,Active,735
+741,35243,651,Boeing 777-233LR,C-FIUF,Air Canada,2007-08-07,Active,702
+742,35244,679,Boeing 777-233LR,C-FIUJ,Air Canada,2007-11-30,Active,703
+743,35245,689,Boeing 777-233LR,C-FIVK,Air Canada,2008-01-15,Active,704
+744,35246,695,Boeing 777-233LR,C-FNND,Air Canada,2008-02-14,Active,"705, lsd"
+745,35247,699,Boeing 777-233LR,C-FNNH,Air Canada,2008-02-28,Active,"706, lsd"
+746,35248,702,Boeing 777-333ER,C-FIUV,Air Canada,2008-03-14,Active,"736, lsd"
+747,35249,712,Boeing 777-333ER,C-FIUW,Air Canada,2008-04-22,Active,"737, lsd"
+748,35250,726,Boeing 777-333ER,C-FRAM,Air Canada,2008-06-25,Active,"739, lsd"
+749,35251,717,Boeing 777-333ER,C-FIVM,Air Canada,2008-05-13,Active,738
+750,35254,626,Boeing 777-333ER,C-FITU,Air Canada,2007-04-30,Active,"732, lsd"
+751,35255,642,Boeing 777-333ER,C-FIUL,Air Canada,2007-06-29,Active,734
+752,35256,620,Boeing 777-333ER,C-FITL,Air Canada,2023-02-03,Active,731
+753,35295,609,Boeing 777-206ER,PH-BQO,KLM Royal Dutch Airlines,2007-01-29,Active,"Old Rauma , QO-014, lsd"
+754,35296,613,Boeing 777-240ER,AP-BHX,PIA Pakistan International Airlines,2007-03-08,Active,lsd
+755,35297,671,Boeing 777-328ER,F-GZNA,Air France,2007-10-24,Active,lsd
+756,35298,638,Boeing 777-333ER,C-FITW,Air Canada,2007-06-01,Active,"733, lsd"
+757,35299,670,Boeing 777-367ER(MF),N463AC,AviaAM Leasing,2023-02-16,Stored,
+758,35300,700,Boeing 777-367ER,N128TS,AviaAM Leasing,2024-02-12,Stored,
+759,35301,720,Boeing 777-367ER,VQ-BXJ,Azur Air,2021-07-21,Stored,lsd
+760,35302,745,Boeing 777-3ZGER,TC-MGG,Mavi Gök Airlines (MGA),2022-11-28,Active,"Engin Çavdar, lsd"
+761,35525,853,Boeing 777-28EER,HL7791,Asiana Airlines,2010-03-29,Active,
+762,35542,723,Boeing 777-328ER,F-GZNC,Air France,2008-05-30,Active,lsd
+763,35543,777,Boeing 777-328ER,F-GZND,Air France,2009-04-09,Parked,La Rochelle
+764,35544,905,Boeing 777-328ER,F-GZNH,Air France,2010-12-07,Active,"Mulhouse , lsd"
+765,35547,617,Boeing 777-224ER,N77019,United Airlines,2010-10-01,Active,"Larry Kellner, 0019"
+766,35555,1022,Boeing 777-3F6ER,RP-C7775,Philippine Airlines,2012-06-20,Active,
+767,35556,1056,Boeing 777-3F6ER,RP-C7774,Philippine Airlines,2012-11-06,Active,
+768,35572,654,Boeing 777-21HLR,A6-EWA,Emirates,2007-08-31,Active,
+769,35573,662,Boeing 777-21HLR,A6-EWB,Emirates,2007-09-21,Active,
+770,35574,690,Boeing 777-31HER,A6-ECF,Emirates,2008-01-29,Active,
+771,35575,681,Boeing 777-31HER,A6-ECE,Emirates,2007-12-20,Active,lsd
+772,35576,677,Boeing 777-21HLR,A6-EWC,Emirates,2007-11-19,Active,lsd
+773,35577,688,Boeing 777-21HLR,A6-EWD,Emirates,2008-01-25,Active,
+774,35578,741,Boeing 777-21HLR,A6-EWG,Emirates,2008-11-10,Active,
+775,35579,709,Boeing 777-31HER,A6-ECG,Emirates,2008-04-22,Active,
+776,35580,728,Boeing 777-31HER,A6-ECI,Emirates,2008-07-25,Active,
+777,35581,714,Boeing 777-31HER,A6-ECH,Emirates,2008-05-09,Active,
+778,35582,725,Boeing 777-21HLR,A6-EWE,Emirates,2008-06-30,Active,
+779,35583,734,Boeing 777-31HER,A6-ECJ,Emirates,2008-08-28,Active,
+780,35584,743,Boeing 777-31HER,A6-ECK,Emirates,2008-12-10,Active,
+781,35585,969,Boeing 777-31HER,A6-EGH,Emirates,2011-10-20,Active,
+782,35586,739,Boeing 777-21HLR,A6-EWF,Emirates,2008-08-28,Active,
+783,35587,747,Boeing 777-21HLR,A6-EWH,Emirates,2008-12-23,Active,
+784,35588,779,Boeing 777-31HER,A6-ECQ,Emirates,2009-04-30,Active,lsd
+785,35589,757,Boeing 777-21HLR,A6-EWI,Emirates,2009-01-26,Active,
+786,35590,775,Boeing 777-21HLR,A6-EWJ,Emirates,2009-03-30,Active,lsd
+787,35591,808,Boeing 777-31HER,A6-ECT,Emirates,2009-08-27,Active,
+788,35592,794,Boeing 777-31HER,A6-ECR,Emirates,2009-06-26,Active,lsd
+789,35593,817,Boeing 777-31HER,A6-ECU,Emirates,2009-09-29,Active,
+790,35594,824,Boeing 777-31HER,A6-ECV,Emirates,2009-10-29,Active,
+791,35595,840,Boeing 777-31HER,A6-ECY,Emirates,2010-01-27,Active,
+792,35596,945,Boeing 777-31HER,A6-EGC,Emirates,2011-07-14,Active,lsd
+793,35597,951,Boeing 777-31HER,A6-EGE,Emirates,2011-08-05,Parked,
+794,35598,1000,Boeing 777-31HER,A6-EGO,Emirates,2012-03-20,Active,
+795,35599,1010,Boeing 777-31HER,A6-EGP,Emirates,2012-05-08,Active,
+796,35600,1024,Boeing 777-31HER,A6-EGT,Emirates,2012-06-29,Active,lsd
+797,35601,1034,Boeing 777-31HER,A6-EGW,Emirates,2012-08-10,Active,
+798,35602,1037,Boeing 777-31HER,A6-EGX,Emirates,2012-08-31,Active,
+799,35603,1069,Boeing 777-31HER,A6-ENE,Emirates,2013-01-23,Active,
+800,35604,1076,Boeing 777-31HER,A6-ENG,Emirates,2013-02-19,Active,
+801,35605,1099,Boeing 777-31HER,A6-ENJ,Emirates,2013-05-17,Active,
+802,35606,766,Boeing 777-F1H,N704GT,YunExpress,2025-03-14,Active,opby Atlas Air
+803,35607,788,Boeing 777-F1H,N772CK,DHL Aviation,2019-06-12,Active,opby Kalitta Air
+804,35608,1046,Boeing 777-F1H,N793CK,Kalitta Air,2024-10-31,Active,"793, lsd"
+805,35609,1060,Boeing 777-F1H,N794CK,Kalitta Air,2024-12-31,Active,"794, lsd"
+806,35610,1065,Boeing 777-F1H,N795CK,Kalitta Air,2025-02-10,Active,"795, lsd"
+807,35611,1088,Boeing 777-F1H,B-227H,Central Airlines,2025-05-15,Active,lsd
+808,35612,955,Boeing 777-F1H,D-ALFJ,Lufthansa Cargo,2021-09-20,Active,lsd
+809,35613,996,Boeing 777-F1H,D-AALU,AeroLogic,2022-08-24,Active,
+810,35671,694,Boeing 777-306ER,PH-BVA,KLM Royal Dutch Airlines,2008-02-13,Active,"Nationaal Park De Hoge Veluwe / De Hoge Veluwe National Park , VA-025, #OrangePride cs"
+811,35676,573,Boeing 777-328ER,F-GSQP,Air France,2006-06-30,Active,"Pomerol , lsd"
+812,35677,579,Boeing 777-328ER,F-GSQR,Air France,2006-08-03,Active,"Châteauroux , lsd"
+813,35678,647,Boeing 777-328ER,F-GSQY,Air France,2007-07-10,Active,
+814,35782,778,Boeing 777-3Q8ER,AP-BMS,PIA Pakistan International Airlines,2017-07-26,Active,lsd
+815,35783,786,Boeing 777-3Q8ER,TC-LKD,IndiGo,2023-05-28,Active,lsf Turkish Airlines
+816,35784,797,Boeing 777-333ER,C-FIVS,Air Canada,2009-07-07,Active,"742, lsd"
+817,35946,1292,Boeing 777-306ER,PH-BVO,KLM Royal Dutch Airlines,2015-04-22,Active,"Kaziranga National Park / Nationaal Park Kaziranga , VO-034"
+818,35947,1029,Boeing 777-306ER,PH-BVI,KLM Royal Dutch Airlines,2012-07-19,Active,"Nationaal Park Vuurland / Tierra del Fuego National Park , VI-031"
+819,35960,607,Boeing 777-2Z9ER,OE-LPD,Austrian Airlines,2007-01-30,Active,Spirit of Austria
+820,35979,807,Boeing 777-306ER,PH-BVD,KLM Royal Dutch Airlines,2009-08-24,Active,"Nationaal Park Amboseli / Amboseli National Park , VD-028"
+821,36001,780,Boeing 777-FZN,D-AALA,AeroLogic,2009-05-11,Active,lsd
+822,36002,799,Boeing 777-FZN,D-AALB,AeroLogic,2009-07-16,Active,lsd
+823,36003,836,Boeing 777-FZN,D-AALC,AeroLogic,2009-12-23,Active,lsd
+824,36004,838,Boeing 777-FZN,D-AALD,AeroLogic,2009-12-30,Active,lsd
+825,36009,676,Boeing 777-3DZER,A7-BAA,Qatar Airways,2007-11-27,Active,"الخطية, oneworld  cs"
+826,36010,731,Boeing 777-3DZER,A7-BAC,Qatar Airways,2008-08-29,Active,"فريحه , Retro cs"
+827,36011,750,Boeing 777-3DZER,A7-BAO,Qatar Airways,2008-12-22,Active,القراين
+828,36012,753,Boeing 777-2DZLR,A7-BBA,Qatar Airways,2009-02-03,Active,لحويلة
+829,36013,762,Boeing 777-2DZLR,A7-BBB,Qatar Airways,2009-02-23,Active,غزة
+830,36014,819,Boeing 777-3DZER,A7-BAG,Qatar Airways,2009-10-20,Active,"لعطوريه , oneworld  cs"
+831,36015,825,Boeing 777-2DZLR,A7-BBC,Qatar Airways,2009-11-10,Active,لبرثه
+832,36016,831,Boeing 777-2DZLR,N791MF,Jetran,2023-12-14,Stored,
+833,36017,837,Boeing 777-2DZLR,N792MF,Jetran,2023-12-28,Stored,
+834,36018,842,Boeing 777-2DZLR,A7-BBF,Qatar Airways,2022-06-21,Active,lsd
+835,36083,648,Boeing 777-258ER,4X-ECE,El Al Israel Airlines,2007-07-23,Active,"Sderot / שדרות, 105"
+836,36084,655,Boeing 777-258ER,4X-ECF,El Al Israel Airlines,2007-08-18,Active,"Kiryat Shmona / קרית שמונה, 106"
+837,36095,742,Boeing 777-3DZER,A7-BAI,Qatar Airways,2008-10-22,Active,ام طاقه
+838,36096,851,Boeing 777-3DZER,A7-BAJ,Qatar Airways,2010-03-04,Active,الرويس
+839,36097,859,Boeing 777-3DZER,A7-BAK,Qatar Airways,2010-04-08,Active,الغارية
+840,36098,865,Boeing 777-FDZ,A7-BFA,Qatar Airways Cargo,2010-05-14,Active,الوكرة
+841,36099,970,Boeing 777-FDZ,A7-BFC,Qatar Airways Cargo,2011-10-28,Active,لبشيرية
+842,36100,874,Boeing 777-FDZ,A7-BFB,Qatar Airways Cargo,2010-06-09,Active,لبصير
+843,36101,883,Boeing 777-2DZLR,A7-BBG,Qatar Airways,2010-07-28,Active,المشرب
+844,36102,885,Boeing 777-2DZLR,A7-BBH,Qatar Airways,2010-08-04,Active,القلايل
+845,36103,686,Boeing 777-3DZER,A7-BAB,Qatar Airways,2007-12-18,Active,"ام العمد , oneworld  cs"
+846,36104,769,Boeing 777-3DZER,A7-BAE,Qatar Airways,2009-03-04,Active,المسحبيه
+847,36124,614,Boeing 777-2U8ER,N846AX,Omni Air International,2016-02-17,Active,"846, lsd"
+848,36126,668,Boeing 777-346ER,JA737J,Japan Airlines,2007-10-04,Active,
+849,36127,744,Boeing 777-346ER,JA740J,Japan Airlines,2008-08-28,Active,
+850,36128,812,Boeing 777-346ER,JA741J,Japan Airlines,2009-09-15,Active,
+851,36129,816,Boeing 777-346ER,JA742J,Japan Airlines,2009-09-30,Active,
+852,36130,821,Boeing 777-346ER,JA743J,Japan Airlines,2009-10-27,Active,
+853,36145,706,Boeing 777-306ER,PH-BVB,KLM Asia,2012-07-26,Active,"Nationaal Park Fulufjället / Fulufjället National Park , VB-026, opby KLM Royal Dutch Airlines"
+854,36154,661,Boeing 777-367ER,B-KPA,Cathay Pacific,2007-09-27,Active,
+855,36155,680,Boeing 777-367ER,B-KPD,Cathay Pacific,2007-11-29,Active,oneworld  cs
+856,36156,685,Boeing 777-367ER,B-KPE,Cathay Pacific,2007-12-19,Active,
+857,36157,754,Boeing 777-367ER,ZK-OKU,Air New Zealand,2023-10-16,Parked,lsd
+858,36158,783,Boeing 777-367ER,TF-BBA,Bluebird Nordic,2022-01-25,Stored,lsd
+859,36159,835,Boeing 777-367ER,A7-BOA,Qatar Airways,2021-12-09,Active,lsd
+860,36160,843,Boeing 777-367ER,B-KPO,Cathay Pacific,2010-01-25,Active,
+861,36161,818,Boeing 777-367ER,A7-BOB,Qatar Airways,2021-11-25,Active,lsd
+862,36162,860,Boeing 777-367ER,B-KPQ,Cathay Pacific,2010-04-19,Parked,
+863,36163,877,Boeing 777-367ER,B-KPR,Cathay Pacific,2010-06-25,Active,
+864,36164,845,Boeing 777-367ER,A7-BOC,Qatar Airways,2022-02-23,Active,"lsd, Retro cs"
+865,36165,839,Boeing 777-367ER,A7-BOD,Qatar Airways,2021-12-29,Active,lsd
+866,36198,872,Boeing 777-FZN,D-AALE,AeroLogic,2010-06-01,Active,lsd
+867,36199,894,Boeing 777-FZN,D-AALG,AeroLogic,2010-09-24,Active,lsd
+868,36200,904,Boeing 777-FZN,D-AALH,AeroLogic,2010-11-22,Active,lsd
+869,36201,881,Boeing 777-FZN,D-AALF,AeroLogic,2010-07-09,Active,lsd
+870,36300,610,Boeing 777-237LR,N280UA,Unical Aviation,2019-01-22,Scrapped,
+871,36301,621,Boeing 777-237LR,N281UA,Altavair AirFinance,2019-05-16,Scrapped,
+872,36302,629,Boeing 777-237LR,A6-LRC,Etihad Airways,2014-02-09,Scrapped,
+873,36303,663,Boeing 777-237LR,N283UA,Unical Aviation,2019-05-16,Scrapped,
+874,36304,698,Boeing 777-237LR,N284UA,Unical Aviation,2019-08-22,Scrapped,
+875,36305,793,Boeing 777-237LR,N14QC,Jetran,2025-06-03,Stored,
+876,36306,800,Boeing 777-237LR,N13QC,Jetran,2025-05-09,Stored,
+877,36307,805,Boeing 777-237LR,VT-ALH,Air India,2009-08-28,Stored,महाराष्ट्र / Maharashtra
+878,36308,643,Boeing 777-337ER,VT-ALJ,Air India,2007-10-09,Active,"बिहार / Bihar , Star Alliance  cs"
+879,36309,652,Boeing 777-337ER,VT-ALK,Air India,2007-10-30,Active,छत्तीसगढ / Chattisgarh
+880,36310,656,Boeing 777-337ER,VT-ALL,Air India,2007-12-17,Parked,गोवा / Goa
+881,36311,713,Boeing 777-337ER,VT-ALM,Air India,2008-06-04,Active,हिमाचल प्रदेश / Himachal Pradesh
+882,36312,719,Boeing 777-337ER,VT-ALN,Air India,2008-07-11,Active,जम्मू एवं कश्मीर / Jammu and Kashmir
+883,36313,798,Boeing 777-337ER,VT-ALO,Air India,2009-07-13,Active,कर्नाटक / Karnataka
+884,36314,804,Boeing 777-337ER,VT-ALP,Air India,2009-08-25,Active,मध्य प्रदेश / Madhya Pradesh
+885,36315,809,Boeing 777-337ER,VT-ALQ,Air India,2009-08-31,Active,मणिपुर / Manipur
+886,36316,814,Boeing 777-337ER,VT-ALR,Air India,2009-09-28,Active,मेघालय / Meghalaya
+887,36317,864,Boeing 777-337ER,VT-ALS,Air India,2010-04-30,Parked,मिजोरम / Mizoram
+888,36318,871,Boeing 777-337ER,VT-ALT,Air India,2010-05-24,Active,नगालैंड / Nagaland
+889,36319,880,Boeing 777-337ER,VT-ALU,Air India,2010-07-12,Active,ओडिशा / Odisha
+890,36320,1537,Boeing 777-337ER,K7066,Government of India,2020-09-30,Active,
+891,36321,1541,Boeing 777-337ER,K7067,Government of India,2020-10-23,Active,
+892,36322,1544,Boeing 777-337ER,VT-ALX,Air India,2018-03-08,Active,सिक्किम / Sikkim
+893,36516,771,Boeing 777-236ER,G-YMMR,British Airways,2009-03-23,Active,"lsd, oneworld  cs"
+894,36517,784,Boeing 777-236ER,G-YMMS,British Airways,2009-05-29,Active,lsd
+895,36518,791,Boeing 777-236ER,G-YMMT,British Airways,2009-06-25,Active,"lsd, oneworld  cs"
+896,36519,796,Boeing 777-236ER,G-YMMU,British Airways,2009-07-31,Active,oneworld  cs
+897,36563,802,Boeing 777-35RER,A6-SIL,Presidential Flight,2009-12-15,Active,Emirates livery
+898,36832,692,Boeing 777-367ER,B-KPF,Cathay Pacific,2008-01-29,Active,
+899,36833,746,Boeing 777-367ER,B-KPI,Cathay Pacific,2008-09-26,Active,
+900,37136,823,Boeing 777-3B5ER,VP-BJR,Nordwind Airlines,2021-12-29,Partially Scrapped,lsd
+901,37137,917,Boeing 777-FS2,N884FD,FedEx Express,2011-02-24,Active,"Ananyaa, 884"
+902,37138,977,Boeing 777-FHT,N844FD,FedEx Express,2017-01-12,Active,"Jason, 844"
+903,37309,760,Boeing 777-F1B,B-2071,China Southern Airlines Cargo,2022-06-30,Active,
+904,37310,770,Boeing 777-F1B,B-2072,China Southern Airlines Cargo,2025-02-23,Active,
+905,37311,811,Boeing 777-F1B,B-2073,China Southern Airlines Cargo,2022-06-03,Active,
+906,37312,820,Boeing 777-F1B,B-2075,China Southern Airlines Cargo,2021-07-29,Active,
+907,37313,888,Boeing 777-F1B,B-2081,China Southern Airlines Cargo,2024-07-12,Active,
+908,37314,983,Boeing 777-F1B,B-2080,China Southern Airlines Cargo,2024-12-30,Active,
+909,37432,790,Boeing 777-328ER,F-GZNE,Air France,2009-06-10,Active,"Salon-de-Provence , lsd"
+910,37433,792,Boeing 777-328ER,F-GZNF,Air France,2009-06-23,Active,"Dunkerque , lsd"
+911,37434,912,Boeing 777-39MER,F-OREU,Air Austral,2011-01-20,Active,lsd
+912,37435,1290,Boeing 777-328ER,F-GZNP,Air France,2015-04-23,Parked,
+913,37582,787,Boeing 777-306ER,PH-BVC,KLM Royal Dutch Airlines,2009-05-28,Parked,"Nationaal Park Sian Ka'an / Sian Ka'an National Park , VC-027"
+914,37638,1026,Boeing 777-FB5,HL8252,Korean Air,2012-06-29,Active,
+915,37639,989,Boeing 777-FB5,HL8251,Korean Air,2012-02-06,Active,
+916,37640,1074,Boeing 777-FB5,HL8226,Korean Air,2013-02-25,Active,
+917,37641,1172,Boeing 777-FB5,HL8285,Korean Air,2014-02-24,Active,
+918,37642,1278,Boeing 777-FB5,HL8005,Korean Air,2015-02-24,Active,
+919,37643,785,Boeing 777-3B5ER,HL7782,Korean Air,2009-05-27,Active,
+920,37644,806,Boeing 777-3B5ER,HL7783,Korean Air,2009-08-30,Active,SkyTeam  cs
+921,37645,867,Boeing 777-3B5ER,HL8208,Korean Air,2010-05-10,Active,
+922,37646,875,Boeing 777-3B5ER,HL8209,Korean Air,2010-06-09,Active,
+923,37647,933,Boeing 777-3B5ER,HL8216,Korean Air,2011-05-18,Active,
+924,37648,938,Boeing 777-3B5ER,HL8217,Korean Air,2011-06-07,Active,
+925,37649,976,Boeing 777-3B5ER,HL8218,Korean Air,2011-11-21,Active,
+926,37650,1023,Boeing 777-3B5ER,HL8250,Korean Air,2012-06-25,Active,
+927,37651,1109,Boeing 777-3B5ER,HL8275,Korean Air,2013-06-11,Active,
+928,37652,1315,Boeing 777-3B5ER,HL8006,Korean Air,2015-07-23,Active,
+929,37661,815,Boeing 777-3DZER,A7-BAF,Qatar Airways,2009-09-29,Active,"بوسمرة, oneworld  cs"
+930,37662,849,Boeing 777-3DZER,A7-BAH,Qatar Airways,2010-02-25,Active,المرقاب
+931,37664,727,Boeing 777-32WER,PT-MUA,LATAM Airlines Brasil,2016-05-05,Active,lsd
+932,37665,733,Boeing 777-32WER,PT-MUB,LATAM Airlines Brasil,2016-05-05,Active,lsd
+933,37666,740,Boeing 777-32WER,PT-MUC,LATAM Airlines Brasil,2016-05-05,Active,lsd
+934,37667,751,Boeing 777-32WER,PT-MUD,LATAM Airlines Brasil,2016-05-05,Active,lsd
+935,37703,755,Boeing 777-36NER,A6-ECM,Emirates,2009-01-21,Active,lsd
+936,37704,748,Boeing 777-36NER,N118DS,Dr. Peters Group,2021-11-05,Stored,
+937,37705,761,Boeing 777-36NER,TF-BBB,Bluebird Nordic,2022-01-04,Stored,lsd
+938,37706,765,Boeing 777-36NER,A6-ECO,Emirates,2009-02-26,Active,lsd
+939,37707,768,Boeing 777-36NER,TF-BBC,Bluebird Nordic,2022-02-11,Stored,lsd
+940,37708,774,Boeing 777-F6N,D-AALI,AeroLogic,2017-08-22,Active,lsd
+941,37709,826,Boeing 777-36NER,RP-C7777,Philippine Airlines,2009-11-18,Active,lsd
+942,37710,782,Boeing 777-F6N,D-AALJ,AeroLogic,2017-10-20,Active,lsd
+943,37711,846,Boeing 777-F6N,B-2076,China Cargo Airlines,2010-02-26,Active,lsd
+944,37712,841,Boeing 777-36NER,N3771,AerCap,2024-05-29,Stored,
+945,37713,856,Boeing 777-F6N,B-2077,China Cargo Airlines,2010-03-23,Active,lsd
+946,37714,869,Boeing 777-F6N,G-DHLW,DHL Aviation,2022-09-05,Active,opby DHL Air UK
+947,37715,876,Boeing 777-F6N,B-2079,YunExpress,2022-09-08,Active,opby Central Airlines
+948,37716,942,Boeing 777-F6N,B-2082,YunExpress,2023-07-13,Active,opby Central Airlines
+949,37717,949,Boeing 777-F6N,G-DHLU,DHL Aviation,2023-09-01,Active,opby DHL Air UK
+950,37721,813,Boeing 777-FS2,N850FD,FedEx Express,2009-09-25,Active,"Carsen, 850"
+951,37722,834,Boeing 777-FS2,N851FD,FedEx Express,2009-12-11,Active,"Tristin, 851"
+952,37723,848,Boeing 777-FS2,N852FD,FedEx Express,2010-03-02,Parked,"Jenna, 852"
+953,37724,829,Boeing 777-FS2,N853FD,FedEx Express,2009-11-24,Active,"Talon, 853"
+954,37725,890,Boeing 777-FS2,N854FD,FedEx Express,2010-09-03,Active,"Faith, 854"
+955,37726,892,Boeing 777-FS2,N855FD,FedEx Express,2010-09-09,Active,"Ariana, 855"
+956,37727,884,Boeing 777-FS2,N856FD,FedEx Express,2010-08-04,Active,"Marceline, 856"
+957,37728,886,Boeing 777-FS2,N857FD,FedEx Express,2010-08-12,Active,"Baylee, 857"
+958,37729,936,Boeing 777-FS2,N858FD,FedEx Express,2011-06-03,Active,"Gina, 858"
+959,37730,1134,Boeing 777-FS2,N859FD,FedEx Express,2013-09-13,Active,"Charli, 859"
+960,37731,1601,Boeing 777-F,N860FD,FedEx Express,2019-05-10,Active,"Layton, 860"
+961,37732,973,Boeing 777-FS2,N861FD,FedEx Express,2011-11-07,Active,"Amelia, 861"
+962,37733,975,Boeing 777-FS2,N862FD,FedEx Express,2011-11-16,Active,"Keira, 862"
+963,37734,998,Boeing 777-FS2,N863FD,FedEx Express,2012-03-23,Active,"Madeline, 863"
+964,37735,1015,Boeing 777-FS2,N864FD,FedEx Express,2012-05-15,Active,"Pippy, 864"
+965,37879,,Boeing 777-246ER,JA712J,Japan Airlines,,Not Built,NTU
+966,37880,,Boeing 777-246ER,JA713J,Japan Airlines,,Not Built,NTU
+967,37881,,Boeing 777-246ER,JA714J,Japan Airlines Domestic,,Not Built,NTU
+968,37882,,Boeing 777-246ER,JA715J,Japan Airlines,,Not Built,NTU
+969,37883,,Boeing 777-246ER,JA716J,Japan Airlines,,Not Built,NTU
+970,37896,927,Boeing 777-367ER,A7-BOH,Qatar Airways,2023-06-23,Active,lsd
+971,37897,956,Boeing 777-367ER,B-KPX,Cathay Pacific,2011-08-26,Parked,
+972,37898,1008,Boeing 777-367ER,EZ-A781,Turkmenistan Airlines,2023-08-10,Active,
+973,37899,991,Boeing 777-367ER,B-KPY,Cathay Pacific,2012-02-24,Active,
+974,37900,1003,Boeing 777-367ER,B-KPZ,Cathay Pacific,2012-03-21,Active,
+975,37901,941,Boeing 777-367ER,B-KPV,Cathay Pacific,2011-06-24,Active,
+976,37938,756,Boeing 777-3ZGER,VH-VPD,Virgin Australia,2011-12-07,Scrapped,Avalon Beach
+977,37939,764,Boeing 777-3ZGER,A7-BOE,Qatar Airways,2023-02-16,Active,lsd
+978,37940,801,Boeing 777-3ZGER,A7-BOF,Qatar Airways,2022-12-17,Active,lsd
+979,37943,898,Boeing 777-3ZGER,A7-BOG,Qatar Airways,2023-05-03,Active,
+980,37948,866,Boeing 777-381ER,JA786A,All Nippon Airways,2010-05-17,Scrapped,
+981,37949,870,Boeing 777-381ER,JA787A,All Nippon Airways,2010-06-10,Active,
+982,37950,833,Boeing 777-381ER,JA784A,All Nippon Airways,2009-12-30,Active,Eevee Jet  cs
+983,37951,855,Boeing 777-381ER,JA785A,All Nippon Airways,2010-03-29,Active,
+984,37986,844,Boeing 777-FZB,G-DHMC,DHL Aviation,2024-07-29,Active,opby DHL Air UK
+985,37987,852,Boeing 777-FZB,G-DHMD,DHL Aviation,2024-08-20,Active,opby DHL Air UK
+986,37988,1002,Boeing 777-FZB,N714SA,DHL Aviation,2022-06-01,Active,opby Polar Air Cargo
+987,37989,1011,Boeing 777-FZB,N777SA,DHL Aviation,2022-06-01,Active,opby Polar Air Cargo
+988,38091,1038,Boeing 777-F16,N702GT,Atlas Air,2024-02-15,Active,"702, lsd"
+989,38244,893,Boeing 777-3DZER,A7-BAL,Qatar Airways,2010-09-23,Active,لهشيميه
+990,38245,922,Boeing 777-3DZER,A7-BAM,Qatar Airways,2011-03-17,Active,لوضيحيه
+991,38246,925,Boeing 777-3DZER,A7-BAN,Qatar Airways,2011-04-01,Active,الجساسيه
+992,38247,910,Boeing 777-3DZER,A7-BAQ,Qatar Airways,2010-12-22,Active,لخضيرا
+993,38248,958,Boeing 777-3DZER,A7-BAP,Qatar Airways,2011-09-13,Active,القطارة
+994,38284,850,Boeing 777-36NER,N437PE,AerCap,2025-04-14,Stored,
+995,38285,862,Boeing 777-36NER,SU-GDM,EgyptAir,2010-04-22,Active,lsd
+996,38286,887,Boeing 777-36NER,G-STBB,British Airways,2010-08-31,Active,lsd
+997,38287,901,Boeing 777-36NER,G-STBC,British Airways,2010-11-04,Active,lsd
+998,38288,896,Boeing 777-36NER,SU-GDN,EgyptAir,2010-10-12,Active,lsd
+999,38289,907,Boeing 777-36NER,SU-GDO,EgyptAir,2010-12-14,Active,lsd
+1000,38290,918,Boeing 777-36NER,SU-GDP,EgyptAir,2011-02-22,Active,lsd
+1001,38291,926,Boeing 777-36NER,SU-GDR,EgyptAir,2011-04-12,Active,lsd
+1002,38405,902,Boeing 777-319ER,ZK-OKM,Air New Zealand,2010-12-20,Active,
+1003,38406,911,Boeing 777-319ER,ZK-OKN,Air New Zealand,2011-02-16,Active,
+1004,38407,921,Boeing 777-319ER,ZK-OKO,Air New Zealand,2011-03-22,Active,lsd
+1005,38430,1135,Boeing 777-336ER,G-STBG,British Airways,2013-09-13,Active,lsd
+1006,38431,1143,Boeing 777-336ER,G-STBH,British Airways,2013-10-19,Active,lsd
+1007,38665,1007,Boeing 777-328ER,F-GZNO,Air France,2012-04-11,Active,lsd
+1008,38666,943,Boeing 777-39LER,B-2085,Air China,2011-07-19,Active,
+1009,38667,966,Boeing 777-39LER,B-2086,Air China,2011-10-13,Active,
+1010,38668,979,Boeing 777-39LER,B-2088,Air China,2011-12-12,Active,
+1011,38669,1009,Boeing 777-39LER,B-2090,Air China,2012-04-24,Active,
+1012,38670,1017,Boeing 777-39LER,B-2031,Air China,2012-05-22,Active,
+1013,38671,1032,Boeing 777-39LER,B-2032,Air China,2012-07-30,Active,Star Alliance  cs
+1014,38672,954,Boeing 777-39LER,B-2087,Air China,2011-08-18,Active,
+1015,38673,1045,Boeing 777-39LER,B-2033,Air China,2012-09-25,Active,
+1016,38674,1051,Boeing 777-39LER,B-2035,Air China,2012-10-29,Active,
+1017,38675,990,Boeing 777-39LER,B-2089,Air China,2012-02-06,Active,
+1018,38676,1066,Boeing 777-39LER,B-2036,Air China,2012-12-20,Active,
+1019,38677,1094,Boeing 777-39LER,B-2037,Air China,2013-04-22,Active,
+1020,38678,1085,Boeing 777-39LER,B-2038,Air China,2013-03-21,Parked,
+1021,38679,1114,Boeing 777-39LER,B-2039,Air China,2013-07-10,Active,
+1022,38680,1123,Boeing 777-39LER,B-2040,Air China,2013-09-24,Active,
+1023,38695,968,Boeing 777-36NER,G-STBD,British Airways,2011-10-15,Active,lsd
+1024,38696,980,Boeing 777-36NER,G-STBE,British Airways,2011-12-09,Active,lsd
+1025,38705,1385,Boeing 777-328ER,F-GZNT,Air France,2016-03-29,Active,Roubaix
+1026,38706,928,Boeing 777-328ER,F-GZNJ,Air France,2011-04-15,Active,Chablis
+1027,38707,960,Boeing 777-FS2,N892FD,FedEx Express,2011-09-12,Active,"Milana, 892"
+1028,38718,1096,Boeing 777-3F6ER,RP-C7773,Philippine Airlines,2013-04-29,Active,
+1029,38719,1153,Boeing 777-3F6ER,RP-C7772,Philippine Airlines,2013-11-25,Active,
+1030,38867,1020,Boeing 777-306ER,PH-BVG,KLM Royal Dutch Airlines,2012-06-15,Active,"Nationaal Park Wolong / Wolong National Nature Reserve , VG-030"
+1031,38886,1036,Boeing 777-32WER,PT-MUE,LATAM Airlines Brasil,2016-05-05,Active,
+1032,38887,1042,Boeing 777-32WER,PT-MUF,LATAM Airlines Brasil,2016-05-05,Active,
+1033,38888,1052,Boeing 777-32WER,PT-MUG,LATAM Airlines Brasil,2016-05-05,Active,
+1034,38889,1059,Boeing 777-32WER,PT-MUH,LATAM Airlines Brasil,2016-05-05,Active,
+1035,38969,947,Boeing 777-FHT,N842FD,FedEx Express,2017-02-16,Active,"SaNiyah, 842, lsd"
+1036,38980,803,Boeing 777-31HER,A6-ECS,Emirates,2009-07-29,Active,
+1037,38981,828,Boeing 777-31HER,A6-ECW,Emirates,2009-11-17,Active,
+1038,38982,830,Boeing 777-31HER,A6-ECX,Emirates,2009-11-25,Active,
+1039,38983,847,Boeing 777-31HER,A6-ECZ,Emirates,2010-02-11,Active,
+1040,38984,861,Boeing 777-31HER,A6-EGA,Emirates,2010-04-14,Active,
+1041,38985,929,Boeing 777-31HER,A6-EGB,Emirates,2011-05-05,Active,lsd
+1042,38986,974,Boeing 777-31HER,A6-EGI,Emirates,2011-11-10,Active,lsd
+1043,38987,961,Boeing 777-31HER,A6-EGF,Emirates,2011-09-20,Active,lsd
+1044,38988,946,Boeing 777-31HER,A6-EGD,Emirates,2011-07-18,Active,
+1045,38989,978,Boeing 777-31HER,A6-EGJ,Emirates,2011-12-08,Active,lsd
+1046,38990,1031,Boeing 777-31HER,A6-EGV,Emirates,2012-07-31,Active,
+1047,38991,1116,Boeing 777-31HER,A6-ENK,Emirates,2013-07-25,Active,
+1048,39041,972,Boeing 777-319ER,ZK-OKP,Air New Zealand,2011-11-07,Active,
+1049,39091,781,Boeing 777-232LR,VT-AEH,Air India,2023-01-13,Active,"आलोक / Alok, lsd"
+1050,39232,920,Boeing 777-367ER,A7-BOI,Qatar Airways,2023-06-02,Active,lsd
+1051,39233,934,Boeing 777-367ER,B-KPU,Cathay Pacific,2011-05-27,Active,
+1052,39234,950,Boeing 777-367ER,B-KPW,Cathay Pacific,2011-08-29,Active,
+1053,39235,1012,Boeing 777-367ER,EZ-A782,Turkmenistan Airlines,2023-08-30,Active,
+1054,39236,1040,Boeing 777-367ER,B-KQC,Cathay Pacific,2012-08-28,Active,
+1055,39237,1077,Boeing 777-367ER,ZK-OKV,Air New Zealand,2024-05-16,Active,lsd
+1056,39254,789,Boeing 777-232LR,VT-AEI,Air India,2023-06-14,Active,"उदय / Uday, lsd"
+1057,39285,897,Boeing 777-FHT,N883FD,FedEx Express,2010-10-14,Active,"Abbi, 883"
+1058,39286,963,Boeing 777-FHT,N843FD,FedEx Express,2017-02-03,Parked,"Melanie, 843"
+1059,39548,889,Boeing 777-22KLR,EZ-A777,Turkmenistan Government,2010-08-31,Active,opby Turkmenistan Airlines
+1060,39644,1110,Boeing 777-FDZ,A7-BFE,Qatar Airways Cargo,2013-06-21,Active,ام عبيرية
+1061,39645,1192,Boeing 777-FDZ,A7-BFF,Qatar Airways Cargo,2014-04-29,Active,أم وشاح
+1062,39681,932,Boeing 777-3FXER,A6-ETG,Etihad Airways,2011-05-18,Active,lsd
+1063,39682,939,Boeing 777-FFX,N840FD,FedEx Express,2021-01-12,Active,"Amy, 840"
+1064,39683,957,Boeing 777-3FXER,A6-ETH,Etihad Airways,2011-09-14,Active,lsd
+1065,39684,987,Boeing 777-3FXER,A6-ETI,Etihad Airways,2012-01-23,Active,lsd
+1066,39685,994,Boeing 777-3FXER,A6-ETJ,Etihad Airways,2012-02-17,Active,lsd
+1067,39686,1019,Boeing 777-3FXER,VT-AEM,Air India,2024-01-22,Active,Sharika / सारिका
+1068,39687,1064,Boeing 777-3FXER,VT-AEN,Air India,2024-02-05,Active,Dhyuti / द्युति
+1069,39688,1067,Boeing 777-3FXER,VT-AEO,Air India,2024-02-22,Active,Tvisha
+1070,39689,1086,Boeing 777-3FXER,VT-AEP,Air India,2024-01-04,Active,Nitya / नित्या
+1071,39690,1105,Boeing 777-3FXER,VT-AEQ,Air India,2023-10-11,Active,साधवी / Sadhvi
+1072,39691,1100,Boeing 777-FFX,A6-DDC,Etihad Airways,2013-05-09,Active,
+1073,39692,1072,Boeing 777-FFX,A6-DDB,Etihad Airways,2013-01-30,Active,
+1074,39700,832,Boeing 777-3FXER,OE-IUK,Altavair AirFinance,2022-02-15,Stored,
+1075,39776,858,Boeing 777-224ER,N76021,United Airlines,2010-10-01,Active,"0021, Star Alliance  cs"
+1076,39777,868,Boeing 777-224ER,N77022,United Airlines,2010-10-01,Active,"0022, Star Alliance  cs"
+1077,39970,1380,Boeing 777-328ER,F-GZNS,Air France,2016-03-09,Active,
+1078,39971,931,Boeing 777-328ER,F-GZNK,Air France,2011-05-03,Active,Fontainebleau
+1079,39972,915,Boeing 777-306ER,PH-BVF,KLM Royal Dutch Airlines,2011-02-07,Active,"Yakushima , VF-029"
+1080,39973,924,Boeing 777-328ER,F-GZNI,Air France,2011-04-01,Active,"Blois , lsd"
+1081,40063,1001,Boeing 777-328ER,F-GZNL,Air France,2012-04-02,Active,lsd
+1082,40064,1298,Boeing 777-328ER,F-GZNQ,Air France,2015-05-06,Active,Epernay
+1083,40072,1332,Boeing 777-3U3ER,PK-GIJ,Garuda Indonesia,2015-09-14,Active,"lsd, Ayo Pakai Masker (Wear Masks) cs"
+1084,40073,1367,Boeing 777-3U3ER,PK-GIK,Garuda Indonesia,2016-01-28,Active,"lsd, 1969-1985 retro cs"
+1085,40074,1104,Boeing 777-3U3ER,PK-GIA,Garuda Indonesia,2013-06-24,Active,lsd
+1086,40075,1121,Boeing 777-3U3ER,PK-GIC,Garuda Indonesia,2013-07-30,Active,lsd
+1087,40120,1170,Boeing 777-3E9ER,S2-AHM,Biman Bangladesh Airlines,2014-02-05,Active,Aakash Pradeep
+1088,40121,1186,Boeing 777-3E9ER,S2-AHN,Biman Bangladesh Airlines,2014-03-21,Active,Raanga Pravat
+1089,40122,964,Boeing 777-3E9ER,S2-AFO,Biman Bangladesh Airlines,2011-10-21,Active,The Palki
+1090,40123,971,Boeing 777-3E9ER,S2-AFP,Biman Bangladesh Airlines,2011-11-23,Active,The Arun Alo
+1091,40198,1027,Boeing 777-28EER,HL8254,Asiana Airlines,2012-07-18,Active,
+1092,40199,1117,Boeing 777-28EER,HL8284,Asiana Airlines,2013-07-26,Active,
+1093,40376,1013,Boeing 777-328ER,F-GZNN,Air France,2012-05-15,Parked,Sète
+1094,40377,882,Boeing 777-3B5ER,HL8210,Korean Air,2010-07-16,Active,
+1095,40542,879,Boeing 777-336ER,G-STBA,British Airways,2010-07-09,Active,lsd
+1096,40543,995,Boeing 777-336ER,G-STBF,British Airways,2012-02-21,Active,lsd
+1097,40559,854,Boeing 777-232LR,N709DN,Mammoth Freighters,2021-04-29,Stored,
+1098,40560,857,Boeing 777-232LR,N710DN,Mammoth Freighters,2021-04-06,Stored,
+1099,40588,1128,Boeing 777-32WER,PT-MUJ,LATAM Airlines Brasil,2016-05-05,Active,
+1100,40589,1118,Boeing 777-32WER,PT-MUI,LATAM Airlines Brasil,2016-05-05,Active,
+1101,40668,937,Boeing 777-2FBLR,CS-TQX,Ceiba Intercontinental,2012-08-11,Parked,"Djibloho , opby White"
+1102,40671,1614,Boeing 777-F,N865FD,FedEx Express,2019-08-09,Active,"Sloane, 865"
+1103,40672,1622,Boeing 777-F,N866FD,FedEx Express,2019-09-20,Active,"Georgia, 866"
+1104,40673,1697,Boeing 777-F,N867FD,FedEx Express,2021-05-25,Active,"Jaxson, 867"
+1105,40674,1320,Boeing 777-FS2,N868FD,FedEx Express,2015-07-22,Active,"Joseph, 868"
+1106,40675,1336,Boeing 777-FS2,N869FD,FedEx Express,2015-09-22,Active,"Reece, 869"
+1107,40676,1699,Boeing 777-F,N870FD,FedEx Express,2021-06-29,Active,"Adrian, 870"
+1108,40677,,Boeing 777-FS2,N871FD,FedEx Express,,Not Built,"NTU, 871"
+1109,40678,,Boeing 777-FS2,N872FD,FedEx Express,,Not Built,"NTU, 872"
+1110,40679,1701,Boeing 777-F,N873FD,FedEx Express,2021-08-30,Active,"Camden, 873"
+1111,40680,,Boeing 777-FS2,N874FD,FedEx Express,,Not Built,"NTU, 874"
+1112,40681,,Boeing 777-FS2,N875FD,FedEx Express,,Not Built,"NTU, 875"
+1113,40682,1608,Boeing 777-F,N876FD,FedEx Express,2019-06-28,Active,"Hudson, 876"
+1114,40683,1546,Boeing 777-FS2,N877FD,FedEx Express,2018-03-08,Active,"Savanah, 877"
+1115,40684,1524,Boeing 777-FS2,N878FD,FedEx Express,2017-10-27,Active,"Hollie, 878"
+1116,40685,1576,Boeing 777-F,N879FD,FedEx Express,2018-10-15,Active,"Tiesen, 879"
+1117,40686,873,Boeing 777-381ER,JA788A,All Nippon Airways,2010-06-30,Active,
+1118,40687,878,Boeing 777-381ER,JA789A,All Nippon Airways,2010-06-30,Scrapped,
+1119,40689,984,Boeing 777-319ER,ZK-OKQ,Air New Zealand,2012-01-10,Active,
+1120,40707,895,Boeing 777-3F2ER,TC-JJE,Turkish Airlines,2010-10-13,Active,Dolmabahçe
+1121,40708,899,Boeing 777-3F2ER,TC-JJF,Turkish Airlines,2010-10-26,Active,Beylerbeyi
+1122,40709,909,Boeing 777-3F2ER,TC-JJI,Turkish Airlines,2010-12-22,Active,Ege
+1123,40710,913,Boeing 777-3F2ER,TC-JJJ,Turkish Airlines,2011-01-24,Active,Erzurum
+1124,40711,916,Boeing 777-3F2ER,TC-JJK,Turkish Airlines,2011-02-07,Active,Akdeniz
+1125,40753,891,Boeing 777-2KQLR,VP-CAL,Aviation Link Company,2010-11-01,Active,
+1126,40770,900,Boeing 777-260LR,ET-ANN,Ethiopian Airlines,2010-11-17,Active,
+1127,40771,908,Boeing 777-260LR,ET-ANO,Ethiopian Airlines,2010-12-14,Active,
+1128,40772,914,Boeing 777-260LR,ET-ANP,Ethiopian Airlines,2011-01-26,Active,
+1129,40773,930,Boeing 777-260LR,ET-ANQ,Ethiopian Airlines,2011-04-27,Active,
+1130,40774,948,Boeing 777-260LR,ET-ANR,Ethiopian Airlines,2011-07-20,Active,
+1131,40791,903,Boeing 777-3F2ER,TC-JJG,Turkish Airlines,2010-11-23,Active,Yıldız
+1132,40792,906,Boeing 777-3F2ER,TC-JJH,Turkish Airlines,2010-12-06,Active,Rumeli
+1133,40793,919,Boeing 777-3F2ER,TC-JJL,Turkish Airlines,2011-02-23,Active,Karadeniz
+1134,40794,923,Boeing 777-3F2ER,TC-JJM,Turkish Airlines,2011-03-22,Active,Marmara
+1135,40795,940,Boeing 777-3F2ER,TC-JJN,Turkish Airlines,2011-06-24,Active,Anadolu
+1136,40796,953,Boeing 777-3F2ER,TC-JJO,Turkish Airlines,2011-08-19,Active,İstanbul
+1137,40797,959,Boeing 777-3F2ER,TC-JJP,Turkish Airlines,2011-09-22,Active,Ankara
+1138,40805,935,Boeing 777-3M2ER,D2-TEG,TAAG - Linhas Aereas de Angola Airlines,2011-06-14,Parked,Sagrada Esperança
+1139,40806,944,Boeing 777-3M2ER,D2-TEH,TAAG - Linhas Aereas de Angola Airlines,2011-07-07,Parked,Welwitschia Mirabilis
+1140,40900,1005,Boeing 777-281ER,JA741A,All Nippon Airways,2012-04-19,Active,
+1141,40901,1016,Boeing 777-281ER,JA742A,All Nippon Airways,2012-05-23,Active,
+1142,40902,1090,Boeing 777-281ER,JA743A,All Nippon Airways,2013-03-28,Active,Star Wars - C-3PO  cs
+1143,40903,1102,Boeing 777-281ER,JA744A,All Nippon Airways,2013-05-29,Active,
+1144,40904,1112,Boeing 777-281ER,JA745A,All Nippon Airways,2013-06-20,Active,
+1145,40955,952,Boeing 777-29MLR,A6-HHH,Dubai Royal Air Wing,2024-05-27,Active,
+1146,40993,1006,Boeing 777-29MLR,YI-AQZ,Iraqi Airways,2012-12-14,Parked,
+1147,41048,982,Boeing 777-368ER,HZ-AK11,Saudi Arabian Airlines,2012-01-17,Active,
+1148,41049,992,Boeing 777-368ER,HZ-AK13,Saudi Arabian Airlines,2012-02-10,Active,
+1149,41050,986,Boeing 777-368ER,HZ-AK12,Saudi Arabian Airlines,2012-01-23,Active,
+1150,41051,999,Boeing 777-368ER,HZ-AK14,Saudi Arabian Airlines,2012-03-12,Active,
+1151,41052,1025,Boeing 777-368ER,HZ-AK15,Saudi Arabian Airlines,2012-06-29,Active,
+1152,41053,1061,Boeing 777-368ER,HZ-AK16,Saudi Arabian Airlines,2012-12-07,Active,
+1153,41054,1092,Boeing 777-368ER,HZ-AK17,Saudi Arabian Airlines,2013-05-17,Active,
+1154,41055,1131,Boeing 777-368ER,HZ-AK18,Saudi Arabian Airlines,2013-08-31,Active,
+1155,41056,1142,Boeing 777-368ER,HZ-AK19,Saudi Arabian Airlines,2013-10-24,Active,
+1156,41057,1157,Boeing 777-368ER,HZ-AK21,Saudi Arabian Airlines,2013-12-10,Active,
+1157,41058,1151,Boeing 777-368ER,HZ-AK20,Saudi Arabian Airlines,2013-11-13,Active,
+1158,41059,1162,Boeing 777-368ER,HZ-AK22,Saudi Arabian Airlines,2013-12-19,Active,
+1159,41061,962,Boeing 777-2DZLR,A7-BBI,Qatar Airways,2011-09-30,Active,جوالسلامه
+1160,41062,997,Boeing 777-3DZER,A7-BAS,Qatar Airways,2012-03-12,Active,بوفنطاس
+1161,41064,967,Boeing 777-FS2,N885FD,FedEx Express,2011-10-28,Active,"Elliot, 885"
+1162,41065,1041,Boeing 777-FS2,N886FD,FedEx Express,2012-08-31,Active,"Amara, 886"
+1163,41066,1048,Boeing 777-FS2,N887FD,FedEx Express,2012-10-04,Active,"Isla, 887"
+1164,41067,1057,Boeing 777-FS2,N889FD,FedEx Express,2012-11-09,Active,"Sydney, 889"
+1165,41070,965,Boeing 777-31HER,A6-EGG,Emirates,2011-10-11,Active,
+1166,41071,981,Boeing 777-31HER,A6-EGK,Emirates,2011-12-15,Active,lsd
+1167,41072,985,Boeing 777-31HER,A6-EGL,Emirates,2011-12-29,Active,
+1168,41073,988,Boeing 777-31HER,A6-EGM,Emirates,2012-01-24,Active,lsd
+1169,41074,993,Boeing 777-31HER,A6-EGN,Emirates,2012-02-29,Active,lsd
+1170,41075,1055,Boeing 777-31HER,A6-ENB,Emirates,2012-11-16,Active,
+1171,41076,1014,Boeing 777-31HER,A6-EGQ,Emirates,2012-05-16,Active,lsd
+1172,41077,1018,Boeing 777-31HER,A6-EGR,Emirates,2012-05-30,Active,lsd
+1173,41078,1021,Boeing 777-31HER,A6-EGS,Emirates,2012-06-11,Active,
+1174,41079,1028,Boeing 777-31HER,A6-EGU,Emirates,2012-07-13,Active,lsd
+1175,41080,1039,Boeing 777-31HER,A6-EGY,Emirates,2012-09-05,Active,lsd
+1176,41081,1044,Boeing 777-31HER,A6-EGZ,Emirates,2012-09-30,Active,lsd
+1177,41082,1047,Boeing 777-31HER,A6-ENA,Emirates,2012-10-16,Active,
+1178,41083,1058,Boeing 777-31HER,A6-ENC,Emirates,2012-11-30,Active,lsf Commerzbank
+1179,41084,1063,Boeing 777-31HER,A6-END,Emirates,2012-12-14,Active,
+1180,41085,1073,Boeing 777-31HER,A6-ENF,Emirates,2013-01-31,Active,lsd
+1181,41086,1080,Boeing 777-31HER,A6-ENH,Emirates,2013-03-01,Active,
+1182,41087,1087,Boeing 777-31HER,A6-ENI,Emirates,2013-03-26,Parked,
+1183,41359,1168,Boeing 777-31HER,A6-ENM,Emirates,2014-01-24,Active,
+1184,41360,1177,Boeing 777-31HER,A6-ENN,Emirates,2014-02-21,Active,
+1185,41361,1183,Boeing 777-31HER,A6-ENO,Emirates,2014-03-19,Active,
+1186,41362,1193,Boeing 777-31HER,A6-ENP,Emirates,2014-04-24,Active,
+1187,41363,1201,Boeing 777-31HER,A6-ENQ,Emirates,2014-05-27,Active,
+1188,41364,1207,Boeing 777-31HER,A6-ENR,Emirates,2014-06-11,Active,
+1189,41365,1220,Boeing 777-31HER,A6-ENS,Emirates,2014-07-29,Active,
+1190,41366,1225,Boeing 777-31HER,A6-ENT,Emirates,2014-08-15,Active,
+1191,41367,1236,Boeing 777-31HER,A6-ENU,Emirates,2014-09-29,Active,
+1192,41368,1243,Boeing 777-31HER,A6-ENV,Emirates,2014-10-28,Active,
+1193,41369,1249,Boeing 777-31HER,A6-ENW,Emirates,2014-11-13,Active,
+1194,41370,1130,Boeing 777-31HER,A6-ENL,Emirates,2013-08-30,Active,
+1195,41427,1004,Boeing 777-FDZ,A7-BFD,Qatar Airways Cargo,2012-03-31,Active,روضة راشد
+1196,41428,1101,Boeing 777-367ER,B-KQF,Cathay Pacific,2013-05-20,Active,
+1197,41429,1139,Boeing 777-367ER,B-KQI,Cathay Pacific,2013-09-30,Active,oneworld  cs
+1198,41430,1159,Boeing 777-367ER,HL8706,T'Way Air,2025-02-07,Active,lsf Korean Air
+1199,41431,1164,Boeing 777-367ER,B-KQL,Cathay Pacific,2013-12-20,Active,oneworld  cs
+1200,41432,1089,Boeing 777-367ER,HL8707,T'Way Air,2025-05-01,Active,lsf Korean Air
+1201,41433,1195,Boeing 777-367ER,B-KQM,Cathay Pacific,2014-04-18,Active,oneworld  cs
+1202,41439,1033,Boeing 777-FS2,N890FD,FedEx Express,2012-08-01,Active,"Alexis, 890"
+1203,41440,1557,Boeing 777-FS2,N891FD,FedEx Express,2018-06-15,Active,"Barrett, 891"
+1204,41441,1132,Boeing 777-39LER,B-2043,Air China,2013-09-04,Parked,
+1205,41442,1165,Boeing 777-39LER,B-2046,Air China,2014-01-14,Active,lsd
+1206,41443,1187,Boeing 777-39LER,B-2045,Air China,2014-03-26,Active,lsd
+1207,41518,1050,Boeing 777-F16,N703GT,Atlas Air,2024-02-14,Active,"703, lsd"
+1208,41520,1030,Boeing 777-3ALER,HS-TKK,Thai Airways,2012-08-02,Active,"Philavan / พิลาวัณย์, lsd"
+1209,41521,1049,Boeing 777-3ALER,HS-TKL,Thai Airways,2012-10-30,Active,Sunanda / สุนันทา
+1210,41522,1082,Boeing 777-3ALER,HS-TKM,Thai Airways,2013-03-07,Parked,"Prabhasri / ประภาศรี, lsd"
+1211,41523,1091,Boeing 777-3ALER,HS-TKN,Thai Airways,2013-04-09,Active,Medininat / เมทินีนาถ
+1212,41524,1107,Boeing 777-3ALER,HS-TKO,Thai Airways,2013-06-11,Active,"Vimolmassiri / วิมลมาศสิรี, lsd"
+1213,41525,1119,Boeing 777-3ALER,HS-TKP,Thai Airways,2013-07-19,Active,"Sri-Amphorn / ศรีอัมพร, lsd"
+1214,41526,1129,Boeing 777-3ALER,HS-TKQ,Thai Airways,2013-08-26,Active,"Khemarat / เขมราฐ , lsd"
+1215,41527,1145,Boeing 777-3ALER,HS-TKR,Thai Airways,2013-10-22,Active,"Hat Yai / หาดใหญ่ , lsd"
+1216,41632,1120,Boeing 777-F1B,B-2041,China Southern Airlines,2013-09-04,Active,lsd
+1217,41633,1126,Boeing 777-F1B,B-2042,China Southern Airlines,2013-09-13,Active,lsd
+1218,41634,1268,Boeing 777-F1B,B-2010,China Southern Airlines,2015-01-14,Active,
+1219,41635,1306,Boeing 777-F1B,B-2026,China Southern Airlines,2015-06-24,Active,
+1220,41636,1308,Boeing 777-F1B,B-2027,China Southern Airlines,2015-06-25,Active,
+1221,41637,1318,Boeing 777-F1B,B-2028,China Southern Airlines,2015-07-20,Active,
+1222,41665,1062,Boeing 777-323ER,N718AN,American Airlines,2012-12-19,Active,7LB
+1223,41666,1122,Boeing 777-323ER,N725AN,American Airlines,2013-07-31,Active,7LJ
+1224,41668,1070,Boeing 777-323ER,N719AN,American Airlines,2013-01-28,Active,7LC
+1225,41674,1144,Boeing 777-FBT,D-ALFA,Lufthansa Cargo,2013-11-08,Active,"Good Day, USA"
+1226,41675,1156,Boeing 777-FBT,D-ALFB,Lufthansa Cargo,2013-11-25,Active,Jambo Kenya
+1227,41676,1178,Boeing 777-FBT,D-ALFC,Lufthansa Cargo,2014-02-25,Active,"你好，中国 Ni Hao, China"
+1228,41677,1208,Boeing 777-FBT,D-ALFD,Lufthansa Cargo,2014-06-18,Active,Olá Brazil
+1229,41678,1274,Boeing 777-FBT,D-ALFE,Lufthansa Cargo,2015-02-11,Active,Hallo Germany
+1230,41679,1068,Boeing 777-3M0ER,RA-73140,Aeroflot - Russian Airlines,2022-03-04,Active,"М. Кутузов / M. Kutuzov , lsd"
+1231,41680,1079,Boeing 777-3M0ER,RA-73139,Aeroflot - Russian Airlines,2022-04-07,Active,"П. Багратион / P. Bagration , lsd"
+1232,41681,1084,Boeing 777-3M0ER,RA-73138,Aeroflot - Russian Airlines,2022-03-22,Active,"М. Барклай-де-Толли / M. Barclay-de-Tolly , lsd"
+1233,41682,1185,Boeing 777-3M0ER,RA-73131,Aeroflot - Russian Airlines,2022-04-10,Active,"А. Чехов / A. Chekhov , lsd"
+1234,41683,1190,Boeing 777-3M0ER,RA-73132,Aeroflot - Russian Airlines,2022-04-10,Active,"М. Лермонтов / M. Lermontov , lsd"
+1235,41684,1199,Boeing 777-3M0ER,RA-73133,Aeroflot - Russian Airlines,2022-04-05,Active,"А. Блок / A. Blok , lsd"
+1236,41685,1281,Boeing 777-3M0ER,RA-73135,Aeroflot - Russian Airlines,2022-03-23,Active,"С. Есенин / S. Esenin , lsd"
+1237,41686,1097,Boeing 777-3M0ER,RA-73137,Aeroflot - Russian Airlines,2022-04-01,Parked,"D. Davydov / Д. Давыдов , lsd"
+1238,41687,1167,Boeing 777-3M0ER,RA-73136,Aeroflot - Russian Airlines,2022-04-05,Active,"А. Куприн / A. Kuprin , lsd"
+1239,41688,1175,Boeing 777-3M0ER,RA-73130,Aeroflot - Russian Airlines,2022-03-21,Active,"И. Бунин / I. Bunin , lsd"
+1240,41689,1205,Boeing 777-3M0ER,RA-73134,Aeroflot - Russian Airlines,2022-03-19,Active,"lsd, SkyTeam  cs"
+1241,41690,1294,Boeing 777-3M0ER,RA-73144,Aeroflot - Russian Airlines,2022-04-26,Active,"М. Булгаков / M. Bulgakov , lsd"
+1242,41691,1299,Boeing 777-3M0ER,RA-73148,Aeroflot - Russian Airlines,2022-04-23,Active,"А. Островский / A. Ostrovsky , lsd"
+1243,41692,1425,Boeing 777-3M0ER,RA-73697,Aeroflot - Russian Airlines,2022-06-01,Active,А. Пушкин / A. Pushkin
+1244,41693,1502,Boeing 777-3M0ER,RA-73147,Aeroflot - Russian Airlines,2022-04-30,Active,А. Бабаджанян / A. Babajanyan
+1245,41694,1381,Boeing 777-3M0ER,RA-73149,Aeroflot - Russian Airlines,2022-03-21,Parked,И. Тургенев / I. Turgenev
+1246,41699,1111,Boeing 777-3FXER,A6-ETP,Etihad Airways,2013-06-25,Active,lsd
+1247,41700,1137,Boeing 777-3FXER,A6-ETQ,Etihad Airways,2013-09-26,Active,lsd
+1248,41701,1155,Boeing 777-3FXER,VT-AER,Air India,2023-07-21,Active,क्रिया / Kriyā
+1249,41736,1616,Boeing 777-F,N893FD,FedEx Express,2019-08-19,Active,"Anastasiya, 893"
+1250,41737,1612,Boeing 777-F,N894FD,FedEx Express,2019-07-23,Active,"Sawyer, 894"
+1251,41738,1149,Boeing 777-3DZER,A7-BAT,Qatar Airways,2013-11-06,Active,الحدية
+1252,41739,1163,Boeing 777-3DZER,A7-BAU,Qatar Airways,2013-12-17,Active,الشفلحية
+1253,41740,1179,Boeing 777-3DZER,A7-BAV,Qatar Airways,2014-03-06,Active,لجهيمية
+1254,41741,1071,Boeing 777-3DZER,A7-BAW,Qatar Airways,2013-01-29,Active,روضة حوصان
+1255,41749,1152,Boeing 777-FS2,N895FD,FedEx Express,2013-11-15,Active,"Kimberly, 895"
+1256,41750,1589,Boeing 777-F,N896FD,FedEx Express,2019-01-25,Active,"Santeri, 896"
+1257,41757,1216,Boeing 777-367ER,B-KQO,Cathay Pacific,2014-07-10,Active,lsd
+1258,41758,1224,Boeing 777-367ER,B-KQP,Cathay Pacific,2014-08-11,Active,
+1259,41759,1240,Boeing 777-367ER,B-KQR,Cathay Pacific,2014-10-07,Active,lsd
+1260,41760,1147,Boeing 777-367ER,B-KQJ,Cathay Pacific,2013-10-29,Active,lsd
+1261,41761,1209,Boeing 777-367ER,B-KQN,Cathay Pacific,2014-06-24,Active,"lsd, oneworld  cs"
+1262,41762,1231,Boeing 777-367ER,B-KQQ,Cathay Pacific,2014-08-26,Active,
+1263,41763,1282,Boeing 777-367ER,B-KQW,Cathay Pacific,2015-03-17,Active,
+1264,41764,1304,Boeing 777-367ER,B-KQY,Cathay Pacific,2015-05-28,Active,
+1265,41765,1273,Boeing 777-367ER,B-KQV,Cathay Pacific,2015-02-17,Active,
+1266,41766,1255,Boeing 777-367ER,B-KQT,Cathay Pacific,2014-11-25,Active,
+1267,41778,1078,Boeing 777-3DZER,A7-BAY,Qatar Airways,2013-03-01,Active,"جري الظبي, lsd"
+1268,41779,1098,Boeing 777-3DZER,A7-BEA,Qatar Airways,2013-05-01,Active,"ام الماء , lsd"
+1269,41780,1035,Boeing 777-3DZER,A7-BAX,Qatar Airways,2012-08-20,Active,جريان البطنه
+1270,41781,1093,Boeing 777-3DZER,A7-BAZ,Qatar Airways,2013-04-18,Active,"السويحلية , lsd"
+1271,41817,1054,Boeing 777-F6N,ET-APU,Ethiopian Airlines,2012-10-31,Active,lsd
+1272,41818,1140,Boeing 777-36NER,TC-LKA,Turkish Airlines,2016-05-18,Active,lsf Kenya Airways
+1273,41819,1197,Boeing 777-36NER,TC-LKB,Turkish Airlines,2016-04-27,Active,lsf Kenya Airways
+1274,41820,1213,Boeing 777-36NER,B-16720,EVA Air,2014-06-25,Active,
+1275,41821,1227,Boeing 777-36NER,B-18051,China Airlines,2014-09-30,Active,lsd
+1276,41822,1245,Boeing 777-36NER,B-18052,China Airlines,2014-10-23,Active,lsd
+1277,41823,1265,Boeing 777-36NER,B-18055,China Airlines,2015-01-14,Active,lsd
+1278,41824,1434,Boeing 777-36NER,B-16731,EVA Air,2016-09-29,Active,lsd
+1279,41845,1254,Boeing 777-36NER,B-18053,China Airlines,2014-11-25,Active,
+1280,41846,1043,Boeing 777-F6N,ET-APS,Ethiopian Airlines,2012-09-19,Active,lsd
+1281,41998,1081,Boeing 777-3B5ER,HL8274,Korean Air,2013-02-28,Active,
+1282,41999,1362,Boeing 777-3B5ER,HL8009,Korean Air,2015-12-23,Active,
+1283,42031,1242,Boeing 777-F60,ET-ARH,Ethiopian Airlines,2014-10-31,Written Off,
+1284,42032,1252,Boeing 777-F60,ET-ARI,Ethiopian Airlines,2014-11-18,Active,
+1285,42033,1334,Boeing 777-F60,ET-ARJ,Ethiopian Airlines,2015-09-14,Active,lsd
+1286,42034,1346,Boeing 777-F60,ET-ARK,Ethiopian Airlines,2015-10-22,Active,lsd
+1287,42097,1211,Boeing 777-3U8ER,TC-LKC,Turkish Airlines,2016-07-01,Active,lsf Kenya Airways
+1288,42101,1150,Boeing 777-36NER,ET-APX,Ethiopian Airlines,2013-11-07,Active,lsd
+1289,42102,1169,Boeing 777-36NER,ET-APY,Ethiopian Airlines,2014-01-24,Active,lsd
+1290,42103,1202,Boeing 777-36NER,B-16719,EVA Air,2014-05-21,Active,
+1291,42104,1419,Boeing 777-36NER,B-16728,EVA Air,2016-07-29,Active,lsd
+1292,42105,1503,Boeing 777-36NER,B-16738,EVA Air,2017-06-27,Active,lsd
+1293,42106,1479,Boeing 777-36NER,B-16736,EVA Air,2017-03-29,Active,lsd
+1294,42107,1302,Boeing 777-36NER,B-16722,EVA Air,2015-05-27,Active,Hello Kitty - Besties Jet  cs
+1295,42108,1313,Boeing 777-36NER,B-16723,EVA Air,2015-06-29,Active,
+1296,42110,1166,Boeing 777-3D7ER,HS-TKU,Thai Airways,2014-01-21,Active,Acharasobhit / อัจฉราโสภิต
+1297,42111,1215,Boeing 777-3D7ER,HS-TKV,Thai Airways,2014-07-10,Active,Suchitra / สุจิตรา
+1298,42112,1228,Boeing 777-3D7ER,HS-TKW,Thai Airways,2014-08-27,Active,Mukdasayam / มุกดาสยาม
+1299,42113,1267,Boeing 777-3D7ER,HS-TKX,Thai Airways,2015-01-20,Active,Sudharma / สุธรรมา
+1300,42114,1310,Boeing 777-3D7ER,HS-TKY,Thai Airways,2015-06-22,Active,"Yubhaphaka / ยุพาผกา, lsd"
+1301,42115,1338,Boeing 777-3D7ER,HS-TKZ,Thai Airways,2015-09-28,Active,Sulalivan / สุลาลีวัน
+1302,42120,1286,Boeing 777-3B5ER,HL8010,Korean Air,2015-04-29,Parked,lsd
+1303,42121,1204,Boeing 777-336ER,G-STBK,British Airways,2014-05-28,Active,lsd
+1304,42122,1276,Boeing 777-31HER,A6-ENY,Emirates,2015-03-03,Active,lsd
+1305,42123,1303,Boeing 777-3B5ER,HL8011,Korean Air,2015-05-29,Active,lsd
+1306,42124,1221,Boeing 777-336ER,G-STBL,British Airways,2014-07-28,Active,lsd
+1307,42142,1127,Boeing 777-367ER,ZK-OKW,Air New Zealand,2024-09-27,Active,lsd
+1308,42143,1133,Boeing 777-367ER,B-KQH,Cathay Pacific,2013-09-23,Active,
+1309,42144,1246,Boeing 777-367ER,B-KQS,Cathay Pacific,2014-10-23,Active,
+1310,42145,1263,Boeing 777-367ER,B-KQU,Cathay Pacific,2014-12-19,Active,
+1311,42172,1106,Boeing 777-306ER,PH-BVK,KLM Royal Dutch Airlines,2013-05-31,Active,"Yellowstone National Park / Yellowstone Nationaal Park , VK-032"
+1312,42218,1108,Boeing 777-333ER,C-FIVW,Air Canada,2013-06-14,Active,743
+1313,42219,1125,Boeing 777-333ER,C-FIVX,Air Canada,2013-08-12,Active,744
+1314,42230,1138,Boeing 777-F1H,A6-EFL,Emirates,2013-09-20,Parked,lsd
+1315,42231,1146,Boeing 777-F1H,A6-EFM,Emirates,2013-10-18,Active,lsd
+1316,42232,1212,Boeing 777-F1H,A6-EFN,Emirates,2014-06-25,Active,lsd
+1317,42233,1248,Boeing 777-F1H,A6-EFO,Emirates,2014-10-31,Active,lsd
+1318,42234,1330,Boeing 777-F1H,A6-EFS,Emirates,2015-08-31,Active,lsd
+1319,42235,1124,Boeing 777-312ER,9V-SWU,Singapore Airlines,2013-09-19,Active,
+1320,42236,1136,Boeing 777-312ER,9V-SWV,Singapore Airlines,2013-09-26,Active,
+1321,42237,1184,Boeing 777-312ER,9V-SWW,Singapore Airlines,2014-03-24,Active,
+1322,42238,1250,Boeing 777-312ER,9V-SWY,Singapore Airlines,2014-11-24,Active,
+1323,42239,1266,Boeing 777-312ER,9V-SWZ,Singapore Airlines,2015-01-27,Active,
+1324,42240,1279,Boeing 777-312ER,9V-SNA,Singapore Airlines,2015-03-09,Active,
+1325,42241,1340,Boeing 777-312ER,9V-SNB,Singapore Airlines,2015-09-30,Active,
+1326,42242,1355,Boeing 777-312ER,9V-SNC,Singapore Airlines,2015-11-25,Active,
+1327,42261,1251,Boeing 777-368ER,HZ-AK23,Saudi Arabian Airlines,2014-12-02,Active,
+1328,42262,1262,Boeing 777-368ER,HZ-AK24,Saudi Arabian Airlines,2014-12-19,Active,
+1329,42263,1269,Boeing 777-368ER,HZ-AK25,Saudi Arabian Airlines,2015-01-28,Active,
+1330,42264,1288,Boeing 777-368ER,HZ-AK26,Saudi Arabian Airlines,2015-03-30,Active,
+1331,42265,1311,Boeing 777-368ER,HZ-AK27,Saudi Arabian Airlines,2015-06-24,Active,
+1332,42266,1322,Boeing 777-368ER,HZ-AK28,Saudi Arabian Airlines,2015-08-04,Parked,75 Years (1945-2020) Retro cs
+1333,42267,1350,Boeing 777-368ER,HZ-AK29,Saudi Arabian Airlines,2015-11-11,Active,
+1334,42268,1369,Boeing 777-368ER,HZ-AK30,Saudi Arabian Airlines,2016-02-01,Active,
+1335,42296,1181,Boeing 777-22KLR,EZ-A778,Turkmenistan Airlines,2014-03-14,Active,
+1336,42297,1194,Boeing 777-22KLR,EZ-A779,Turkmenistan Airlines,2014-04-24,Active,
+1337,42298,1284,Boeing 777-FDZ,A7-BFH,Qatar Airways Cargo,2015-03-19,Active,وعبد لبارق
+1338,42299,1238,Boeing 777-FDZ,A7-BFG,Qatar Airways Cargo,2014-09-30,Active,"ام سنیم, Moved by People cs"
+1339,42318,1261,Boeing 777-31HER,A6-ENX,Emirates,2014-12-19,Active,
+1340,42319,1289,Boeing 777-31HER,A6-ENZ,Emirates,2015-04-14,Active,
+1341,42320,1317,Boeing 777-31HER,A6-EPA,Emirates,2015-08-31,Active,
+1342,42321,1325,Boeing 777-31HER,A6-EPB,Emirates,2015-08-31,Parked,
+1343,42322,1335,Boeing 777-31HER,A6-EPC,Emirates,2015-09-30,Active,
+1344,42323,1341,Boeing 777-31HER,A6-EPD,Emirates,2015-10-19,Parked,
+1345,42324,1348,Boeing 777-31HER,A6-EPE,Emirates,2015-11-25,Active,
+1346,42325,1352,Boeing 777-31HER,A6-EPF,Emirates,2015-11-20,Active,
+1347,42326,1357,Boeing 777-31HER,A6-EPG,Emirates,2015-12-11,Active,
+1348,42327,1360,Boeing 777-31HER,A6-EPH,Emirates,2015-12-18,Active,
+1349,42328,1364,Boeing 777-31HER,A6-EPI,Emirates,2016-01-15,Active,
+1350,42329,1372,Boeing 777-31HER,A6-EPJ,Emirates,2016-02-12,Active,
+1351,42330,1379,Boeing 777-31HER,A6-EPK,Emirates,2016-03-16,Active,
+1352,42331,1390,Boeing 777-31HER,A6-EPL,Emirates,2016-04-15,Active,
+1353,42332,1397,Boeing 777-31HER,A6-EPM,Emirates,2016-05-20,Active,
+1354,42333,1408,Boeing 777-31HER,A6-EPN,Emirates,2016-06-30,Active,
+1355,42334,1415,Boeing 777-31HER,A6-EPO,Emirates,2016-07-28,Active,lsd
+1356,42335,1418,Boeing 777-31HER,A6-EPP,Emirates,2016-07-29,Active,
+1357,42336,1423,Boeing 777-31HER,A6-EPQ,Emirates,2016-08-19,Active,lsd
+1358,42337,1428,Boeing 777-31HER,A6-EPR,Emirates,2016-09-23,Active,lsd
+1359,42338,1433,Boeing 777-31HER,A6-EPS,Emirates,2016-09-29,Active,
+1360,42339,1436,Boeing 777-31HER,A6-EPT,Emirates,2016-10-17,Active,
+1361,42340,1441,Boeing 777-31HER,A6-EPU,Emirates,2016-11-04,Active,
+1362,42341,1450,Boeing 777-31HER,A6-EPV,Emirates,2016-12-19,Active,
+1363,42342,1456,Boeing 777-31HER,A6-EPW,Emirates,2016-12-21,Active,
+1364,42343,1459,Boeing 777-31HER,A6-EPX,Emirates,2016-12-23,Active,
+1365,42344,1465,Boeing 777-31HER,A6-EPY,Emirates,2017-02-10,Active,
+1366,42345,1469,Boeing 777-31HER,A6-EPZ,Emirates,2017-03-31,Active,
+1367,42346,1482,Boeing 777-31HER,A6-EQA,Emirates,2017-03-31,Active,
+1368,42347,1490,Boeing 777-31HER,A6-EQB,Emirates,2017-05-30,Active,
+1369,42348,1495,Boeing 777-31HER,A6-EQC,Emirates,2017-06-12,Active,
+1370,42349,1499,Boeing 777-31HER,A6-EQD,Emirates,2017-06-23,Active,
+1371,42350,1512,Boeing 777-31HER,A6-EQE,Emirates,2017-08-18,Active,
+1372,42351,1515,Boeing 777-31HER,A6-EQF,Emirates,2017-08-30,Active,lsd
+1373,42352,1519,Boeing 777-31HER,A6-EQG,Emirates,2017-09-28,Active,
+1374,42353,1517,Boeing 777-31HER,A6-EQH,Emirates,2017-11-03,Active,lsd
+1375,42354,1529,Boeing 777-31HER,A6-EQI,Emirates,2017-11-30,Active,
+1376,42355,1533,Boeing 777-31HER,A6-EQJ,Emirates,2017-12-29,Active,
+1377,42359,1553,Boeing 777-31HER,A6-EQK,Emirates,2018-05-07,Active,
+1378,42360,1559,Boeing 777-31HER,A6-EQL,Emirates,2018-06-14,Active,
+1379,42361,1562,Boeing 777-31HER,A6-EQM,Emirates,2018-06-29,Active,
+1380,42362,1564,Boeing 777-31HER,A6-EQN,Emirates,2018-08-03,Active,
+1381,42363,1577,Boeing 777-300ER,A6-EQP,Emirates,2018-11-30,Active,
+1382,42364,1572,Boeing 777-300ER,A6-EQO,Emirates,2018-09-28,Active,
+1383,42704,1528,Boeing 777-FS2,N888FD,FedEx Express,2017-11-14,Active,"Mae, 888"
+1384,42705,1531,Boeing 777-FS2,N897FD,FedEx Express,2017-11-22,Active,"Star, 897"
+1385,43215,1218,Boeing 777-3DZER,A7-BEB,Qatar Airways,2014-07-22,Active,عين محمد
+1386,43216,1226,Boeing 777-3DZER,A7-BEC,Qatar Airways,2014-08-13,Active,سدرية الهام
+1387,43219,1173,Boeing 777-31BER,B-2099,China Southern Airlines,2014-02-24,Parked,
+1388,43220,1219,Boeing 777-31BER,B-2048,China Southern Airlines,2014-07-22,Active,lsd
+1389,43221,1223,Boeing 777-31BER,B-2007,China Southern Airlines,2014-08-06,Active,"lsd, WorldSkills Shanghai 2022 (上海世赛号) cs"
+1390,43222,1229,Boeing 777-31BER,B-2008,China Southern Airlines,2014-08-21,Active,lsd
+1391,43223,1260,Boeing 777-31BER,B-2009,China Southern Airlines,2014-12-18,Active,lsd
+1392,43224,1329,Boeing 777-31BER,B-2029,China Southern Airlines,2015-08-26,Active,
+1393,43225,1358,Boeing 777-31BER,B-2049,China Southern Airlines,2015-12-17,Active,
+1394,43226,1378,Boeing 777-31BER,B-7183,China Southern Airlines,2016-03-31,Active,lsd
+1395,43227,1395,Boeing 777-31BER,B-7185,China Southern Airlines,2016-04-28,Active,lsd
+1396,43228,1417,Boeing 777-31BER,B-7588,China Southern Airlines,2016-07-25,Active,lsd
+1397,43249,1161,Boeing 777-333ER,C-FNNU,Air Canada,2013-12-19,Active,746
+1398,43250,1174,Boeing 777-333ER,C-FNNW,Air Canada,2014-02-11,Active,747
+1399,43251,1154,Boeing 777-333ER,C-FNNQ,Air Canada,2013-11-22,Active,745
+1400,43252,1198,Boeing 777-3M2ER,D2-TEI,TAAG - Linhas Aereas de Angola Airlines,2014-06-16,Active,Ebo
+1401,43253,1356,Boeing 777-3M2ER,D2-TEJ,TAAG - Linhas Aereas de Angola Airlines,2016-04-29,Active,Iona
+1402,43254,1386,Boeing 777-3M2ER,D2-TEK,TAAG - Linhas Aereas de Angola Airlines,2016-09-29,Active,Morro do Moco
+1403,43269,1232,Boeing 777-39PER,B-2001,China Eastern Airlines,2014-09-23,Active,
+1404,43270,1253,Boeing 777-39PER,B-2003,China Eastern Airlines,2014-11-24,Active,
+1405,43271,1259,Boeing 777-39PER,B-2005,China Eastern Airlines,2014-12-16,Active,
+1406,43272,1285,Boeing 777-39PER,B-2020,China Eastern Airlines,2015-03-23,Active,
+1407,43273,1309,Boeing 777-39PER,B-2021,China Eastern Airlines,2015-06-23,Active,
+1408,43274,1321,Boeing 777-39PER,B-2022,China Eastern Airlines,2015-07-29,Active,
+1409,43275,1324,Boeing 777-39PER,B-2023,China Eastern Airlines,2015-08-11,Active,lsd
+1410,43276,1353,Boeing 777-39PER,B-2025,China Eastern Airlines,2015-11-23,Active,lsd
+1411,43277,1373,Boeing 777-39PER,B-7343,China Eastern Airlines,2016-03-31,Active,
+1412,43278,1387,Boeing 777-39PER,B-7347,China Eastern Airlines,2016-04-21,Active,
+1413,43279,1411,Boeing 777-39PER,B-7349,China Eastern Airlines,2016-06-30,Active,Shanghai Museum (上海博物馆)  cs
+1414,43280,1420,Boeing 777-39PER,B-7365,China Eastern Airlines,2016-08-09,Active,
+1415,43281,1442,Boeing 777-39PER,B-7367,China Eastern Airlines,2016-10-31,Parked,lsd
+1416,43282,1398,Boeing 777-39PER,B-7368,China Eastern Airlines,2016-05-23,Active,
+1417,43283,1487,Boeing 777-39PER,B-7868,China Eastern Airlines,2017-04-27,Active,
+1418,43284,1498,Boeing 777-39PER,B-7883,China Eastern Airlines,2017-06-12,Active,lsd
+1419,43285,1494,Boeing 777-39PER,B-7881,China Eastern Airlines,2017-05-23,Active,lsd
+1420,43286,1396,Boeing 777-39PER,B-7369,China Eastern Airlines,2016-05-11,Active,
+1421,43287,1508,Boeing 777-39PER,B-7882,China Eastern Airlines,2017-07-21,Active,lsd
+1422,43288,1247,Boeing 777-39PER,B-2002,China Eastern Airlines,2014-10-28,Active,China International Import Expo (中国国际进口博览会)  cs
+1423,43289,1189,Boeing 777-35EER,B-16718,EVA Air,2014-04-30,Active,
+1424,43290,1275,Boeing 777-35EER,B-16721,EVA Air,2015-02-12,Active,
+1425,43291,1412,Boeing 777-35EER,B-16727,EVA Air,2016-06-30,Active,
+1426,43702,1171,Boeing 777-336ER,G-STBI,British Airways,2014-01-28,Active,
+1427,43703,1182,Boeing 777-336ER,G-STBJ,British Airways,2014-03-06,Active,
+1428,43814,1115,Boeing 777-260LR,ET-AQL,Ethiopian Airlines,2013-07-02,Active,
+1429,43815,1323,Boeing 777-3B5ER,HL8007,Korean Air,2015-08-11,Active,
+1430,43816,1339,Boeing 777-3B5ER,HL8008,Korean Air,2015-09-30,Active,
+1431,43977,1327,Boeing 777-309ER,B-18003,China Airlines,2015-08-25,Active,lsd
+1432,43978,1301,Boeing 777-309ER,B-18001,China Airlines,2015-05-22,Active,lsd
+1433,43979,1347,Boeing 777-309ER,B-18005,China Airlines,2015-10-29,Active,lsd
+1434,43980,1307,Boeing 777-309ER,B-18002,China Airlines,2015-06-30,Active,lsd
+1435,43981,1365,Boeing 777-309ER,B-18006,China Airlines,2016-01-19,Active,
+1436,43982,1399,Boeing 777-309ER,B-18007,China Airlines,2016-05-16,Active,Boeing cs
+1437,44116,1214,Boeing 777-3F2ER,TC-JJR,Turkish Airlines,2014-07-15,Active,Erciyes
+1438,44117,1222,Boeing 777-3F2ER,TC-JJS,Turkish Airlines,2014-07-26,Active,Zigana
+1439,44118,1233,Boeing 777-3F2ER,TC-JJT,Turkish Airlines,2014-09-04,Active,Çukurova
+1440,44119,1277,Boeing 777-3F2ER,TC-JJV,Turkish Airlines,2015-03-30,Active,Heybeliada
+1441,44120,1287,Boeing 777-3F2ER,TC-JJY,Turkish Airlines,2015-03-30,Active,Kinaliada
+1442,44121,1296,Boeing 777-3F2ER,TC-LJA,Turkish Airlines,2015-04-30,Active,Adana
+1443,44122,1291,Boeing 777-3F2ER,TC-JJZ,Turkish Airlines,2015-04-15,Active,Uzungöl
+1444,44123,1337,Boeing 777-3F2ER,TC-LJC,Turkish Airlines,2015-09-28,Active,
+1445,44124,1331,Boeing 777-3F2ER,TC-LJB,Turkish Airlines,2015-09-11,Active,Ayasofya
+1446,44125,1361,Boeing 777-3F2ER,TC-LJD,Turkish Airlines,2015-12-22,Active,Selimiye
+1447,44126,1368,Boeing 777-3F2ER,TC-LJE,Turkish Airlines,2016-01-27,Active,Sümela
+1448,44127,1389,Boeing 777-3F2ER,TC-LJF,Turkish Airlines,2016-03-31,Active,Ortaköy
+1449,44128,1394,Boeing 777-3F2ER,TC-LJG,Turkish Airlines,2016-05-02,Active,
+1450,44129,1403,Boeing 777-3F2ER,TC-LJH,Turkish Airlines,2016-05-31,Active,Bio Fuel cs
+1451,44130,1405,Boeing 777-3F2ER,TC-LJI,Turkish Airlines,2016-06-14,Active,
+1452,44546,1206,Boeing 777-319ER,ZK-OKR,Air New Zealand,2014-06-06,Active,lsd
+1453,44547,1237,Boeing 777-319ER,ZK-OKS,Air New Zealand,2014-09-25,Active,lsd
+1454,44548,1235,Boeing 777-3FXER,A6-ETS,Etihad Airways,2014-09-16,Active,lsd
+1455,44549,1280,Boeing 777-306ER,PH-BVN,KLM Royal Dutch Airlines,2015-03-27,Active,"Tijuca National Park / Nationaal Park Tijuca , VN-033, lsd"
+1456,44550,1297,Boeing 777-360ER,ET-ASK,Ethiopian Airlines,2015-05-15,Active,lsd
+1457,44551,1312,Boeing 777-360ER,ET-ASL,Ethiopian Airlines,2015-06-25,Active,lsd
+1458,44552,1366,Boeing 777-35EER,B-16726,EVA Air,2016-01-14,Active,lsd
+1459,44553,1343,Boeing 777-328ER,F-GZNR,Air France,2015-10-30,Active,lsd
+1460,44554,1349,Boeing 777-35EER,B-16725,EVA Air,2015-11-11,Active,lsd
+1461,44555,1376,Boeing 777-306ER,PH-BVP,KLM Royal Dutch Airlines,2016-02-24,Active,"Nationaal Park Jasper / Jasper National Park , VP-035, lsd"
+1462,44582,1363,Boeing 777-3DEER,HB-JNA,Swiss,2016-01-26,Active,
+1463,44583,1383,Boeing 777-3DEER,HB-JNB,Swiss,2016-03-29,Active,
+1464,44584,1391,Boeing 777-3DEER,HB-JNC,Swiss,2016-04-28,Active,
+1465,44585,1400,Boeing 777-3DEER,HB-JND,Swiss,2016-05-30,Active,
+1466,44586,1409,Boeing 777-3DEER,HB-JNE,Swiss,2016-06-21,Active,
+1467,44587,1416,Boeing 777-3DEER,HB-JNF,Swiss,2016-07-22,Active,
+1468,44678,1158,Boeing 777-FFT,B-2095,Air China Cargo,2013-12-16,Active,
+1469,44679,1180,Boeing 777-FFT,B-2096,Air China Cargo,2014-03-12,Active,
+1470,44680,1188,Boeing 777-FFT,B-2097,Air China Cargo,2014-03-31,Active,
+1471,44681,1210,Boeing 777-FFT,B-2098,Air China Cargo,2014-06-30,Active,
+1472,44682,1230,Boeing 777-FFT,B-2091,Air China Cargo,2014-08-29,Active,
+1473,44683,1272,Boeing 777-FFT,B-2092,Air China Cargo,2015-02-27,Active,
+1474,44684,1316,Boeing 777-FFT,B-2093,Air China Cargo,2015-07-13,Active,
+1475,44685,1326,Boeing 777-FFT,B-2094,Air China Cargo,2015-08-31,Active,
+1476,44931,1239,Boeing 777-39LER,B-2006,Air China,2014-09-25,Active,Love China (爱中国) cs
+1477,60116,1258,Boeing 777-2FBLR,P4-SKN,Equatorial Guinea Government,2017-12-08,Active,
+1478,60136,1283,Boeing 777-381ER,JA790A,All Nippon Airways,2015-03-26,Active,lsd
+1479,60137,1293,Boeing 777-381ER,JA791A,All Nippon Airways,2015-04-22,Active,lsd
+1480,60330,1244,Boeing 777-3DZER,A7-BED,Qatar Airways,2014-10-27,Active,"لجذوعية, UEFA Champions League  cs"
+1481,60331,1314,Boeing 777-3DZER,A7-BEE,Qatar Airways,2015-07-30,Active,lsd
+1482,60332,1351,Boeing 777-3DZER,A7-BEF,Qatar Airways,2015-11-18,Active,
+1483,60333,1359,Boeing 777-3DZER,A7-BEG,Qatar Airways,2015-12-29,Active,
+1484,60334,1375,Boeing 777-3DZER,A7-BEH,Qatar Airways,2016-03-22,Active,
+1485,60335,1384,Boeing 777-3DZER,A7-BEI,Qatar Airways,2016-03-24,Active,
+1486,60336,1404,Boeing 777-3DZER,A7-BEJ,Qatar Airways,2016-06-10,Parked,
+1487,60337,1264,Boeing 777-FFG,HZ-AK71,Saudi Arabian Airlines,2015-03-26,Active,
+1488,60338,1328,Boeing 777-FFG,HZ-AK72,Saudi Arabian Airlines,2015-09-01,Active,
+1489,60339,1342,Boeing 777-FFG,HZ-AK73,Saudi Arabian Airlines,2015-11-05,Parked,
+1490,60340,1354,Boeing 777-FFG,HZ-AK74,Saudi Arabian Airlines,2015-11-25,Active,
+1491,60374,1196,Boeing 777-39LER,B-2047,Air China,2014-04-29,Active,lsd
+1492,60375,1402,Boeing 777-3B5ER,HL8041,Korean Air,2016-05-27,Active,
+1493,60376,1407,Boeing 777-3B5ER,HL8042,Korean Air,2016-06-28,Active,
+1494,60377,1539,Boeing 777-3B5ER,HL7202,Korean Air,2018-02-06,Active,
+1495,60378,1543,Boeing 777-3B5ER,HL7203,Korean Air,2018-03-20,Active,
+1496,60379,1555,Boeing 777-3B5ER,HL7205,Korean Air,2018-05-30,Active,
+1497,60380,1549,Boeing 777-3B5ER,HL7204,Korean Air,2018-03-30,Active,
+1498,60381,1300,Boeing 777-381ER,JA792A,All Nippon Airways,2015-05-18,Active,
+1499,60401,1256,Boeing 777-3F2ER,TC-JJU,Turkish Airlines,2014-12-01,Active,Büyükada
+1500,60402,1462,Boeing 777-3F2ER,TC-LJK,Turkish Airlines,2017-05-25,Active,İzmir
+1501,60403,1532,Boeing 777-FF2,TC-LJL,Turkish Airlines,2017-11-30,Active,
+1502,60404,1536,Boeing 777-FF2,TC-LJM,Turkish Airlines,2017-12-22,Active,
+1503,60405,1413,Boeing 777-3F2ER,TC-LJJ,Turkish Airlines,2016-06-29,Active,
+1504,60509,1575,Boeing 777-F,A6-DDF,Etihad Airways,2018-11-19,Active,
+1505,60593,1672,Boeing 777-9,D-,Lufthansa,,On Order,
+1506,60594,1674,Boeing 777-9,D-,Lufthansa,,On Order,
+1507,60723,1319,Boeing 777-367ER,B-KQZ,Cathay Pacific,2015-07-29,Active,
+1508,60724,1333,Boeing 777-367ER,B-HNR,Cathay Pacific,2015-09-25,Active,
+1509,60725,1295,Boeing 777-367ER,B-KQX,Cathay Pacific,2015-04-30,Active,
+1510,61512,1586,Boeing 777-300ER,JA793A,All Nippon Airways,2019-03-01,Active,lsd
+1511,61513,1593,Boeing 777-300ER,JA794A,All Nippon Airways,2019-03-12,Active,lsd
+1512,61514,1598,Boeing 777-300ER,JA795A,All Nippon Airways,2019-06-28,Active,lsd
+1513,61515,1607,Boeing 777-300ER,JA796A,All Nippon Airways,2019-06-30,Active,lsd
+1514,61516,1627,Boeing 777-300ER,JA797A,All Nippon Airways,2019-10-28,Active,lsd
+1515,61517,1637,Boeing 777-300ER,JA798A,All Nippon Airways,2019-12-22,Active,lsd
+1516,61518,1271,Boeing 777-3FGER,HZ-HM5,Saudi Arabian Government,2022-02-19,Active,
+1517,61533,1629,Boeing 777-9,JA071A,All Nippon Airways,,On Order,
+1518,61534,1633,Boeing 777-9,JA072A,All Nippon Airways,,On Order,
+1519,61550,1680,Boeing 777-9,JA,All Nippon Airways,,On Order,
+1520,61590,1424,Boeing 777-3FGER,HZ-AK33,Saudi Arabian Airlines,2016-08-25,Active,
+1521,61591,1421,Boeing 777-3FGER,HZ-AK32,Saudi Arabian Airlines,2016-08-26,Active,
+1522,61592,1457,Boeing 777-3FGER,HZ-AK39,Saudi Arabian Airlines,2016-12-21,Active,
+1523,61593,1435,Boeing 777-3FGER,HZ-AK35,Saudi Arabian Airlines,2016-09-27,Active,
+1524,61594,1449,Boeing 777-3FGER,HZ-AK37,Saudi Arabian Airlines,2016-12-03,Active,
+1525,61595,1414,Boeing 777-3FGER,HZ-AK31,Saudi Arabian Airlines,2016-08-24,Parked,
+1526,61596,1429,Boeing 777-3FGER,HZ-AK34,Saudi Arabian Airlines,2016-09-16,Active,
+1527,61597,1451,Boeing 777-3FGER,HZ-AK38,Saudi Arabian Airlines,2016-12-10,Active,
+1528,61598,1460,Boeing 777-3FGER,HZ-AK40,Saudi Arabian Airlines,2016-12-28,Active,
+1529,61599,1439,Boeing 777-3FGER,HZ-AK36,Saudi Arabian Airlines,2016-11-04,Active,
+1530,61600,1467,Boeing 777-3SHER,B-16733,EVA Air,2017-01-19,Active,lsd
+1531,61601,1427,Boeing 777-35EER,B-16729,EVA Air,2016-09-01,Active,lsd
+1532,61602,1431,Boeing 777-39MER,F-OLRD,Air Austral,2016-10-04,Active,lsd
+1533,61603,1406,Boeing 777-306ER,PH-BVR,KLM Royal Dutch Airlines,2016-06-15,Active,"Nationaal Park Gunung Mulu / Gunung Mulu National Park , VR-036, lsd"
+1534,61604,1472,Boeing 777-306ER,PH-BVS,KLM Royal Dutch Airlines,2017-02-22,Active,"Nationaal Park Darien / Darien National Park , VS-037, lsd"
+1535,61701,1393,Boeing 777-328ER,F-GZNU,Air France,2016-04-25,Active,
+1536,61702,1521,Boeing 777-306ER,PH-BVU,KLM Royal Dutch Airlines,2017-09-27,Active,"Grand Canyon National Park / Nationaal Park Grand Canyon , VU-038"
+1537,61730,1443,Boeing 777-3F6ER,RP-C7778,Philippine Airlines,2016-10-27,Active,lsd
+1538,61731,1455,Boeing 777-3F6ER,RP-C7779,Philippine Airlines,2016-12-12,Active,lsd
+1539,61733,1534,Boeing 777-3F6ER,A6-PFK,Presidential Flight,2023-07-30,Active,Emirates livery
+1540,61735,1535,Boeing 777-3F6ER,RP-C7782,Philippine Airlines,2017-12-16,Active,lsd
+1541,61736,1444,Boeing 777-39MER,F-OLRE,Air Austral,2016-11-10,Active,lsd
+1542,61769,1478,Boeing 777-3ALER,B-16735,EVA Air,2017-03-16,Active,lsd
+1543,61770,1485,Boeing 777-3ALER,B-16737,EVA Air,2017-04-27,Active,lsd
+1544,61935,1605,Boeing 777-9,A6-EZD,Emirates,,On Order,
+1545,61939,1682,Boeing 777-9,A6-,Emirates,,On Order,
+1546,62083,1392,Boeing 777-FDZ,A7-BFI,Qatar Airways Cargo,2016-04-26,Active,
+1547,62084,1432,Boeing 777-FDZ,A7-BFK,Qatar Airways Cargo,2016-09-26,Active,
+1548,62085,1410,Boeing 777-FDZ,A7-BFJ,Qatar Airways Cargo,2016-06-30,Active,
+1549,62086,1473,Boeing 777-FDZ,A7-BFL,Qatar Airways Cargo,2017-03-08,Active,
+1550,62286,1426,Boeing 777-36NER,B-16730,EVA Air,2016-09-12,Active,lsd
+1551,62287,1445,Boeing 777-36NER,B-16732,EVA Air,2016-10-28,Active,lsd
+1552,62400,1388,Boeing 777-333ER,C-FJZS,Air Canada,2016-04-25,Active,748
+1553,62401,1401,Boeing 777-333ER,C-FKAU,Air Canada,2016-05-20,Active,749
+1554,62439,1422,Boeing 777-3SBER,80-1111,Japan Air Self-Defence Force (JASDF),2018-08-23,Active,111
+1555,62440,1464,Boeing 777-3SBER,80-1112,Japan Air Self-Defence Force (JASDF),2018-12-11,Active,112
+1556,62561,1448,Boeing 777-369ER,9K-AOC,Kuwait Airways,2016-12-06,Active,Al-Sabahiya / الصباحية
+1557,62562,1458,Boeing 777-369ER,9K-AOD,Kuwait Airways,2016-12-30,Active,Al-Jabriya / الجابرية
+1558,62563,1463,Boeing 777-369ER,9K-AOE,Kuwait Airways,2017-01-29,Active,Al-Salmiya / السالمية
+1559,62564,1468,Boeing 777-369ER,9K-AOF,Kuwait Airways,2017-02-01,Active,Al-Ahmadiya / الأحمدية
+1560,62565,1475,Boeing 777-369ER,9K-AOH,Kuwait Airways,2017-03-10,Active,Al-Mubarakiya / المباركية
+1561,62566,1481,Boeing 777-369ER,9K-AOI,Kuwait Airways,2017-03-31,Active,"Al-Sheab / الشعب, lsd"
+1562,62567,1491,Boeing 777-369ER,9K-AOJ,Kuwait Airways,2017-05-17,Active,"Al-Mesila / المسيلة, lsd"
+1563,62568,1496,Boeing 777-369ER,9K-AOK,Kuwait Airways,2017-06-29,Active,"Al-Salam / السلام, lsd"
+1564,62569,1506,Boeing 777-369ER,9K-AOL,Kuwait Airways,2017-07-20,Active,"Bayan / بيان , lsd"
+1565,62570,1514,Boeing 777-369ER,9K-AOM,Kuwait Airways,2017-08-25,Active,"Dasman / دسمان, lsd"
+1566,62631,1370,Boeing 777-FEZ,HL8075,Korean Air,2016-06-24,Active,lsd
+1567,62632,1440,Boeing 777-FB5,HL8076,Korean Air,2016-10-28,Active,lsd
+1568,62642,1453,Boeing 777-322ER,N2331U,United Airlines,2016-12-21,Active,"New Spirit of United, 2131"
+1569,62643,1461,Boeing 777-322ER,N2332U,United Airlines,2016-12-30,Active,2132
+1570,62644,1466,Boeing 777-322ER,N2333U,United Airlines,2017-02-14,Active,2133
+1571,62645,1470,Boeing 777-322ER,N2534U,United Airlines,2017-10-26,Active,2134
+1572,62646,1474,Boeing 777-322ER,N2135U,United Airlines,2017-03-31,Active,2135
+1573,62647,1480,Boeing 777-322ER,N2737U,United Airlines,2017-03-23,Active,2137
+1574,62648,1477,Boeing 777-322ER,N2136U,United Airlines,2017-03-23,Active,2136
+1575,62649,1483,Boeing 777-322ER,N2138U,United Airlines,2017-03-31,Active,2138
+1576,62650,1486,Boeing 777-322ER,N2639U,United Airlines,2017-05-30,Active,2139
+1577,62651,1489,Boeing 777-322ER,N2140U,United Airlines,2017-06-13,Active,2140
+1578,62693,1430,Boeing 777-FB5,HL8043,Korean Air,2016-08-31,Active,lsd
+1579,62694,1438,Boeing 777-FB5,HL8044,Korean Air,2016-09-29,Active,lsd
+1580,62695,1447,Boeing 777-FB5,HL8045,Korean Air,2016-10-31,Active,lsd
+1581,62696,1454,Boeing 777-FB5,HL8046,Korean Air,2016-12-19,Active,lsd
+1582,62697,1522,Boeing 777-FB5,HL8077,Korean Air,2017-10-16,Active,
+1583,62744,1374,Boeing 777-FFX,A6-DDD,Etihad Airways,2016-02-25,Active,
+1584,62745,1382,Boeing 777-FFX,A6-DDE,Etihad Airways,2016-03-14,Active,
+1585,62752,1471,Boeing 777-3DEER,HB-JNG,Swiss,2017-02-15,Active,
+1586,62753,1484,Boeing 777-3DEER,HB-JNH,Swiss,2017-03-31,Active,
+1587,62754,1540,Boeing 777-3DEER,HB-JNI,Swiss,2018-01-29,Active,
+1588,62755,1545,Boeing 777-3DEER,HB-JNJ,Swiss,2018-03-13,Active,
+1589,62761,1476,Boeing 777-368ER,HZ-AK41,Saudi Arabian Airlines,2017-03-15,Active,
+1590,62762,1488,Boeing 777-368ER,HZ-AK42,Saudi Arabian Airlines,2017-04-26,Active,
+1591,62763,1492,Boeing 777-368ER,HZ-AK43,Saudi Arabian Airlines,2017-05-22,Active,ABB FIA Formula E (2024) cs
+1592,62764,1501,Boeing 777-368ER,HZ-AK44,Saudi Arabian Airlines,2017-06-21,Active,
+1593,62765,1509,Boeing 777-368ER,HZ-AK45,Saudi Arabian Airlines,2017-07-26,Active,
+1594,62770,1520,Boeing 777-FDZ,A7-BFM,Qatar Airways Cargo,2017-09-29,Active,
+1595,62771,1566,Boeing 777-FDZ,A7-BFN,Qatar Airways Cargo,2018-09-18,Active,
+1596,62772,1571,Boeing 777-FDZ,A7-BFO,Qatar Airways Cargo,2018-09-18,Active,
+1597,62773,1592,Boeing 777-F,A7-BFP,Qatar Airways Cargo,2019-03-13,Active,
+1598,62824,1526,Boeing 777-F5E,B-16781,EVA Air,2017-11-08,Active,
+1599,62825,1551,Boeing 777-F5E,B-16782,EVA Air,2018-05-03,Active,
+1600,62826,1568,Boeing 777-F5E,B-16783,EVA Air,2018-08-29,Active,
+1601,62827,1585,Boeing 777-F,B-16785,EVA Air,2018-12-14,Active,
+1602,62828,1603,Boeing 777-F,B-16786,EVA Air,2019-05-29,Active,
+1603,63352,1437,Boeing 777-39LER,B-7952,Air China,2016-11-08,Active,lsd
+1604,63353,1446,Boeing 777-39LER,B-7869,Air China,2016-11-17,Active,lsd
+1605,63354,1452,Boeing 777-39LER,B-7973,Air China,2016-12-05,Active,lsd
+1606,63355,1505,Boeing 777-39LER,B-1428,Air China,2017-07-06,Active,lsd
+1607,63356,1510,Boeing 777-39LER,B-1429,Air China,2017-07-28,Active,lsd
+1608,63357,1516,Boeing 777-39LER,B-1430,Air China,2017-08-28,Active,lsd
+1609,63434,1600,Boeing 777-300ER,HL8346,Korean Air,2019-05-14,Active,
+1610,63435,1609,Boeing 777-300ER,HL8347,Korean Air,2019-06-28,Active,
+1611,63528,1513,Boeing 777-35EER,B-16739,EVA Air,2017-08-17,Active,
+1612,63529,1518,Boeing 777-35EER,B-16740,EVA Air,2017-09-21,Active,Hello Kitty - Lolly Jet cs
+1613,63721,1493,Boeing 777-322ER,N2341U,United Airlines,2017-06-23,Active,2141
+1614,63722,1497,Boeing 777-322ER,N2142U,United Airlines,2017-06-30,Active,2142
+1615,63723,1500,Boeing 777-322ER,N2243U,United Airlines,2017-06-30,Active,2143
+1616,63724,1504,Boeing 777-322ER,N2644U,United Airlines,2017-06-28,Active,2144
+1617,64062,1507,Boeing 777-3DZER,A7-BEK,Qatar Airways,2017-09-11,Active,
+1618,64063,1511,Boeing 777-3DZER,A7-BEL,Qatar Airways,2017-09-30,Active,Official Global Airline Partner of Formula 1  cs
+1619,64064,1523,Boeing 777-3DZER,A7-BEN,Qatar Airways,2017-12-01,Active,
+1620,64065,1527,Boeing 777-3DZER,A7-BEO,Qatar Airways,2017-12-23,Active,
+1621,64066,1530,Boeing 777-3DZER,A7-BEP,Qatar Airways,2017-12-04,Active,
+1622,64085,1538,Boeing 777-3DZER,A7-BEQ,Qatar Airways,2018-03-22,Active,
+1623,64086,1542,Boeing 777-3DZER,A7-BER,Qatar Airways,2018-05-17,Active,
+1624,64087,1561,Boeing 777-3DZER,A7-BET,Qatar Airways,2018-08-07,Active,
+1625,64088,1525,Boeing 777-3DZER,A7-BEM,Qatar Airways,2017-12-13,Active,
+1626,64089,1547,Boeing 777-3DZER,A7-BES,Qatar Airways,2018-05-25,Active,
+1627,64240,1567,Boeing 777-9,N779XW,Boeing,2019-03-13,Active,
+1628,64241,1574,Boeing 777-9,N779XX,Boeing,2020-04-30,Active,
+1629,64826,1728,Boeing 777-9,9V-,Singapore Airlines,,On Order,
+1630,64989,1548,Boeing 777-322ER,N2645U,United Airlines,2018-03-20,Active,2145
+1631,64990,1550,Boeing 777-322ER,N2846U,United Airlines,2018-03-28,Active,2146
+1632,64991,1554,Boeing 777-322ER,N2747U,United Airlines,2018-04-20,Active,2147
+1633,64994,1580,Boeing 777-300ER,N2748U,United Airlines,2018-11-20,Active,2148
+1634,65300,1558,Boeing 777-39LER,B-1266,Air China,2018-05-15,Active,
+1635,65301,1569,Boeing 777-39LER,B-1282,Air China,2018-08-28,Active,lsd
+1636,65302,1552,Boeing 777-3DZER,A7-BEU,Qatar Airways,2018-06-19,Active,
+1637,65303,1556,Boeing 777-3DZER,A7-BEV,Qatar Airways,2018-06-28,Active,
+1638,65304,1563,Boeing 777-3DZER,A7-BEW,Qatar Airways,2018-09-03,Active,
+1639,65305,1565,Boeing 777-3DZER,A7-BEX,Qatar Airways,2018-09-20,Active,
+1640,65307,1560,Boeing 777-3M0ER,RA-73150,Aeroflot - Russian Airlines,2022-04-21,Active,А. Скрябин / A. Scriabin
+1641,65308,1590,Boeing 777-300ER,RA-73158,Aeroflot - Russian Airlines,2022-04-11,Active,В. Чуйков / V. Chuikov
+1642,65309,1595,Boeing 777-300ER,RA-73146,Aeroflot - Russian Airlines,2022-04-12,Active,К. Бальмонт / K. Balmont
+1643,65310,1652,Boeing 777-300ER,RA-73143,Aeroflot - Russian Airlines,2022-04-15,Active,Д. Гранин / D. Granin
+1644,65311,1654,Boeing 777-300ER,RA-73142,Aeroflot - Russian Airlines,2022-04-16,Active,С. Говорухин / S. Govorukhin
+1645,65312,1695,Boeing 777-300ER,RA-73141,Aeroflot - Russian Airlines,2022-03-25,Active,С. Королёв / S. Korolev
+1646,65397,1570,Boeing 777-F60,ET-AVN,Ethiopian Airlines,2018-08-30,Active,
+1647,65398,1579,Boeing 777-F,ET-AVQ,Ethiopian Airlines,2018-11-09,Active,
+1648,65415,1597,Boeing 777-300ER,B-209Y,China Southern Airlines,2019-04-17,Active,lsd
+1649,65416,1602,Boeing 777-300ER,B-20AC,China Southern Airlines,2019-05-28,Parked,lsd
+1650,65417,1613,Boeing 777-300ER,B-20C5,China Southern Airlines,2019-08-30,Active,lsd
+1651,65418,1618,Boeing 777-300ER,B-20CK,China Southern Airlines,2019-09-20,Active,lsd
+1652,65419,1630,Boeing 777-300ER,B-20DM,China Southern Airlines,2019-11-19,Active,lsd
+1653,65420,1641,Boeing 777-300ER,ET-BBG,Ethiopian Airlines,2024-12-05,Active,lsd
+1654,65421,1649,Boeing 777-F,B-20EM,China Southern Airlines,2020-05-22,Active,lsd
+1655,65422,1650,Boeing 777-F,B-20EN,China Southern Airlines,2020-05-22,Active,lsd
+1656,65476,1583,Boeing 777-F,ET-AVT,Ethiopian Airlines,2018-12-06,Active,
+1657,65477,1594,Boeing 777-F,ET-AWE,Ethiopian Airlines,2019-03-29,Active,
+1658,65742,1573,Boeing 777-FF2,TC-LJN,Turkish Airlines,2018-09-26,Active,
+1659,65743,1578,Boeing 777-F,TC-LJO,Turkish Airlines,2018-11-09,Active,
+1660,65744,1584,Boeing 777-F,TC-LJP,Turkish Airlines,2018-12-14,Active,
+1661,65756,1582,Boeing 777-F,JA771F,ANA Cargo,2018-12-04,Active,opby All Nippon Airways
+1662,65757,1604,Boeing 777-F,JA772F,ANA Cargo,2019-06-10,Active,opby All Nippon Airways
+1663,65799,1581,Boeing 777-9,N779XY,Boeing,2020-08-03,Active,
+1664,65800,1587,Boeing 777-9,N779XZ,Boeing,2020-09-20,Active,
+1665,66079,1599,Boeing 777-F,B-226Y,DHL Aviation,2024-10-14,Active,opby Central Airlines
+1666,66080,1606,Boeing 777-F,B-226W,DHL Aviation,2024-10-11,Active,opby Central Airlines
+1667,66081,1619,Boeing 777-F,D-AALL,DHL Aviation,2019-09-16,Active,opby AeroLogic
+1668,66082,1625,Boeing 777-F,D-AALM,DHL Aviation,2019-09-30,Active,opby AeroLogic
+1669,66083,1644,Boeing 777-F,N773CK,DHL Aviation,2020-02-06,Active,opby Kalitta Air
+1670,66084,1646,Boeing 777-F,N774CK,DHL Aviation,2020-03-03,Active,opby Kalitta Air
+1671,66085,1653,Boeing 777-F,D-AALO,DHL Aviation,2020-04-07,Active,opby AeroLogic
+1672,66086,1661,Boeing 777-F,D-AALP,DHL Aviation,2020-07-20,Active,opby AeroLogic
+1673,66087,1673,Boeing 777-F,N775CK,DHL Aviation,2020-10-30,Active,opby Kalitta Air
+1674,66088,1676,Boeing 777-F,D-AALQ,DHL Aviation,2020-11-20,Active,opby AeroLogic
+1675,66089,1591,Boeing 777-F,D-ALFF,Lufthansa Cargo,2019-02-18,Active,Konnichiwa Japan
+1676,66090,1596,Boeing 777-F,D-ALFG,Lufthansa Cargo,2019-03-26,Active,"Annyeonghaseyo, Korea 안녕하세요, 대한민국"
+1677,66091,1631,Boeing 777-300ER,HB-JNK,Swiss,2019-11-25,Active,Luzern
+1678,66092,1636,Boeing 777-300ER,HB-JNL,Swiss,2019-12-23,Active,
+1679,66164,1588,Boeing 777-F,D-AALK,AeroLogic,2019-01-28,Active,lsd
+1680,66255,1655,Boeing 777-F,N845FD,FedEx Express,2020-06-05,Active,"Juliette, 845"
+1681,66256,1665,Boeing 777-F,N846FD,FedEx Express,2020-08-31,Active,"Peyton, 846"
+1682,66257,1702,Boeing 777-F,N847FD,FedEx Express,2021-09-17,Active,"Anya, 847"
+1683,66258,1705,Boeing 777-F,N848FD,FedEx Express,2021-10-26,Active,"Memphis, 848"
+1684,66259,1721,Boeing 777-F,N849FD,FedEx Express,2022-08-30,Active,"Abigail, 849"
+1685,66260,1724,Boeing 777-F,N871FD,FedEx Express,2022-09-30,Active,"Aven, 871"
+1686,66262,1748,Boeing 777-F,N872FD,FedEx Express,2023-08-17,Active,"Lyla, 872"
+1687,66263,1749,Boeing 777-F,N874FD,FedEx Express,2023-08-29,Active,"Joella, 874"
+1688,66264,1752,Boeing 777-F,N875FD,FedEx Express,2023-10-10,Active,"Clementine, 875"
+1689,66265,1753,Boeing 777-F,N898FD,FedEx Express,2023-10-19,Active,"Maxwell, 898"
+1690,66266,1784,Boeing 777-F,N899FD,FedEx Express,2025-05-09,Active,"Archer, 899"
+1691,66267,1787,Boeing 777-F,N841FD,FedEx Express,2025-03-04,Active,"Colin, 841"
+1692,66335,1610,Boeing 777-F,A7-BFQ,Qatar Airways Cargo,2019-07-29,Active,
+1693,66336,1617,Boeing 777-F,A7-BFR,Qatar Airways Cargo,2019-09-30,Active,
+1694,66337,1621,Boeing 777-F,A7-BFS,Qatar Airways Cargo,2019-09-30,Active,
+1695,66338,1628,Boeing 777-F,A7-BFT,Qatar Airways Cargo,2019-11-08,Active,
+1696,66339,1632,Boeing 777-F,A7-BFU,Qatar Airways Cargo,2019-11-23,Active,
+1697,66340,1658,Boeing 777-F,A7-BFV,Qatar Airways Cargo,2020-12-31,Active,
+1698,66341,1662,Boeing 777-F,A7-BFW,Qatar Airways Cargo,2020-12-31,Active,
+1699,66536,1635,Boeing 777-200LR,4K-AI001,AZAL Azerbaijan Airlines,2019-12-21,Active,Baku
+1700,66578,1623,Boeing 777-F,TC-LJR,Turkish Airlines,2019-10-01,Active,
+1701,66579,1640,Boeing 777-F,TC-LJS,Turkish Airlines,2020-01-21,Active,
+1702,66580,1645,Boeing 777-F,TC-LJT,Turkish Airlines,2020-03-13,Parked,
+1703,66582,1667,Boeing 777-300ER,G-STBM,British Airways,2020-10-01,Active,lsd
+1704,66583,1671,Boeing 777-300ER,G-STBN,British Airways,2020-11-05,Active,lsd
+1705,66584,1675,Boeing 777-300ER,G-STBO,British Airways,2020-12-24,Active,lsd
+1706,66586,1690,Boeing 777-300ER,HS-TTC,Thai Airways,2022-04-22,Active,"Simongkhon / ศรีมงคล, lsd"
+1707,66587,1683,Boeing 777-300ER,HS-TTA,Thai Airways,2022-04-05,Active,"Alongkorn / อลงกรณ์, lsd"
+1708,66588,1687,Boeing 777-300ER,HS-TTB,Thai Airways,2022-04-05,Active,"Theparat / เทพราช, lsd"
+1709,66589,1634,Boeing 777-300ER,N2749U,United Airlines,2019-12-06,Active,2149
+1710,66590,1639,Boeing 777-300ER,N2250U,United Airlines,2019-12-26,Active,2150
+1711,66591,1643,Boeing 777-300ER,N2251U,United Airlines,2020-01-29,Active,2151
+1712,66592,1648,Boeing 777-300ER,N2352U,United Airlines,2020-03-20,Active,2152
+1713,66623,1657,Boeing 777-F,B-220E,China Cargo Airlines,2020-10-20,Active,
+1714,66624,1660,Boeing 777-F,B-220F,China Cargo Airlines,2020-10-24,Active,
+1715,66625,1663,Boeing 777-F,VQ-BAO,AirBridgeCargo,2020-08-17,Stored,lsd
+1716,66632,1626,Boeing 777-F,D-AALN,AeroLogic,2019-10-21,Active,lsd
+1717,66633,1678,Boeing 777-300ER,G-STBP,British Airways,2020-12-29,Active,lsd
+1718,66814,1693,Boeing 777-F,D-AALR,DHL Aviation,2021-04-16,Active,opby AeroLogic
+1719,66815,1694,Boeing 777-F,N776CK,DHL Aviation,2021-04-21,Active,opby Kalitta Air
+1720,66862,1698,Boeing 777-F,D-AALS,DHL Aviation,2021-06-25,Active,opby AeroLogic
+1721,66863,1700,Boeing 777-F,D-AALT,DHL Aviation,2021-08-27,Active,opby AeroLogic
+1722,66870,1664,Boeing 777-F,A7-BFX,Qatar Airways Cargo,2020-12-31,Active,
+1723,66871,1692,Boeing 777-F,A7-BFY,Qatar Airways Cargo,2021-06-18,Active,
+1724,66872,1696,Boeing 777-F,A7-BFZ,Qatar Airways Cargo,2021-06-18,Active,
+1725,66888,1681,Boeing 777-300ER,PH-BVV,KLM Royal Dutch Airlines,2021-03-23,Active,"Nationaal Park Cocos Eiland / Cocos Island National Park , VV-039"
+1726,66889,1686,Boeing 777-300ER,PH-BVW,KLM Royal Dutch Airlines,2021-03-24,Parked,"Canadian Rocky Mountain Parks / Canadese Rocky Mountain Parken , VW-040"
+1727,66890,1679,Boeing 777-F,B-18771,China Airlines,2020-11-30,Active,
+1728,66891,1684,Boeing 777-F,B-18772,China Airlines,2020-12-23,Active,
+1729,66892,1689,Boeing 777-F,B-18773,China Airlines,2021-01-29,Active,
+1730,66893,1691,Boeing 777-200LR,EZ-A780,Turkmenistan Government,2021-06-11,Active,opby Turkmenistan Airlines
+1731,66900,1729,Boeing 777-F,B-18776,China Airlines,2022-12-16,Active,
+1732,66901,1710,Boeing 777-F,B-18775,China Airlines,2022-03-30,Active,
+1733,66902,1738,Boeing 777-F,B-18777,China Airlines,2023-05-08,Active,
+1734,66911,1666,Boeing 777-F,D-ALFH,Lufthansa Cargo,2020-08-30,Active,Namaste India नमस्ते इंडिया
+1735,66912,1669,Boeing 777-F,D-ALFI,Lufthansa Cargo,2020-09-28,Active,¡Buenos días Mexico!
+1736,67031,1704,Boeing 777-F,B-16787,EVA Air,2021-10-14,Active,
+1737,67032,1706,Boeing 777-F,B-16788,EVA Air,2021-12-17,Active,
+1738,67033,1708,Boeing 777-F,B-16789,EVA Air,2021-12-27,Active,
+1739,67138,1709,Boeing 777-F,G-DHLY,DHL Aviation,2022-02-07,Active,opby DHL Air UK
+1740,67139,1715,Boeing 777-F,G-DHLX,DHL Aviation,2022-05-28,Active,opby DHL Air UK
+1741,67140,1720,Boeing 777-F,9V-DHA,DHL Aviation,2022-08-03,Active,opby Singapore Airlines
+1742,67141,1726,Boeing 777-F,9V-DHB,DHL Aviation,2022-10-31,Active,opby Singapore Airlines
+1743,67142,1739,Boeing 777-F,G-DHLV,DHL Aviation,2023-05-12,Active,opby DHL Air UK
+1744,67143,1744,Boeing 777-F,9V-DHC,DHL Aviation,2023-07-07,Active,opby Singapore Airlines
+1745,67144,1750,Boeing 777-F,9V-DHD,DHL Aviation,2023-09-28,Active,opby Singapore Airlines
+1746,67145,1755,Boeing 777-F,9V-DHE,DHL Aviation,2023-11-24,Active,opby Singapore Airlines
+1747,67146,1703,Boeing 777-F,D-ALFK,Lufthansa Cargo,2021-09-28,Active,Marhaba Egypt
+1748,67453,1707,Boeing 777-F,B-221S,China Cargo Airlines,2022-01-06,Active,lsd
+1749,67454,1751,Boeing 777-F,VP-BMG,Silk Way West Airlines,2023-09-29,Active,
+1750,67455,1754,Boeing 777-F,VP-BMU,Silk Way West Airlines,2023-10-31,Active,
+1751,67460,1711,Boeing 777-F,F-HMRB,CMA CGM Air Cargo,2022-06-01,Active,
+1752,67461,1714,Boeing 777-F,F-HMRF,CMA CGM Air Cargo,2022-06-08,Active,
+1753,67462,1713,Boeing 777-F,A6-EFT,Emirates,2022-05-26,Active,
+1754,67463,1718,Boeing 777-F,A6-EFU,Emirates,2022-06-30,Active,
+1755,67464,1712,Boeing 777-F,B-221W,China Cargo Airlines,2022-05-12,Active,lsd
+1756,67763,1732,Boeing 777-F,B-221X,China Postal Airlines,2023-03-08,Active,
+1757,67764,1742,Boeing 777-F,B-221Y,China Postal Airlines,2023-06-14,Active,
+1758,67769,1717,Boeing 777-F,B-222H,China Cargo Airlines,2022-08-02,Active,lsd
+1759,67770,1719,Boeing 777-F,B-222J,China Cargo Airlines,2022-07-26,Active,lsd
+1760,67771,1722,Boeing 777-F,B-222K,China Cargo Airlines,2022-09-17,Active,lsd
+1761,67796,1725,Boeing 777-F,B-222N,China Cargo Airlines,2022-11-05,Active,lsd
+1762,67797,1730,Boeing 777-F,B-222V,China Cargo Airlines,2022-12-18,Active,lsd
+1763,67798,1734,Boeing 777-F,B-222Z,China Cargo Airlines,2023-03-29,Active,lsd
+1764,67799,1736,Boeing 777-F,B-223A,China Cargo Airlines,2023-04-01,Active,lsd
+1765,67800,1743,Boeing 777-F,B-223F,China Cargo Airlines,2023-07-13,Active,lsd
+1766,67820,1731,Boeing 777-F,B-222W,China Southern Airlines Cargo,2023-08-05,Active,
+1767,67821,1735,Boeing 777-F,B-223G,China Southern Airlines Cargo,2023-10-11,Active,
+1768,67822,1741,Boeing 777-F,B-223N,China Southern Airlines Cargo,2023-05-22,Active,
+1769,67823,1775,Boeing 777-F,B-226C,China Southern Airlines Cargo,2025-02-06,Active,
+1770,67824,1782,Boeing 777-F,B-226D,China Southern Airlines Cargo,2025-03-24,Active,
+1771,67833,1733,Boeing 777-F,B-222S,Air China Cargo,2023-02-15,Active,
+1772,67834,1758,Boeing 777-F,B-223S,Air China Cargo,2024-06-22,Active,
+1773,67835,1762,Boeing 777-F,B-223T,Air China Cargo,2024-06-24,Active,
+1774,67836,1769,Boeing 777-F,B-225A,Air China Cargo,2025-01-17,Active,
+1775,67837,1773,Boeing 777-F,B-225C,Air China Cargo,2025-06-24,Active,
+1776,67866,1778,Boeing 777-F,OY-MAD,Maersk Air Cargo,2024-11-26,Active,Maersk Nightingale
+1777,67867,1768,Boeing 777-F,OY-MAC,Maersk Air Cargo,2024-07-11,Active,Maersk Swan
+1778,67992,1727,Boeing 777-F,N707GT,MSC Air Cargo,2022-11-21,Active,"Antares , opby Atlas Air"
+1779,67993,1745,Boeing 777-F,N708GT,MSC Air Cargo,2023-07-14,Active,"Aldebaran , opby Atlas Air"
+1780,67994,1757,Boeing 777-F,N709GT,MSC Air Cargo,2023-11-28,Active,"Achernar , opby Atlas Air"
+1781,67995,1760,Boeing 777-F,N710GT,MSC Air Cargo,2023-12-27,Active,"Almach , opby Atlas Air"
+1782,68057,1747,Boeing 777-F,B-18778,China Airlines,2023-08-07,Active,
+1783,68058,1774,Boeing 777-F,B-18781,China Airlines,2024-06-30,Active,
+1784,68059,1766,Boeing 777-F,B-18780,China Airlines,2024-06-25,Active,
+1785,68060,1772,Boeing 777-F,B-18779,China Airlines,2025-05-16,Active,
+1786,68063,1761,Boeing 777-F,A7-BTA,Qatar Airways Cargo,2023-12-30,Active,
+1787,68064,1763,Boeing 777-F,A7-BTB,Qatar Airways Cargo,2024-04-14,Active,
+1788,68139,1756,Boeing 777-F,ET-BAA,Ethiopian Airlines,2023-11-06,Active,
+1789,68140,1776,Boeing 777-F,ET-BAB,Ethiopian Airlines,2025-01-22,Active,
+1790,68141,1796,Boeing 777-F,ET-BAC,Ethiopian Airlines,2025-05-24,Active,
+1791,68144,1777,Boeing 777-F,D-AALW,DHL Aviation,2025-03-06,Active,opby AeroLogic
+1792,68145,1783,Boeing 777-F,D-AALX,DHL Aviation,2025-04-03,Active,opby AeroLogic
+1793,68146,1786,Boeing 777-F,D-AALY,DHL Aviation,2025-04-28,Active,opby AeroLogic
+1794,68147,1800,Boeing 777-F,D-AALZ,DHL Aviation,,On Order,opby Unknown
+1795,68186,1770,Boeing 777-F,N760GT,CMA CGM Air Cargo,2024-08-19,Active,opby Atlas Air
+1796,68187,1802,Boeing 777-F,F-HMRO,CMA CGM Air Cargo,,On Order,
+1797,68195,1764,Boeing 777-F,B-16790,EVA Air,2024-04-08,Active,
+1798,68196,1759,Boeing 777-F,D-AALV,AeroLogic,2023-12-07,Active,
+1799,68197,1767,Boeing 777-F,D-ALFL,Lufthansa Cargo,2024-08-16,Active,¡Hola Argentina!
+1800,68230,1765,Boeing 777-F,I-MSCA,MSC Air Cargo,2024-06-30,Active,"Alfirk , opby MSC Air"
+1801,68454,1779,Boeing 777-F,G-ONEG,One Air,,On Order,
+1802,68617,1771,Boeing 777-F,A6-EFV,Emirates,2024-08-16,Active,
+1803,68618,1780,Boeing 777-F,A6-EFW,Emirates,2024-11-20,Active,
+1804,68619,1790,Boeing 777-F,A6-EFX,Emirates,2025-05-02,Active,
+1805,68620,1793,Boeing 777-F,A6-EFY,Emirates,2025-04-21,Active,
+1806,68621,1805,Boeing 777-F,A6-EFZ,Emirates,,On Order,
+1807,69033,1789,Boeing 777-F,N761GT,CMA CGM Air Cargo,2025-04-02,Active,opby Atlas Air
+1808,69512,1791,Boeing 777-F,B-226V,China Cargo Airlines,2025-04-08,Active,lsd
+1809,69513,1795,Boeing 777-F,B-227G,China Cargo Airlines,,On Order,
+1810,69514,1797,Boeing 777-F,B-227K,China Cargo Airlines,2025-06-25,Active,
+1811,69515,1804,Boeing 777-F,B-,China Cargo Airlines,,On Order,
+1812,69787,1792,Boeing 777-F,N712GT,Atlas Air,2025-04-28,Active,"712, lsd"
+1813,69788,1799,Boeing 777-F,N722GT,Atlas Air,2025-06-20,Active,722
+1814,70288,1810,Boeing 777-F,B-,Suparna Airlines,,On Order,
