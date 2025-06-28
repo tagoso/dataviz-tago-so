@@ -7,8 +7,8 @@ export default {
     {
       name: "Original Data",
       pages: [
-        { name: "GA4 Dashboard", path: "/ga4-dashboard" },
-        { name: "Airbus vs Boeing", path: "/airbus-boeing" }
+        { name: "Airbus vs Boeing", path: "/airbus-boeing" },
+        { name: "GA4 Dashboard", path: "/ga4-dashboard" }
       ]
     },
     {
