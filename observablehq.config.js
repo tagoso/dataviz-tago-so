@@ -7,6 +7,7 @@ export default {
     {
       name: "Original Dashboards",
       pages: [
+        { name: "Thoresen Vessels", path: "/thoresen-vessels" },
         { name: "Airbus vs Boeing", path: "/airbus-boeing" },
         { name: "GA4 Dashboard", path: "/ga4-dashboard" }
       ]
