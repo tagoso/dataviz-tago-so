@@ -4,24 +4,24 @@ title: '🚢 Thoresen Vessels World Map'
 toc: false
 ---
 
-# 🚢 Thoresen Vessels World Map
+# Thoresen Vessels Locator 📍
 
-📅 Last update: **${latest}**
+Last updated: **${latest}**
 
 <label for="selectedShip">Select a ship:</label>
 <select name="selectedShip" id="selectedShip"></select>
 
 <strong><span id="info-ship">---</span></strong><br>
 🕒 Last seen: <span id="info-time">---</span><br>
-🚢 Speed: <span id="info-speed">?</span> knots<br>
-🧭 Direction: <span id="info-direction">?</span>°
+🧭 Direction: <span id="info-direction">?</span>° <span id="direction-arrow" style="display: inline-block; transform: rotate(0deg);">⬆︎</span><br>
+🚤 Speed: <span id="info-speed">?</span> knots
 
 <figure class="wide">
   <div id="map" style="height: 400px; margin: 1rem 0; border-radius: 8px;"></div>
 </figure>
 
 ```js
-// 🚢 データ取得と地図用の前処理
+// 🚢 Data acquisition and preprocessing for maps
 const response = await fetch(
   `https://raw.githubusercontent.com/tagoso/docker-ais/main/data/ais_latest.json?nocache=${Date.now()}`
 );
@@ -39,12 +39,12 @@ const latest = new Date(
   Math.max(...data.map((d) => new Date(d.timestamp)))
 ).toLocaleString();
 
-// 🚢 初期設定
+// 🚢 default settings
 const defaultShip = 'THOR ACHIEVER';
 const shipNames = data.map((d) => d.name).sort();
 const selectElement = document.getElementById('selectedShip');
 
-// セレクトボックス構築
+// Select box construction
 shipNames.forEach((name) => {
   const option = document.createElement('option');
   option.value = name;
@@ -53,14 +53,14 @@ shipNames.forEach((name) => {
   selectElement.appendChild(option);
 });
 
-// 🗺 再描画関数
-let map; // グローバル参照で map を制御
+// 🗺 redraw function
+let map; // Controlling map with global references
 
 function renderShip(shipName) {
   const ship = data.find((d) => d.name === shipName);
   if (!ship) return;
 
-  // 情報更新
+  // information update
   const infoShip = document.querySelector('#info-ship');
 
   const timestamp = new Date(ship.timestamp);
@@ -68,21 +68,37 @@ function renderShip(shipName) {
 
   if (diffHours <= 4) {
     infoShip.textContent = 'Position OK ⚓️';
-    infoShip.style.color = 'green'; // 通常の文字色
+    infoShip.style.color = 'green';
   } else {
     infoShip.textContent = '⚠ Missing! 🌊🚢';
-    infoShip.style.color = 'red'; // 赤字で警告
+    infoShip.style.color = 'red'; // warning in red
+  }
+
+  // Compas
+  const infoDirection = document.querySelector('#info-direction');
+  const directionArrow = document.querySelector('#direction-arrow');
+
+  if (ship.cog != null) {
+    infoDirection.textContent = Math.round(ship.cog);
+
+    // Rotation (CSS is clockwise, so reverse it)
+    directionArrow.style.transform = `rotate(${ship.cog}deg)`;
+    directionArrow.style.color = 'grey';
+  } else {
+    infoDirection.textContent = '?';
+    directionArrow.style.transform = 'rotate(0deg)';
+    directionArrow.style.color = 'gray';
   }
 
   document.querySelector('#info-time').textContent = new Date(
     ship.timestamp
   ).toLocaleString();
-  document.querySelector('#info-speed').textContent = ship.sog ?? '?';
   document.querySelector('#info-direction').textContent = ship.cog ?? '?';
+  document.querySelector('#info-speed').textContent = ship.sog ?? '?';
 
-  // マップ初期化 or リセット
+  // Map initialization or reset
   if (map) {
-    map.remove(); // 古い地図を消す
+    map.remove(); // erase old maps
   }
 
   map = L.map(document.querySelector('#map')).setView([ship.lat, ship.lon], 9);
@@ -109,27 +125,27 @@ function renderShip(shipName) {
 
   L.geoJSON().addData(geojson).addTo(map);
 
-  // セル破棄時に Leaflet map を破棄
+  // Discard Leaflet map when discarding cells
   invalidation.then(() => map.remove());
 
   renderVesselPlot(data, shipName, land);
 }
 
-// 🚢 イベントリスナー登録
+// 🚢 Event listener registration
 selectElement.addEventListener('change', (e) => {
   const selected = e.target.value;
   renderShip(selected);
 });
 
-// 初期表示
+// Event listener registration
 renderShip(defaultShip);
 ```
 
 ```js
-// 📊 Vessel Plot 描画関数
+// 📊 Vessel Plot Drawing Function
 function renderVesselPlot(data, shipName, land, width = 900) {
   const plotContainer = document.querySelector('#plot');
-  plotContainer.innerHTML = ''; // 前の描画をクリア
+  plotContainer.innerHTML = ''; // Clear previous drawing
 
   const scale = Math.max(140, Math.min(600, Math.floor(width * 0.3)));
 
@@ -147,9 +163,9 @@ function renderVesselPlot(data, shipName, land, width = 900) {
         r: (d) => (d.name === shipName ? 4 : 1),
         fill: (d) => {
           const diff = Date.now() - new Date(d.timestamp);
-          if (diff < 14400000) return 'green';
-          if (diff < 604800000) return 'orange';
-          return 'transparent';
+          if (diff < 14400000) return 'green'; // < 4h
+          if (diff < 604800000) return 'orange'; // < 7d
+          return 'transparent'; // old
         },
         stroke: (d) =>
           d.name === shipName
@@ -308,7 +324,9 @@ function autoSpinGlobe(data, landFeatures, { width = 600 } = {}) {
 
 <div class="card">
   <h2>🗺 Vessel Positions</h2>
-  <div id="plot"></div>
+  <div id="plot-wrapper" style="overflow-x: auto;">
+    <div id="plot" style="min-width: 900px;"></div>
+  </div>
 </div>
 
 <div class="card">
