@@ -163,7 +163,7 @@ function renderVesselPlot(data, shipName, land, width = 900) {
     width,
     height: scale * 1.5,
     marks: [
-      Plot.geo(land, { fill: '#eee' }),
+      Plot.geo(land, { fill: '#cfcfcf' }),
       Plot.graticule(),
       Plot.sphere(),
       Plot.dot(data, {
