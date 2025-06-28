@@ -147,7 +147,7 @@ selectElement.addEventListener('change', (e) => {
 });
 
 // Event listener registration
-renderShip(defaultShip);
+renderShip(shipName);
 ```
 
 ```js
