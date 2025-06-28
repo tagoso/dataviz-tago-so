@@ -43,16 +43,14 @@ export default {
   // ],
 
   // Content to add to the head of the page, e.g. for a favicon:
-  head: '<link rel="icon" href="observable.png" type="image/png" sizes="32x32">',
+  head: '<link rel="icon" href="observable.png" type="image/png" sizes="32x32"><script defer src="https://cloud.umami.is/script.js" data-website-id="2883b477-8411-4df8-a110-8bb747397f03"></script>',
 
   // The path to the source root.
   root: "src",
 
   // Some additional configuration options and their defaults:
   // theme: "light", // try "light", "dark", "slate", etc.
-  header: `
-  <script defer src="https://cloud.umami.is/script.js" data-website-id="2883b477-8411-4df8-a110-8bb747397f03"></script>
-`, // what to show in the header (HTML)
+  // header: // what to show in the header (HTML)
   footer: "Built with Observable + Vercel by Tago.", 
   // what to show in the footer (HTML)
   // sidebar: true, // whether to show the sidebar
