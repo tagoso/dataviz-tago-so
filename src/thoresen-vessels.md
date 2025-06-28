@@ -206,7 +206,7 @@ function autoSpinGlobe(data, landFeatures, { width = 600 } = {}) {
   const svg = d3
     .create('svg')
     .attr('width', width)
-    .attr('height', width * 0.85);
+    .attr('height', width * 0.9);
 
   const projection = d3
     .geoOrthographic()
@@ -340,7 +340,7 @@ function autoSpinGlobe(data, landFeatures, { width = 600 } = {}) {
 
 <div class="card">
   <h2>🌍 Globe View</h2>
-    ${autoSpinGlobe(data, landFeatures, { width: Math.min(window.innerWidth, 1000) })}
+    ${autoSpinGlobe(data, landFeatures, { width: Math.min(window.innerWidth * 0.85, 1000) })}
 </div>
 
 ## Notes
