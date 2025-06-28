@@ -1,5 +1,5 @@
 ---
-theme: dashboard
+theme: light
 title: Airbus350 vs Boeing777
 toc: true
 ---

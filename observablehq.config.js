@@ -2,7 +2,6 @@
 export default {
   // The app’s title; used in the sidebar and webpage titles.
   title: "Dataviz Tago So",
-  theme: "light",
   
   pages: [
     {
@@ -50,7 +49,7 @@ export default {
   root: "src",
 
   // Some additional configuration options and their defaults:
-  // theme: "default", // try "light", "dark", "slate", etc.
+  // theme: "light", // try "light", "dark", "slate", etc.
   // header: "", // what to show in the header (HTML)
   footer: "Built with Observable + Vercel by Tago.", // what to show in the footer (HTML)
   // sidebar: true, // whether to show the sidebar

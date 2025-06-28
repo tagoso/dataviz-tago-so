@@ -1,5 +1,5 @@
 ---
-theme: dashboard
+theme: light
 title: '🚢 Thoresen Vessels World Map'
 toc: false
 ---
