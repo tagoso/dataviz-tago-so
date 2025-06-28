@@ -2,6 +2,7 @@
 export default {
   // The app’s title; used in the sidebar and webpage titles.
   title: "Dataviz Tago So",
+  theme: "light",
   
   pages: [
     {
