@@ -36,6 +36,48 @@ const latest = new Date(
 ).toLocaleString();
 ```
 
+```js
+// Get the ship you want to display (can be adapted to selectedShip, etc. as needed)
+const ship = data.find((d) => d.name === 'THOR ACHIEVER');
+if (!ship) throw new Error('Ship not found');
+
+// Convert to GeoJSON format
+const geojson = {
+  type: 'Feature',
+  geometry: {
+    type: 'Point',
+    coordinates: [ship.lon, ship.lat], // [lon, lat]
+  },
+  properties: {
+    name: ship.name,
+    timestamp: ship.timestamp,
+  },
+};
+
+const map = L.map(document.querySelector('#map')).setView(
+  [ship.lat, ship.lon],
+  10
+);
+
+// Tile layer
+const tile = L.tileLayer(
+  `https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoidGFnb3NvIiwiYSI6ImNtYzRwMzlmZDA2eW8ybHNjcHJmYnkzZ3MifQ.Pg0d5T29Li7CvoWz3fVkXg`,
+  {
+    attribution:
+      '© <a href="https://www.mapbox.com/feedback/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+  }
+).addTo(map);
+
+// Create and add GeoJSON layers
+const geo = L.geoJSON().addData(geojson).addTo(map);
+
+// Automatically adjust map range
+map.setView([ship.lat, ship.lon], 5);
+
+// Clean up when cells are discarded
+invalidation.then(() => map.remove());
+```
+
 # 🚢 Thoresen Vessels World Map
 
 📅 Last update: **${latest}**
@@ -45,6 +87,10 @@ ${shipName}
 🕒 Last seen: ${formattedTime}<br>
 🚢 Speed: ${sog ?? "?"} knots<br>
 🧭 Direction: ${cog ?? "?"}°
+
+<figure class="wide">
+  <div id="map" style="height: 400px; margin: 1rem 0; border-radius: 8px;"></div>
+</figure>
 
 ```js
 function vesselMapPlot(data, ship, land, { width = 900 } = {}) {
@@ -90,12 +136,12 @@ function vesselMapPlot(data, ship, land, { width = 900 } = {}) {
 
 ```js
 function autoSpinGlobe(data, landFeatures, { width = 600 } = {}) {
-  const scale = Math.max(140, Math.min(600, Math.floor(width * 0.3)));
+  const scale = Math.max(140, Math.min(600, Math.floor(width * 0.4)));
 
   const svg = d3
     .create('svg')
-    .attr('width', scale * 2.5)
-    .attr('height', scale * 2);
+    .attr('width', width)
+    .attr('height', width * 0.8);
 
   const projection = d3
     .geoOrthographic()
@@ -227,7 +273,7 @@ function autoSpinGlobe(data, landFeatures, { width = 600 } = {}) {
 
 <div class="card">
   <h2>🌍 Globe View</h2>
-  ${autoSpinGlobe(data, landFeatures, { width: 800 })}
+  ${autoSpinGlobe(data, landFeatures, { width })}
 </div>
 
 ## Notes

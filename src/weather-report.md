@@ -6,13 +6,11 @@
 </figure>
 
 ```js
-const forecast = FileAttachment("./data/forecast.json").json();
+const forecast = FileAttachment('./data/forecast.json').json();
 ```
 
 ```js
-import * as L from "npm:leaflet";
-
-const map = L.map(document.querySelector("#map"));
+const map = L.map(document.querySelector('#map'));
 const tile = L.tileLayer(
   `https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoidGFnb3NvIiwiYSI6ImNtYzRwMzlmZDA2eW8ybHNjcHJmYnkzZ3MifQ.Pg0d5T29Li7CvoWz3fVkXg`,
   {
@@ -27,7 +25,7 @@ invalidation.then(() => map.remove());
 ```
 
 ```js
-import { temperaturePlot } from "./components/temperaturePlot.js";
+import { temperaturePlot } from './components/temperaturePlot.js';
 display(temperaturePlot(forecast));
 ```
 
