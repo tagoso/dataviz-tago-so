@@ -18,6 +18,12 @@ export default {
         { name: "Space Exploration Report", path: "/example-report" },
         { name: "Weather Report", path: "/weather-report" }
       ]
+    },
+       {
+      name: "Handbooks",
+      pages: [
+        { name: "🔄 ETL Workflow", path: "/etl" }
+      ]
     }
   ],
   

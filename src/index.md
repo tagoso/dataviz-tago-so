@@ -4,7 +4,7 @@ toc: false
 
 <div class="hero">
   <h1>Dig Dataviz</h1>
-  <h2>Data with stories!</h2>
+  <h2>Data-centered showcase & documentations by <a href="https://hi.tago.so/">Tago So</a></h2>
 </div>
 
 <!-- <div class="grid grid-cols-2" style="grid-auto-rows: 504px;">
