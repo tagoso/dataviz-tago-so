@@ -50,8 +50,11 @@ export default {
 
   // Some additional configuration options and their defaults:
   // theme: "light", // try "light", "dark", "slate", etc.
-  // header: "", // what to show in the header (HTML)
-  footer: "Built with Observable + Vercel by Tago.", // what to show in the footer (HTML)
+  header: `
+  <script defer src="https://cloud.umami.is/script.js" data-website-id="2883b477-8411-4df8-a110-8bb747397f03"></script>
+`, // what to show in the header (HTML)
+  footer: "Built with Observable + Vercel by Tago.", 
+  // what to show in the footer (HTML)
   // sidebar: true, // whether to show the sidebar
   // toc: true, // whether to show the table of contents
   // pager: true, // whether to show previous & next links in the footer
