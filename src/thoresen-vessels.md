@@ -349,6 +349,6 @@ This project is for the [Thoresen](https://www.thoresen.com/) sailors and their 
 
 This covers only the [AIS Stream](https://aisstream.io/) by volunteers. Gets updated every 15-30 mins.
 
-🟢 = Located in the last 4 hours  
-🟠 = Located in the last 7 days  
+🟢 = Located in last 4 hours  
+🟠 = Located in last 7 days  
 ⚪️ = Located more than 7 days ago
