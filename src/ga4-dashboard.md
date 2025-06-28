@@ -6,7 +6,7 @@ toc: false
 
 # GA4 User Overview Sample 📊
 
-Getting data from [Google Analytics 4 Public Sample](https://developers.google.com/analytics/bigquery/web-ecommerce-demo-dataset) via BigQuery.
+Obtained data from [Google Analytics 4 Public Sample](https://developers.google.com/analytics/bigquery/web-ecommerce-demo-dataset) via BigQuery.
 
 ```js
 // Execute the data loader
