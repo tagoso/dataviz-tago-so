@@ -263,7 +263,7 @@ function statusChartFx(data, { width } = {}) {
 
 ## Aircraft Age and Replacement Trends
 
-Histogram of aircraft age (active fleet only). In the coming years, approximately 100 B777 aircraft are expected to be retired annually.
+Histogram of aircraft age (aircraft currently in service or temporarily parked/stored). In the coming years, 100 or more B777 aircraft are expected to be retired annually.
 
 ```js
 function ageHistogram(data, { width } = {}) {
@@ -272,6 +272,12 @@ function ageHistogram(data, { width } = {}) {
     height: 300,
     round: true,
     color: { legend: true },
+    y: {
+      label: 'Number of Aircraft',
+    },
+    x: {
+      label: 'Age',
+    },
     marks: [
       // Histogram bars
       Plot.rectY(
@@ -309,14 +315,16 @@ function ageHistogram(data, { width } = {}) {
   });
 }
 
-// For selecting only active bodies
-const activeOnly = aircraftWithAge.filter((d) => d.status === 'Active');
+// For selecting only active or TOO bodies
+const activeOrTemporary = aircraftWithAge.filter((d) =>
+  ['Active', 'Parked', 'Stored'].includes(d.status)
+);
 ```
 
 <div class="grid grid-cols-1">
   <div class="card">
-    <h2>Aircraft Age Distribution (Active Only)</h2>
-    ${resize((width) => ageHistogram(activeOnly, { width }))}
+    <h2>Aircraft Age Distribution (In Service and Temporarily Out of Service)</h2>
+    ${resize((width) => ageHistogram(activeOrTemporary, { width }))}
   </div>
 </div>
 
