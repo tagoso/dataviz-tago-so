@@ -39,8 +39,12 @@ const latest = new Date(
   Math.max(...data.map((d) => new Date(d.timestamp)))
 ).toLocaleString();
 
-// 🚢 default settings
+// 🚢 default settings and localStorage
+const STORAGE_KEY = 'selectedShip';
 const defaultShip = 'THOR ACHIEVER';
+const savedShip = localStorage.getItem(STORAGE_KEY);
+
+let shipName = savedShip || defaultShip;
 const shipNames = data.map((d) => d.name).sort();
 const selectElement = document.getElementById('selectedShip');
 
@@ -49,7 +53,7 @@ shipNames.forEach((name) => {
   const option = document.createElement('option');
   option.value = name;
   option.textContent = name;
-  if (name === defaultShip) option.selected = true;
+  if (name === shipName) option.selected = true;
   selectElement.appendChild(option);
 });
 
@@ -131,9 +135,14 @@ function renderShip(shipName) {
   renderVesselPlot(data, shipName, land);
 }
 
-// 🚢 Event listener registration
+// 🚢 Register event listener & save selected ship to localStorage
 selectElement.addEventListener('change', (e) => {
   const selected = e.target.value;
+
+  // save
+  localStorage.setItem('selectedShip', selected);
+
+  // Update display
   renderShip(selected);
 });
 
