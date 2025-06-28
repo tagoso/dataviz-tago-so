@@ -345,7 +345,7 @@ function autoSpinGlobe(data, landFeatures, { width = 600 } = {}) {
 
 ## Notes
 
-This project is for the Thoresen sailers and their family 🏠👥🩷🚢
+This project is for the Thoresen sailors and their family 🏠👥🩷🚢
 
 This covers only the AIS Stream by volunteers. Gets updated every 15 mins.
 
