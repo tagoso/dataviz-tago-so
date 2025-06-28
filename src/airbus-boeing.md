@@ -1,6 +1,6 @@
 ---
 theme: dashboard
-title: A350 vs Boeing777
+title: Airbus350 vs Boeing777
 toc: true
 ---
 
@@ -146,7 +146,7 @@ const retiredB777 = aircraftWithAge.filter(
 const avgRetiredAgeB777 = d3.mean(retiredB777, (d) => d.age) ?? 0; // null fallback as a safety measure
 ```
 
-# A350 vs Boeing777 - Widebody War ✈️
+# Airbus350 vs Boeing777 - Widebody War ✈️
 
 Data as of June 2025 \_\_\_\_\_\_\_\_\_\_..🛫
 
