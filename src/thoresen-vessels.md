@@ -1,6 +1,6 @@
 ---
 theme: dashboard
-title: '📍 Thoresen Vessels World Map'
+title: '🚢 Thoresen Vessels World Map'
 toc: false
 ---
 
