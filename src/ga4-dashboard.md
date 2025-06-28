@@ -4,11 +4,15 @@ title: GA4 Sample Dashboard
 toc: false
 ---
 
-# GA4 User Overview 📊
+# GA4 User Overview Sample 📊
+
+Getting data from [Google Analytics 4 Public Sample](https://developers.google.com/analytics/bigquery/web-ecommerce-demo-dataset) via BigQuery.
 
 ```js
 // Execute the data loader
-const ecommerceData = FileAttachment("data/ecommerce.json").json({ typed: true });
+const ecommerceData = FileAttachment('data/ecommerce.json').json({
+  typed: true,
+});
 ```
 
 ```js
@@ -21,15 +25,19 @@ const dailyTotals = d3.rollups(
 const avgUsers = Math.round(d3.mean(dailyTotals, ([, total]) => total));
 
 ecommerceData.forEach((d) => {
-  d.date = new Date(+d.event_date.slice(0, 4), +d.event_date.slice(4, 6) - 1, +d.event_date.slice(6, 8));
+  d.date = new Date(
+    +d.event_date.slice(0, 4),
+    +d.event_date.slice(4, 6) - 1,
+    +d.event_date.slice(6, 8)
+  );
 });
 ```
 
 ```js
 const color = Plot.scale({
   color: {
-    type: "categorical",
-    unknown: "var(--theme-foreground-muted)",
+    type: 'categorical',
+    unknown: 'var(--theme-foreground-muted)',
   },
 });
 ```
@@ -52,24 +60,24 @@ const color = Plot.scale({
 ```js
 function userTrendChart(data, { width } = {}) {
   return Plot.plot({
-    title: "Daily Unique Users",
+    title: 'Daily Unique Users',
     width,
     height: 300,
     x: {
-      label: "Date",
-      type: "time",
-      tickFormat: d3.timeFormat("%b %d"),
+      label: 'Date',
+      type: 'time',
+      tickFormat: d3.timeFormat('%b %d'),
       tickRotate: -45,
     },
     y: {
       grid: true,
-      label: "Users",
+      label: 'Users',
     },
     marks: [
       Plot.line(data, {
-        x: "date",
-        y: "total_users",
-        stroke: "steelblue",
+        x: 'date',
+        y: 'total_users',
+        stroke: 'steelblue',
         tip: true,
       }),
       Plot.ruleY([0]),
@@ -83,6 +91,3 @@ function userTrendChart(data, { width } = {}) {
     ${resize((width) => userTrendChart(ecommerceData, { width }))}
   </div>
 </div>
-
-Data source: Google Analytics 4 Public Sample  
-Dataset: `bigquery-public-data.ga4_obfuscated_sample_ecommerce`

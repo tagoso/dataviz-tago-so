@@ -5,7 +5,7 @@ export default {
   
   pages: [
     {
-      name: "Original Data",
+      name: "Original Dashboards",
       pages: [
         { name: "Airbus vs Boeing", path: "/airbus-boeing" },
         { name: "GA4 Dashboard", path: "/ga4-dashboard" }

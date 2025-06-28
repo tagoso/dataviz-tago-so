@@ -148,7 +148,7 @@ const avgRetiredAgeB777 = d3.mean(retiredB777, (d) => d.age) ?? 0; // null fallb
 
 # A350 vs Boeing777 - Widebody War ✈️
 
-Data as of June 2025 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_..🛫
+Data as of June 2025 \_\_\_\_\_\_\_\_\_\_..🛫
 
 ## Foundations
 
