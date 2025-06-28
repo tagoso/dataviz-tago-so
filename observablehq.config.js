@@ -5,14 +5,14 @@ export default {
   
   pages: [
     {
-      name: "Examples",
+      name: "Original Data",
       pages: [
         { name: "GA4 Dashboard", path: "/ga4-dashboard" },
         { name: "Airbus vs Boeing", path: "/airbus-boeing" }
       ]
     },
     {
-      name: "Templates",
+      name: "Observable Templates",
       pages: [
         { name: "Rocket Launches Dashboard", path: "/example-dashboard" },
         { name: "Space Exploration Report", path: "/example-report" },
