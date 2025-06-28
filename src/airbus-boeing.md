@@ -167,7 +167,7 @@ The B777 series is manufactured more than double 💫
 
 ## Delivery Timeline
 
-Number of aircraft delivered to aviations per year
+Number of aircraft delivered to aviations per year. 9.11 and COVID-19 dropped the bars.
 
 ```js
 // function to draw plot
@@ -212,7 +212,7 @@ function deliveryChart(data, { width } = {}) {
 
 ## Current Operational Status
 
-Distribution of aircraft by status. Over 410 B777s are retired 🙏
+Distribution of aircraft by status. Over 400 B777s are retired, stored, or parked 🛑
 
 ```js
 // Define domain order
@@ -263,7 +263,7 @@ function statusChartFx(data, { width } = {}) {
 
 ## Aircraft Age and Replacement Trends
 
-Histogram of aircraft age (aircraft currently in service or temporarily parked/stored). In the coming years, 100 or more B777 aircraft are expected to be retired annually.
+Histogram of fleet age (aircraft currently in service or temporarily parked/stored). In the coming years, 100 or more B777 aircraft are expected to be retired annually.
 
 ```js
 function ageHistogram(data, { width } = {}) {
