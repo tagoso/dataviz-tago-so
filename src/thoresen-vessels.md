@@ -4,20 +4,28 @@ title: '🚢 Thoresen Vessels World Map'
 toc: false
 ---
 
+# 🚢 Thoresen Vessels World Map
+
+📅 Last update: **${latest}**
+
+<label for="selectedShip">Select a ship:</label>
+<select name="selectedShip" id="selectedShip"></select>
+
+<strong><span id="info-ship">---</span></strong><br>
+🕒 Last seen: <span id="info-time">---</span><br>
+🚢 Speed: <span id="info-speed">?</span> knots<br>
+🧭 Direction: <span id="info-direction">?</span>°
+
+<figure class="wide">
+  <div id="map" style="height: 400px; margin: 1rem 0; border-radius: 8px;"></div>
+</figure>
+
 ```js
+// 🚢 データ取得と地図用の前処理
 const response = await fetch(
   `https://raw.githubusercontent.com/tagoso/docker-ais/main/data/ais_latest.json?nocache=${Date.now()}`
 );
-
 const data = await response.json();
-console.log(data);
-
-const shipName = 'THOR ACHIEVER';
-const ship = data.find((d) => d.name === shipName);
-
-let timestamp = ship?.timestamp;
-let sog = ship?.sog;
-let cog = ship?.cog;
 
 const land50m = await FileAttachment('data/land-50m.json').json();
 const landSeeThrough = await FileAttachment('data/countries-110m.json').json();
@@ -27,76 +35,105 @@ const landFeatures = topojson.feature(
   landSeeThrough.objects.countries
 ).features;
 
-const scale = Math.max(140, Math.min(600, Math.floor(window.innerWidth * 0.3)));
-
-const formattedTime = new Date(timestamp).toLocaleString();
-
 const latest = new Date(
   Math.max(...data.map((d) => new Date(d.timestamp)))
 ).toLocaleString();
-```
 
-```js
-// Get the ship you want to display (can be adapted to selectedShip, etc. as needed)
-const ship = data.find((d) => d.name === 'THOR ACHIEVER');
-if (!ship) throw new Error('Ship not found');
+// 🚢 初期設定
+const defaultShip = 'THOR ACHIEVER';
+const shipNames = data.map((d) => d.name).sort();
+const selectElement = document.getElementById('selectedShip');
 
-// Convert to GeoJSON format
-const geojson = {
-  type: 'Feature',
-  geometry: {
-    type: 'Point',
-    coordinates: [ship.lon, ship.lat], // [lon, lat]
-  },
-  properties: {
-    name: ship.name,
-    timestamp: ship.timestamp,
-  },
-};
+// セレクトボックス構築
+shipNames.forEach((name) => {
+  const option = document.createElement('option');
+  option.value = name;
+  option.textContent = name;
+  if (name === defaultShip) option.selected = true;
+  selectElement.appendChild(option);
+});
 
-const map = L.map(document.querySelector('#map')).setView(
-  [ship.lat, ship.lon],
-  10
-);
+// 🗺 再描画関数
+let map; // グローバル参照で map を制御
 
-// Tile layer
-const tile = L.tileLayer(
-  `https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoidGFnb3NvIiwiYSI6ImNtYzRwMzlmZDA2eW8ybHNjcHJmYnkzZ3MifQ.Pg0d5T29Li7CvoWz3fVkXg`,
-  {
-    attribution:
-      '© <a href="https://www.mapbox.com/feedback/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+function renderShip(shipName) {
+  const ship = data.find((d) => d.name === shipName);
+  if (!ship) return;
+
+  // 情報更新
+  const infoShip = document.querySelector('#info-ship');
+
+  const timestamp = new Date(ship.timestamp);
+  const diffHours = (Date.now() - timestamp.getTime()) / (1000 * 60 * 60);
+
+  if (diffHours <= 4) {
+    infoShip.textContent = 'Position OK ⚓️';
+    infoShip.style.color = 'green'; // 通常の文字色
+  } else {
+    infoShip.textContent = '⚠ Missing! 🌊🚢';
+    infoShip.style.color = 'red'; // 赤字で警告
   }
-).addTo(map);
 
-// Create and add GeoJSON layers
-const geo = L.geoJSON().addData(geojson).addTo(map);
+  document.querySelector('#info-time').textContent = new Date(
+    ship.timestamp
+  ).toLocaleString();
+  document.querySelector('#info-speed').textContent = ship.sog ?? '?';
+  document.querySelector('#info-direction').textContent = ship.cog ?? '?';
 
-// Automatically adjust map range
-map.setView([ship.lat, ship.lon], 5);
+  // マップ初期化 or リセット
+  if (map) {
+    map.remove(); // 古い地図を消す
+  }
 
-// Clean up when cells are discarded
-invalidation.then(() => map.remove());
+  map = L.map(document.querySelector('#map')).setView([ship.lat, ship.lon], 9);
+
+  L.tileLayer(
+    `https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoidGFnb3NvIiwiYSI6ImNtYzRwMzlmZDA2eW8ybHNjcHJmYnkzZ3MifQ.Pg0d5T29Li7CvoWz3fVkXg`,
+    {
+      attribution:
+        '© <a href="https://www.mapbox.com/feedback/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+    }
+  ).addTo(map);
+
+  const geojson = {
+    type: 'Feature',
+    geometry: {
+      type: 'Point',
+      coordinates: [ship.lon, ship.lat],
+    },
+    properties: {
+      name: ship.name,
+      timestamp: ship.timestamp,
+    },
+  };
+
+  L.geoJSON().addData(geojson).addTo(map);
+
+  // セル破棄時に Leaflet map を破棄
+  invalidation.then(() => map.remove());
+
+  renderVesselPlot(data, shipName, land);
+}
+
+// 🚢 イベントリスナー登録
+selectElement.addEventListener('change', (e) => {
+  const selected = e.target.value;
+  renderShip(selected);
+});
+
+// 初期表示
+renderShip(defaultShip);
 ```
 
-# 🚢 Thoresen Vessels World Map
-
-📅 Last update: **${latest}**
-
-${shipName}
-
-🕒 Last seen: ${formattedTime}<br>
-🚢 Speed: ${sog ?? "?"} knots<br>
-🧭 Direction: ${cog ?? "?"}°
-
-<figure class="wide">
-  <div id="map" style="height: 400px; margin: 1rem 0; border-radius: 8px;"></div>
-</figure>
-
 ```js
-function vesselMapPlot(data, ship, land, { width = 900 } = {}) {
+// 📊 Vessel Plot 描画関数
+function renderVesselPlot(data, shipName, land, width = 900) {
+  const plotContainer = document.querySelector('#plot');
+  plotContainer.innerHTML = ''; // 前の描画をクリア
+
   const scale = Math.max(140, Math.min(600, Math.floor(width * 0.3)));
 
-  return Plot.plot({
+  const plot = Plot.plot({
     projection: 'equal-earth',
     width,
     height: scale * 1.5,
@@ -107,23 +144,23 @@ function vesselMapPlot(data, ship, land, { width = 900 } = {}) {
       Plot.dot(data, {
         x: (d) => d.lon,
         y: (d) => d.lat,
-        r: (d) => (d.name === ship ? 4 : 1),
+        r: (d) => (d.name === shipName ? 4 : 1),
         fill: (d) => {
           const diff = Date.now() - new Date(d.timestamp);
-          if (diff < 86400000) return 'green'; // < 1 day
-          if (diff < 1209600000) return 'orange'; // < 14 days
-          return 'transparent'; // old
+          if (diff < 14400000) return 'green';
+          if (diff < 604800000) return 'orange';
+          return 'transparent';
         },
         stroke: (d) =>
-          d.name === ship
+          d.name === shipName
             ? 'black'
-            : Date.now() - new Date(d.timestamp) >= 1209600000
+            : Date.now() - new Date(d.timestamp) >= 604800000
             ? 'gray'
             : 'none',
         strokeWidth: (d) =>
-          d.name === ship
+          d.name === shipName
             ? 2
-            : Date.now() - new Date(d.timestamp) >= 1209600000
+            : Date.now() - new Date(d.timestamp) >= 604800000
             ? 1
             : 0,
         tip: true,
@@ -131,17 +168,20 @@ function vesselMapPlot(data, ship, land, { width = 900 } = {}) {
       }),
     ],
   });
+
+  plotContainer.appendChild(plot);
 }
 ```
 
 ```js
+// Function for 🌍 Globe View
 function autoSpinGlobe(data, landFeatures, { width = 600 } = {}) {
   const scale = Math.max(140, Math.min(600, Math.floor(width * 0.4)));
 
   const svg = d3
     .create('svg')
     .attr('width', width)
-    .attr('height', width * 0.8);
+    .attr('height', width * 0.9);
 
   const projection = d3
     .geoOrthographic()
@@ -238,15 +278,15 @@ function autoSpinGlobe(data, landFeatures, { width = 600 } = {}) {
       .attr('r', 3)
       .attr('fill', (d) => {
         const diff = Date.now() - new Date(d.timestamp);
-        if (diff < 86400000) return 'green';
-        if (diff < 1209600000) return 'orange';
+        if (diff < 14400000) return 'green';
+        if (diff < 604800000) return 'orange';
         return 'none';
       })
       .attr('stroke', (d) =>
-        Date.now() - new Date(d.timestamp) >= 1209600000 ? 'gray' : 'none'
+        Date.now() - new Date(d.timestamp) >= 604800000 ? 'gray' : 'none'
       )
       .attr('stroke-width', (d) =>
-        Date.now() - new Date(d.timestamp) >= 1209600000 ? 0.8 : 0
+        Date.now() - new Date(d.timestamp) >= 604800000 ? 0.8 : 0
       );
 
     ships
@@ -268,7 +308,7 @@ function autoSpinGlobe(data, landFeatures, { width = 600 } = {}) {
 
 <div class="card">
   <h2>🗺 Vessel Positions</h2>
-  ${resize(width => vesselMapPlot(data, 'THOR ACHIEVER', land, { width }))}
+  <div id="plot"></div>
 </div>
 
 <div class="card">
@@ -278,8 +318,10 @@ function autoSpinGlobe(data, landFeatures, { width = 600 } = {}) {
 
 ## Notes
 
-This project is for the Thoresen sailers and their family 🏠👥🚢. This covers only the AIS Stream by volunteers. Updated every 30 mins to 1 hour.
+This project is for the Thoresen sailers and their family 🏠👥🩷🚢
 
-🟢 = Located in last 24 hours  
-🟠 = Located in last 14 days  
-⚪️ = Located more than 14 days ago
+This covers only the AIS Stream by volunteers. Gets updated every 15 mins.
+
+🟢 = Located in the last 4 hours  
+🟠 = Located in the last 7 days  
+⚪️ = Located more than 7 days ago
