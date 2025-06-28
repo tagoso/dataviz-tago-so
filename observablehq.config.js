@@ -50,14 +50,8 @@ export default {
 
   // Some additional configuration options and their defaults:
   // theme: "light", // try "light", "dark", "slate", etc.
-  header: `
-  <script>
-    window.va = window.va || function () {
-      (window.vaq = window.vaq || []).push(arguments);
-    };
-  </script>
-  <script defer src="/_vercel/insights/script.js"></script>
-  `,
+  // header: "", // what to show in the header (HTML)
+  footer: "Built with Observable + Vercel by Tago.", // what to show in the footer (HTML)
   // sidebar: true, // whether to show the sidebar
   // toc: true, // whether to show the table of contents
   // pager: true, // whether to show previous & next links in the footer
