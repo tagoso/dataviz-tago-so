@@ -453,15 +453,31 @@ Data source: [Planespotters B777](https://www.planespotters.net/aircraft/product
 // Unique extraction and sorting of operator list
 
 // Extract top 10 (sort by total count)
-const uniqueOperators = d3
+/* const uniqueOperators = d3
   .rollups(
     flattenedOpeType,
     (v) => d3.sum(v, (d) => d.count),
     (d) => d.operator
   )
   .sort((a, b) => d3.descending(a[1], b[1]))
-  .map((d) => d[0]); // Extract only the operator name
+  .map((d) => d[0]); // Extract only the operator name */
 
 // Display
-console.log(uniqueOperators);
+// console.log(uniqueOperators);
+
+/* console.log(classifiedWithCountry);
+
+const unknownRecords = classifiedWithCountry.filter(
+  (d) => d.country === 'Unknown'
+);
+console.log([...new Set(unknownRecords.map((d) => d.operator))]);
+const nullishOperators = classified.filter(
+  (d) => !d.operator || d.operator.trim() === ''
+);
+console.log('Missing operator values:', nullishOperators.length); */
+
+const countryNamesFromGeo = new Set(
+  cleanedFeatures.features.map((d) => d.properties.name)
+);
+console.log([...countryNamesFromGeo]);
 ```
