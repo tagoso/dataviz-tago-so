@@ -2,23 +2,115 @@
 theme: light
 title: '🚢 Thoresen Vessels World Map'
 toc: false
+style: custom-style.css
 ---
 
-# Thoresen Vessels Locator 📍
+<h1>
+  <span data-i18n="title">Thoresen Vessels Locator 📍</span>
+  <span id="langToggle" style="margin-left: 1rem; font-size: 1rem;"></span>
+</h1>
 
-Last updated: **${latest}**
+<!--Top Section-->
 
-<label for="selectedShip">Select a ship:</label>
+<span data-i18n="lastUpdatedPrefix">Last updated:</span> **${latest}**
+
+<label for="selectedShip" data-i18n="selectShipLabel">Select a ship:</label>
 <select name="selectedShip" id="selectedShip"></select>
 
 <strong><span id="info-ship">---</span></strong><br>
-🕒 Last seen: <span id="info-time">---</span><br>
-🧭 Direction: <span id="info-direction">?</span>° <span id="direction-arrow" style="display: inline-block; transform: rotate(0deg);">⬆︎</span><br>
-🚤 Speed: <span id="info-speed">?</span> knots
+🕒 <span data-i18n="lastSeen">Last seen:</span> <span id="info-time">---</span><br>
+🧭 <span data-i18n="direction">Direction:</span> <span id="info-direction">?</span>° <span id="direction-arrow" style="display: inline-block; transform: rotate(0deg);">⬆︎</span><br>
+🚤 <span data-i18n="speed">Speed:</span> <span id="info-speed">?</span> knots
 
 <figure class="wide">
   <div id="map" style="height: 400px; margin: 1rem 0; border-radius: 8px;"></div>
 </figure>
+
+```js
+let currentLang = localStorage.getItem('lang') || 'en';
+
+requestAnimationFrame(() => {
+  applyTranslations(currentLang);
+  renderLangToggle(currentLang);
+});
+
+// Dictionary for translation
+const translations = {
+  en: {
+    title: 'Thoresen Vessels Locator 📍',
+    lastUpdatedPrefix: 'Last updated:',
+    selectShipLabel: 'Select a ship:',
+    lastSeen: 'Last seen:',
+    direction: 'Direction:',
+    speed: 'Speed:',
+    vesselPositions: '🗺 Vessel Positions',
+    globeView: '🌍 Globe View',
+    notesHeading: 'Notes',
+    notes1:
+      'This project is for the <a href="https://www.thoresen.com/">Thoresen</a> sailors and their family 🏠👥🩷🚢',
+    notes2:
+      'This covers only the <a href="https://aisstream.io/">AIS Stream</a> by volunteers. Gets updated every 15–30 mins.',
+    legendGreen: '🟢 = Located in last 4 hours',
+    legendOrange: '🟠 = Located in last 7 days',
+    legendWhite: '⚪️ = Located more than 7 days ago',
+  },
+  th: {
+    title: 'แผนที่ติดตามเรือ Thoresen 📍',
+    lastUpdatedPrefix: 'อัปเดตล่าสุด:',
+    selectShipLabel: 'เลือกเรือ:',
+    lastSeen: 'พบล่าสุด:',
+    direction: 'ทิศทาง:',
+    speed: 'ความเร็ว:',
+    vesselPositions: '🗺 ตำแหน่งเรือ',
+    globeView: '🌍 มุมมองโลก',
+    notesHeading: 'หมายเหตุ',
+    notes1:
+      'โปรเจกต์นี้สำหรับ <a href="https://www.thoresen.com/">ลูกเรือ Thoresen</a> และครอบครัวของพวกเขา 🏠👥🩷🚢',
+    notes2:
+      'แสดงเฉพาะข้อมูลจาก <a href="https://aisstream.io/">AIS Stream</a> ที่อาสาสมัครให้มา อัปเดตทุก ๆ 15–30 นาที',
+    legendGreen: '🟢 = พบในช่วง 4 ชั่วโมงที่ผ่านมา',
+    legendOrange: '🟠 = พบในช่วง 7 วันที่ผ่านมา',
+    legendWhite: '⚪️ = พบเมื่อมากกว่า 7 วันที่แล้ว',
+  },
+};
+
+// Translation logic
+
+// Build language switch links
+function renderLangToggle(lang) {
+  const toggleEl = document.getElementById('langToggle');
+  const altLang = lang === 'en' ? 'th' : 'en';
+  const altLabel = altLang === 'en' ? 'EN' : 'ไทย';
+
+  toggleEl.innerHTML = `<a href="#" id="toggleLangLink" style="font-weight: bold;">${altLabel}</a>`;
+
+  document.getElementById('toggleLangLink').addEventListener('click', (e) => {
+    e.preventDefault();
+    localStorage.setItem('lang', altLang);
+    currentLang = altLang;
+    applyTranslations(altLang);
+    renderLangToggle(altLang); // UIも更新
+  });
+}
+
+function applyTranslations(lang) {
+  currentLang = lang;
+  const dict = translations[lang] || translations.en;
+
+  document.querySelectorAll('[data-i18n]').forEach((el) => {
+    const key = el.getAttribute('data-i18n');
+    if (dict[key]) {
+      if (el.tagName === 'SPAN' || el.tagName === 'H2') {
+        el.innerHTML = dict[key]; // Supports HTML tags
+      } else {
+        el.textContent = dict[key];
+      }
+    }
+  });
+
+  document.title = dict.title;
+}
+```
 
 ```js
 // 🚢 Data acquisition and preprocessing for maps
@@ -332,23 +424,29 @@ function autoSpinGlobe(data, landFeatures, { width = 600 } = {}) {
 ```
 
 <div class="card">
-  <h2>🗺 Vessel Positions</h2>
+  <h2 data-i18n="vesselPositions">🗺 Vessel Positions</h2>
   <div id="plot-wrapper" style="overflow-x: auto;">
     <div id="plot" style="min-width: 900px;"></div>
   </div>
 </div>
 
 <div class="card">
-  <h2>🌍 Globe View</h2>
-    ${autoSpinGlobe(data, landFeatures, { width: Math.min(window.innerWidth * 0.85, 1000) })}
+  <h2 data-i18n="globeView">🌍 Globe View</h2>
+  ${autoSpinGlobe(data, landFeatures, { width: Math.min(window.innerWidth * 0.85, 1000) })}
 </div>
 
-## Notes
+## <span data-i18n="notesHeading">Notes</span>
 
-This project is for the [Thoresen](https://www.thoresen.com/) sailors and their family 🏠👥🩷🚢
+<span data-i18n="notes1">
+This project is for the <a href="https://www.thoresen.com/">Thoresen</a> sailors and their family 🏠👥🩷🚢
+</span>
 
-This covers only the [AIS Stream](https://aisstream.io/) by volunteers. Gets updated every 15-30 mins.
+<span data-i18n="notes2">
+This covers only the <a href="https://aisstream.io/">AIS Stream</a> by volunteers. Gets updated every 15–30 mins.
+</span>
 
-🟢 = Located in last 4 hours  
-🟠 = Located in last 7 days  
-⚪️ = Located more than 7 days ago
+<ul>
+  <li><span data-i18n="legendGreen">🟢 = Located in last 4 hours</span></li>
+  <li><span data-i18n="legendOrange">🟠 = Located in last 7 days</span></li>
+  <li><span data-i18n="legendWhite">⚪️ = Located more than 7 days ago</span></li>
+</ul>
