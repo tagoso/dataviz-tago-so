@@ -475,9 +475,4 @@ const nullishOperators = classified.filter(
   (d) => !d.operator || d.operator.trim() === ''
 );
 console.log('Missing operator values:', nullishOperators.length); */
-
-const countryNamesFromGeo = new Set(
-  cleanedFeatures.features.map((d) => d.properties.name)
-);
-console.log([...countryNamesFromGeo]);
 ```
