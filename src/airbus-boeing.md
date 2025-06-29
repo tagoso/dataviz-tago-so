@@ -219,11 +219,16 @@ Airbus prioritized the A380 (four engines mega-jumbo) in the early 2000s, allowi
 
 ## Current Operational Status
 
-Distribution of aircraft by status. Over 410 B777s are retired, stored, or parked 🛑
+Distribution of aircraft by status. Over 410 B777s are "Out of Service" or "Temporarily Out of Service" 🛑
 
 ```js
 // Define domain order
-const statusOrder = ['In Service', 'On Order', 'Out of Service'];
+const statusOrder = [
+  'In Service',
+  'Temporarily Out of Service',
+  'Out of Service',
+  'On Order',
+];
 
 function statusChartFx(data, { width } = {}) {
   return Plot.plot({
@@ -233,8 +238,9 @@ function statusChartFx(data, { width } = {}) {
     marginTop: 30,
     fx: {
       label: null,
-      tickRotate: -45,
+      tickRotate: -25,
       padding: 0,
+      domain: statusOrder,
     },
     x: {
       padding: 0.3,
@@ -252,6 +258,7 @@ function statusChartFx(data, { width } = {}) {
         fx: 'status', // 👈 Label (optional)
         x: 'type', // 👈 Arrange A350 / B777 within each facet
         y: 'count',
+        dx: -10,
         fill: 'type',
         tip: true,
       }),
