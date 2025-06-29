@@ -142,9 +142,20 @@ const selectElement = document.getElementById('selectedShip');
 
 // Select box construction
 shipNames.forEach((name) => {
+  const ship = data.find((d) => d.name === name);
+  const timestamp = new Date(ship.timestamp);
+  const diff = Date.now() - timestamp.getTime();
+
+  let statusIcon = '⚪️'; // default: > 7 days
+  if (diff < 4 * 60 * 60 * 1000) {
+    statusIcon = '🟢'; // < 4 hours
+  } else if (diff < 7 * 24 * 60 * 60 * 1000) {
+    statusIcon = '🟠'; // < 7 days
+  }
+
   const option = document.createElement('option');
   option.value = name;
-  option.textContent = name;
+  option.textContent = `${statusIcon} ${name}`;
   if (name === shipName) option.selected = true;
   selectElement.appendChild(option);
 });
