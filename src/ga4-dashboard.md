@@ -2,6 +2,7 @@
 theme: dashboard
 title: GA4 Sample Dashboard
 toc: false
+style: custom-style.css
 ---
 
 # GA4 User Overview Sample 📊

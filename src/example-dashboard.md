@@ -2,6 +2,7 @@
 theme: dashboard
 title: Example dashboard
 toc: false
+style: custom-style.css
 ---
 
 # Rocket launches 🚀
@@ -9,7 +10,7 @@ toc: false
 <!-- Load and transform the data -->
 
 ```js
-const launches = FileAttachment("./data/launches.csv").csv({ typed: true });
+const launches = FileAttachment('./data/launches.csv').csv({ typed: true });
 ```
 
 <!-- A shared color scale for consistency, sorted by the number of launches -->
@@ -17,15 +18,15 @@ const launches = FileAttachment("./data/launches.csv").csv({ typed: true });
 ```js
 const color = Plot.scale({
   color: {
-    type: "categorical",
+    type: 'categorical',
     domain: d3
       .groupSort(
         launches,
         (D) => -D.length,
         (d) => d.state
       )
-      .filter((d) => d !== "Other"),
-    unknown: "var(--theme-foreground-muted)",
+      .filter((d) => d !== 'Other'),
+    unknown: 'var(--theme-foreground-muted)',
   },
 });
 ```
@@ -56,13 +57,19 @@ const color = Plot.scale({
 ```js
 function launchTimeline(data, { width } = {}) {
   return Plot.plot({
-    title: "Launches over the years",
+    title: 'Launches over the years',
     width,
     height: 300,
-    y: { grid: true, label: "Launches" },
+    y: { grid: true, label: 'Launches' },
     color: { ...color, legend: true },
     marks: [
-      Plot.rectY(data, Plot.binX({ y: "count" }, { x: "date", fill: "state", interval: "year", tip: true })),
+      Plot.rectY(
+        data,
+        Plot.binX(
+          { y: 'count' },
+          { x: 'date', fill: 'state', interval: 'year', tip: true }
+        )
+      ),
       Plot.ruleY([0]),
     ],
   });
@@ -80,16 +87,22 @@ function launchTimeline(data, { width } = {}) {
 ```js
 function vehicleChart(data, { width }) {
   return Plot.plot({
-    title: "Popular launch vehicles",
+    title: 'Popular launch vehicles',
     width,
     height: 300,
     marginTop: 0,
     marginLeft: 50,
-    x: { grid: true, label: "Launches" },
+    x: { grid: true, label: 'Launches' },
     y: { label: null },
     color: { ...color, legend: true },
     marks: [
-      Plot.rectX(data, Plot.groupY({ x: "count" }, { y: "family", fill: "state", tip: true, sort: { y: "-x" } })),
+      Plot.rectX(
+        data,
+        Plot.groupY(
+          { x: 'count' },
+          { y: 'family', fill: 'state', tip: true, sort: { y: '-x' } }
+        )
+      ),
       Plot.ruleX([0]),
     ],
   });

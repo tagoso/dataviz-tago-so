@@ -2,6 +2,7 @@
 title: ETL Handbook
 description: Practical workflows, ETL strategies, and visualization tips using Observable Plot, JavaScript, and APIs
 toc: true
+style: custom-style.css
 ---
 
 # 🔄 ETL Workflow (Extract, Transform, Load)

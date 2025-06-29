@@ -1,0 +1,9 @@
+@import url("observablehq:default.css");
+@import url("observablehq:theme-air.css");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Noto+Sans+Thai:wght@400;600&family=Noto+Sans+JP:wght@400;600&display=swap');
+
+body {
+  font-family: 'Inter', 'Noto Sans Thai', 'Noto Sans JP', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}

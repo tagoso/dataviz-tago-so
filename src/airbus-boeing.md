@@ -2,6 +2,7 @@
 theme: light
 title: Airbus350 vs Boeing777
 toc: true
+style: custom-style.css
 ---
 
 ```js

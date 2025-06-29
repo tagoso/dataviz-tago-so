@@ -1,3 +1,7 @@
+---
+style: custom-style.css
+---
+
 # Weather report
 
 <figure class="wide">

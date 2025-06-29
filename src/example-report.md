@@ -1,5 +1,6 @@
 ---
 title: Example report
+style: custom-style.css
 ---
 
 # A brief history of space exploration
@@ -17,7 +18,7 @@ This led to the launch of the first artificial satellite, Sputnik 1, and the cre
 ## The Space Shuttle era
 
 ```js
-const events = FileAttachment("./data/events.json").json();
+const events = FileAttachment('./data/events.json').json();
 const height = 300;
 ```
 
@@ -27,16 +28,21 @@ display(
     width,
     height,
     marginTop: 30,
-    x: { nice: true, label: null, tickFormat: "" },
+    x: { nice: true, label: null, tickFormat: '' },
     y: { axis: null },
     marks: [
-      Plot.ruleX(events, { x: "year", y: "y", markerEnd: "dot", strokeWidth: 2.5 }),
+      Plot.ruleX(events, {
+        x: 'year',
+        y: 'y',
+        markerEnd: 'dot',
+        strokeWidth: 2.5,
+      }),
       Plot.ruleY([0]),
       Plot.text(events, {
-        x: "year",
-        y: "y",
-        text: "name",
-        lineAnchor: "bottom",
+        x: 'year',
+        y: 'y',
+        text: 'name',
+        lineAnchor: 'bottom',
         dy: -10,
         lineWidth: 10,
         fontSize: 12,

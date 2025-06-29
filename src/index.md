@@ -1,5 +1,6 @@
 ---
 toc: false
+style: custom-style.css
 ---
 
 <div class="hero">
