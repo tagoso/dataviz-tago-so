@@ -147,7 +147,7 @@ const retiredB777 = aircraftWithAge.filter(
 const avgRetiredAgeB777 = d3.mean(retiredB777, (d) => d.age) ?? 0; // null fallback as a safety measure
 ```
 
-# Airbus350 vs Boeing777 ✈️ Widebody Battle
+# 🇪🇺 Airbus350 vs 🇺🇸 Boeing777 ✈️ Widebody Battle
 
 Since the 1990s, the Boeing 777 has been the flagship widebody aircraft for many long-haul carriers - valued for its range, size, and reliability. Airbus challenged this dominance with the introduction of the A350 in the mid-2010s, offering a lighter, more fuel-efficient alternative.
 
