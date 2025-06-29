@@ -1,4 +1,4 @@
-id,msn,ln,airline_company,reg,airline_company,delivered,status,remark
+id,msn,ln,aircraft_type,reg,operator,delivered,status,remark
 1,,1638,Boeing 777-9,D-,Lufthansa,,On Order,
 2,,1615,Boeing 777-9,A6-EZM,Emirates,,On Order,
 3,,1611,Boeing 777-9,A6-EZT,Emirates,,On Order,

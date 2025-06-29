@@ -1,4 +1,4 @@
-id,msn,airline_company,reg,airline_company,delivered,status,remark
+id,msn,aircraft_type,reg,operator,delivered,status,remark
 1,5000,Airbus A350-900,-,Airbus Industrie,2012-11-27,Partially Scrapped,
 2,1,Airbus A350-941,F-WXWB,Airbus Industrie,2013-06-14,Active,
 3,2,Airbus A350-941,F-WWCF,Airbus Industrie,2014-02-26,Active,
