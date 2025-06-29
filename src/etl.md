@@ -36,6 +36,19 @@ The basic format is flat, but a slight nesting structure can also be used when p
 
 > When using BigQuery, estimate the query cost before executing it. Avoid using `SELECT \*` and specify only the necessary columns to reduce costs.
 
+- **DuckDB vs SQLite**:
+
+  For medium-sized datasets (10K–1M rows), both DuckDB and SQLite work well, but their design philosophies differ:
+
+  | Feature     | DuckDB (Columnar)                        | SQLite (Row-based)                |
+  | ----------- | ---------------------------------------- | --------------------------------- |
+  | Orientation | Column-oriented                          | Row-oriented                      |
+  | Strength    | Analytical queries & aggregations        | Lightweight transactions & lookup |
+  | Format      | Arrow / Parquet / CSV supported natively | Built-in file-based `.sqlite`     |
+  | Best for    | OLAP: Aggregations, time-series, joins   | OLTP: Record insert/update        |
+
+  DuckDB is optimized for analytical workflows (OLAP), making it a strong alternative to SQLite when working with tabular datasets for dashboards, statistics, or time-based summaries—especially within browser or notebook contexts. [This article is useful](https://www.fivetran.com/learn/columnar-database-vs-row-database).
+
 - **Manual Transforming in Google Sheets**: If the data is **static** and clearly under tens of thousands of rows in tidy format for basic visualization, then Google Sheets can be used to clean up headers, standardize date formats to ISO 8601 and export as CSV.
 
   Google Sheets is effective for cleaning small amounts of simple data, but a database approach (such as SQLite or Pandas) is more suitable for combining multiple tables and restructuring data.
