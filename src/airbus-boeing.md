@@ -147,13 +147,17 @@ const retiredB777 = aircraftWithAge.filter(
 const avgRetiredAgeB777 = d3.mean(retiredB777, (d) => d.age) ?? 0; // null fallback as a safety measure
 ```
 
-# Airbus350 vs Boeing777 - Widebody War ✈️
+# Airbus350 vs Boeing777 ✈️ Widebody Battle
 
-Data as of June 2025 \_\_\_\_\_\_\_\_\_\_..🛫
+Since the 1990s, the Boeing 777 has been the flagship widebody aircraft for many long-haul carriers - valued for its range, size, and reliability. Airbus challenged this dominance with the introduction of the A350 in the mid-2010s, offering a lighter, more fuel-efficient alternative.
+
+This comparison focuses on how these two aircraft families have evolved in production, operations, and fleet lifecycle.
+
+Data as of June 2025 \_\_\_\_\_\_..🛫 Let's go!
 
 ## Foundations
 
-The B777 series is manufactured more than double 💫
+So far the B777 series is manufactured more than double💫
 
 <div class="grid grid-cols-4">
   <div class="card">
@@ -168,7 +172,7 @@ The B777 series is manufactured more than double 💫
 
 ## Delivery Timeline
 
-Number of aircraft delivered to aviations per year. 9.11 and COVID-19 dropped the bars.
+Number of aircraft delivered to aviations per year. You remember 9.11 and COVID-19?
 
 ```js
 // function to draw plot
@@ -211,9 +215,11 @@ function deliveryChart(data, { width } = {}) {
   </div>
 </div>
 
+Airbus prioritized the A380 (four engines mega-jumbo) in the early 2000s, allowing Boeing's 777 (two engines and yet compact) to dominate the long-haul market. The A350 was launched later to reclaim ground with modern design and efficiency.
+
 ## Current Operational Status
 
-Distribution of aircraft by status. Over 400 B777s are retired, stored, or parked 🛑
+Distribution of aircraft by status. Over 410 B777s are retired, stored, or parked 🛑
 
 ```js
 // Define domain order
@@ -329,9 +335,80 @@ const activeOrTemporary = aircraftWithAge.filter((d) =>
   </div>
 </div>
 
-## Who Operates These Aircraft?
+## Who Bought These Aircraft?
 
-- Top 10 airlines by fleet size (Chart 4)
+Boeing dominates the fleets of most U.S. carriers, while A350 adoption is stronger in Asia and Europe. Emirates stands out with the largest 777 fleet by far.
+
+```js
+// Grouped by [operator, type] count
+const groupedOpeType = d3.rollups(
+  combinedWithYear.filter((d) => d.operator && d.type),
+  (v) => v.length,
+  (d) => d.operator,
+  (d) => d.type
+);
+
+// Flattening data by formatting it
+const flattenedOpeType = groupedOpeType.flatMap(([operator, types]) =>
+  types.map(([type, count]) => ({
+    operator,
+    type,
+    count,
+  }))
+);
+
+// Extract top 10 (sort by total count)
+const totalByOperator = d3
+  .rollups(
+    flattenedOpeType,
+    (v) => d3.sum(v, (d) => d.count),
+    (d) => d.operator
+  )
+  .sort((a, b) => d3.descending(a[1], b[1]))
+  .slice(0, 10)
+  .map((d) => d[0]); // Extract only the operator name
+
+// Filter to top 10 only
+const top10StackedData = flattenedOpeType.filter((d) =>
+  totalByOperator.includes(d.operator)
+);
+
+// Plot
+function stackedBarChart(data, { width } = {}) {
+  return Plot.plot({
+    width,
+    height: 400,
+    marginLeft: 180,
+    x: {
+      label: 'Number of Aircraft',
+      grid: true,
+    },
+    y: {
+      label: null,
+      domain: totalByOperator,
+    },
+    color: {
+      legend: true,
+    },
+    marks: [
+      Plot.barX(data, {
+        x: 'count',
+        y: 'operator',
+        fill: 'type', // Color coding by A350 / B777
+        tip: true,
+      }),
+      Plot.ruleX([0]),
+    ],
+  });
+}
+```
+
+<div class="grid grid-cols-1">
+  <div class="card">
+    <h2>Top 10 airlines by fleet size</h2>
+    ${resize((width) => stackedBarChart(top10StackedData, { width }))}
+  </div>
+</div>
 
 ## Appendix: Regional Adoption Patterns
 
@@ -364,5 +441,20 @@ Data source: [Planespotters B777](https://www.planespotters.net/aircraft/product
 
 // console.log(aircraftWithAge);
 
-// console.log(avgRetiredAgeB777);
+// console.log(top10StackedData);
+
+// Unique extraction and sorting of operator list
+
+// Extract top 10 (sort by total count)
+const uniqueOperators = d3
+  .rollups(
+    flattenedOpeType,
+    (v) => d3.sum(v, (d) => d.count),
+    (d) => d.operator
+  )
+  .sort((a, b) => d3.descending(a[1], b[1]))
+  .map((d) => d[0]); // Extract only the operator name
+
+// Display
+console.log(uniqueOperators);
 ```
