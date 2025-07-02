@@ -470,9 +470,9 @@ const ratioMap = new Map(
 );
 
 const interpolateColor = d3.interpolateRgbBasis([
-  '#EFB118',
-  '#3CA951',
-  '#4269D0',
+  '#EFB118', // Orange (B777)
+  '#3CA951', // Green
+  '#4269D0', // Blue (A350)
 ]);
 
 function getColorFromRatio(ratio) {
@@ -497,27 +497,25 @@ function renderWorldMapRatio({ countries, countrymesh, ratioMap, width }) {
     width,
     height: 464,
     color: {
-      scheme: 'YlGnBu', // Scheme where the center turns white (blue → white → red)
+      type: 'linear',
       domain: [0, 1],
-      label: 'Share of A350',
+      range: ['#EFB118', '#3CA951', '#4269D0'], // Orange → Green → Blue
+      label: 'A350 Share',
+      tickFormat: d3.format('.0%'),
       legend: true,
       unknown: '#ccc',
-      tickFormat: d3.format('.0%'),
     },
     marks: [
       Plot.sphere({ fill: 'white', stroke: 'currentColor' }),
       Plot.geo(countries, {
-        fill: (d) => ratioMap.get(+d.id), // Passing values
+        fill: (d) => ratioMap.get(+d.id),
         title: (d) => {
           const id = +d.id;
           const name = d.properties.name;
           const fleet = countryFleetMap.get(id);
-
           if (!fleet) return `${name}\nNo data`;
-
           const a350 = fleet.A350 || 0;
           const b777 = fleet.B777 || 0;
-
           return `${name}\nA350: ${a350}\nB777: ${b777}`;
         },
         tip: true,
