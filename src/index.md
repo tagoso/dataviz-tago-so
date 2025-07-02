@@ -4,38 +4,10 @@ style: custom-style.css
 ---
 
 <div class="hero">
-  <h1>Dig Dataviz</h1>
-  <h2>Data-centered showcase & documentations by <a href="https://hi.tago.so/">Tago So</a></h2>
+  <h1>Dataviz by Tago</h1>
+  <span>Welcome! Here we have <strong>data-focused</strong> dashboards, reports, and docs.</span>
+  <span>You can also find other works <a href="https://hi.tago.so/">here</a>!</span>
 </div>
-
-<!-- <div class="grid grid-cols-2" style="grid-auto-rows: 504px;">
-  <div class="card">${
-    resize((width) => Plot.plot({
-      title: "Your awesomeness over time 🚀",
-      subtitle: "Up and to the right!",
-      width,
-      y: {grid: true, label: "Awesomeness"},
-      marks: [
-        Plot.ruleY([0]),
-        Plot.lineY(aapl, {x: "Date", y: "Close", tip: true})
-      ]
-    }))
-  }</div>
-  <div class="card">${
-    resize((width) => Plot.plot({
-      title: "How big are penguins, anyway? 🐧",
-      width,
-      grid: true,
-      x: {label: "Body mass (g)"},
-      y: {label: "Flipper length (mm)"},
-      color: {legend: true},
-      marks: [
-        Plot.linearRegressionY(penguins, {x: "body_mass_g", y: "flipper_length_mm", stroke: "species"}),
-        Plot.dot(penguins, {x: "body_mass_g", y: "flipper_length_mm", stroke: "species", tip: true})
-      ]
-    }))
-  }</div>
-</div> -->
 
 <style>
 
@@ -56,7 +28,7 @@ style: custom-style.css
   font-size: 14vw;
   font-weight: 900;
   line-height: 1;
-  background: linear-gradient(30deg, var(--theme-foreground-focus), currentColor);
+  background: linear-gradient(-30deg, var(--theme-foreground-focus), currentColor);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;

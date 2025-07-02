@@ -1,7 +1,7 @@
 // See https://observablehq.com/framework/config for documentation.
 export default {
   // The app’s title; used in the sidebar and webpage titles.
-  title: "Dataviz Tago So",
+  title: "Dataviz by Tago",
   
   pages: [
     {
@@ -16,7 +16,7 @@ export default {
         { name: "Airbus vs Boeing", path: "/airbus-boeing" },
       ]
     },
-    {
+/*     {
       name: "Templates",
       pages: [
         { name: "GA4 Dashboard", path: "/ga4-dashboard" },
@@ -24,7 +24,7 @@ export default {
         { name: "Space Exploration Report", path: "/example-report" },
         { name: "Weather Report", path: "/weather-report" }
       ]
-    },
+    }, */
        {
       name: "Handbooks",
       pages: [
