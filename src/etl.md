@@ -50,11 +50,11 @@ The basic format is flat, but a slight nesting structure can also be used when p
 
   DuckDB is optimized for analytical workflows (OLAP), making it a strong alternative to SQLite when working with tabular datasets for dashboards, statistics, or time-based summaries—especially within browser or notebook contexts. [This article is useful](https://www.fivetran.com/learn/columnar-database-vs-row-database).
 
-- **Manual Transforming in Google Sheets**: If the data is **static** and clearly under tens of thousands of rows in tidy format for basic visualization, then Google Sheets can be used to clean up headers, standardize date formats to ISO 8601 and export as CSV.
+- **Manual Transforming in Google Sheets**: If the data is **static** and clearly under tens of thousands of rows in tidy format for basic visualization, then Google Sheets can be used to clean up headers, standardize formats and export as CSV.
 
   Google Sheets is effective for cleaning small amounts of simple data, but a database approach (such as SQLite or Pandas) is more suitable for combining multiple tables and restructuring data.
 
-- **File Formats**: Prefer **ISO 8601** for dates and UTF-8 for strings.
+- **File Formats**: Prefer **ISO 8601** for dates,　 ISO 3166-1 alpha-3 for country names, and UTF-8 for strings.
 
 - **Core JS Tools**: `.map()`, `.filter()`, `.reduce()` for transforming arrays.
 
