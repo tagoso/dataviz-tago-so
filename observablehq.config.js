@@ -56,7 +56,7 @@ export default {
   // Some additional configuration options and their defaults:
   // theme: "light", // try "light", "dark", "slate", etc.
   // header: // what to show in the header (HTML)
-  footer: "Built with <a href='https://observablehq.com/'>Observable</a> + <a href='https://vercel.com/'>Vercel</a> by <a href='https://hi.tago.so'>Tago</a>. <a href='https://github.com/tagoso/dataviz-tago-so'>Source code</a>", 
+  footer: "Built with <a href='https://observablehq.com/framework/'>Observable Framework</a> + <a href='https://vercel.com/'>Vercel</a> by <a href='https://hi.tago.so'>Tago</a>. <a href='https://github.com/tagoso/dataviz-tago-so'>Source code</a>", 
   // what to show in the footer (HTML)
   // sidebar: true, // whether to show the sidebar
   // toc: true, // whether to show the table of contents
