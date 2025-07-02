@@ -13,7 +13,7 @@ A robust ETL (Extract, Transform, Load) process is key to effective data visuali
 
 Data visualization begins with discovering and capturing data. Depending on the scale of the project, we devise ways to efficiently obtain the necessary data with as little budget as possible (preferably free!). It is important to identify what the next "Transform" process can do and accurately narrow down the data that will be core to next data processing.
 
-- **Remote Fetching (API, Webhook, WebSocket)**: Use fetch() to pull JSON from public or private APIs — for example, forex rates, crypto prices, location of vessels or any kind of live data available on the internet. Also utilize real-time data pipelines using Webhooks or WebSocket connections. (You need to implement WebSocket management and reconnection processing yourself.)
+- **Remote Fetching (API, Webhook, WebSocket)**: Use fetch() to pull JSON from public or private APIs. Also utilize real-time data pipelines using Webhooks or WebSocket connections. For example, [forex rates, crypto prices](https://addcurr.tago.so/), [location of vessels](https://dataviz.tago.so/thoresen-vessels) or [any kind of live data available on the internet](https://ic.tago.so/). (Note: You need to implement WebSocket management and reconnection processing yourself.)
 
 - **Query-Based Access (Databases & Cloud Services)**: Retrieve data by executing SQL queries on structured data sources such as local SQLite, cloud-hosted PostgreSQL like Supabase, or Google BigQuery. Ideal for filtering, aggregating, or joining data before loading it into a visualization pipeline. Useful when dealing with large or normalized datasets.
 
