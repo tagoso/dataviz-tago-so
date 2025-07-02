@@ -68,7 +68,7 @@ Boeing dominates the fleets of most U.S. carriers, while A350 adoption is strong
 
 ## Regional Adoption Patterns
 
-This map shows the number of aircraft adopted by each country, including those on order. The A350 is widely used in North and West Europe and countries like Ethiopia and Vietnam. In contrast, countries like Saudi Arabia and Canada have adopted only the B777. Using a single aircraft type can simplify pilot training and operations.
+This map shows the number of aircraft adopted by each country, including those on order. Out of Service fleets are removed.
 
 <div class="card">
   <div id="plot-wrapper" style="overflow-x: auto;">
@@ -78,6 +78,10 @@ This map shows the number of aircraft adopted by each country, including those o
     </div>
   </div>
 </div>
+
+The A350 is widely used in North and West Europe and countries. Vietnum, Ethiopia, and China are using more A350. In contrast, countries like Saudi Arabia and Canada have adopted only the B777. Using a single aircraft type can simplify pilot training and operations.
+
+## Appendix
 
 Data source: [Planespotters B777](https://www.planespotters.net/aircraft/production/boeing-777), [Planespotters A350](https://www.planespotters.net/aircraft/production/airbus-a350)
 
@@ -201,13 +205,20 @@ const aircraftWithNumeric = classified.map((d) => ({
   numeric_code: operatorToNumeric.get(d.operator?.trim()) ?? null,
 }));
 
-const countryCounts = d3.rollups(
-  aircraftWithNumeric.filter((d) => d.numeric_code != null),
-  (v) => v.length,
-  (d) => d.numeric_code
+const aircraftInServiceOnly = aircraftWithNumeric.filter(
+  (d) => d.status3 !== 'Out of Service' && d.numeric_code != null
 );
 
-const countryCountMap = new Map(countryCounts);
+const countryFleetMap = new Map();
+
+for (const d of aircraftInServiceOnly) {
+  const code = d.numeric_code;
+  if (code == null) continue;
+
+  const entry = countryFleetMap.get(code) || { A350: 0, B777: 0 };
+  entry[d.type] = (entry[d.type] || 0) + 1;
+  countryFleetMap.set(code, entry);
+}
 
 // #2 Rollup for Current Operational Status
 const statusRollups = d3.rollups(
