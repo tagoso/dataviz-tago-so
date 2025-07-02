@@ -8,7 +8,6 @@ export default {
       name: "Original Dashboards",
       pages: [
         { name: "Thoresen Vessels", path: "/thoresen-vessels" },
-        { name: "GA4 Dashboard", path: "/ga4-dashboard" }
       ]
     },
         {
@@ -18,8 +17,9 @@ export default {
       ]
     },
     {
-      name: "Observable Templates",
+      name: "Templates",
       pages: [
+        { name: "GA4 Dashboard", path: "/ga4-dashboard" },
         { name: "Rocket Launches Dashboard", path: "/example-dashboard" },
         { name: "Space Exploration Report", path: "/example-report" },
         { name: "Weather Report", path: "/weather-report" }
