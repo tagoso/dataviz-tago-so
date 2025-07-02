@@ -495,13 +495,14 @@ function renderWorldMapRatio({ countries, countrymesh, ratioMap, width }) {
   return Plot.plot({
     projection: 'equal-earth',
     width,
-    height: 464,
+    height: 460,
     color: {
       type: 'linear',
       domain: [0, 1],
       range: ['#EFB118', '#3CA951', '#4269D0'], // Orange → Green → Blue
       label: 'A350 Share',
       tickFormat: d3.format('.0%'),
+      marginLeft: 10,
       legend: true,
       unknown: '#ccc',
     },
