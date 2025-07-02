@@ -8,8 +8,13 @@ export default {
       name: "Original Dashboards",
       pages: [
         { name: "Thoresen Vessels", path: "/thoresen-vessels" },
-        { name: "Airbus vs Boeing", path: "/airbus-boeing" },
         { name: "GA4 Dashboard", path: "/ga4-dashboard" }
+      ]
+    },
+        {
+      name: "Original Reports",
+      pages: [
+        { name: "Airbus vs Boeing", path: "/airbus-boeing" },
       ]
     },
     {
@@ -51,7 +56,7 @@ export default {
   // Some additional configuration options and their defaults:
   // theme: "light", // try "light", "dark", "slate", etc.
   // header: // what to show in the header (HTML)
-  footer: "Built with Observable + Vercel by Tago.", 
+  footer: "Built with <a href='https://observablehq.com/'>Observable</a> + <a href='https://vercel.com/'>Vercel</a> by <a href='https://hi.tago.so'>Tago</a>. <a href='https://github.com/tagoso/dataviz-tago-so'>Source code</a>", 
   // what to show in the footer (HTML)
   // sidebar: true, // whether to show the sidebar
   // toc: true, // whether to show the table of contents
