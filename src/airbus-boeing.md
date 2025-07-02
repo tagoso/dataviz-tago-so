@@ -9,9 +9,7 @@ style: custom-style.css
 
 Since the 1990s, the Boeing 777 has been the flagship widebody aircraft for many long-haul carriers - valued for its range, size, and reliability. Airbus challenged this dominance with the introduction of the A350 in the mid-2010s, offering a lighter, more fuel-efficient alternative.
 
-This comparison focuses on how these two aircraft families have evolved in production, operations, and fleet lifecycle.
-
-Data as of June 2025 \_\_\_\_\_\_..🛫 Let's go!
+This comparison focuses on how these two aircraft families have evolved in production, operations, and fleet lifecycle \_\_\_\_\_\_..🛫 Let's go!
 
 ## Foundations
 
@@ -82,6 +80,8 @@ This map shows the number of aircraft adopted by each country, including those o
 </div>
 
 Data source: [Planespotters B777](https://www.planespotters.net/aircraft/production/boeing-777), [Planespotters A350](https://www.planespotters.net/aircraft/production/airbus-a350)
+
+Data as of June 2025.
 
 ```js
 // ETL
