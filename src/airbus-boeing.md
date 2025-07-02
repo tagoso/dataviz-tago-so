@@ -301,7 +301,7 @@ function statusChartFx(data, { width } = {}) {
     marginTop: 30,
     fx: {
       label: null,
-      tickRotate: -25,
+      tickRotate: -20,
       padding: 0,
       domain: statusOrder,
     },
