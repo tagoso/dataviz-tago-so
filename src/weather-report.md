@@ -32,13 +32,3 @@ invalidation.then(() => map.remove());
 import { temperaturePlot } from './components/temperaturePlot.js';
 display(temperaturePlot(forecast));
 ```
-
-<div class="grid grid-cols-1">
-  <div class="card">${resize((width) => temperaturePlot(forecast, {width}))}</div>
-</div>
-
-<div class="grid grid-cols-2">
-  <div class="card grid-colspan-2">one–two</div>
-  <div class="card">three</div>
-  <div class="card">four</div>
-</div>
