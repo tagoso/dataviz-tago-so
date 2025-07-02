@@ -5,12 +5,106 @@ toc: true
 style: custom-style.css
 ---
 
+# 🇪🇺 Airbus350 vs 🇺🇸 Boeing777 ✈️ Widebody Battle
+
+Since the 1990s, the Boeing 777 has been the flagship widebody aircraft for many long-haul carriers - valued for its range, size, and reliability. Airbus challenged this dominance with the introduction of the A350 in the mid-2010s, offering a lighter, more fuel-efficient alternative.
+
+This comparison focuses on how these two aircraft families have evolved in production, operations, and fleet lifecycle.
+
+Data as of June 2025 \_\_\_\_\_\_..🛫 Let's go!
+
+## Foundations
+
+So far the B777 series is manufactured more than double💫
+
+<div class="grid grid-cols-2">
+  <div class="card">
+    <h2>🟦 A350 <span class="muted">- ${a350Duration}</span></h2>
+    <span class="big">${a350Count.toLocaleString()}</span>
+  </div>
+  <div class="card">
+    <h2>🟨 B777 <span class="muted">- ${b777Duration}</span></h2>
+    <span class="big">${b777Count.toLocaleString()}</span><span class="muted"></span>
+  </div>
+</div>
+
+## Delivery Timeline
+
+Number of aircraft delivered to aviations per year. You remember 9.11 and COVID-19?
+
+<div class="card">
+  <h2>Aircraft Deliveries by Year</h2>
+  ${resize(width => deliveryChart(deliveryByYear, { width }))}
+</div>
+
+Airbus prioritized the A380 (four engines mega-jumbo) in the early 2000s, allowing Boeing's 777 (two engines and yet compact) to dominate the long-haul market. The A350 was launched later to reclaim ground with modern design and efficiency.
+
+## Current Operational Status
+
+Distribution of aircraft by status. Over 410 B777s are "Out of Service" or "Temporarily Out of Service" 🛑
+
+<div class="card">
+  <h2>Current Operational Status</h2>
+  ${resize(width => statusChartFx(statusData, { width }))}
+</div>
+
+## Aircraft Age and Replacement Trends
+
+Histogram of fleet age (aircraft currently in service or temporarily parked/stored). In the coming years, 100 or more B777 aircraft are expected to be retired annually.
+
+<div class="card">
+  <h2>Aircraft Age Distribution (In Service and Temporarily Out of Service)</h2>
+  ${resize((width) => ageHistogram(activeOrTemporary, { width }))}
+</div>
+
+## Who Bought These Aircraft?
+
+Boeing dominates the fleets of most U.S. carriers, while A350 adoption is stronger in Asia and Europe. Emirates stands out with the largest 777 fleet by far.
+
+<div class="grid grid-cols-1">
+  <div class="card">
+    <h2>Top 10 airlines by fleet size</h2>
+    ${resize((width) => stackedBarChart(top10StackedData, { width }))}
+  </div>
+</div>
+
+## Regional Adoption Patterns
+
+This map shows the number of aircraft adopted by each country, including those on order. The A350 is widely used in North and West Europe and countries like Ethiopia and Vietnam. In contrast, countries like Saudi Arabia and Canada have adopted only the B777. Using a single aircraft type can simplify pilot training and operations.
+
+<div class="card">
+  <div id="plot-wrapper" style="overflow-x: auto;">
+  <h2>B777 vs A350 Share by Country</h2>
+    <div id="plot" style="min-width: 700px;">
+      ${resize(width => renderWorldMapRatio({ countries, countrymesh, ratioMap, width }))}
+    </div>
+  </div>
+</div>
+
+Data source: [Planespotters B777](https://www.planespotters.net/aircraft/production/boeing-777), [Planespotters A350](https://www.planespotters.net/aircraft/production/airbus-a350)
+
 ```js
 // ETL
 
 // Extract
 const a350 = await FileAttachment('data/airbus_a350.csv').csv();
 const b777 = await FileAttachment('data/boeing_777.csv').csv();
+
+const worldMap = await FileAttachment('data/countries-110m.json').json();
+const operatorsIso = await FileAttachment(
+  'data/operator_country_mapping_iso_numeric.csv'
+).csv();
+
+const countries = topojson.feature(worldMap, worldMap.objects.countries);
+const countrymesh = topojson.mesh(
+  worldMap,
+  worldMap.objects.countries,
+  (a, b) => a !== b
+);
+
+const operatorToNumeric = new Map(
+  operatorsIso.map((d) => [d.operator.trim(), +d.iso_numeric])
+);
 
 // Tag "type" to each record
 const taggedA350 = a350.map((d) => ({ ...d, type: 'A350' }));
@@ -102,6 +196,19 @@ const classified = combinedWithYear.map((d) => ({
   status3: statusMap[d.status] || 'Unknown',
 }));
 
+const aircraftWithNumeric = classified.map((d) => ({
+  ...d,
+  numeric_code: operatorToNumeric.get(d.operator?.trim()) ?? null,
+}));
+
+const countryCounts = d3.rollups(
+  aircraftWithNumeric.filter((d) => d.numeric_code != null),
+  (v) => v.length,
+  (d) => d.numeric_code
+);
+
+const countryCountMap = new Map(countryCounts);
+
 // #2 Rollup for Current Operational Status
 const statusRollups = d3.rollups(
   classified.filter((d) => d.status3 !== 'Unknown'),
@@ -145,36 +252,7 @@ const retiredB777 = aircraftWithAge.filter(
 );
 
 const avgRetiredAgeB777 = d3.mean(retiredB777, (d) => d.age) ?? 0; // null fallback as a safety measure
-```
 
-# 🇪🇺 Airbus350 vs 🇺🇸 Boeing777 ✈️ Widebody Battle
-
-Since the 1990s, the Boeing 777 has been the flagship widebody aircraft for many long-haul carriers - valued for its range, size, and reliability. Airbus challenged this dominance with the introduction of the A350 in the mid-2010s, offering a lighter, more fuel-efficient alternative.
-
-This comparison focuses on how these two aircraft families have evolved in production, operations, and fleet lifecycle.
-
-Data as of June 2025 \_\_\_\_\_\_..🛫 Let's go!
-
-## Foundations
-
-So far the B777 series is manufactured more than double💫
-
-<div class="grid grid-cols-4">
-  <div class="card">
-    <h2>🟦 A350 <span class="muted">- ${a350Duration}</span></h2>
-    <span class="big">${a350Count.toLocaleString()}</span>
-  </div>
-  <div class="card">
-    <h2>🟨 B777 <span class="muted">- ${b777Duration}</span></h2>
-    <span class="big">${b777Count.toLocaleString()}</span><span class="muted"></span>
-  </div>
-</div>
-
-## Delivery Timeline
-
-Number of aircraft delivered to aviations per year. You remember 9.11 and COVID-19?
-
-```js
 // function to draw plot
 function deliveryChart(data, { width } = {}) {
   return Plot.plot({
@@ -206,22 +284,7 @@ function deliveryChart(data, { width } = {}) {
     ],
   });
 }
-```
 
-<div class="grid grid-cols-1">
-  <div class="card">
-    <h2>Aircraft Deliveries by Year</h2>
-    ${resize(width => deliveryChart(deliveryByYear, { width }))}
-  </div>
-</div>
-
-Airbus prioritized the A380 (four engines mega-jumbo) in the early 2000s, allowing Boeing's 777 (two engines and yet compact) to dominate the long-haul market. The A350 was launched later to reclaim ground with modern design and efficiency.
-
-## Current Operational Status
-
-Distribution of aircraft by status. Over 410 B777s are "Out of Service" or "Temporarily Out of Service" 🛑
-
-```js
 // Define domain order
 const statusOrder = [
   'In Service',
@@ -266,20 +329,7 @@ function statusChartFx(data, { width } = {}) {
     ],
   });
 }
-```
 
-<div class="grid grid-cols-1">
-  <div class="card">
-    <h2>Current Operational Status</h2>
-    ${resize(width => statusChartFx(statusData, { width }))}
-  </div>
-</div>
-
-## Aircraft Age and Replacement Trends
-
-Histogram of fleet age (aircraft currently in service or temporarily parked/stored). In the coming years, 100 or more B777 aircraft are expected to be retired annually.
-
-```js
 function ageHistogram(data, { width } = {}) {
   return Plot.plot({
     width,
@@ -333,20 +383,7 @@ function ageHistogram(data, { width } = {}) {
 const activeOrTemporary = aircraftWithAge.filter((d) =>
   ['Active', 'Parked', 'Stored'].includes(d.status)
 );
-```
 
-<div class="grid grid-cols-1">
-  <div class="card">
-    <h2>Aircraft Age Distribution (In Service and Temporarily Out of Service)</h2>
-    ${resize((width) => ageHistogram(activeOrTemporary, { width }))}
-  </div>
-</div>
-
-## Who Bought These Aircraft?
-
-Boeing dominates the fleets of most U.S. carriers, while A350 adoption is stronger in Asia and Europe. Emirates stands out with the largest 777 fleet by far.
-
-```js
 // Grouped by [operator, type] count
 const groupedOpeType = d3.rollups(
   combinedWithYear.filter((d) => d.operator && d.type),
@@ -385,7 +422,7 @@ function stackedBarChart(data, { width } = {}) {
   return Plot.plot({
     width,
     height: 400,
-    marginLeft: 180,
+    marginLeft: 90,
     x: {
       label: 'Number of Aircraft',
       grid: true,
@@ -410,18 +447,86 @@ function stackedBarChart(data, { width } = {}) {
 }
 ```
 
-<div class="grid grid-cols-1">
-  <div class="card">
-    <h2>Top 10 airlines by fleet size</h2>
-    ${resize((width) => stackedBarChart(top10StackedData, { width }))}
-  </div>
-</div>
+```js
+const aircraftByCountryAndType = d3.rollups(
+  aircraftWithNumeric.filter((d) => d.numeric_code != null),
+  (v) => v.length,
+  (d) => d.numeric_code,
+  (d) => d.type
+);
 
-## Appendix: Regional Adoption Patterns
+const ratioMap = new Map(
+  aircraftByCountryAndType.map(([iso, types]) => {
+    const counts = Object.fromEntries(types);
+    const a350 = counts['A350'] ?? 0;
+    const b777 = counts['B777'] ?? 0;
+    const total = a350 + b777;
 
-- Aircraft distribution by region (Chart 5)
+    if (total === 0) return [iso, null]; // No aircraft → gray
 
-Data source: [Planespotters B777](https://www.planespotters.net/aircraft/production/boeing-777), [Planespotters A350](https://www.planespotters.net/aircraft/production/airbus-a350)
+    const ratio = a350 / total; // A350 ratio (0 to 1)
+    return [iso, ratio];
+  })
+);
+
+const interpolateColor = d3.interpolateRgbBasis([
+  '#EFB118',
+  '#3CA951',
+  '#4269D0',
+]);
+
+function getColorFromRatio(ratio) {
+  return ratio == null ? '#ccc' : interpolateColor(ratio);
+}
+
+const countryFleetMap = new Map();
+
+// counting process
+for (const d of aircraftWithNumeric) {
+  const code = d.numeric_code;
+  if (code == null) continue;
+
+  const entry = countryFleetMap.get(code) || { A350: 0, B777: 0 };
+  entry[d.type] = (entry[d.type] || 0) + 1;
+  countryFleetMap.set(code, entry);
+}
+
+function renderWorldMapRatio({ countries, countrymesh, ratioMap, width }) {
+  return Plot.plot({
+    projection: 'equal-earth',
+    width,
+    height: 464,
+    color: {
+      scheme: 'YlGnBu', // Scheme where the center turns white (blue → white → red)
+      domain: [0, 1],
+      label: 'Share of A350',
+      legend: true,
+      unknown: '#ccc',
+      tickFormat: d3.format('.0%'),
+    },
+    marks: [
+      Plot.sphere({ fill: 'white', stroke: 'currentColor' }),
+      Plot.geo(countries, {
+        fill: (d) => ratioMap.get(+d.id), // Passing values
+        title: (d) => {
+          const id = +d.id;
+          const name = d.properties.name;
+          const fleet = countryFleetMap.get(id);
+
+          if (!fleet) return `${name}\nNo data`;
+
+          const a350 = fleet.A350 || 0;
+          const b777 = fleet.B777 || 0;
+
+          return `${name}\nA350: ${a350}\nB777: ${b777}`;
+        },
+        tip: true,
+      }),
+      Plot.geo(countrymesh, { stroke: 'white' }),
+    ],
+  });
+}
+```
 
 ```js
 // ======================
@@ -475,4 +580,14 @@ const nullishOperators = classified.filter(
   (d) => !d.operator || d.operator.trim() === ''
 );
 console.log('Missing operator values:', nullishOperators.length); */
+
+/* console.log('✅ Map key example:', [...countryCountMap.entries()].slice(0, 5));
+// [[36, 42], [124, 18], ...]
+console.log(
+  '🌍 countries sample ID:',
+  countries.features.slice(0, 3).map((d) => d.id)
+);
+// [36, 124, ...] */
+
+// console.log(typeof countries.features[0].id);
 ```
