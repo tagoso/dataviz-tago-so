@@ -89,7 +89,7 @@ function renderLangToggle(lang) {
     localStorage.setItem('lang', altLang);
     currentLang = altLang;
     applyTranslations(altLang);
-    renderLangToggle(altLang); // UIも更新
+    renderLangToggle(altLang); // UI also updated
   });
 }
 
