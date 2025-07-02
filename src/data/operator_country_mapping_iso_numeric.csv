@@ -1,0 +1,183 @@
+operator,country,iso_country,iso_numeric
+TAAG - Linhas Aereas de Angola Airlines,Angola,AGO,24
+Qantas,Australia,AUS,36
+Virgin Australia,Australia,AUS,36
+Austrian Airlines,Austria,AUT,40
+Silk Way West Airlines,Azerbaijan,AZE,31
+AZAL Azerbaijan Airlines,Azerbaijan,AZE,31
+Biman Bangladesh Airlines,Bangladesh,BGD,50
+LATAM Airlines Brasil,Brazil,BRA,76
+Azul,Brazil,BRA,76
+Air Canada,Canada,CAN,124
+Air China,China,CHN,156
+China Southern Airlines,China,CHN,156
+China Eastern Airlines,China,CHN,156
+China Cargo Airlines,China,CHN,156
+Air China Cargo,China,CHN,156
+China Southern Airlines Cargo,China,CHN,156
+Sichuan Airlines,China,CHN,156
+YunExpress,China,CHN,156
+Suparna Airlines,China,CHN,156
+China Postal Airlines,China,CHN,156
+Central Airlines,China,CHN,156
+Maersk Air Cargo,Denmark,DNK,208
+EgyptAir,Egypt,EGY,818
+Ceiba Intercontinental,Equatorial Guinea,GNQ,226
+Equatorial Guinea Government,Equatorial Guinea,GNQ,226
+Ethiopian Airlines,Ethiopia,ETH,231
+Fiji Airways,Fiji,FJI,242
+Finnair,Finland,FIN,246
+Air France,France,FRA,250
+Airbus Industrie,France,FRA,250
+Air Caraïbes Atlantique,France,FRA,250
+French bee,France,FRA,250
+CMA CGM Air Cargo,France,FRA,250
+Air Austral,France,FRA,250
+République Gabonaise,Gabon,GAB,266
+SkyLine Express,Georgia,GEO,268
+MyWay Airlines,Georgia,GEO,268
+Lufthansa,Germany,DEU,276
+DHL Aviation,Germany,DEU,276
+AeroLogic,Germany,DEU,276
+Lufthansa Cargo,Germany,DEU,276
+Lufthansa Group,Germany,DEU,276
+Luftwaffe (German Air Force),Germany,DEU,276
+K5-Aviation,Germany,DEU,276
+DHL Holdings,Germany,DEU,276
+Dr. Peters Group,Germany,DEU,276
+Cathay Pacific,Hong Kong,HKG,344
+Hong Kong Airlines,Hong Kong,HKG,344
+Bluebird Nordic,Iceland,ISL,352
+Air Atlanta Icelandic,Iceland,ISL,352
+Air India,India,IND,356
+Jet Airways,India,IND,356
+IndiGo,India,IND,356
+Government of India,India,IND,356
+Garuda Indonesia,Indonesia,IDN,360
+Indonesia Government,Indonesia,IDN,360
+Iraqi Airways,Iraq,IRQ,368
+AerCap,Ireland,IRL,372
+Ansett Worldwide (AWAS),Ireland,IRL,372
+Macquarie AirFinance,Ireland,IRL,372
+El Al Israel Airlines,Israel,ISR,376
+ITA Airways,Italy,ITA,380
+Alitalia - Società Aerea Italiana,Italy,ITA,380
+AlisCargo Airlines,Italy,ITA,380
+All Nippon Airways,Japan,JPN,392
+Japan Airlines,Japan,JPN,392
+Japan Air Self-Defence Force (JASDF),Japan,JPN,392
+ANA Cargo,Japan,JPN,392
+Japan Airlines Domestic,Japan,JPN,392
+Kuwait Airways,Kuwait,KWT,414
+Fly OYA,Libya,LBY,434
+AviaAM Leasing,Lithuania,LTU,440
+Malaysia Airlines,Malaysia,MYS,458
+Air Mauritius,Mauritius,MUS,480
+Aeroméxico,Mexico,MEX,484
+Terra Avia,"Moldova, Republic of",MDA,498
+KLM Royal Dutch Airlines,"Netherlands, Kingdom of the",NLD,528
+KLM Asia,"Netherlands, Kingdom of the",NLD,528
+Corendon Dutch Airlines,"Netherlands, Kingdom of the",NLD,528
+KLM Cargo,"Netherlands, Kingdom of the",NLD,528
+Air New Zealand,New Zealand,NZL,554
+Air Peace,Nigeria,NGA,566
+Max Air,Nigeria,NGA,566
+PIA Pakistan International Airlines,Pakistan,PAK,586
+Philippine Airlines,Philippines,PHL,608
+EuroAtlantic Airways,Portugal,PRT,620
+Qatar Airways,Qatar,QAT,634
+Qatar Airways Cargo,Qatar,QAT,634
+Aeroflot - Russian Airlines,Russian Federation,RUS,643
+Rossiya - Russian Airlines,Russian Federation,RUS,643
+Transaero,Russian Federation,RUS,643
+Nordwind Airlines,Russian Federation,RUS,643
+Red Wings,Russian Federation,RUS,643
+VIM Airlines,Russian Federation,RUS,643
+Ikar,Russian Federation,RUS,643
+Azur Air,Russian Federation,RUS,643
+AirBridgeCargo,Russian Federation,RUS,643
+Saudi Arabian Airlines,Saudi Arabia,SAU,682
+flyadeal,Saudi Arabia,SAU,682
+Mid East Jet,Saudi Arabia,SAU,682
+Aviation Link Company,Saudi Arabia,SAU,682
+Saudi Arabian Government,Saudi Arabia,SAU,682
+Singapore Airlines,Singapore,SGP,702
+Scoot,Singapore,SGP,702
+Korean Air,"Korea, Republic of",KOR,410
+Asiana Airlines,"Korea, Republic of",KOR,410
+Jin Air,"Korea, Republic of",KOR,410
+T'Way Air,"Korea, Republic of",KOR,410
+Iberia,Spain,ESP,724
+World2Fly,Spain,ESP,724
+Iberojet,Spain,ESP,724
+Privilege Style,Spain,ESP,724
+SAS Scandinavian Airlines,Sweden,SWE,752
+Swiss,Switzerland,CHE,756
+MSC Air Cargo,Switzerland,CHE,756
+Edelweiss Air,Switzerland,CHE,756
+EVA Air,"Taiwan, Province of China",TWN,158
+China Airlines,"Taiwan, Province of China",TWN,158
+STARLUX Airlines,"Taiwan, Province of China",TWN,158
+Thai Airways,Thailand,THA,764
+Turkish Airlines,Turkmenistan,TKM,795
+Southwind Airlines,Turkmenistan,TKM,795
+Mavi Gök Airlines (MGA),Turkmenistan,TKM,795
+Turkmenistan Airlines,Turkmenistan,TKM,795
+Turkmenistan Government,Turkmenistan,TKM,795
+Ukraine International Airlines,Ukraine,UKR,804
+Emirates,United Arab Emirates,ARE,784
+Etihad Airways,United Arab Emirates,ARE,784
+Presidential Flight,United Arab Emirates,ARE,784
+Dubai Royal Air Wing,United Arab Emirates,ARE,784
+British Airways,United Kingdom of Great Britain and Northern Ireland,GBR,826
+Virgin Atlantic,United Kingdom of Great Britain and Northern Ireland,GBR,826
+Bank Of Scotland,United Kingdom of Great Britain and Northern Ireland,GBR,826
+Len Blavatnik,United Kingdom of Great Britain and Northern Ireland,GBR,826
+AerFin,United Kingdom of Great Britain and Northern Ireland,GBR,826
+Bishopsgate Aircraft,United Kingdom of Great Britain and Northern Ireland,GBR,826
+One Air,United Kingdom of Great Britain and Northern Ireland,GBR,826
+United Airlines,United States of America,USA,840
+American Airlines,United States of America,USA,840
+FedEx Express,United States of America,USA,840
+Delta Air Lines,United States of America,USA,840
+Alta Airlines Holdings,United States of America,USA,840
+Boeing Capital Corporation (BCC),United States of America,USA,840
+Omni Air International,United States of America,USA,840
+Arizona Cardinals,United States of America,USA,840
+Boeing,United States of America,USA,840
+Logistic Air,United States of America,USA,840
+ECT Aviation Support,United States of America,USA,840
+Eastern Airlines,United States of America,USA,840
+KC Aviation Partners,United States of America,USA,840
+Jet Midwest,United States of America,USA,840
+Mammoth Freighters,United States of America,USA,840
+Jetran,United States of America,USA,840
+Atlas Air,United States of America,USA,840
+Universal Asset Management,United States of America,USA,840
+GA Telesis,United States of America,USA,840
+IAG Aero Group,United States of America,USA,840
+CSDS Aircraft Sales and Leasing,United States of America,USA,840
+Altavair AirFinance,United States of America,USA,840
+Kalitta Air,United States of America,USA,840
+Unical Aviation,United States of America,USA,840
+Boeing Aircraft Holding Company,United States of America,USA,840
+Delta Material Services,United States of America,USA,840
+AerSale Inc,United States of America,USA,840
+TVPX Trust Services,United States of America,USA,840
+Carlyle Aviation Partners,United States of America,USA,840
+Wells Fargo Bank Northwest,United States of America,USA,840
+AeroTurbine,United States of America,USA,840
+AAR Corporation,United States of America,USA,840
+Residco,United States of America,USA,840
+Strategic Air Finance (SAF),United States of America,USA,840
+Odyssey Leasing,United States of America,USA,840
+Aircastle,United States of America,USA,840
+ILFC,United States of America,USA,840
+Gridiron Air,United States of America,USA,840
+ALF V LLC,United States of America,USA,840
+NASA,United States of America,USA,840
+Aviator Capital,United States of America,USA,840
+Bank of Utah,United States of America,USA,840
+Wilmington Trust Company,United States of America,USA,840
+Vietnam Airlines,Viet Nam,VNM,704
+Air Zimbabwe,Zimbabwe,ZWE,716
