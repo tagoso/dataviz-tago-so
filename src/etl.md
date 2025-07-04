@@ -89,7 +89,7 @@ The basic format is flat, but a slight nesting structure can also be used when p
 
 ## 3. Load
 
-As a general rule, preffered data format is **unpivoted tidy format (long format)**. In the case of Observable, this means a **flat (non-nested) JavaScript array**.
+As a general rule, preferred data format is **unpivoted tidy format (long format)**. In the case of Observable, this means a **flat (non-nested) JavaScript array**.
 
 Observable Plot recommends the long format, but the "wide format" with multiple series is also supported for some marks (such as lineY and areaY). Choose the appropriate format.
 
