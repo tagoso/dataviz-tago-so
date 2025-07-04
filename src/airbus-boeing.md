@@ -79,7 +79,7 @@ This map shows the number of aircraft adopted by each country, including those o
   </div>
 </div>
 
-The A350 is widely used in North and West Europe and countries. Vietnum, Ethiopia, and China are using more A350. In contrast, countries like Saudi Arabia and Canada have adopted only the B777. Using a single aircraft type can simplify pilot training and operations.
+The A350 is widely used in North and West Europe and countries. Vietnam, Ethiopia, and China are using more A350. In contrast, countries like Saudi Arabia and Canada have adopted only the B777. Using a single aircraft type can simplify pilot training and operations.
 
 ## Appendix
 
