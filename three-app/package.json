@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-   "dev": "next dev -p 5173 & sleep 1 && open http://localhost:3000",
+   "dev": "next dev -p 5173 & sleep 1 && open http://localhost:5173",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
