@@ -5,11 +5,11 @@
   "rewrites": [
     {
       "source": "/three/:path*",
-      "destination": "/three-app/.next/server/app/:path*"
+      "destination": "/three-app/:path*"
     },
     {
       "source": "/three",
-      "destination": "/three-app/.next/server/app"
+      "destination": "/three-app"
     },
     {
       "source": "/",
