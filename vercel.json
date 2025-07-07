@@ -1,15 +1,10 @@
 {
-  "buildCommand": "npx observable build",
+  "buildCommand": "npx observable build && cd three-app && npm install && npm run build",
   "outputDirectory": "dist",
   "cleanUrls": true,
   "rewrites": [
-    {
-      "source": "/",
-      "destination": "/index.html"
-    },
-    {
-      "source": "/:page",
-      "destination": "/:page.html"
-    }
+    { "source": "/three/:path*", "destination": "/three-app/.next/server/app/:path*" },
+    { "source": "/", "destination": "/index.html" },
+    { "source": "/:page", "destination": "/:page.html" }
   ]
 }
