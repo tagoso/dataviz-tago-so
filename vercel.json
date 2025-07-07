@@ -3,7 +3,17 @@
   "outputDirectory": "dist",
   "cleanUrls": true,
   "rewrites": [
-    { "source": "/", "destination": "/index.html" },
-    { "source": "/:page", "destination": "/:page.html" }
+    {
+      "source": "/three/:path*",
+      "destination": "/three-app/:path*"
+    },
+    {
+      "source": "/",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/:page",
+      "destination": "/:page.html"
+    }
   ]
 }
