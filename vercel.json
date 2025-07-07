@@ -1,5 +1,5 @@
 {
-  "buildCommand": "npx observable build",
+  "buildCommand": "npx observable build && npm --prefix three-app run build",
   "outputDirectory": "dist",
   "cleanUrls": true,
   "rewrites": [
