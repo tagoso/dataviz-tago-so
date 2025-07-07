@@ -5,7 +5,7 @@
     "clean": "rimraf src/.observablehq/cache",
     "preview": "observable preview",
     "build": "observable build",
-    "dev": "observable preview",
+    "dev": "observable preview --port=5173",
     "deploy": "observable deploy",
     "observable": "observable",
     "fetch": "node src/data/ecommerce.json.js > src/data/ecommerce.json"
