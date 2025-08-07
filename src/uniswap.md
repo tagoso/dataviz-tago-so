@@ -134,9 +134,9 @@ Solving for `Δy` (output token received), taking into account the fee:
 
 ## Uniswap v3 Simulator Guide
 
-This document explains the mechanics of Uniswap v3's **concentrated liquidity model** using Google Spreadsheet: [Uniswap v3 (LP)](https://docs.google.com/spreadsheets/d/116VCvBF8l8nwWGqig2omDmrJLUXsb8s72oPGVkAk-Hc/edit?gid=949789682#gid=949789682) and [v3 Tick and Price (In-range Only)](https://docs.google.com/spreadsheets/d/116VCvBF8l8nwWGqig2omDmrJLUXsb8s72oPGVkAk-Hc/edit?gid=1376548147#gid=1376548147). The simulator allows you to visually understand how liquidity provision and price movement work in v3.
+This document explains the mechanics of Uniswap v3's **concentrated liquidity model** using Google Spreadsheet: [Uniswap v3 (Single LP, Static Position)](https://docs.google.com/spreadsheets/d/116VCvBF8l8nwWGqig2omDmrJLUXsb8s72oPGVkAk-Hc/edit?gid=949789682#gid=949789682) and [v3 Virtual Liquidity by Tick](https://docs.google.com/spreadsheets/d/116VCvBF8l8nwWGqig2omDmrJLUXsb8s72oPGVkAk-Hc/edit?gid=1376548147#gid=1376548147). The simulator allows you to visually understand how liquidity provision and price movement work in v3.
 
-![Uniswap v3 (LP)](./images/CleanShot%202568-08-07%20at%2015.41.05@2x.png)
+![Uniswap v3 (Single LP, Static Position)](./images/CleanShot%202568-08-07%20at%2015.41.05@2x.png)
 
 ---
 
@@ -152,9 +152,9 @@ Uniswap v3 is a decentralized exchange (DEX) that evolved the traditional AMM (A
 
 ---
 
-### About the `Uniswap v3 (LP)` Sheet
+### About the `Uniswap v3 (Single LP, Static Position)` Sheet
 
-In this [Uniswap v3 (LP)](https://docs.google.com/spreadsheets/d/116VCvBF8l8nwWGqig2omDmrJLUXsb8s72oPGVkAk-Hc/edit?gid=949789682#gid=949789682) simulator, you can configurate Tick/Tick Size/Tick Spacing.
+In this [Uniswap v3 (Single LP, Static Position)](https://docs.google.com/spreadsheets/d/116VCvBF8l8nwWGqig2omDmrJLUXsb8s72oPGVkAk-Hc/edit?gid=949789682#gid=949789682) simulator, you can configurate Tick/Tick Size/Tick Spacing.
 
 | Parameter        | Description                                                               |
 | ---------------- | ------------------------------------------------------------------------- |
@@ -196,7 +196,7 @@ In Uniswap v3, the liquidity provided (L) is not spread across the price range. 
 
 ![v3 Tick and Price](./images/CleanShot%202568-08-07%20at%2015.25.43@2x.png)
 
-[v3 Tick and Price (In-range Only)](https://docs.google.com/spreadsheets/d/116VCvBF8l8nwWGqig2omDmrJLUXsb8s72oPGVkAk-Hc/edit?gid=1376548147#gid=1376548147) outputs a snapshot of what virtual liquidity would look like if the price were located at each tick.
+[v3 Virtual Liquidity by Tick](https://docs.google.com/spreadsheets/d/116VCvBF8l8nwWGqig2omDmrJLUXsb8s72oPGVkAk-Hc/edit?gid=1376548147#gid=1376548147) outputs a snapshot of what virtual liquidity would look like if the price were located at each tick.
 
 | Column                         | Meaning                                                               |
 | ------------------------------ | --------------------------------------------------------------------- |
@@ -206,7 +206,7 @@ In Uniswap v3, the liquidity provided (L) is not spread across the price range. 
 | `token0/token1`                | Swap rate at that tick                                                |
 | `LOG10`                        | logarithmic view of the relative proportion between token0 and token1 |
 
-If you modify the price range on [Uniswap v3 (LP)](https://docs.google.com/spreadsheets/d/116VCvBF8l8nwWGqig2omDmrJLUXsb8s72oPGVkAk-Hc/edit?gid=949789682#gid=949789682), you'll know the importance of price range by looking at each row on this sheet. If no ranges, you'll end up seeing something like this. You add almost zero liquidity for the most ticks/prices.
+If you modify the price range on [Uniswap v3 (Single LP, Static Position)](https://docs.google.com/spreadsheets/d/116VCvBF8l8nwWGqig2omDmrJLUXsb8s72oPGVkAk-Hc/edit?gid=949789682#gid=949789682), you'll know the importance of price range by looking at each row on this sheet. If no ranges, you'll end up seeing something like this. You add almost zero liquidity for the most ticks/prices.
 
 ![If no ranges, you'll end up seeing something like this. You add almost zero liquidity for the most ticks/prices](./images/CleanShot%202568-08-07%20at%2015.19.12@2x.png)
 
