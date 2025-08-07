@@ -8,7 +8,8 @@ export default {
       name: "Original Dashboards",
       pages: [
         { name: "Thoresen Vessels", path: "/thoresen-vessels" },
-        { name: "Airbus vs Boeing", path: "/airbus-boeing" }
+        { name: "Airbus vs Boeing", path: "/airbus-boeing" },
+        { name: "Uniswap (AMM DEX) Simulator", path: "/uniswap" },
       ]
     },
 /*     {
