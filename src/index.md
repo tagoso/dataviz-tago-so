@@ -6,7 +6,7 @@ style: custom-style.css
 <div class="hero">
   <h1>Dataviz by Tago</h1>
   <span>Welcome! Here we have <strong>data-focused</strong> dashboards, reports, and docs.</span>
-  <span>You can find other dataviz works at <a href="https://observablehq.com/collection/@tagoso/data-development-works">Observable Notebooks</a>!</span>
+  <span>You can find more dataviz works at <a href="https://observablehq.com/collection/@tagoso/data-development-works">Observable Notebooks</a>!</span>
 </div>
 
 <style>
