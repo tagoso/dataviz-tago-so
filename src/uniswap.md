@@ -7,7 +7,9 @@ style: custom-style.css
 
 # AMM DEX Simulator (Uniswap v2/v3 model)
 
-This document shows how to use [AMM DEX Simulator (Uniswap v2/v3 model)](https://docs.google.com/spreadsheets/d/116VCvBF8l8nwWGqig2omDmrJLUXsb8s72oPGVkAk-Hc/edit?gid=1045257474#gid=1045257474), the best way to understand basics of DEX and DeFi!
+<span style="color:red">_tl;dr: just let me play with the simulator! => [Uniswap v2/v3 simulator](https://docs.google.com/spreadsheets/d/116VCvBF8l8nwWGqig2omDmrJLUXsb8s72oPGVkAk-Hc/edit?gid=1045257474#gid=1045257474)_</span>
+
+This document shows how to use [Uniswap v2/v3 model(AMM DEX Simulator)](https://docs.google.com/spreadsheets/d/116VCvBF8l8nwWGqig2omDmrJLUXsb8s72oPGVkAk-Hc/edit?gid=1045257474#gid=1045257474), the best way to understand basics of DEX and DeFi!
 
 If you are new to DeFi, I recommend playing with [Uniswap v2](https://docs.google.com/spreadsheets/d/116VCvBF8l8nwWGqig2omDmrJLUXsb8s72oPGVkAk-Hc/edit?gid=1045257474#gid=1045257474) sheet and read [Uniswap v2 Simulator Guide](#uniswap-v2-simulator-guide), since v2 is the foundation of all the DeFi logics. You'll grab what the famous 'x \* y = k' means, how the price is determined, and why slippage happens. In the [v3 simulator](https://docs.google.com/spreadsheets/d/116VCvBF8l8nwWGqig2omDmrJLUXsb8s72oPGVkAk-Hc/edit?gid=949789682#gid=949789682), we focus on LP and ignore swaps. This will allow you to understand what **concentrated liquidity model** means, and the importance of price range when adding LP.
 
