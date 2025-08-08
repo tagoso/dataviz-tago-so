@@ -1,21 +1,21 @@
 ---
-title: AMM DEX Simulator (Uniswap v2/v3 model)
+title: Uniswap v2/v3 Simulator
 description: Practical workflows, ETL strategies, and visualization tips using Observable Plot, JavaScript, and APIs
 toc: true
 style: custom-style.css
 ---
 
-# AMM DEX Simulator (Uniswap v2/v3 model)
+# Uniswap v2/v3 Simulator
 
 <span style="color:red">_tl;dr: just let me play with the simulator! => [Uniswap v2/v3 simulator](https://docs.google.com/spreadsheets/d/116VCvBF8l8nwWGqig2omDmrJLUXsb8s72oPGVkAk-Hc/edit?gid=1045257474#gid=1045257474)_</span>
 
-This document shows how to use [Uniswap v2/v3 model(AMM DEX Simulator)](https://docs.google.com/spreadsheets/d/116VCvBF8l8nwWGqig2omDmrJLUXsb8s72oPGVkAk-Hc/edit?gid=1045257474#gid=1045257474), the best way to understand basics of DEX and DeFi!
+This document shows how to use my [Uniswap v2/v3 model (AMM DEX Simulator)](https://docs.google.com/spreadsheets/d/116VCvBF8l8nwWGqig2omDmrJLUXsb8s72oPGVkAk-Hc/edit?gid=1045257474#gid=1045257474), the best way to understand basics of DeFi. Actually , many other DEX are forked from Uniswap v3, like Sushiswap and PancakeSwap.
 
 If you are new to DeFi, I recommend playing with [Uniswap v2](https://docs.google.com/spreadsheets/d/116VCvBF8l8nwWGqig2omDmrJLUXsb8s72oPGVkAk-Hc/edit?gid=1045257474#gid=1045257474) sheet and read [Uniswap v2 Simulator Guide](#uniswap-v2-simulator-guide), since v2 is the foundation of all the DeFi logics. You'll grab what the famous 'x \* y = k' means, how the price is determined, and why slippage happens. In the [v3 simulator](https://docs.google.com/spreadsheets/d/116VCvBF8l8nwWGqig2omDmrJLUXsb8s72oPGVkAk-Hc/edit?gid=949789682#gid=949789682), we focus on LP and ignore swaps. This will allow you to understand what **concentrated liquidity model** means, and the importance of price range when adding LP.
 
 ## Uniswap v2 Simulator Guide
 
-[Uniswap v2](https://docs.google.com/spreadsheets/d/116VCvBF8l8nwWGqig2omDmrJLUXsb8s72oPGVkAk-Hc/edit?gid=1045257474#gid=1045257474) sheet explains the basics of Uniswap v2's constant product AMM model. The sheet allows users to simulate real-world v2 swaps, liquidity provision, and understand LP rewards and slippage.
+[Uniswap v2](https://docs.google.com/spreadsheets/d/116VCvBF8l8nwWGqig2omDmrJLUXsb8s72oPGVkAk-Hc/edit?gid=1045257474#gid=1045257474) sheet explains the basics of Uniswap v2's constant product AMM model. The sheet allows you to simulate real-world v2 swaps, liquidity provision, and understand LP rewards and slippage.
 
 ![Uniswap v2 simulator spreadsheet](./images/CleanShot%202568-08-07%20at%2015.03.11@2x.png)
 
@@ -23,7 +23,7 @@ If you are new to DeFi, I recommend playing with [Uniswap v2](https://docs.googl
 
 ### 🔍 What is Uniswap v2?
 
-Uniswap v2 is a decentralized exchange protocol that uses the **constant product formula** to enable token swaps without an order book. It operates under the formula:
+Uniswap v2 is a decentralized exchange protocol that introduced the **constant product formula** to enable token swaps without an order book for the first time. It operates under the formula:
 
 ```
 x * y = k
@@ -35,6 +35,7 @@ Where:
 - `y` = amount of Token1 in the pool (e.g., USDT)
 - `k` = a constant, preserved during swaps
 
+Isn't it beautiful?
 ---
 
 ### About the Simulator
@@ -60,11 +61,11 @@ Each row represents one transaction. The supported types include:
 | `Remove liquidity`           | Withdraws LP tokens and returns assets |
 | `Buy token0` / `Sell token1` | Executes a swap in either direction    |
 
-In Uniswap v2 model (and also v3), initial pool state decides the starting price in AMM. You will see how easy to manipulate the initial price in DeFi world.
+In Uniswap v2 model (and also v3), initial pool state decides the starting price in AMM. You will see how easy to manipulate the initial price in DeFi, when the liquidity is minimum. 
 
-![Initialization by user name Tom](./images/CleanShot%202568-08-07%20at%2015.11.29@2x.png)
+![Initialization by Tom](./images/CleanShot%202568-08-07%20at%2015.11.29@2x.png)
 
-User name is just for visualization purpose. In AMMs, it's usually a wallet address.
+The username is just for visualization purpose. In AMMs, it's usually a wallet address.
 
 ---
 
@@ -79,7 +80,7 @@ User name is just for visualization purpose. In AMMs, it's usually a wallet addr
 | `LP Tokens Outstanding`               | Total LP tokens in circulation                |
 | `Pool Ownership %`                    | Share held by each LP                         |
 
-In v2 models, all the fees are just thrown into the LP pool for each token pair.
+In v2 models, all the fees are just thrown into the LP pool for each token pair, luke a big bathtub.
 
 ### Learning Outcomes
 
@@ -97,7 +98,7 @@ For example, buying 10 ETH from a 1000 ETH pool results in moderate slippage. Bu
 
 #### 3. **LPs Earn from Swap Fees**
 
-Each swap incurs a 0.3% fee as default, which **accrues to the liquidity pool**, increasing the total value of LP tokens.
+Each swap incurs a fee (i.e. 0.3%), which **accrues to the liquidity pool**, increasing the total value of LP tokens.
 
 #### 4. **LP Tokens Represent Share of the Pool**
 
@@ -142,7 +143,7 @@ This document explains the mechanics of Uniswap v3's **concentrated liquidity mo
 
 ### What is Uniswap v3?
 
-Uniswap v3 is a decentralized exchange (DEX) that evolved the traditional AMM (Automated Market Maker) model by introducing the concept of **concentrated liquidity**.
+Uniswap v3 is a new DEX model debut in 2021, which evolved the traditional AMM (Automated Market Maker) model by introducing the concept of **concentrated liquidity**.
 
 #### Key Features:
 
@@ -158,7 +159,7 @@ In this [Uniswap v3 (Single LP, Static Position)](https://docs.google.com/spread
 
 | Parameter        | Description                                                               |
 | ---------------- | ------------------------------------------------------------------------- |
-| **Tick**         | Distance from base tick (0 = price 1). Defines the total price range.     |
+| **Tick**         | Distance from base tick. Defines the total price range.     |
 | **Tick Size**    | Price multiplier per tick. Smaller = finer price granularity.             |
 | **Tick Spacing** | Interval between allowed liquidity positions. Smaller = more flexibility. |
 
