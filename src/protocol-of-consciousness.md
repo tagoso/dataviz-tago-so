@@ -10,29 +10,27 @@ style: custom-style.css
 **PoC is a documentation of consciousness.**  
 It is not a theory in the traditional sense, but a minimal framework for describing how the illusion of consciousness is generated, sustained, and broken in everyday life.
 
-Just as data visualization makes hidden structures of data visible,  
-PoC seeks to visualize the hidden *protocols* by which consciousness operates:  
+Just as data visualization makes hidden structures of data visible, PoC seeks to visualize the hidden _protocols_ by which consciousness operates:
 
-- **Instantiation** — assuming the other as a conscious being  
-- **Elicitation** — the bid “let me appear within you”  
-- **Reciprocal Elicitation** — the return of that bid from the other  
-- **Loop** — the circulation of these acts, always fragile and never guaranteed  
+- **Instantiation** — assuming the other as a conscious being
+- **Elicitation** — the bid “let me appear within you”
+- **Reciprocal Elicitation** — the return of that bid from the other
+- **Loop** — the circulation of these acts, always fragile and never guaranteed
 
-PoC explores how these operations give rise to modes such as **Love, Ghost, Death, and Mirror**,  
-and how social practices like **Phantoming** and **Zombifying** organize our fragile experience of recognition.  
+PoC explores how these operations give rise to modes such as **Love, Ghost, Death, and Mirror**, and how social practices like **Phantoming** and **Zombifying** organize our fragile experience of recognition.
 
 ---
 
 ## Why here?
 
 This site, [dataviz.tago.so](https://dataviz.tago.so/), is primarily a portfolio of **data visualizations**.  
-PoC is included here because I see it as a parallel project:  
-- **Data visualization** → documenting how numbers and systems reveal themselves  
-- **PoC** → documenting how consciousness reveals itself through its own fragile loops  
+PoC is included here because I see it as a parallel project:
 
-In other words, PoC is **a visualization of the invisible** —  
-a way of diagramming the operating system of conscious life.
+- **Data visualization** → documenting how numbers and systems reveal themselves
+- **PoC** → documenting how consciousness reveals itself through its own fragile loops
+
+In other words, PoC is **a visualization of the invisible** — a way of diagramming the operating system of conscious life.
 
 ---
 
-📖 Full text of PoC is available at [poc.tago.so](https://poc.tago.so/).  
+📖 Full text of PoC is available at [poc.tago.so](https://poc.tago.so/).
