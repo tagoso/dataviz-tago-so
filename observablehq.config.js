@@ -12,6 +12,12 @@ export default {
         { name: "Uniswap (AMM DEX) Simulator", path: "/uniswap" },
       ]
     },
+        {
+      name: "Documemtations",
+      pages: [
+        { name: "The Protocol of Consciousness (PoC)", path: "/protocol-of-consciousness" },
+      ]
+    },
 /*     {
       name: "Templates",
       pages: [
