@@ -36,6 +36,7 @@ Where:
 - `k` = a constant, preserved during swaps
 
 Isn't it beautiful?
+
 ---
 
 ### About the Simulator
@@ -61,7 +62,7 @@ Each row represents one transaction. The supported types include:
 | `Remove liquidity`           | Withdraws LP tokens and returns assets |
 | `Buy token0` / `Sell token1` | Executes a swap in either direction    |
 
-In Uniswap v2 model (and also v3), initial pool state decides the starting price in AMM. You will see how easy to manipulate the initial price in DeFi, when the liquidity is minimum. 
+In Uniswap v2 model (and also v3), initial pool state decides the starting price in AMM. You will see how easy to manipulate the initial price in DeFi, when the liquidity is minimum.
 
 ![Initialization by Tom](./images/CleanShot%202568-08-07%20at%2015.11.29@2x.png)
 
@@ -159,7 +160,7 @@ In this [Uniswap v3 (Single LP, Static Position)](https://docs.google.com/spread
 
 | Parameter        | Description                                                               |
 | ---------------- | ------------------------------------------------------------------------- |
-| **Tick**         | Distance from base tick. Defines the total price range.     |
+| **Tick**         | Distance from base tick. Defines the total price range.                   |
 | **Tick Size**    | Price multiplier per tick. Smaller = finer price granularity.             |
 | **Tick Spacing** | Interval between allowed liquidity positions. Smaller = more flexibility. |
 
