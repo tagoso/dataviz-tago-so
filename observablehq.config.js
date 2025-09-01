@@ -13,7 +13,7 @@ export default {
       ]
     },
         {
-      name: "Documemtations",
+      name: "Documentations",
       pages: [
         { name: "The Protocol of Consciousness (PoC)", path: "/protocol-of-consciousness" },
       ]
