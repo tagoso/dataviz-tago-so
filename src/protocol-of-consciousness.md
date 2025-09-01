@@ -7,7 +7,10 @@ style: custom-style.css
 
 # The Protocol of Consciousness (PoC)
 
-**PoC is a documentation of consciousness.**  
+**PoC is a documentation of consciousness.**
+
+[https://protocolofconsciousness.org/](https://protocolofconsciousness.org/)
+
 It is not a theory in the traditional sense, but a minimal framework for describing how the illusion of consciousness is generated, sustained, and broken in everyday life.
 
 Just as data visualization makes hidden structures of data visible, PoC seeks to visualize the hidden _protocols_ by which consciousness operates:
@@ -33,4 +36,4 @@ In other words, PoC is **a visualization of the invisible** — a way of diagram
 
 ---
 
-📖 Full text of PoC is available at [poc.tago.so](https://poc.tago.so/).
+📖 Full text of PoC is available at [https://protocolofconsciousness.org/](https://protocolofconsciousness.org/).
