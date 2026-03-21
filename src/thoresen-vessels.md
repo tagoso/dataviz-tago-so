@@ -133,8 +133,13 @@ const latest = new Date(
 
 // 🚢 default settings and localStorage
 const STORAGE_KEY = 'selectedShip';
-const defaultShip = 'THOR ACHIEVER';
 const savedShip = localStorage.getItem(STORAGE_KEY);
+
+// Prefer a ship with Position OK (< 4h) as default; fall back to 'THOR ACHIEVER'
+const recentShip = data
+  .filter((d) => Date.now() - new Date(d.timestamp).getTime() < 4 * 60 * 60 * 1000)
+  .sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp))[0];
+const defaultShip = recentShip ? recentShip.name : 'THOR ACHIEVER';
 
 let shipName = savedShip || defaultShip;
 const shipNames = data.map((d) => d.name).sort();
