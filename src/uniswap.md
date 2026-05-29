@@ -7,6 +7,8 @@ style: custom-style.css
 
 # Uniswap v2/v3 Simulator
 
+Published August 2025
+
 <span style="color:red">_tl;dr: just let me play with the simulator! => [Uniswap v2/v3 simulator](https://docs.google.com/spreadsheets/d/116VCvBF8l8nwWGqig2omDmrJLUXsb8s72oPGVkAk-Hc/edit?gid=1045257474#gid=1045257474)_</span>
 
 This document shows how to use my [Uniswap v2/v3 model (AMM DEX Simulator)](https://docs.google.com/spreadsheets/d/116VCvBF8l8nwWGqig2omDmrJLUXsb8s72oPGVkAk-Hc/edit?gid=1045257474#gid=1045257474), the best way to understand basics of DeFi. Actually , many other DEX are forked from Uniswap v3, like Sushiswap and PancakeSwap.

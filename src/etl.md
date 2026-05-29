@@ -7,6 +7,8 @@ style: custom-style.css
 
 # 🔄 ETL Workflow (Extract, Transform, Load)
 
+Published July 2025
+
 A robust ETL (Extract, Transform, Load) process is key to effective data visualization. Here's how I approach it in practice mainly focusing on Observable Plot:
 
 ## 1. Extract

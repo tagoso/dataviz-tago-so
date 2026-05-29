@@ -7,6 +7,8 @@ style: custom-style.css
 
 # The Protocol of Consciousness (PoC)
 
+Published August 2025
+
 **PoC is a documentation of consciousness.**
 
 [https://protocolofconsciousness.org/](https://protocolofconsciousness.org/)
