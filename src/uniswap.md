@@ -1,6 +1,6 @@
 ---
 title: Uniswap v2/v3 Simulator
-description: Practical workflows, ETL strategies, and visualization tips using Observable Plot, JavaScript, and APIs
+description: how Uniswap v2/v3 works
 toc: true
 style: custom-style.css
 ---
